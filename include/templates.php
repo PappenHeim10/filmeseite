@@ -1,3 +1,8 @@
+<?php
+namespace mvc;
+
+?>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -22,11 +27,25 @@ class Header{
 class Navigation{
     public function render(){
         $output = '<div class="navigation">';
-        $output .= '<a href="?action=home">Home</a>';
-        $output .= '<a href="?action=multipleMovies">Mehrere Filme ansehen</a>';
-        $output .= '<a href="?action=singleMovies">Einzelne Filme</a>';
-        $output .= '<a href="">Seite 3</a>';
-        $output .= '</div>';
+        $output .= '<div class="mainNav">';
+        $output .= '<a href="?action=start">Start</a>';
+        $output .= '<a href="?action=liste">Listensicht</a>';
+        $output .= '<a href="?action=einzel">Einzelsicht</a>';
+        if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == 'true')
+        {
+            $output .= '<a href="">Forum</a>';
+        }
+        $output .= '</div><div class="login">';
+        if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == 'true')
+        {
+            $output .= '<a href="">Logout</a>';
+        }else{
+            $output .= '<a href="">Login</a>';
+            $output .= '<a href="?action=registrierung">Registrierung</a>';
+        }
+        $output .= '</div></div>';
+
+
 
         echo $output; // Die render Funktion gibt alle elemente aus
     }
@@ -48,3 +67,7 @@ class Footer { // Die footer Klasse wird definiert
   }
 ?>
 <script src="/js/script.js"></script>
+
+</div>
+</div>
+

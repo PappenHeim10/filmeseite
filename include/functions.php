@@ -1,5 +1,4 @@
 <?php
-#functions.php
 function write_error($param)
 {
 	$_SESSION['error'] = $param;

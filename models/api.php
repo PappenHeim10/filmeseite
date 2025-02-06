@@ -1,19 +1,17 @@
 <?php
-namespace Filmesite\models;
+namespace mvc;
 
 class Api {
 
     private $apiKey = "f9d69f9c";
 
-    public function getMovies($title, $view) {
+    public function getMovies($title, $view, $page = 1) {
         $url = "http://www.omdbapi.com/?apikey=" . $this->apiKey;
+
+        $url .= $view == 'liste' ? "&s=" . urlencode($title) : "&t=" . urlencode($title);
+        $url .= urldecode($title)."$page=". $page;
     
-        if ($view == 'multipleMovies') {
-            $url .= "&s=" . urlencode($title); // URL encode the title
-        } elseif ($view == 'singleMovies') {
-            $url .= "&t=" . urlencode($title); // URL encode the title
-        }
-    
+
         $response = file_get_contents($url);
         if ($response === false) {
             return ['Response' => 'False', 'Error' => 'Fehler bei der API Anfrage.']; // Handle file_get_contents error

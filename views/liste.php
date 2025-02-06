@@ -1,7 +1,9 @@
 <?php
-namespace Filmesite\views;
+namespace mvc;
 
-class MultipleMovies{
+
+
+class Liste{
     private $movies = array();
 
     public function __construct($movies){ // Allow null for empty results
@@ -19,6 +21,17 @@ class MultipleMovies{
                 $output.= "<p>imdbID: ".$movie['imdbID']. "</p>";
                 $output .= "</div>";
 
+                $totalresults = isset($this->movies['totalResults']) ? (int)$this->movies['totalResults'] : 0;
+                $totalPages = ceil($totalresults / 10);
+                $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+
+                $output .= "<div class='pagination'>";
+                for ($i = 1; $i <= $totalPages; $i++) {
+                    $url = "?action=liste&title=" . urlencode($_GET['title']) . "&page=" . $i;
+                    $output .= "<a href='" . $url . "'" . ($i == $currentPage ? " class='current'" : "") . ">" . $i . "</a> ";
+                }
+                $output .= "</div>";
+                
                 echo $output; 
             }
         } else {
@@ -27,12 +40,7 @@ class MultipleMovies{
     }
 }
 
-
-// In this file, after checking if $movies is not empty, create a MultipleMovies object and call render():
-if(isset($movies)){ // Check if $movies is set
-    $multipleMoviesView = new MultipleMovies($movies); // Pass $movies to the constructor
-    $multipleMoviesView->render();
-}
-
+$liset = new Liste($movies);
+$liset->render();
 ?>
 

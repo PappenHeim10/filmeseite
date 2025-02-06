@@ -1,12 +1,13 @@
 <?php
 namespace mvc;
+include_once 'namespace.php';
 
-abstract class Datenbank{
+abstract class Datenbank implements iDatenbank{
     private $servername = 'localhost';
     private $username = 'root';
     private $password = '';
     protected $dbname = 'filmesite_cohen';
-    private $db;
+    public $db;
 
     private $options =  array
 	(
@@ -21,12 +22,11 @@ abstract class Datenbank{
     public function __construct()
     {
         $this->db = $this->conn();
-
         if($this->db === false)
         {
             $_SESSION['error'] = "Verbindungsfehler im Konstruktor. include/datenbank.php <br>";
         }
-        
+
     }
 
     public function conn(){

@@ -1,7 +1,6 @@
 <?php
-namespace Filmesite\models;
-include '../models/api.php';
-
+namespace mvc;
+include_once '../models/api.php';
 ?>
 
 <pre>
