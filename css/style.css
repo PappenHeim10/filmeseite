@@ -1,0 +1,81 @@
+/* CSS Code für Hauptverzeichnis */
+@font-face {
+    font-family: 'Bebas';
+    src: url('../data/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.wrapper{
+    font-family: Bebas;
+
+}
+
+
+div{
+    border: green 1px solid;
+}
+
+
+.header{
+    background-color: lightblue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img{
+    width: 100px;
+    height: auto;
+}
+
+.header h1{
+    padding: 10px;;
+}
+
+.movie img{
+    width: 100%;
+    height: auto;
+}
+
+
+.movie{
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(87, 87, 87);
+    color: rgb(212, 212, 212);
+}
+
+.main{
+    background-color: lightgray;
+    padding: 5px;
+    flex-direction: row;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.navigation{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.einzelFilm{
+    display: flex;
+    flex-direction: row;
+}
