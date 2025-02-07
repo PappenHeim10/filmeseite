@@ -29,18 +29,18 @@ class Navigation{
         $output = '<div class="navigation">';
         $output .= '<div class="mainNav">';
         $output .= '<a href="?action=start">Start</a>';
-        $output .= '<a href="?action=liste">Listensicht</a>';
-        $output .= '<a href="?action=einzel">Einzelsicht</a>';
+        $output .= '<a href="?action=liste">Listenansicht</a>';
+        $output .= '<a href="?action=singleMovies">Einzelansicht</a>';
         if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == 'true')
         {
-            $output .= '<a href="">Forum</a>';
+            $output .= '<a href="?action=forum">Forum</a>';
         }
         $output .= '</div><div class="login">';
         if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == 'true')
         {
-            $output .= '<a href="">Logout</a>';
+            $output .= '<a href="?action=logout">Logout</a>';
         }else{
-            $output .= '<a href="">Login</a>';
+            $output .= '<a href="?action=login">Login</a>';
             $output .= '<a href="?action=registrierung">Registrierung</a>';
         }
         $output .= '</div></div>';

@@ -1,5 +1,6 @@
 <?php
 namespace mvc;
+include_once 'include/namespace.php';
 
 class User extends Datenbank
 {
@@ -14,8 +15,10 @@ class User extends Datenbank
 
     public function __construct(Array $daten = [])
     {
+        parent::__construct();
         $this->setDaten($daten);
     }
+
     public function setDaten(array $daten)  
     {
         if($daten) 
@@ -30,7 +33,7 @@ class User extends Datenbank
     public function insert()
     {
         try{
-            $sql = "INSERT INTO user (anrede, vorname, nachname, email, benutzername, passwort) VALUES (:anrede, :vorname, :nachname, :email, :benutzername, :passwort)";
+            $sql = "INSERT INTO users (anrede, vorname, nachname, email, benutzername, passwort) VALUES (:anrede, :vorname, :nachname, :email, :benutzername, :passwort)";
             $stmt = $this->db->prepare($sql);
             $stmt->bindParam(':anrede', $this->anrede);
             $stmt->bindParam(':vorname', $this->vorname);
@@ -113,5 +116,33 @@ class User extends Datenbank
             return false;
         }
 	}
+    public function einLoggen($benutzername, $passwort) {
+        $fehler = [];
+        
+        try {
+          $sql = "SELECT * FROM users WHERE benutzername = :benutzername";
+          $stmt = $this->db->prepare($sql);
+          $stmt->bindParam(':benutzername', $benutzername);
+          $stmt->execute();
+    
+          if ($stmt->rowCount() == 1) {
+            $row = $stmt->fetch(\PDO::FETCH_ASSOC);
+            $hashedPassword = $row['passwort'];
+    
+            if ($passwort == $hashedPassword) {
+              $_SESSION['loggedIn'] = true;
+              $_SESSION['benutzername'] = $row['benutzername'];
+              return true;
+            } else {
+              $fehler['passwort'] = "Falsches Passwort.";
+            }
+          } else {
+            $fehler['notfound'] = "Benutzername nicht gefunden!";
+          }
+        } catch (\PDOException $e) {
+          $fehler['db'] = "Fehler bei der Datenbankabfrage: " . $e->getMessage();
+        }
+        return $fehler;
+      }
 }
 ?>

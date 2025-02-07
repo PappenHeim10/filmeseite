@@ -1,87 +1,123 @@
 <?php
 namespace mvc;
-session_start(); // Die Session wird gestartet
-include_once 'include/datenbank.php';
 
+session_start(); // Die Session wird gestartet
+
+include_once 'include/datenbank.php';
 include_once 'models/filme.php'; // die nötigen dependencies werden eingebungen
 include_once 'include/functions.php'; // die nötigen dependencies werden eingebungen
 include_once 'include/templates.php';
+include_once 'models/user.php';
 
+$whitelist = ['multipleMovies','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
 
-
-$whitelist = ['multipleMovies', 'Home',  'singleMovies',  'index', 'registrierung', 'start', 'liste', 'einzel']; // Die whiteliset wird inistialisiert
-$apiKey = "f9d69f9c"; // Der API key wird inistialisiert
-
+echo "<div id='error'>";
+echo read_error(); // Error aus der $_SESSION['error'] Variable werden hier angezeit
+echo "</div>"
 ?>
 
-<div id="error">
-<?php
-echo read_error(); // Error Felder 
-?>
-</div>
-<div class="wrapper">
+<div class="wrapper"> <!-- Hier beginnt der wrapper zum stylen -->
 
 <?php
 $header = new Header();
-$header->render();
-$nav = new Navigation();
-$nav->render(); // Der Header und die Navigation werden gerndert
-?>
-
-<form action="" method="get">
-    <input type="hidden" name="page" value="<?php echo isset($_GET['page']) ? $_GET['page'] : 1; ?>">  </input>
-    <label for="titel">Titel Eingeben: </label>
-    <input type="text" name="title" placeholder="Titanic">
-    <input type="submit" value="Suchen">
-</form>
-
-
-<h1>Startseite</h1>
-<div class="main"> 
-
-<?php
-
+$nav = new Navigation(); // Komponenten werden initialisiert
 $api = new Api();
 
-$page = isset($_GET['page']) ? $_GET['page'] : 1; 
 
-$view = isset($_REQUEST['action']) ? $_REQUEST['action'] : 'start';
 
-$title = isset($_REQUEST['title']) ? $_REQUEST['title'] : 'A';
+$header->render();// Komponenten wereden hier gerendert
+$nav->render();
 
-if(in_array($view, $whitelist))
+
+
+
+$action = isset($_GET['action']) ? $_GET['action'] : 'start'; // Der action parameter gibt an welcher view benutzt wird und ist Standard: start
+$view = isset($_GET['view']) ? $_GET['view'] : 'start';// Hier wird der view festgelgt der auch erstmal Standart// start ist
+$page = isset($_GET['page']) ? (int)$_GET['page'] : 1;  // Hier wird die Seiten Position gespeichert
+$title = isset($_GET['title']) ? trim($_GET['title']) : ''; // Hier wird der die eingabe formatiert und die $titel variable weitergegeben oder leer gelassen
+
+$imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : '';
+
+
+
+
+ // Hier wird der view he nach action geendert
+$view = $action;
+
+if ($action === 'singleMovies') {
+    $view = 'singleMovies';
+    if (!empty($title)) {
+        // Suche nach Titel (verwende getMovieIdByTitle, um IMDb-ID zu bekommen)
+        $imdbId = $api->getMovieIdByTitle($title);
+        if ($imdbId) {
+            $movie = $api->getMovies('', 'singleMovies', 1, $imdbId);
+        } else {
+             // Film nicht gefunden (oder Fehler bei der IMDb-ID-Suche)
+            $movie = ['Response' => 'False', 'Error' => 'Kein Film mit diesem Titel gefunden.'];
+        }
+    } else {
+        // Kein Titel angegeben -> Fehlermeldung (optional, aber empfohlen)
+        $movie = ['Response' => 'False', 'Error' => 'Bitte einen Titel eingeben.'];
+    }
+}
+
+
+
+?>
+<form action="" method="get">
+    <input type="hidden" name="page" value="<?php echo $page; ?>">
+    <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>">
+    <label for="titel">Titel Eingeben: </label>
+    <input type="text" name="title" placeholder="Titanic" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
+    <input type="submit" value="Suchen">
+</form>
+<div class="main"> 
+
+
+
+<?php
+if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist wird der Ihnhalt ausgeführt
 {
     switch ($view) {
         case'liste':
-            
-            $movies = $api->getMovies($title, $view, $page);
             require_once "views/$view.php";
             break;
 
         case'singleMovies':
-            $movie = $api->getMovies($title, $view);
-            require_once "views/$view.php";
-            break;
-        case'registrierung':
-            require_once "views/$view.php";
-            break;
-        case'start':
             require_once "views/$view.php";
             break;
 
+        case'registrierung':
+            require_once "views/$view.php";
+            break;
+
+        case'start':
+            $movies = $api->getMoviesSortedByYear($title, $page);
+            require_once "views/$view.php";
+            break;
+
+        case'login':
+            require_once "views/$view.php";
+            break;
+
+        case'logout':
+            session_destroy();
+            header('Location: index.php');
+            break;
+
+        case'forum':
+            require_once "views/$view.php";
+            break;
+            
         case'home':
             require_once "views/$view.php";
             break;
         default:
             break;
     }
-    if($view =='start')
-	{
-		require_once "views/start.php";
-	}
 }else{
     write_error('Seite nicht gefunden.');
-    require_once "index.php";
+    require_once "index.php"; //TODO Besser: Fehlerseite oder 404-Seite
 }
 
 ?>
