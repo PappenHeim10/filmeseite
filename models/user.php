@@ -5,6 +5,7 @@ include_once 'include/namespace.php';
 class User extends Datenbank
 {
     use GetterSetter; // Getter Setter als trait um redundanten code zu vermeiden
+    use Validation;
     private $anrede;
     private $vorname;
     private $nachname;
@@ -144,5 +145,18 @@ class User extends Datenbank
         }
         return $fehler;
       }
+
+
+      //TODO Registration zuende schreiben
+      public function registrierung(){
+        #$this->validation();
+
+        if(empty($this->fehler)){
+            $this->insert();
+            header('Location: index.php');
+            exit;
+        }
+      }
 }
 ?>
+
