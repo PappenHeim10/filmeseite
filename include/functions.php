@@ -1,11 +1,10 @@
 <?php
-namespace mvc;
-
 
 function write_error($param)
 {
 	$_SESSION['error'] = $param;
 }
+
 
 function read_error()
 {
