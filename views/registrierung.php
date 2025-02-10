@@ -1,6 +1,5 @@
 <?php
 namespace mvc;
-
 ?>
 
 
@@ -31,7 +30,6 @@ namespace mvc;
 
       <input type="submit" value="Registrieren">
 </form>
-
 
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST')

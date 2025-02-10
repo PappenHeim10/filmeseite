@@ -52,4 +52,5 @@ interface iDatenbank
 	function selectAll();
 }
 
+
 ?>

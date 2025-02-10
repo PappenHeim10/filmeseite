@@ -1,6 +1,5 @@
 <?php
 namespace mvc;
-
 session_start(); // Die Session wird gestartet
 
 include_once 'include/datenbank.php';
@@ -17,7 +16,6 @@ echo "</div>"
 ?>
 
 <div class="wrapper"> <!-- Hier beginnt der wrapper zum stylen -->
-
 <?php
 $header = new Header();
 $nav = new Navigation(); // Komponenten werden initialisiert
@@ -35,14 +33,18 @@ $action = isset($_GET['action']) ? $_GET['action'] : 'start'; // Der action para
 $view = isset($_GET['view']) ? $_GET['view'] : 'start';// Hier wird der view festgelgt der auch erstmal Standart// start ist
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;  // Hier wird die Seiten Position gespeichert
 $title = isset($_GET['title']) ? trim($_GET['title']) : ''; // Hier wird der die eingabe formatiert und die $titel variable weitergegeben oder leer gelassen
-
 $imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : '';
 
 
-
-
- // Hier wird der view he nach action geendert
-$view = $action;
+if($action === 'liste') // Wenn die action liste ist wird die view liste ausgeführt
+{
+    $view = 'liste';
+}
+if($action === 'registrierung'){
+    $view ='registrierung';
+}if($action === 'login'){
+    $view ='login';
+}
 
 if ($action === 'singleMovies') {
     $view = 'singleMovies';
@@ -67,7 +69,7 @@ if ($action === 'singleMovies') {
 <form action="" method="get">
     <input type="hidden" name="page" value="<?php echo $page; ?>">
     <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>">
-    <label for="titel">Titel Eingeben: </label>
+    <label for="title">Titel Eingeben: </label>
     <input type="text" name="title" placeholder="Titanic" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
     <input type="submit" value="Suchen">
 </form>
@@ -92,7 +94,9 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
             break;
 
         case'start':
-            $movies = $api->getMoviesSortedByYear($title, $page);
+            require_once "views/$view.php";
+            break;
+        case 'forum':
             require_once "views/$view.php";
             break;
 
@@ -105,9 +109,6 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
             header('Location: index.php');
             break;
 
-        case'forum':
-            require_once "views/$view.php";
-            break;
             
         case'home':
             require_once "views/$view.php";

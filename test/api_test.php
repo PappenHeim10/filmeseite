@@ -6,15 +6,16 @@ $api = new Api();
 
 <pre>
     <?php
-    $title = "Knight";
-    $view = "multipleMovies";
-    print_r($result);
+    $url = 'http://www.omdbapi.com/?apikey=f9d69f9c&type=movie&s=Movie';
+    $response = file_get_contents($url);
+    $movie = json_decode($response);
+    print_r($movie);
    ?>
 </pre>
+
+
 <pre>
     <?php
-    
-    
     $title = "love house";
     $view = "singleMovies";
     $result = $api->getMovies($title, $view);
@@ -38,7 +39,6 @@ $url = 'http://www.omdbapi.com/?apikey=f9d69f9c&s=game';
 $response = file_get_contents($url);
 $movies = json_decode($response);
 ?>
-   
 </pre>
 
 <pre>

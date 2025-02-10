@@ -13,10 +13,6 @@
 }
 
 
-div{
-    padding:3px;
-    margin:2px;
-}
 
 
 .header{
@@ -62,7 +58,6 @@ div{
     gap: 10px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .navigation{
@@ -75,6 +70,17 @@ div{
     justify-content: space-between;
     align-items: center;
 }
+
+.navigation a{
+    text-decoration: none;
+    color: rgb(10, 17, 119);
+    padding: 7px;
+}
+.navigation a:hover{
+    color: rgb(4, 8, 68);
+    background-color: lightblue;
+}
+
 .mainNav{
     display: flex;
     flex-direction: row;
@@ -97,4 +103,8 @@ div{
     gap: 10px;
     flex-wrap:wrap;
     justify-content: center;
+}
+
+.pagination{
+    margin-bottom: 0px;
 }

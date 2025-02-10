@@ -45,11 +45,11 @@ class Navigation{
         }
         $output .= '</div></div>';
 
-
-
         echo $output; // Die render Funktion gibt alle elemente aus
     }
 }
+
+
 class Footer { // Die footer Klasse wird definiert
     public function render() { // Die render funktion wird beutzt um ihn wiederzugeben
       setlocale(LC_TIME, 'deu'); // Die Zeit wird gesetzt und das format wird auf deutsch umgeschaltet
