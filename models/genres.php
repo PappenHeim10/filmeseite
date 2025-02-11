@@ -175,3 +175,4 @@ if ($alleGenres) {
 } else {
     echo "Keine Genres gefunden oder Fehler beim Abrufen.<br>";
 }
+*/

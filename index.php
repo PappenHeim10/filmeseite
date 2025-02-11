@@ -30,9 +30,6 @@ $api = new Api();
 $header->render();// Komponenten wereden hier gerendert
 $nav->render();
 
-$go = new FilmController();
-$go->filmeMasseneinfuegen('House', 5);
-
 
 $action = isset($_GET['action']) ? $_GET['action'] : 'start'; // Der action parameter gibt an welcher view benutzt wird und ist Standard: start
 $view = isset($_GET['view']) ? $_GET['view'] : 'start';// Hier wird der view festgelgt der auch erstmal Standart// start ist
