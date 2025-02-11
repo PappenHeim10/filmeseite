@@ -59,7 +59,6 @@ if ($action === 'singleMovies') {
 }
 
 
-
 ?>
 <form action="" method="get">
     <input type="hidden" name="page" value="<?php echo $page; ?>">

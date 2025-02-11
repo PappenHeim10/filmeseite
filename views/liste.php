@@ -2,11 +2,7 @@
 namespace mvc;
 #echo "BeDugging: View=$view , action=$action, title=$title, page=$page, imdbId=$imdbId";
 
-
 $movies = $api->getMoviesSortedByYear(strtolower($title), $page);
-
-
-
 
 // Direkter Zugriff auf $movies, da es im selben Scope ist.
 if (is_array($movies) && !empty($movies['Search'])) {
