@@ -17,8 +17,7 @@ $api = new Api();
 <pre>
     <?php
     $title = "love house";
-    $view = "singleMovies";
-    $result = $api->getMovies($title, $view);
+    $result = $api->getEinenFilm($title);
     print_r($result);
    ?>
 </pre>

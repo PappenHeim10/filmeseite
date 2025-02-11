@@ -1,7 +1,8 @@
 <?php
 namespace mvc;
-
-class Genre extends Datenbank // Das ist das Model für das genre
+require_once 'include/namespace.php';
+require_once 'include/datenbank.php';
+class Genres extends Datenbank // Das ist das Model für das genre
 {
 	// attributes
 	use GetterSetter;
@@ -11,19 +12,22 @@ class Genre extends Datenbank // Das ist das Model für das genre
 	// konstruktor führt die funktion setDaten auf
 	function __construct(Array $daten = []) // Der Konstruktor akzeptiert ein Array als parameter
 	{
+		parent::__construct();
 		$this->setDaten($daten); // Die Daten werden durch die setData methode zugewiesen
 	}
 	
 
 	// setDaten führt die set-Methoden der Klasse auf, die übergebenen Werte entsprechendem Attributen setzen
-    public function setDaten(array $daten)  
+    public function setDaten(array $daten)
     {
-        if($daten) 
-        {
-            foreach ($daten as $key => $value)  
-            {
-                // Direkt den Wert über __set setzen
-                $this->$key = $value; 
+        if ($daten) {
+            foreach ($daten as $key => $value) {
+                $propertyName = strtolower($key); // Konvertiere den Schlüssel in Kleinbuchstaben
+
+                // Überprüfe, ob die Eigenschaft existiert, bevor du sie setzt.
+                if (property_exists($this, $propertyName)) {
+                     $this->$propertyName = $value; // Dynamisch die Eigenschaft setzen
+                }
             }
         }
     }
@@ -39,7 +43,7 @@ class Genre extends Datenbank // Das ist das Model für das genre
 			return $this->db->lastInsertId();
 		}
 		catch(\PDOException $e){
-			$_SESSION['error'] = "Fehler beim Einfügen: " . $e->getMessage();
+			write_error("Fehler beim Einfügen: " . $e->getMessage());
             echo $e->getMessage();
             return false;
         }
@@ -110,3 +114,64 @@ class Genre extends Datenbank // Das ist das Model für das genre
 	}
 }
    
+
+//--- Beispiele für die Verwendung der Klasse ---
+
+/* 1. Neues Genre hinzufügen:
+$genre = new Genres();
+$genre->setDaten(['genre' => 'Science Fiction']); // Oder $genre->genre = 'Science Fiction';
+$neueId = $genre->insert();
+
+if ($neueId) {
+    echo "Neues Genre hinzugefügt mit ID: " . $neueId . "<br>";
+} else {
+    echo "Fehler beim Hinzufügen des Genres.<br>";
+}
+
+
+// 2. Genre aktualisieren:
+$genre = new Genres();
+$erfolg = $genre->update(2, ['genre' => 'Sci-Fi']);  // Genre mit ID 2 aktualisieren.
+
+if ($erfolg) {
+    echo "Genre aktualisiert.<br>";
+} else {
+    echo "Fehler beim Aktualisieren des Genres.<br>";
+}
+
+// 3. Genre löschen:
+
+$genre = new Genres();
+$erfolg = $genre->delete(3);  // Genre mit ID 3 löschen.
+
+if ($erfolg) {
+    echo "Genre gelöscht.<br>";
+} else {
+    echo "Fehler beim Löschen des Genres.<br>";
+}
+
+
+// 4. Einzelnes Genre abrufen:
+$genre = new Genres();
+$genreDaten = $genre->select(1);  // Genre mit ID 1 abrufen
+
+if ($genreDaten) {
+    echo "Genre ID: " . $genreDaten['id'] . "<br>";
+    echo "Genre Name: " . $genreDaten['genre'] . "<br>";
+} else {
+    echo "Genre nicht gefunden oder Fehler beim Abrufen.<br>";
+}
+
+
+// 5. Alle Genres abrufen:
+
+$genre = new Genres();
+$alleGenres = $genre->selectAll();
+
+if ($alleGenres) {
+    foreach ($alleGenres as $g) {
+        echo "Genre ID: " . $g['id'] . ", Name: " . $g['genre'] . "<br>";
+    }
+} else {
+    echo "Keine Genres gefunden oder Fehler beim Abrufen.<br>";
+}

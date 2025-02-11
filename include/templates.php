@@ -43,6 +43,8 @@ class Navigation{
             $output .= '<a href="?action=login">Login</a>';
             $output .= '<a href="?action=registrierung">Registrierung</a>';
         }
+        $output .= '<a href=?action=agb>Agb</a>';
+        $output .= '<a href=?action=impressum>Impressum</a>';
         $output .= '</div></div>';
 
         echo $output; // Die render Funktion gibt alle elemente aus

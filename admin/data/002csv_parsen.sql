@@ -1,4 +1,4 @@
-USE filmesite_cohen;
+USE filmeseite_cohen;
 
 
 -- genres werden eingefügt 

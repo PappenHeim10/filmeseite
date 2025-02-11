@@ -4,6 +4,8 @@ namespace mvc;
 class Api {
 
     private $apiKey = "f9d69f9c";
+    private $baseUrl = "http://www.omdbapi.com/"; // Basis-URL für die API
+
 
     public function getMovies($title, $view, $page = 1, $imdbId = '') {
         $url = "http://www.omdbapi.com/?apikey=" . $this->apiKey;
@@ -23,7 +25,7 @@ class Api {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 5); // Timeout hinzufügen
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10); // Timeout hinzufügen
 
         $response = curl_exec($ch);
 
@@ -34,6 +36,7 @@ class Api {
             curl_close($ch);
             return ['Response' => 'False', 'Error' => 'cURL-Fehler: ' . $error_message];
         }
+        
         curl_close($ch);
 
 
@@ -52,7 +55,7 @@ class Api {
         $ch = curl_init(); // Session wird initilisiert und so gestartet
         curl_setopt($ch, CURLOPT_URL, $url); // Die URL wird als das session ziel bestimmt
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Es wird um ein Datantransfer gebeten
-        curl_setopt($ch, CURLOPT_TIMEOUT, 5); // Nach 5 sekunden gibt es einen Timeout
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10); // Nach 5 sekunden gibt es einen Timeout
 
         $response = curl_exec($ch);
 
@@ -70,8 +73,6 @@ class Api {
         if ($data === null || $data['Response'] === 'False' || !isset($data['Search'][0]['imdbID'])) {
             return false; // Oder Fehlercode
         }
-
-
         return $data['Search'][0]['imdbID']; // Gib die IMDb-ID des ERSTEN Suchergebnisses zurück
     }
     
@@ -103,13 +104,15 @@ class Api {
     }
 
 
-    public function movieZumstart($title){
-        $url = "http://www.omdbapi.com/?apikey={$this->apiKey}&s=".$title;
+    public function movieZumstart($title = 'Movie', $page = 1) {
+        $url = "http://www.omdbapi.com/?apikey=" . $this->apiKey;
+        $url .= "&s=" . rawurlencode($title);
+        $url .= "&page=" . urlencode($page);
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10);
         $response = curl_exec($ch);
 
         if (curl_errno($ch)) {
@@ -144,7 +147,7 @@ class Api {
                 $ch = curl_init();
                 curl_setopt($ch, CURLOPT_URL, $url);
                 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+                curl_setopt($ch, CURLOPT_TIMEOUT, 10);
                 $response = curl_exec($ch);
     
                 if (curl_errno($ch)) {
@@ -173,6 +176,63 @@ class Api {
             return false; // Wenn $titel kein gültiges Array ist oder keine Filme gefunden wurden.
         }
     }
+
+    // Methode für API anfragen
+    private function einenAPIRequestMachen($params){
+        // Fügt den API-SChüssel ein
+        $pararms['apikey'] = $this->apiKey;
+
+        // Erstelle den Query-String
+        $queryString = http_build_query($params);
+
+        // Erstelle die volständige URL
+        $url = $this->baseUrl . '?' . $queryString;
+
+        // cURL verwenden
+        $ch = curl_init();
+
+        curl_setopt_array($ch, [ // Die Curll Optionenwerden festgelegt
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_TIMEOUT => 10, // Timeout auf 10 Sekunden setzen
+            CURLOPT_FAILONERROR => true, // Fehler bei HTTP-Statuscodes >= 400
+        ]);
+
+        $response = curl_exec($ch);
+        $error = curl_error($ch); // Speichere mögliche cURL-Fehler
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);  // HTTP-Statuscode abrufen
+        curl_close($ch);
+
+
+
+        //-- Hier beginnt die Fehlerbehandlung --
+        if($error){
+            error_log("cURL-Fehler: " . $error); // Fehler ins Error-Log schreiben
+            write_error("cURL-Fehler: " . $error); // Fehler ausgeben lassen
+            return ['Response' => 'False', 'Error' => 'cURL-Fehler: ' . $error];
+        }
+
+        if ($httpCode !== 200) {
+            error_log("OMDb API Fehler (HTTP Code $httpCode): " . $response);
+            write_error("OMDb API Fehler (HTTP Code $httpCode): " . $response);
+           return ['Response' => 'False', 'Error' => 'OMDb API Fehler (HTTP Code ' . $httpCode . ')'];
+       }
+       //-- Hier endet die Fehlerbehandlung --
+
+       // JSON-Dekodieren
+       $data = json_decode($response, true);
+
+       if ($data === null) {
+            error_log("JSON-Dekodierung fehlgeschlagen: " . $response);
+            write_error("JSON-Dekodierung fehlgeschlagen: " . $response);
+            return ['Response' => 'False', 'Error' => 'JSON-Dekodierung fehlgeschlagen'];
+       }
+
+       return $data;    
+       
+    }
+        // Methode für Filmlisten (Suchergebnisse)
+    
 }
 
 ?>

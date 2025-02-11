@@ -20,10 +20,16 @@ function read_message()
 {
 	if(isset($_SESSION['message']))
 	{
-		echo $_SESSION['message'];
+		$message = $_SESSION['message'];
 		unset($_SESSION['message']);
+		return $message;
 	}
 }
+function write_message($param)
+{
+	$_SESSION['message'] = $param;
+}
+
 
 function autoloadNS(string $param) 
 {

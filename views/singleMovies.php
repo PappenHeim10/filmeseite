@@ -2,8 +2,6 @@
 namespace mvc;
 #echo "BeDugging: View=$view , action=$action, title=$title, page=$page, imdbId=$imdbId"; 
 
-$film = new Film($movie);
-$film->insert();        
 
 if (!empty($imdbId)) {
     $movie = $api->getMovies('', 'singleMovies', 1, $imdbId); 
@@ -86,8 +84,7 @@ if (!empty($imdbId)) {
     else 
     {
         $movie = $api->getEinenFilm('Fight');
-        $film = new Film($movie);
-        $film->insert();        
+     
 
 
         if (is_array($movie) && $movie['Response'] == 'True') {

@@ -2,16 +2,20 @@
 namespace mvc;
 session_start(); // Die Session wird gestartet
 
-include_once 'include/datenbank.php';
+require_once 'include/datenbank.php';
 include_once 'models/filme.php'; // die nötigen dependencies werden eingebungen
 include_once 'include/functions.php'; // die nötigen dependencies werden eingebungen
 include_once 'include/templates.php';
 include_once 'models/user.php';
+require_once 'models/genres.php';
 
-$whitelist = ['multipleMovies','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
+$whitelist = ['multipleMovies','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
 
 echo "<div id='error'>";
 echo read_error(); // Error aus der $_SESSION['error'] Variable werden hier angezeit
+echo "</div>";
+echo "<div id='success'>";
+echo read_message();
 echo "</div>"
 ?>
 
@@ -26,7 +30,8 @@ $api = new Api();
 $header->render();// Komponenten wereden hier gerendert
 $nav->render();
 
-
+$go = new FilmController();
+$go->filmeMasseneinfuegen('House', 5);
 
 
 $action = isset($_GET['action']) ? $_GET['action'] : 'start'; // Der action parameter gibt an welcher view benutzt wird und ist Standard: start
@@ -36,15 +41,8 @@ $title = isset($_GET['title']) ? trim($_GET['title']) : ''; // Hier wird der die
 $imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : '';
 
 
-if($action === 'liste') // Wenn die action liste ist wird die view liste ausgeführt
-{
-    $view = 'liste';
-}
-if($action === 'registrierung'){
-    $view ='registrierung';
-}if($action === 'login'){
-    $view ='login';
-}
+$view = $action;
+
 
 if ($action === 'singleMovies') {
     $view = 'singleMovies';
@@ -99,11 +97,15 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
         case 'forum':
             require_once "views/$view.php";
             break;
-
         case'login':
             require_once "views/$view.php";
             break;
-
+        case 'agb':
+            require_once "views/$view.php";
+            break;
+        case 'impressum':
+            require_once "views/$view.php";
+            break;
         case'logout':
             session_destroy();
             header('Location: index.php');

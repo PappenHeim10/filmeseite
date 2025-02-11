@@ -29,12 +29,12 @@ if (is_array($movies) && !empty($movies['Search'])) {
     $totalPages = ceil($totalresults / 10); // Die anzahl der film edurch 10 und dann auf die nächste zahl aufgerunded um die Letzte seite festzulegen
     $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;// Die aktuelle seite
 
-    $output .= "<div class='pagination'>"; // Die pagination wird erstellt
+    echo "<div class='pagination'>"; // Die pagination wird erstellt
     
     // First page
     if ($currentPage > 1) {
-        echo "<a href='?action=liste&title=" . urlencode($_REQUEST['title']) . "&page=1'>First</a> ";
-        echo "<a href='?action=liste&title=" . urlencode($_REQUEST['title']) . "&page=" . ($currentPage - 1) . "'>Previous</a> ";
+        echo "<a href='?action=liste&title=" . $title . "&page=1'>First</a> "; // Das ergebnis der $api->getMoviesSortedByYear funktion mit dem $titel parameter der aber statt vom get_übergeben zu werden aus der $_R
+        echo "<a href='?action=liste&title=" . $title . "&page=" . ($currentPage - 1) . "'>Previous</a> ";
     }
 
     // Page numbers
@@ -49,7 +49,7 @@ if (is_array($movies) && !empty($movies['Search'])) {
     }
 
     for ($i = $start; $i <= $end; $i++) {
-        $url = "?action=liste&title=" . urlencode($_REQUEST['title']) . "&page=" . $i;
+        $url = "?action=liste&title=" . $title. "&page=" . $i;
         echo "<a href='" . $url . "'" . ($i == $currentPage ? " class='current'" : "") . ">" . $i . "</a> ";
     }
 
@@ -58,9 +58,9 @@ if (is_array($movies) && !empty($movies['Search'])) {
     }
 
     // Last page
-    if ($currentPage < $totalPages) {
-        echo "<a href='?action=liste&title=" . urlencode($_REQUEST['title']) . "&page=" . ($currentPage + 1) . "'>Next</a> ";
-        echo "<a href='?action=liste&title=" . urlencode($_REQUEST['title']) . "&page=" . $totalPages . "'>Last</a>";
+    if ($currentPage < $totalPages) { // Ich bin mir nicht sicher wie der Link gener
+        echo "<a href='?action=liste&title=" . $title . "&page=" . ($currentPage + 1) . "'>Next</a> ";
+        echo "<a href='?action=liste&title=" . $title . "&page=" . $totalPages . "'>Last</a>";
     }
 
     echo "</div>";
