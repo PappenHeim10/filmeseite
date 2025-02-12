@@ -1,11 +1,11 @@
 <?php
-namespace mvc;
-include_once 'include/namespace.php';
+include_once 'include/helpers.php';
+require_once 'include/datenbank.php';
 
-class User extends Datenbank
+class User extends \Datenbank
 {
-    use GetterSetter; // Getter Setter als trait um redundanten code zu vermeiden
-    use Validation;
+    use \GetterSetter; // Getter Setter als trait um redundanten code zu vermeiden
+    use \Validation;
     private $anrede;
     private $vorname;
     private $nachname;
@@ -31,7 +31,7 @@ class User extends Datenbank
             }
         }
     }
-    public function insert()
+    public function insert():bool
     {
         try{
             $sql = "INSERT INTO users (anrede, vorname, nachname, email, benutzername, passwort) VALUES (:anrede, :vorname, :nachname, :email, :benutzername, :passwort)";
@@ -45,6 +45,7 @@ class User extends Datenbank
             $stmt->execute();
 
             echo "<h1>User erstellt</h1>";
+            return true;
         }
         catch(\PDOException $e)
         {
@@ -52,7 +53,7 @@ class User extends Datenbank
             return false;
         }
     }
-    public function update($i)
+    public function update($i):bool
     {
         try
         {
@@ -65,6 +66,8 @@ class User extends Datenbank
             $stmt->bindParam(':benutzername', $this->benutzername);
             $stmt->bindParam(':passwort', $this->passwort);
             $stmt->bindParam(':id', $i);
+            $stmt->execute();
+            return true;
         }
         catch(\PDOException $e)
         {
@@ -72,7 +75,7 @@ class User extends Datenbank
             return false;
         }
     }
-    public function delete($i)
+    public function delete($i):bool
     {
         try
         {
@@ -89,12 +92,15 @@ class User extends Datenbank
         }
     }
 
-	public function select($id){
+	public function select($id):array|false
+    {
 		try{
             $sql = "SELECT * FROM user WHERE id = :id";
             $stmt = $this->db->prepare($sql);
             $stmt->bindParam(':id', $id, \PDO::PARAM_INT);
             $stmt->execute();
+            
+            return $stmt->fetch(\PDO::FETCH_ASSOC); // Fetch a single result as an associative array
 	}
 	catch(\PDOException $e){
             $_SESSION['error'] = "Fehler beim Auslesen: ". $e->getMessage();
@@ -103,7 +109,8 @@ class User extends Datenbank
         }
 	}
     
-    public function selectAll(){
+    public function selectAll():array|false
+    {
 		try
 		{
 			$sql = "SELECT * FROM genres";

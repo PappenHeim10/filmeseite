@@ -1,6 +1,5 @@
 <?php
-namespace mvc;
-include_once 'namespace.php';
+include_once 'helpers.php';
 
 abstract class Datenbank implements iDatenbank{
     private $servername = 'localhost';
@@ -38,4 +37,5 @@ abstract class Datenbank implements iDatenbank{
         }
     }
 }
+
 ?>

@@ -21,45 +21,35 @@ echo "</div>"
 
 <div class="wrapper"> <!-- Hier beginnt der wrapper zum stylen -->
 <?php
+
+
 $header = new Header();
 $nav = new Navigation(); // Komponenten werden initialisiert
 $api = new Api();
-
+$filmController = new FilmController();
 
 
 $header->render();// Komponenten wereden hier gerendert
 $nav->render();
 
-
 $action = isset($_GET['action']) ? $_GET['action'] : 'start'; // Der action parameter gibt an welcher view benutzt wird und ist Standard: start
 $view = isset($_GET['view']) ? $_GET['view'] : 'start';// Hier wird der view festgelgt der auch erstmal Standart// start ist
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;  // Hier wird die Seiten Position gespeichert
-$title = isset($_GET['title']) ? trim($_GET['title']) : ''; // Hier wird der die eingabe formatiert und die $titel variable weitergegeben oder leer gelassen
+$title = isset($_GET['title']) ? trim($_GET['title']) : 'girl'; // Hier wird der die eingabe formatiert und die $titel variable weitergegeben oder leer gelassen
 $imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : '';
-
 
 $view = $action;
 
-
-if ($action === 'singleMovies') {
-    $view = 'singleMovies';
+if ($action === 'singleMovies') { 
     if (!empty($title)) {
-        // Suche nach Titel (verwende getMovieIdByTitle, um IMDb-ID zu bekommen)
-        $imdbId = $api->getMovieIdByTitle($title);
-        if ($imdbId) {
-            $movie = $api->getMovies('', 'singleMovies', 1, $imdbId);
-        } else {
-             // Film nicht gefunden (oder Fehler bei der IMDb-ID-Suche)
-            $movie = ['Response' => 'False', 'Error' => 'Kein Film mit diesem Titel gefunden.'];
+        $imdbId = $api->getFilmIDNachTitel($title);
+        if($imdbId){
+            $movie = $api->getFilmDetails($imdbId);
         }
-    } else {
-        // Kein Titel angegeben -> Fehlermeldung (optional, aber empfohlen)
-        $movie = ['Response' => 'False', 'Error' => 'Bitte einen Titel eingeben.'];
     }
 }
-
-
 ?>
+
 <form action="" method="get">
     <input type="hidden" name="page" value="<?php echo $page; ?>">
     <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>">
@@ -67,9 +57,8 @@ if ($action === 'singleMovies') {
     <input type="text" name="title" placeholder="Titanic" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
     <input type="submit" value="Suchen">
 </form>
+
 <div class="main"> 
-
-
 
 <?php
 if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist wird der Ihnhalt ausgeführt
@@ -118,11 +107,13 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
     write_error('Seite nicht gefunden.');
     require_once "index.php"; //TODO Besser: Fehlerseite oder 404-Seite
 }
-
 ?>
+
 </div>
+
 <?php
 $foot = new Footer(); // die footer werden eingebunden
 $foot->render();
 ?>
+
 </div>

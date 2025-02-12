@@ -1,11 +1,11 @@
 <?php
 namespace mvc;
-require_once 'include/namespace.php';
+require_once 'include/helpers.php';
 require_once 'include/datenbank.php';
-class Genres extends Datenbank // Das ist das Model für das genre
+class Genres extends \Datenbank // Das ist das Model für das genre
 {
 	// attributes
-	use GetterSetter;
+	use \GetterSetter;
 	private $id; // Die id 
 	private $genre;// und der Name des Genres werden hier angegeben
 
@@ -33,14 +33,15 @@ class Genres extends Datenbank // Das ist das Model für das genre
     }
 
 	// Methods
-	public function insert(){
+	public function insert():bool
+    {
 		try{
 			$sql = "INSERT INTO genres (genre) VALUES (:genre)";
             $stmt = $this->db->prepare($sql);
             $stmt->bindParam(':genre', $this->genre, \PDO::PARAM_STR);
             $stmt->execute();
 
-			return $this->db->lastInsertId();
+			return true;
 		}
 		catch(\PDOException $e){
 			write_error("Fehler beim Einfügen: " . $e->getMessage());
@@ -49,7 +50,8 @@ class Genres extends Datenbank // Das ist das Model für das genre
         }
 	}
 
-    public function update($id){
+    public function update($id):bool
+    {
 		try{
 			$sql = "UPDATE genres SET genre = :genre WHERE id = :id";
 			$stmt = $this->db->prepare($sql);
@@ -66,7 +68,8 @@ class Genres extends Datenbank // Das ist das Model für das genre
         }
 	}
 
-    public function delete($id){
+    public function delete($id):bool
+    {
 		try
 		{
 			$sql = "DELETE FROM genres WHERE id = :id";
@@ -84,12 +87,15 @@ class Genres extends Datenbank // Das ist das Model für das genre
         }
 	}
 
-	public function select($id){
+	public function select($id):array|false
+    {
 		try{
             $sql = "SELECT * FROM genres WHERE id = :id";
             $stmt = $this->db->prepare($sql);
             $stmt->bindParam(':id', $id, \PDO::PARAM_INT);
             $stmt->execute();
+            
+            return $stmt->fetch(\PDO::FETCH_ASSOC); // Fetch einen einzelnen Assoiated array
 	}
 	catch(\PDOException $e){
             $_SESSION['error'] = "Fehler beim Auslesen: ". $e->getMessage();
@@ -98,7 +104,8 @@ class Genres extends Datenbank // Das ist das Model für das genre
         }
 	}
 
-    public function selectAll(){
+    public function selectAll():array|false
+    {
 		try
 		{
 			$sql = "SELECT * FROM genres";

@@ -1,11 +1,10 @@
 <?php
 namespace mvc;
-require_once 'include/namespace.php';
 require_once 'include/datenbank.php';
 
-class Filme extends Datenbank {
+class Filme extends \Datenbank {
 
-    use GetterSetter; // Die GS triait ist in namespace.php
+    use \GetterSetter; // Die GS triait ist in namespace.php
     private $title;
     private $imdbid;
     private $year;
@@ -22,7 +21,7 @@ class Filme extends Datenbank {
 
 
     // Konstruktor
-    public function __construct(Array $daten = [])
+    public function __construct(Array $daten = []) // Konstruktor wird mit den Daten initialisiert
     {
         parent::__construct(); // Datenbank wird initialisiert
         $this->setDaten($daten); // Die Werte werden mit der setDaten funktion den Classen Variablen zugeordnet
@@ -33,8 +32,9 @@ class Filme extends Datenbank {
         if ($daten) { // Wenn die Daten vorhanden sind
             foreach ($daten as $key => $value) {
                 // Die Daten Werden als werte Paare genomme
-                $propertyName = strtolower($key); // Der Key des wertes wird zum der Key in Kleinbuchstaben
+                $propertyName = strtolower($key); // Der Key des wertes wird zum Key in Kleinbuchstaben
 
+                // Überprüfe, ob die Klassen Variable existiert
                 if (property_exists($this, $propertyName)) {
                     // Es wird geprüft ob eine der Klassenariablen den key des Wertes als namen hat
                     if ($propertyName === 'released') { // wenn der key "released" heißt
@@ -57,94 +57,89 @@ class Filme extends Datenbank {
         }
     }
 
-    public function insert() {
+    public function insert():bool{ // Diese Methode wird bei der instanzieierung ausgeführt
         // Direkter Zugriff auf $this->db innerhalb der erbenden Klasse
-        try {
+        try
+        {
             $sql = "INSERT INTO filme (titel, imdbid, plot, erscheinungs_jahr, erscheinungs_datum, laufzeit, jugendfreigabe, metascore, imdbbewertung, imdbvotes, boxoffice, poster) 
                     VALUES (:titel, :imdbid, :plot, :erscheinungs_jahr, :erscheinungs_datum, :laufzeit, :jugendfreigabe, :metascore, :imdbbewertung, :imdbvotes, :boxoffice, :poster)";
-            $stmt = $this->db->prepare($sql); // $this->db ist das PDO-Objekt
-
-            // ... (Rest deiner insert-Methode) ...
+            $stmt = $this->db->prepare($sql);
             $attribute = [
                 'titel' => $this->title,
                 'imdbid' => $this->imdbid,
                 'poster' => $this->poster,
-                'plot' => $this->plot,  // Korrigiere "beschreibung" zu "plot"
+                'plot' => $this->plot,
                 'erscheinungs_jahr' => $this->year,
-                'erscheinungs_datum' => $this->released,
+                'erscheinungs_datum' => $this->released, // Use the formatted date
                 'laufzeit' => $this->runtime,
                 'jugendfreigabe' => $this->rated,
                 'metascore' => $this->metascore,
                 'imdbbewertung' => $this->imdbrating,
                 'imdbvotes' => $this->imdbvotes,
-                'boxoffice' => $this->boxoffice,
+                'boxoffice' => $this->boxoffice
             ];
             $stmt->execute($attribute);
-
-        } catch (\PDOException $e) {
-            error_log("Fehler beim Einfügen: " . $e->getMessage());
-            return false; // Oder Exception weiterwerfen
+            return true;
+        }
+        catch(\PDOException $e){
+            error_log($e->getMessage());
+            write_error('Es gab einen Fehler beim einfügen in die Datenbank: '.$e->getMessage());
+            return false;
         }
     }
 
-    public function update($id)
+    public function update($id):bool 
     {
         try{
-            $sql = "UPDATE filme SET titel = :titel, poster = :poster, beschreibung = :beschreibung, erscheinungs_jahr = :erscheinungs_jahr, erscheinungs_datum = :erscheinungs_datum, director = :director, genre = :genre, land = :land, cast = :cast, auszeichnungen = :auszeichnungen, autor = :autor, laufzeit = :laufzeit, jugendfreigabe = :jugendfreigabe, metascore = :metascore, imdbbewertung = :imdbbewertung, sprache = :sprache, imdbvotes = :imdbvotes, art = :art, boxoffice = :boxoffice, website = :website WHERE id = :id"; // Added erscheinungs_datum
+            $sql = "UPDATE filme SET titel = :titel, imdbid = :imdbid, poster = :poster, plot = :plot, erscheinungs_jahr = 
+                    :erscheinungs_jahr, erscheinungs_datum = :erscheinungs_datum, laufzeit = :laufzeit, jugendfreigabe = 
+                    :jugendfreigabe, metascore = :metascore, imdbbewertung = :imdbbewertung, imdbvotes = :imdbvotes, boxoffice = :boxoffice WHERE id = :id";
 
             $stmt = $this->db->prepare($sql);
 
             $attribute = [
                 'titel' => $this->title,
+                'imdbid' => $this->imdbid,
                 'poster' => $this->poster,
-                'beschreibung' => $this->plot,
+                'plot' => $this->plot,
                 'erscheinungs_jahr' => $this->year,
-                'erscheinungs_datum' => $this->released, // Use the formatted date
-                'director' => $this->director,
-                'genre' => $this->genre,
-                'land' => $this->country,
-                'cast' => $this->actors,
-                'auszeichnungen' => $this->awards,
-                'autor' => $this->writer,
+                'erscheinungs_datum' => $this->released, //Es wird die formatierte detai genommen
                 'laufzeit' => $this->runtime,
                 'jugendfreigabe' => $this->rated,
                 'metascore' => $this->metascore,
                 'imdbbewertung' => $this->imdbrating,
-                'sprache' => $this->language,
                 'imdbvotes' => $this->imdbvotes,
-                'art' => $this->type,
                 'boxoffice' => $this->boxoffice,
-                'website' => $this->website,
-                'id' => $id,
+                'id' => $id
             ];
 
-
             $stmt->execute($attribute);
-
-            return true;
-        }
-        catch(\PDOException $e)
-        {
-            $_SESSION['error'] = "Fehler beim Ändern: ". $e->getMessage();
-            return false;
-        }
-    }
-
-    public function delete($id)
-    {
-        try{
-            $sql = "DELETE FROM filme WHERE id = :id";
-            $stmt = $this->db->prepare($sql);
-            $stmt->execute(['id' => $id]); // Simplified binding
             return true;
         }catch(\PDOException $e)
         {
-            $_SESSION['error'] = "Fehler beim Löschen: ". $e->getMessage();
+            write_error('Fehler beim Aktualisieren: '. $e->getMessage());
             return false;
         }
     }
 
-    public function select($id)
+    public function delete($id):bool
+    {
+        try
+        {
+            $sql = "DELETE FROM filme WHERE id = :id";
+            $stmt = $this->db->prepare($sql);
+            $stmt->execute(['id' => $id]);
+            return true;
+
+        }catch(\PDOException $e){
+            error_log($e->getMessage());
+            write_error('Fehler beim Löschen: '. $e->getMessage());
+            return false;
+        
+        }
+    }
+
+    public function select($id):array |false
     {
         try
         {
@@ -152,15 +147,16 @@ class Filme extends Datenbank {
             $stmt = $this->db->prepare($sql);
             $stmt->execute(['id' => $id]); // Simplified binding
             return $stmt->fetch(\PDO::FETCH_ASSOC); // Fetch a single result as an associative array
-        }
-        catch(\PDOException $e)
+            
+        }catch(\PDOException $e)
         {
-            $_SESSION['error'] = "Fehler beim Abfragen: ". $e->getMessage();
+            error_log($e->getMessage());
+            write_error('Fehler beim Auslesen: '. $e->getMessage());
             return false;
         }
     }
 
-    public function selectAll()
+    public function selectAll():array | false
     {
         try{
             $sql = "SELECT * FROM filme";
@@ -177,127 +173,141 @@ class Filme extends Datenbank {
 }
 
 
-class FilmController extends Filme
+class FilmController
 {
     private $api;
+    public $filmeModel;
 
     public function __construct(Array $daten = [])
     {
-        parent::__construct($daten);
         $this->api = new Api();
+        $this->filmeModel = new Filme();
     }
 
-    public function filmeMasseneinfuegen($suchbegriff, $anzahlSeiten) {
-        $filmeZumEinfuegen = []; // Sammle alle Filme in einem Array
-
-        for ($seite = 1; $seite <= $anzahlSeiten; $seite++) 
-        { // es wird von der ersen bis zur öetzten seite iteriert
-            $filmliste = $this->api->getMovies($suchbegriff, 'liste', $seite);
-            // filmeliste wird mit der getMovies Methode der API Klasse aufgerufen
-
-            if (is_array($filmliste) && isset($filmliste['Search']) && is_array($filmliste['Search']))
-            { // Die 
-                foreach ($filmliste['Search'] as $film) 
-                {
-                    $filmdetails = $this->api->getMovies('', 'singleMovies', 0, $film['imdbID']); // Die Filmdetails werden in der $filmdetails Variable gespeichert
-
-                    if (is_array($filmdetails) && $filmdetails['Response'] === 'True') // Wenn es noch Filme zum einfügen gibt
-                    {  
-                        if (!isset($filmdetails['Title']) || !isset($filmdetails['imdbID'])) 
-                        { // wenn der titel oder die imdbid nicht gesetzt sind
-                            error_log("Fehlende Pflichtfelder für Film: " . print_r($filmdetails, true)); // Zeige eine Fehlermeldung
-                            continue;
+    // In FilmController
+    public function filmeMasseneinfuegen(string $suchbegriff, int $anzahlSeiten): void
+    {
+        for ($seite = 1; $seite <= $anzahlSeiten; $seite++) {
+            $filmliste = $this->api->getFilme($suchbegriff, $seite); // 'liste' ist unnötig
+    
+            if ($filmliste && isset($filmliste['Search']) && is_array($filmliste['Search'])) 
+            {
+                foreach ($filmliste['Search'] as $film) { //
+                    $filmdetails = $this->api->getFilmDetails($film['imdbID']);
+    
+                    if ($filmdetails && $filmdetails['Response'] === 'True')
+                    {
+                        if(!$this->filmExistiert($filmdetails['Response']) === 'True')
+                        {
+                            $this->filmeModel->setDaten($filmdetails); // Daten setzen
+                            if (!$this->filmeModel->insert()) {
+                                error_log("Fehler beim Einfügen von Film: " . print_r($filmdetails, true));
+                                write_error("Fehler beim Einfügen von Film: " . $film->Title);
+                            }
                         }
-                        $filmeZumEinfuegen[] = $filmdetails; // Füge die Filmdetails dem Array hinzu
                     } else {
-                        error_log("Fehler beim Abrufen von Film-Details für imdbID: " . $film['imdbID'] . " - API-Antwort: " . print_r($filmdetails, true));
+                        error_log("Fehler beim Abrufen von Film-Details für imdbID: " . ($film['imdbID'] ?? 'Keine ID') . " - API-Antwort: " . print_r($filmdetails, true));
+                        write_error("Fehler beim Abrufen von Film-Details für imdbID: " . ($film['imdbID']?? 'Keine ID'));
                     }
                 }
-            } 
-            else
-            {
+            } else {
                 error_log("Fehler bei der API-Anfrage für Seite $seite: " . print_r($filmliste, true));
+                write_error("Fehler bei der API-Anfrage für Seite $seite");
             }
         }
-        // Jetzt alle Filme auf einmal einfügen (Bulk Insert)
-        $this->bulkInsert($filmeZumEinfuegen);
-    }
-    private function bulkInsert($filme) {
-        if (empty($filme)) {
-            return; // Keine Filme zum Einfügen
-        }
+     }
 
-        // Baue den SQL-Befehl dynamisch auf
-        $sql = "INSERT INTO filme (titel, imdbid, plot, erscheinungs_jahr, erscheinungs_datum, laufzeit, jugendfreigabe, metascore, imdbbewertung, imdbvotes, boxoffice, poster) VALUES ";
-        $placeholders = [];
-        $values = [];
+        //HILFS FUNKTION für filmeMasseneinfuegen()
+    private function filmExistiert(string $imdbId): bool 
+    {
+        $sql = "SELECT COUNT(*) FROM filme WHERE imdbid = :imdbid";
+        $stmt = $this->filmeModel->db->prepare($sql);
+        $stmt->execute([':imdbid' => $imdbId]);
+    
+        $count = $stmt->fetchColumn();
 
-        foreach ($filme as $filmDaten) {
-          // Stelle sicher, dass alle Werte vorhanden und richtig formatiert sind
-            $placeholders[] = "(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"; // Anzahl der Fragezeichen muss mit Spalten übereinstimmen.
-
-            // Werte in der richtigen Reihenfolge hinzufügen. Behandle fehlende Werte.
-           $values[] = $filmDaten['Title'] ?? null;          // Titel
-           $values[] = $filmDaten['imdbID'] ?? null;        // IMDb ID
-           $values[] = $filmDaten['Plot'] ?? null;         // Beschreibung / Plot
-           $values[] = $filmDaten['Year'] ?? null;         // Erscheinungsjahr
-           // Erscheinungsdatum formatieren
-           $released = $filmDaten['Released'] ?? null;
-           if ($released && $released != 'N/A') {
-              try {
-                  $date = new \DateTime($released);
-                  $values[] = $date->format('Y-m-d'); // Formatieren zu 'YYYY-MM-DD'
-              } catch (\Exception $e) {
-                   $values[] = null; // Bei ungültigem Datum, NULL einfügen
-                   error_log("Ungültiges Datums Format: ". $released);
-              }
-            }else{
-              $values[] = null;
-            }
-           $values[] = $filmDaten['Runtime'] ?? null;     // Laufzeit
-           $values[] = $filmDaten['Rated'] ?? null;       // Jugendfreigabe
-           $values[] = $filmDaten['Metascore'] ?? null;   // Metascore
-           $values[] = $filmDaten['imdbRating'] ?? null;  // IMDb Bewertung
-           $values[] = $filmDaten['imdbVotes'] ?? null;    // IMDb Votes
-           $values[] = $filmDaten['BoxOffice'] ?? null;   // Box Office
-           $values[] = $filmDaten['Poster'] ?? null; // Poster URL
-        }
-
-        $sql .= implode(",", $placeholders); // Verbinde die Platzhalter
-
-        try {
-            $stmt = $this->db->prepare($sql); // Erstelle ein Prepared Statement
-            $stmt->execute($values); // Führe das Prepared Statement aus
-
-            write_message("Erfolgreich eingefügt: " . $stmt->rowCount() . " Filme.\n");
-        } catch (\PDOException $e) {
-
-            error_log("Fehler beim Bulk Insert: " . $e->getMessage());
-        }
-
+        return $count > 0;
     }
 
 
-    public function einzelnenFilmEinfuegenNachID($imdbId) { 
-        $filmdetails = $this->api->getMovies('', 'singleMovies', 0, $imdbId);
+    public function einzelInsertNachID($imdbId) :void{ 
+        $filmdetails = $this->api->getFilmDetails($imdbId);
 
-        if (is_array($filmdetails) && $filmdetails['Response'] === 'True')
-        {
-          if (!isset($filmdetails['Title']) || !isset($filmdetails['imdbID'])) {
-              error_log("Fehlende Pflichtfelder für Film: " . print_r($filmdetails, true));
-              return;
-          }
-          $filmObjekt = new Filme($filmdetails);
-          try {
-            $filmObjekt->insert();
-          } catch (\Exception $e) {
-              error_log("Fehler beim Einfügen des Films: " . $e->getMessage() . " - Filmdaten: " . print_r($filmdetails, true));
-          }
-      }else {
-            error_log("Fehler beim Abrufen von Film-Details für imdbID: " . $imdbId . " - API-Antwort: " . print_r($filmdetails, true));
+        if ($this->filmeModel->db === null) { 
+            error_log("Datenbankverbindung in bulkInsert fehlgeschlagen.");
+            write_error("Datenbankverbindung in bulkInsert fehlgeschlagen.");
+            return; // Oder Exception werfen, je nach Fehlerbehandlungsstrategie
+        }
+        $film = new Filme($filmdetails); // Wird ein neus Objekt erstellt
+
+        // Hier ist die Fehlerbehandlung
+        if(!$film->insert()) {
+            error_log("Fehler beim Einfügen des Films: " . print_r($filmdetails, true));
+            write_error("Fehler beim Einfügen des Films: " . $film->title);
+        }
+    }
+
+    public function getFilmNachId($id):array | false{ 
+        $filmDaten = $this->filmeModel->select($id);REVIEW:// Ich versteh diesen teil des codes nicht ganz
+
+        if(!$filmDaten){ // 
+            return false;
+        }
+        return $filmDaten;
+    }
+
+    public function getAlleFilme():array | false{
+        $filme = $this->filmeModel->selectAll();
+
+        if(!$filme){
+            return false;
+        }
+        return $filme;
+    }
+//Im FilmController
+    public function einzelnenFilmEinfuegenNachID(string $imdbId): void {
+        $filmdetails = $this->api->getFilmDetails($imdbId);
+
+        if ($filmdetails && $filmdetails['Response'] === 'True') {
+                $this->filmeModel->setDaten($filmdetails); // Kein Objekt erstellen, Daten direkt setzen
+            if (!$this->filmeModel->insert()) { // Fehler beim Einfügen behandeln
+                error_log("Fehler beim Einfügen des Films mit ID $imdbId");
+            }
+        } else {
+            error_log("Fehler beim Abrufen von Film-Details für imdbID: $imdbId - API-Antwort: " . print_r($filmdetails, true));
+        }
+    }
+
+    public function getFilmeAusDerDatenbank(string $suchbegriff, int $seite):array|false
+    {
+        $limit = 10; // 10 ergebnisse pro seite wie bei der API
+        $offset = ($seite - 1) * $limit;
+
+
+        try{
+            $sql = "SELECT * FROM filme WHERE LOWER(titel) LIKE LOWER(:suchbegriff) LIMIT :limit OFFSET :offset";
+            $stmt = $this->filmeModel->db->prepare($sql);
+            $attribute = [
+                'suchbegriff' => $suchbegriff,
+                'limit' => $limit,
+                'offset' => $offset
+            ];
+            $stmt->execute($attribute);
+
+            $result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+
+            if(!$result)
+            {
+                return false;
+            }
+            return $result;
+        }
+        catch(\PDOException $e){
+            error_log("Fehler beim Auslesen der Datenbank: ". $e->getMessage());
+            write_error("Fehler beim Auslesen der Datenbank: ". $e->getMessage());
+            return false;
         }
     }
 }
-
 
 ?>

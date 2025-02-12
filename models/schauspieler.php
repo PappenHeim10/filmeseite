@@ -2,7 +2,7 @@
 namespace mvc;
 
 class Schauspieler{
-    use GetterSetter;
+    use \GetterSetter;
     private $id;
     private $vorname;
     private $nachname;
@@ -25,9 +25,5 @@ class Schauspieler{
             }
         }
     }
-    
 }
-
-
-
 ?>

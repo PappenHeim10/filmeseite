@@ -1,5 +1,4 @@
 <?php
-namespace mvc;
 require_once 'functions.php';
 
 
@@ -45,16 +44,19 @@ trait GetterSetter {
 
 interface iDatenbank
 {
-	function insert();
-	function update($i);
-	function delete($i);
-	function select($i);
-	function selectAll();
+	function insert():bool;
+	function update(int $i):bool;
+	function delete(int $i):bool;
+	function select(int $i):array|false;
+	function selectAll():array|false;
 }
+
+
 
 trait Validation {
 
-    public function schonVergeben($anzahl){
+    public function schonVergeben($anzahl): array
+    {
         $fehler = [];
 
         if ($anzahl['emailCount'] > 0) {
@@ -66,7 +68,8 @@ trait Validation {
         return $fehler;
     }
 
-    function validirePasswort($passwort) {
+    function validirePasswort($passwort) :array
+    {
     
         $fehler = [];
       
@@ -82,7 +85,9 @@ trait Validation {
         return $fehler; 
       }
 
-    public function validiereEmail($email){
+
+    public function validiereEmail($email):array
+    {
 
         $fehler = [];
         if(strlen($email) < 3){
@@ -135,12 +140,11 @@ trait Validation {
         return $fehler;
     }
 
-
-    public function bereinigen($data){
+    public function bereinigen($data):string
+    {
         $data = trim($data);
         $data = stripslashes($data);
         $data = strip_tags($data);
-        $data = htmlspecialchars($data);
         return $data;
     }
 }
