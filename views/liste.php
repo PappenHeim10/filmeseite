@@ -1,19 +1,16 @@
 <?php
 namespace mvc;
 
+// Es werden Alle filme aus der Datenbank geladen
+$filme = $filmController->filmeModel->selectAll();
 
 
-
-
-$filme = $filmController->getFilmeAusDerDatenbank($title, $page); // $title kommt wahrscheinlich aus $_GET oder $_POST
-
-
-// --- Wenn keine Filme in der Datenbank gefunden wurden, API verwenden ---
-if ($filme === false) { //  === false, da getFilmeAusDatenbank() false zurückgibt, wenn nichts gefunden wurde.
+// Wenn keine filme in der Datenbank gefunden wurden ODER wenn einen neue Seite angefordert wird
+if ($filme === false) {
     $filme = $api->getFilme(strtolower($title), $page); // Daten von der API abrufen
 
     // Filme in die Datenbank einfügen, *nachdem* sie von der API abgerufen wurden
-    if ($filme && isset($filme['Search']) && is_array($filme['Search'])) {
+    if ($filme && isset($filme['Search']) && is_array($filme['Search'])) { 
            $filmController->filmeMasseneinfuegen($title, $page); // Speichert die Filme in der Datenbank
     }
 }
@@ -31,7 +28,7 @@ if (is_array($filme) && isset($filme['Search']) && !empty($filme['Search'])) : /
         echo $output;
     endforeach;
 
-     $totalresults = isset($movies['totalResults']) ? (int)$movies['totalResults'] : 1; // die Anzahl aller Filme werden hier gespeichert oder auf Null gesetzt
+     $totalresults = isset($filme['totalResults']) ? (int)$filme['totalResults'] : 1; // die Anzahl aller Filme werden hier gespeichert oder auf Null gesetzt
      $totalPages = ceil($totalresults / 10); // Die anzahl aller seite iwrd hier gespeichert
 
 
@@ -45,7 +42,6 @@ elseif(is_array($filme) && !empty($filme)): // Datenbank-Ergebnisse
         $output .= "<p>imdbID: " . htmlspecialchars($movie['imdbid']) . "</p>"; //imdbID ist jetzt kleingeschrieben
         $output .= "</div>";
         echo $output;
-
 
 endforeach;
        $totalresults = 0; // Gesamtanzahl aus DB holen
@@ -61,9 +57,7 @@ endif;
 
 // --- Pagination  ---
 if(isset($totalPages)) : // Wird nur angezeigt wenn es überhaupt ergebnisse gibt.
-
     $currentPage = $page;
-
     echo "<div class='pagination'>";
 
     // First page
