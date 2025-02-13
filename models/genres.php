@@ -44,7 +44,7 @@ class Genres extends \Datenbank // Das ist das Model für das genre
 			return true;
 		}
 		catch(\PDOException $e){
-			write_error("Fehler beim Einfügen: " . $e->getMessage());
+			write_error("Fehler beim Einfügen: " . $e->getMessage(). "<br>". __FILE__ );
             echo $e->getMessage();
             return false;
         }

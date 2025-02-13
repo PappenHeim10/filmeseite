@@ -27,7 +27,7 @@ abstract class Datenbank implements iDatenbank{
         catch (\PDOException $e)
         {
             // Fehlerbehandlung:  NICHT die Exception-Nachricht direkt ausgeben!
-            write_error("Datenbankverbindungsfehler: " . $e->getMessage()); // Ins Error-Log schreiben
+            write_error("Datenbankverbindungsfehler: " . $e->getMessage()."<br>". __FILE__   ); // Ins Error-Log schreiben
 
             // Optional: Benutzerfreundliche Fehlermeldung anzeigen (ohne sensible Daten)
              die("Es gab ein Problem mit der Datenbankverbindung. Bitte versuchen Sie es später erneut."); // Oder leite auf eine Fehlerseite um.

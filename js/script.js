@@ -1,0 +1,1 @@
+// JavaScript Code für Hauptverzeichnis 

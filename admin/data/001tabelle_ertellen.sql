@@ -18,6 +18,7 @@ CREATE TABLE filme (
     imdbvotes INT(20),
     boxoffice INT(20),
     poster VARCHAR(400)
+    vollstaendig BOOLEAN DEFAULT;
 );
 
 CREATE TABLE genres(

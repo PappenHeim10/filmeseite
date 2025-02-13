@@ -3,8 +3,12 @@ namespace mvc;
 #echo "BeDugging: View=$view , action=$action, title=$title, page=$page, imdbId=$imdbId"; 
 
 
+if($imdbId){
+    $
+}
+
 if (!empty($imdbId)) {
-    $movie = $api->getMovies('', 'singleMovies', 1, $imdbId); 
+    $movie = $api->getFilmDetails($imdbId); 
 
     if (is_array($movie) && $movie['Response'] == 'True') {
         $output = "<div class='einzelFilm'>";
@@ -83,7 +87,7 @@ if (!empty($imdbId)) {
     }
     else 
     {
-        $movie = $api->getEinenFilm('Fight');
+        $movie = $api->getFilmDetails('Fight');
      
 
 

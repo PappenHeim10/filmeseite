@@ -39,14 +39,14 @@ class Api {
         // Fehlerbehandlung des API requests
         if ($error) {
             error_log("cURL-Fehler: " . $error); // Fehler protokollieren
-            write_error("cURL-Fehler: " . $error); // Fehler ausgeben
+            write_error("cURL-Fehler: " . $error. "<br>". __FILE__ ); // Fehler ausgeben
             return ['Response' => 'False', 'Error' => 'cURL-Fehler: ' . $error]; // TODO Ich brauche einen ort an dem ich das Ausgeben
         }
 
         // Prüfen, ob der HTTP-Statuscode OK ist
         if ($httpCode !== 200) {
              error_log("OMDb API Fehler (HTTP Code $httpCode): " . $response); // Fehler protokollieren
-             write_error("OMDb API Fehler (HTTP Code $httpCode): " . $response); // Error ausgeben
+             write_error("OMDb API Fehler (HTTP Code $httpCode): " . $response. "<br>". __FILE__ ); // Error ausgeben
             return ['Response' => 'False', 'Error' => 'OMDb API Fehler (HTTP Code ' . $httpCode . ')']; //TODO auch hier brauche ich einen Ort an dem ich das Ausgeben kann
         }
 
@@ -58,7 +58,7 @@ class Api {
         // Prüfen, ob die API-Antwort gültig ist (Response === 'True' und die Suche erfolgreich)
         if ($data === null) {
             error_log("JSON-Dekodierungsfehler: " . json_last_error_msg());
-            write_error("JSON-Dekodierungsfehler: ". json_last_error_msg()); // Fehler protokollieren und ausgeben
+            write_error("JSON-Dekodierungsfehler: ". json_last_error_msg(). "<br>". __FILE__ ); // Fehler protokollieren und ausgeben
             return ['Response' => 'False', 'Error' => 'Fehler beim Dekodieren der JSON-Datei: ' . json_last_error_msg()];
         }
 
@@ -86,12 +86,12 @@ class Api {
     }
 
     // Methode, um die IMDb-ID anhand des Titels zu bekommen
-    public function getFilmIDNachTitel($title) :array|false {
+    public function getFilmIDNachTitel($title) :int|false {
         $result = $this->getFilme($title); // Nutze getMovies für die Suche
 
         if (is_array($result) && isset($result['Search']) && !empty($result['Search'])) {
             // Gib die IMDb-ID des ERSTEN Suchergebnisses zurück
-            return $result['Search'][0]['imdbID'];
+            return (int)$result['Search'][0]['imdbID'];
         }
 
         return false; // Kein Ergebnis oder Fehler
