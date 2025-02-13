@@ -3,9 +3,7 @@ namespace mvc;
 #echo "BeDugging: View=$view , action=$action, title=$title, page=$page, imdbId=$imdbId"; 
 
 
-if($imdbId){
-    $
-}
+
 
 if (!empty($imdbId)) {
     $movie = $api->getFilmDetails($imdbId); 

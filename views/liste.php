@@ -7,16 +7,6 @@ namespace mvc;
 $filme = $filmController->getFilmeAusDerDatenbank($title,$page);
 
 
-// Wenn keine Filme gefunden werden ODER die Seite größer als 1 ist UND filme gefunden wurden
-if ($filme === false || ($page > 1 && $filme !== false)) {
-    $apiFilme = $api->getFilme($title, $page);
-
-    // Speichere NUR, wenn von API abgerufen wurde.
-    if (is_array($apiFilme) && isset($apiFilme['Search'])) {
-        $filmController->filmeMasseneinfuegen($title); // Ruft die Methode jedesmal auf wenn die API einen Antwort gibt
-        $filme = $filmController->getFilmeAusDerDatenbank($title, $page); // Lade die Filme neu aus der Datenbank
-    }
-}
 
 if (is_array($filme) && !empty($filme)) : // Immer Datenbank-Schlüssel
     filmeAnzeign($filme);
@@ -44,15 +34,18 @@ try {
 }
 
 
-$totalresults = $filmController->filmeModel->countFilme($title); // IMMER aus der DB
+
+
+
+// --- Pagination ---
+$totalresults = $filmController->countFilme($title); // IMMER aus der DB
 $totalPages = ceil($totalresults / 10);
 
-// Pagination 
-if ($totalresults > 0 && $totalPages > 1) : // Wenn es mehr als 0 seite m gibt
-    $currentPage = $page; //Die jetzifge seite wird in dieser Variable gespeichert
-    echo "<div class='pagination'>";// Die div Pagnation wird geöffnet
+if ($totalresults > 0 && $totalPages > 1) :
+    $currentPage = $page;
+    echo "<div class='pagination'>";
 
-    $urlBase = "?action=liste&title=" . urlencode($title) . "&page=";// urlBasis wird erstellt
+    $urlBase = "?action=liste&title=" . urlencode($title) . "&page=";
 
     // "First" und "Previous"
     if ($currentPage > 1) {
@@ -60,7 +53,7 @@ if ($totalresults > 0 && $totalPages > 1) : // Wenn es mehr als 0 seite m gibt
         echo "<a href='" . $urlBase . ($currentPage - 1) . "'>Previous</a> ";
     }
 
-    // Seitenzahlen
+    // Seitenzahlen (optimiert)
     $start = max(1, $currentPage - 2);
     $end = min($totalPages, $start + 4);
 

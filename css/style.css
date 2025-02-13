@@ -1,1 +1,123 @@
-/* CSS Code für Hauptverzeichnis */ 
+/* CSS Code für Hauptverzeichnis */
+@font-face {
+    font-family: 'Bebas';
+    src: url('../data/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.wrapper{
+    font-family: Bebas;
+}
+
+
+
+
+.header{
+    background-color: lightblue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img{
+    width: 100px;
+    height: auto;
+}
+
+.header h1{
+    padding: 10px;;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+}
+
+.movie {
+    background-color: rgb(87, 87, 87);
+    color: rgb(212, 212, 212);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Inhalte vertikal verteilen */
+}
+
+
+.liste {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 Spalten mit gleicher Breite */
+    grid-template-rows: repeat(2, auto); /* 2 Reihen mit automatischer Höhe */
+    grid-gap: 10px; /* Abstand zwischen den Filmen */
+    background-color: lightgray;
+    padding: 5px;
+}
+
+
+.navigation{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgb(10, 17, 119);
+    padding: 7px;
+}
+.navigation a:hover{
+    color: rgb(4, 8, 68);
+    background-color: lightblue;
+}
+
+.mainNav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.einzelFilm{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+}
+
+.current{
+    font-weight: bold;
+    border: 1px solid rgb(255, 0, 0);
+    padding:2px;
+}
+
+.pagination a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);;
+}
+
+.pagination a:hover{
+    border: 1px solid rgb(0, 17, 255);
+    padding: 2px;
+
+}

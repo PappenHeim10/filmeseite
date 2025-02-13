@@ -9,6 +9,7 @@ include_once 'include/templates.php';
 include_once 'models/user.php';
 require_once 'models/genres.php';
 require_once 'models/Api.php';
+require_once 'klassen/FilmConroller.php';
 
 
 
@@ -25,7 +26,6 @@ echo "</div>"
 
 $header = new Header();
 $nav = new Navigation(); // Komponenten werden initialisiert
-$api = new Api();
 $filmController = new FilmController();
 
 $header->render();// Komponenten wereden hier gerendert
