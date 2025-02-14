@@ -11,8 +11,26 @@
     font-family: Bebas;
 }
 
+.test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    height: 60vh;
+    width: 95vw;
 
+}
 
+.test :first-child{
+    background-color: blue;
+}
+
+.test :last-child{
+    background-color: rgb(187, 73, 73);
+    overflow-y: auto;
+    height: 60vh;
+    width: 95vw;
+}
 
 .header{
     background-color: lightblue;

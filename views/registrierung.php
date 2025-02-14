@@ -1,6 +1,4 @@
-<?php
-namespace mvc;
-?>
+
 
 <form action="?action=registrierung" method="post">
     <fieldset>

@@ -1,7 +1,5 @@
 <?php
-namespace mvc;
 session_start(); // Die Session wird gestartet
-
 require_once 'include/datenbank.php';
 require_once 'models/Filme.php'; // die nötigen dependencies werden eingebungen
 include_once 'include/functions.php'; // die nötigen dependencies werden eingebungen
@@ -9,7 +7,7 @@ include_once 'include/templates.php';
 include_once 'models/user.php';//
 require_once 'models/genres.php';
 require_once 'models/Api.php';
-require_once 'klassen/FilmConroller.php';
+require_once 'klassen/FilmController.php';
 
 
 
@@ -26,7 +24,8 @@ echo "</div>"
 
 $header = new Header();
 $nav = new Navigation(); 
-$filmController = new FilmController();// Komponenten werden initialisiert
+$filmController = new mvc\FilmController();// Komponenten werden initialisiert
+
 
 $header->render();// Komponenten wereden hier gerendert
 $nav->render();
@@ -66,7 +65,7 @@ switch ($action) { // Der acrtin
     <input type="hidden" name="page" value="1"><!-- Die such wird immer über die erste seite gestartet -->
     <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>"> <!-- Die Aktion und damit der view werden nicht geändert --> 
     <label for="title">Titel Eingeben: </label>
-    <input type="text" name="title" placeholder="Titanic" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
+    <input type="text" name="title" id="searchInput" onkeyup="showMovies(this.value)" placeholder="Titanic" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
     <input type="submit" value="Suchen"> 
 </form>
 

@@ -75,7 +75,8 @@ if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['ti
         echo "</div>";
     endif;
 }else{
-    $filme = $filmController->getAlleFilme();
-    $filmeAnzeign($filme);
+
 }
 ?>
+
+<div id="movie"> </div>

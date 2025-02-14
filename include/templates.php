@@ -1,8 +1,3 @@
-<?php
-namespace mvc;
-
-?>
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -63,14 +58,15 @@ class Footer { // Die footer Klasse wird definiert
       $output .= strftime("%A, %d. %B %Y");
       $output .= '</footer>';
       $output .= '</div>';
-  
-      
+      $output .= '<script src="js/script.js"></script></div></div>';
+
+
+
       echo $output; // Die render Runktion gibt alle elemente aus
     }
   }
 ?>
-<script src="/js/script.js"></script>
 
-</div>
-</div>
+
+
 

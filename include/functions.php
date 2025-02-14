@@ -26,7 +26,12 @@ function write_error($message):void {
 	$logFile = __DIR__ . '/../admin/data/error.log';// Protokolldatei im übergeordneten Verzeichnis
 	$timestamp = date('d-m-Y H:i:s');
 	$logMessage = "[$timestamp] $message\n";
-	file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
+	
+	$existingContent = file_get_contents($logFile);
+
+	$newContent = $logMessage . $existingContent;
+
+	file_put_contents($logFile, $newContent, FILE_APPEND | LOCK_EX);
 }
 
 function hinweise_log($message):void{
@@ -59,6 +64,7 @@ function write_message($param)
 {
 	$_SESSION['message'] = $param;
 }
+
 
 
 function autoloadNS(string $param) 

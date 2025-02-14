@@ -1,7 +1,3 @@
-<?php
-namespace mvc;
-?>
-
 
 <form action="?action=login" method="post">
     <label for="benutzername">Benutzername:</label>
