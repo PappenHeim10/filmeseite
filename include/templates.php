@@ -35,6 +35,7 @@ class Navigation{
         {
             $output .= '<a href="?action=forum">Forum</a>';
         }
+        $output .= '<a href="">Suche</a>';
         $output .= '</div><div class="login">';
         if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == 'true')
         {

@@ -115,7 +115,7 @@ class FilmController
 
 //Korrigierte Version
 // FilmController.php (getFilmeAusDerDatenbank-Methode)
-    public function getFilmeAusDerDatenbank(string $suchbegriff, int $seite): array|false
+    public function getFilmeAusDerDatenbank(string $suchbegriff, int $seite, $sortOrder = 'DESC'): array|false 
     {
         $limit = 10;
         $offset = ($seite - 1) * $limit;
@@ -124,7 +124,8 @@ class FilmController
             //  WHERE-Bedingung:
             $sql = "SELECT * FROM filme
                     WHERE LOWER(titel) LIKE LOWER(:suchbegriff)
-                    LIMIT :limit OFFSET :offset";
+                    ORDER BY erscheinungs_jahr $sortOrder
+                    LIMIT :limit OFFSET :offset"; //WICHTIG: Wozu ist dieses OFFSET
 
 
             $stmt = $this->filmeModel->db->prepare($sql);
@@ -145,6 +146,7 @@ class FilmController
             return false;
         }
     }
+    
     public function countFilme(string $suchbegriff): int
     {
         try {
