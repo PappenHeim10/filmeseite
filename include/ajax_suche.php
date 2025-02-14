@@ -1,7 +1,7 @@
 <?php
 namespace mvc;
 require_once $_SERVER['DOCUMENT_ROOT'] . '/phpa-d/filmesite/klassen/FilmController.php';
-require_once 'include/datenbank.php';
+require_once 'include/datenbank.php'; //WICHTIG: Hier ist ein Bug der repariert werden muss.
 
 
 $filmController = new FilmController();
