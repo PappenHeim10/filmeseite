@@ -6,7 +6,7 @@ require_once 'include/datenbank.php';
 require_once 'models/Filme.php'; // die nötigen dependencies werden eingebungen
 include_once 'include/functions.php'; // die nötigen dependencies werden eingebungen
 include_once 'include/templates.php';
-include_once 'models/user.php';
+include_once 'models/user.php';//
 require_once 'models/genres.php';
 require_once 'models/Api.php';
 require_once 'klassen/FilmConroller.php';
@@ -17,7 +17,7 @@ $whitelist = ['multipleMovies','404seite','impressum','agb','forum', 'Home','log
 
 
 echo "<div id='success'>";
-echo read_message();
+echo read_message(); // Nachrichten werden hier ausgegeben
 echo "</div>"
 ?>
 
@@ -25,8 +25,8 @@ echo "</div>"
 <?php
 
 $header = new Header();
-$nav = new Navigation(); // Komponenten werden initialisiert
-$filmController = new FilmController();
+$nav = new Navigation(); 
+$filmController = new FilmController();// Komponenten werden initialisiert
 
 $header->render();// Komponenten wereden hier gerendert
 $nav->render();
@@ -34,27 +34,40 @@ $nav->render();
 $action = isset($_GET['action']) ? $_GET['action'] : 'start'; // Der action parameter gibt an welcher view benutzt wird und ist Standard: start
 $view = isset($_GET['view']) ? $_GET['view'] : 'start';// Hier wird der view festgelgt der auch erstmal Standart// start ist
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;  // Hier wird die Seiten Position gespeichert
-$title = isset($_GET['title']) ? trim($_GET['title']) : 'Girl'; // Hier wird der die eingabe formatiert und die $titel variable weitergegeben oder leer gelassen
-$imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : '';
+$title = isset($_GET['title']) ? trim($_GET['title']) : ''; // Hier wird der die eingabe formatiert und die $titel variable weitergegeben oder leer gelassen
+$imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : ''; 
 
-$view = $action;
 
-if ($action === 'singleMovies') { 
-    if (!empty($title)) { 
-        $imdbId = $api->getFilmIDNachTitel($title);
-        if($imdbId){
-            $movie = $api->getFilmDetails($imdbId);
+
+switch ($action) { // Der acrtin
+    case 'liste':
+        $view = 'liste';
+        break;
+    case 'singleMovies':
+        $view = 'singleMovies';
+        if (!empty($title)) { 
+            $imdbId = $api->getFilmIDNachTitel($title);
+            if($imdbId){
+                $movie = $api->getFilmDetails($imdbId);
+            }
         }
-    }
+        break;
+    case 'registrierung':
+        $view = 'registrierung';
+        break;
+    default:
+        $view = 'start';
+        break;
 }
+
 ?>
 
-<form action="" method="get">
-    <input type="hidden" name="page" value="1">
-    <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>">
+<form action="" method="get"> <!-- Das Such Formular. Alle anfragen werden über $_GET geschickt -->
+    <input type="hidden" name="page" value="1"><!-- Die such wird immer über die erste seite gestartet -->
+    <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>"> <!-- Die Aktion und damit der view werden nicht geändert --> 
     <label for="title">Titel Eingeben: </label>
     <input type="text" name="title" placeholder="Titanic" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
-    <input type="submit" value="Suchen">
+    <input type="submit" value="Suchen"> 
 </form>
 
 <div class="main"> 
