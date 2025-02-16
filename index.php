@@ -11,6 +11,7 @@ require_once 'klassen/FilmController.php';
 
 
 
+
 $whitelist = ['multipleMovies','404seite','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
 
 
