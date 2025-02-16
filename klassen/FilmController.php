@@ -174,6 +174,21 @@ class FilmController
             return 0;
         }
     }
+    public function getFilmeIdNachName($titel):int|false
+    {
+        try{
+            $sql = "SELECT id FROM filme WHERE lower(title) = :titel";
+            $stmt = $this->filmeModel->db->prepare($sql);
+            $stmt ->bindValue(":titel", $titel, \PDO::PARAM_STR);
+            $stmt->execute();
+            return (int)$stmt->fetchColumn();
+
+        } catch (\PDOException $e) {
+            error_log("Fehler in der getFilmeNachNameMethode: ".$e->getMessage());
+            write_error("Fehler in der getFilmNachNameMethose: " .$e->getMessage());
+            return false;
+        }
+    }
 }
 
 ?>

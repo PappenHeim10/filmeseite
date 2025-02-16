@@ -8,8 +8,7 @@ include_once 'models/user.php';//
 require_once 'models/genres.php';
 require_once 'models/Api.php';
 require_once 'klassen/FilmController.php';
-
-
+include_once 'include/ajax_suche.php'; // Ist für die Js funktione
 
 
 $whitelist = ['multipleMovies','404seite','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
@@ -39,7 +38,7 @@ $imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : '';
 
 
 
-switch ($action) { // Der acrtin
+switch ($action) { // 
     case 'liste':
         $view = 'liste';
         break;
@@ -59,7 +58,6 @@ switch ($action) { // Der acrtin
         $view = 'start';
         break;
 }
-
 ?>
 
 <form action="" method="get"> <!-- Das Such Formular. Alle anfragen werden über $_GET geschickt -->

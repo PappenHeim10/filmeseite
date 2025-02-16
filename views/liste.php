@@ -3,7 +3,6 @@ namespace mvc;
 ?>
 <div class="liste"> 
 <?php
-
 // Es werden nach Filmen in der Datenbank gesucht
 if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['title']))
 {
@@ -77,6 +76,9 @@ if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['ti
 }else{
 
 }
+
 ?>
 
-<div id="movie"> </div>
+<div id="movie">
+    
+</div>
