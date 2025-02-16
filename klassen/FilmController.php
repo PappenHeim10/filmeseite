@@ -155,7 +155,7 @@ class FilmController
             $params = [];
 
             if ($suchbegriff !== '') {
-                $sql .= " WHERE (vollstaendig = 0 OR LOWER(titel) LIKE LOWER(:suchbegriff))"; //hier muss die WHERE angepasst werden
+                $sql .= " WHERE LOWER(titel) LIKE LOWER(:suchbegriff))"; //WICHTIG: Hier muss getestet werden
                 $params[':suchbegriff'] = '%' . $suchbegriff . '%';
             }
 

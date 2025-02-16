@@ -34,10 +34,10 @@ if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['ti
     }
 
     // --- Pagination ---
-    $totalresults = $filmController->countFilme($title); // IMMER aus der DB
-    $totalPages = ceil($totalresults / 10);
+    $totalresults = $filmController->countFilme($title); //WICHTIG: Den Controller checken
+    $totalPages = ceil($totalresults / 10); // Anzahl der Filme durch die 
 
-    if ($totalresults > 0 && $totalPages > 1) :
+    if ($totalresults > 0 && $totalPages > 1) : // W
         $currentPage = $page;
         echo "<div class='pagination'>";
 
@@ -80,5 +80,5 @@ if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['ti
 ?>
 
 <div id="movie">
-    
+
 </div>
