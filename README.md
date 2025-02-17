@@ -8,4 +8,4 @@ Das ist ein Forum um sich mit anderen Filmophilen annonym austauschen zu können
 - Admin-Backend
 - Kommentarbereich unter jedem Video mit Consistentem Speicher
 - Rechtliche Seiten (AGB, Impressum, Datenschutz)
--Große auswahl an Filmen
+- Große auswahl an Filmen
