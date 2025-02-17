@@ -25,6 +25,7 @@ echo "</div>"
 $header = new Header();
 $nav = new Navigation(); 
 $filmController = new mvc\FilmController();// Komponenten werden initialisiert
+#$userController = new mvc\ WICHTIG: Zuende schreiben
 
 
 $header->render();// Komponenten wereden hier gerendert

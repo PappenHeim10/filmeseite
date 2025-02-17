@@ -1,10 +1,11 @@
 # Film Applikation
 
-Movie Media Library mit mehr als 1000 Filmen und Serien.
+Das ist ein Forum um sich mit anderen Filmophilen annonym austauschen zu können.
 
 ## Features
 
 - Benutzerauthentifizierung (Login/Registrierung)
 - Admin-Backend
-- Forum mit Konsistenter Speicherung
+- Kommentarbereich unter jedem Video mit Consistentem Speicher
 - Rechtliche Seiten (AGB, Impressum, Datenschutz)
+-Große auswahl an Filmen
