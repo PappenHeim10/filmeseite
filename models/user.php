@@ -5,7 +5,6 @@ require_once 'include/datenbank.php';
 class User extends \Datenbank
 {
     use \GetterSetter; // Getter Setter als trait um redundanten code zu vermeiden
-    use \Validation;
     private $anrede;
     private $vorname;
     private $nachname;
@@ -49,7 +48,7 @@ class User extends \Datenbank
         }
         catch(\PDOException $e)
         {
-            $_SESSION['error'] = "Fehler beim Einfügen des Users: ". $e->getMessage();
+            write_error("Fehler beim Einfügen des Users: ". $e->getMessage());
             return false;
         }
     }
@@ -67,11 +66,12 @@ class User extends \Datenbank
             $stmt->bindParam(':passwort', $this->passwort);
             $stmt->bindParam(':id', $i);
             $stmt->execute();
+
             return true;
         }
         catch(\PDOException $e)
         {
-            $_SESSION['error'] = "Fehler beim Aktualisieren des Users: ". $e->getMessage();
+            write_error("Fehler beim Aktualisieren des Users: ". $e->getMessage());
             return false;
         }
     }
@@ -87,7 +87,7 @@ class User extends \Datenbank
         }
         catch(\PDOException $e)
         {
-            $_SESSION['error'] = "Fehler beim Löschen des Users: ". $e->getMessage();
+            write_error("Fehler beim Löschen des Users: ". $e->getMessage());
             return false;
         }
     }
@@ -103,7 +103,7 @@ class User extends \Datenbank
             return $stmt->fetch(\PDO::FETCH_ASSOC); // Fetch a single result as an associative array
 	}
 	catch(\PDOException $e){
-            $_SESSION['error'] = "Fehler beim Auslesen: ". $e->getMessage();
+            write_error("Fehler beim Auslesen: ". $e->getMessage());// WICHTIG: Die anderen write_error schreiben 
             echo $e->getMessage();
             return false;
         }
@@ -124,34 +124,6 @@ class User extends \Datenbank
             return false;
         }
 	}
-    public function einLoggen($benutzername, $passwort) {
-        $fehler = [];
-        
-        try {
-          $sql = "SELECT * FROM users WHERE benutzername = :benutzername";
-          $stmt = $this->db->prepare($sql);
-          $stmt->bindParam(':benutzername', $benutzername);
-          $stmt->execute();
-    
-          if ($stmt->rowCount() == 1) {
-            $row = $stmt->fetch(\PDO::FETCH_ASSOC);
-            $hashedPassword = $row['passwort'];
-    
-            if ($passwort == $hashedPassword) {
-              $_SESSION['loggedIn'] = true;
-              $_SESSION['benutzername'] = $row['benutzername'];
-              return true;
-            } else {
-              $fehler['passwort'] = "Falsches Passwort.";
-            }
-          } else {
-            $fehler['notfound'] = "Benutzername nicht gefunden!";
-          }
-        } catch (\PDOException $e) {
-          $fehler['db'] = "Fehler bei der Datenbankabfrage: " . $e->getMessage();
-        }
-        return $fehler;
-      }
 
 
       //TODO Registration zuende schreiben

@@ -1,3 +1,4 @@
+
 <?php
 $filmController = new mvc\FilmController(); // Alle Filme aus der Datenbank werden Aufgerufen
 $filme = $filmController->getAlleFilme(); // Alle Filme (in from von arrays) aus der Datenbank werden in einer Variable gespeichert
@@ -23,6 +24,7 @@ if ($q !== '') { // Wenn q kein string ist
         }
     }
 }
+
 $gesuchteFilme = []; // Die daten aller Filme werden hier gespeichert
 foreach($hint as $film){ // Für jeden Film der als hinweis angegeben wird
     if (is_array($film) && !empty($film)){ // wenn der film icht leer ist und ein array
@@ -32,6 +34,7 @@ foreach($hint as $film){ // Für jeden Film der als hinweis angegeben wird
     }
 }
 ?>
+
 <pre>
-<?php print_r($gesuchteFilme) ?>
+    <?php print_r($gesuchteFilme) ?>
 </pre>
