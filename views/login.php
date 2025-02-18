@@ -11,16 +11,21 @@
 
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    $benutzername = $_POST['benutzername'];
-    $passwort = $_POST['passwort'];
-    $user = new User();
-    $user->einLoggen($benutzername, $passwort);
 
-    if(empty($fehler)){
+    $user = new User($_POST);
+    if($user->login() == false){
+        echo "<script>function login(){alert('Login Fehlgeschlagen');}login();</script>";
+    }else{
+        $_SESSION['benutzername'] = $user->benutzername;
+        $_SESSION['loggedIn'] = true;
         header('Location: index.php');
+        
         exit;
-    }else {
-        $_SESSION['error'] = $fehler;
     }
 }
 ?>
+
+
+    
+
+

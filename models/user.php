@@ -135,7 +135,30 @@ class User extends \Datenbank
             exit;
         }
     }
+
+
+
     
+    public function login():bool{
+        try
+        {
+            $sql = "SELECT * FROM users WHERE benutzername = :benutzername AND passwort = :passwort";
+            $stmt = $this->db->prepare($sql);
+            $stmt->bindParam(':benutzername', $this->benutzername);
+            $stmt->bindParam(':passwort', $this->passwort);
+            $stmt->execute();
+            $user = $stmt->fetch(\PDO::FETCH_ASSOC);
+            if(empty($user)){
+                return false;
+            }else{
+                $_SESSION['user'] = $user;
+                return true;
+            }
+        }catch (Exception $e){
+            write_error("Fehler beim Login: ". $e->getMessage());
+            return false;
+        }
+    }
 }
 ?>
 

@@ -21,7 +21,14 @@ function filmeAnzeign($filme):void {
         echo "</div>";
 	endforeach;
 }
-
+function showFilmDetails($film):void{
+	if(empty($film)){
+		echo "<p>Keine Filmdaten vorhanden.</p>";
+        return;
+	}
+	echo "<div class='film'>";
+	
+}
 
 function write_error($message):void {
 	$logFile = __DIR__ . '/../admin/data/error.log';// Protokolldatei im übergeordneten Verzeichnis
@@ -35,7 +42,7 @@ function hinweise_log($message):void{
 	$hinweise = __DIR__ . '/../admin/data/hinweise.log';
 	$timestamp = date('d-m-Y H:i:s');
 	$logMessage = "[$timestamp] $message\n";
-	
+
 	file_put_contents($hinweise, $logMessage, FILE_APPEND | LOCK_EX);
 }
 

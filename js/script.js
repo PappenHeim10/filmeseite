@@ -26,3 +26,5 @@ function showMovies(str) { // die Funktion wird definiert und nimmt einen Sring 
     xmlhttp.open("GET", "klassenUndajax/ajax_suche.php?q=" + encodeURIComponent(str), true); // Verwende die neue Datei
     xmlhttp.send();
 }
+
+
