@@ -147,5 +147,13 @@ trait Validation {
         $data = strip_tags($data);
         return $data;
     }
+
+    function test_input($data) :String{
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+      }
 }
+
 ?>

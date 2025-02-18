@@ -5,6 +5,7 @@ require_once 'include/datenbank.php';
 class User extends \Datenbank
 {
     use \GetterSetter; // Getter Setter als trait um redundanten code zu vermeiden
+    use Validation;
     private $anrede;
     private $vorname;
     private $nachname;
@@ -125,39 +126,6 @@ class User extends \Datenbank
         }
 	}
 
-
-      //TODO Registration zuende schreiben
-    public function registrierung(){
-        #$this->validation();
-        if(empty($this->fehler)){
-            $this->insert();
-            header('Location: index.php');
-            exit;
-        }
-    }
-
-
-    public function login():bool{
-        try
-        {
-            $sql = "SELECT * FROM users WHERE benutzername = :benutzername AND passwort = :passwort";
-            $stmt = $this->db->prepare($sql);
-            $stmt->bindParam(':benutzername', $this->benutzername);
-            $stmt->bindParam(':passwort', $this->passwort);
-            $stmt->execute();
-            $user = $stmt->fetch(\PDO::FETCH_ASSOC);
-            if(empty($user)){
-                hinweis_log("Login fehlgeschlagen:");
-                return false;
-            }else{
-                $_SESSION['user'] = $user;
-                return true;
-            }
-        }catch (Exception $e){
-            write_error("Fehler beim Login: ". $e->getMessage());
-            return false;
-        }
-    }
 }
 ?>
 
