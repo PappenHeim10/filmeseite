@@ -30,7 +30,7 @@ class FilmController
                 $totalresults = isset($filmliste['totalResults']) ? (int)$filmliste['totalResults'] : 0;
                 $totalPages = ceil($totalresults / 10); // Die Seiten Anzahl wird ermittelt
             }else{
-                hinweise_log('Keine seiten mehr nach seite: ' . $page); // Wenn es Probleme bei der Ermittlung der Seiten gibt
+                hinweis_log('Keine seiten mehr nach seite: ' . $page); // Wenn es Probleme bei der Ermittlung der Seiten gibt
                 break;
             }
             
@@ -107,6 +107,7 @@ class FilmController
         $filme = $this->filmeModel->selectAll();
 
         if(!$filme){
+            write_error("Fehler in: ". __METHOD__);
             return false;
         }
         return $filme;
@@ -155,7 +156,7 @@ class FilmController
             $params = [];
 
             if ($suchbegriff !== '') {
-                $sql .= " WHERE LOWER(titel) LIKE LOWER(:suchbegriff)"; // FIXME: Die Filme werden nicht vernünfitg gezählt
+                $sql .= " WHERE LOWER(titel) LIKE LOWER(:suchbegriff)"; // 
                 $params[':suchbegriff'] = '%' . $suchbegriff . '%';
             }
 
@@ -169,7 +170,6 @@ class FilmController
             return (int)$stmt->fetchColumn();
 
         } catch (\PDOException $e) {
-            error_log("Fehler beim Zählen der Filme: " . $e->getMessage());
             write_error("Fehler beim Zählen der Filme: " . $e->getMessage()); // Schreibe Fehler
             return 0;
         }
@@ -177,17 +177,59 @@ class FilmController
     public function getFilmeIdNachName($titel):int|false
     {
         try{
-            $sql = "SELECT id FROM filme WHERE lower(title) = :titel";
-            $stmt = $this->filmeModel->db->prepare($sql);
-            $stmt ->bindValue(":titel", $titel, \PDO::PARAM_STR);
+            $sql = "SELECT id FROM filme WHERE lower(titel) LIKE :titel"; // Das ist der sql querey der ausgeführt werden soll
+            $stmt = $this->filmeModel->db->prepare($sql); // 
+            $stmt->bindValue(":titel", strtolower($titel). "%", \PDO::PARAM_STR);
             $stmt->execute();
-            return (int)$stmt->fetchColumn();
 
+            $result = $stmt->fetchColumn();
+
+            if($result === false){
+                write_error("Kein Film gefunden: $titel");
+                return false;
+            }else{
+                return (int)$result;
+            }
         } catch (\PDOException $e) {
-            error_log("Fehler in der getFilmeNachNameMethode: ".$e->getMessage());
-            write_error("Fehler in der getFilmNachNameMethose: " .$e->getMessage());
+            write_error("Fehler in der getFilmNachNameMetdose: " .$e->getMessage() . " " . __METHOD__);
             return false;
         }
+    }
+
+    public function getFilmNachImdb($imdbID):array|false
+    {
+        try{
+            $sql = "SELECT * FROM filme WHERE imdbid = :imdbid";
+            $stmt = $this->filmeModel->db->prepare($sql);
+            $stmt->bindValue(":imdbid", $imdbID, \PDO::PARAM_STR);
+            $stmt->execute();
+
+            return $stmt->fetch(\PDO::FETCH_ASSOC);
+        } catch (\PDOException $e) {
+            write_error("Fehler in der getFilmNachImdbMethode: " .$e->getMessage());
+
+            return false;
+        }
+    }
+
+
+    public function getZufallsFilm(): array | false
+    {
+        $filme = $this->getAlleFilme();
+        if ($filme === false) {
+            write_error("Fehler beim Abrufen der Filme." . __METHOD__);
+            return false;
+        }
+    
+        if (empty($filme)) { // Prüfe auf leeres Array, bevor du count() verwendest
+            write_error("Keine Filme in der Datenbank gefunden." . __METHOD__);
+            return false;
+        }
+        
+        $zufall = array_rand($filme); // array_rand gibt den zufälligen Schlüssel zurück
+        $zufallsFilm = $filme[$zufall]; // Hole den Film anhand des Schlüssels
+    
+        return $zufallsFilm; // Gib den Film direkt zurück, nicht die ID
     }
 }
 

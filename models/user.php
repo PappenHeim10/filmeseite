@@ -52,7 +52,7 @@ class User extends \Datenbank
             return false;
         }
     }
-    public function update($i):bool
+    public function update($id):bool
     {
         try
         {
@@ -64,7 +64,7 @@ class User extends \Datenbank
             $stmt->bindParam(':email', $this->email);
             $stmt->bindParam(':benutzername', $this->benutzername);
             $stmt->bindParam(':passwort', $this->passwort);
-            $stmt->bindParam(':id', $i);
+            $stmt->bindParam(':id', $id);
             $stmt->execute();
 
             return true;
@@ -137,8 +137,6 @@ class User extends \Datenbank
     }
 
 
-
-    
     public function login():bool{
         try
         {
@@ -149,6 +147,7 @@ class User extends \Datenbank
             $stmt->execute();
             $user = $stmt->fetch(\PDO::FETCH_ASSOC);
             if(empty($user)){
+                hinweis_log("Login fehlgeschlagen:");
                 return false;
             }else{
                 $_SESSION['user'] = $user;

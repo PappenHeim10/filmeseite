@@ -10,7 +10,7 @@ require_once 'models/Api.php';
 require_once 'klassenUndajax/ajax_suche.php'; // Ist für die Js funktione
 
 
-$whitelist = ['multipleMovies','404seite','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
+$whitelist = ['multipleMovies','404seite','upload','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
 
 
 echo "<div id='success'>";
@@ -38,19 +38,12 @@ $imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : '';
 
 
 
-
 switch ($action) { // 
     case 'liste':
         $view = 'liste';
         break;
     case 'singleMovies':
         $view = 'singleMovies';
-        if (!empty($title)) { 
-            $imdbId = $api->getFilmIDNachTitel($title);
-            if($imdbId){
-                $movie = $api->getFilmDetails($imdbId);
-            }
-        }
         break;
     case 'registrierung':
         $view = 'registrierung';
@@ -60,6 +53,9 @@ switch ($action) { //
         break;
     case 'logout':
         $view = 'logout';
+        break;
+    case 'upload':
+        $view = 'upload';
         break;
     default:
         $view = 'start';
@@ -111,6 +107,10 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
             break;
 
         case 'impressum':
+            require_once "views/$view.php";
+            break;
+
+        case'upload':
             require_once "views/$view.php";
             break;
 

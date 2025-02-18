@@ -21,13 +21,39 @@ function filmeAnzeign($filme):void {
         echo "</div>";
 	endforeach;
 }
-function showFilmDetails($film):void{
-	if(empty($film)){
-		echo "<p>Keine Filmdaten vorhanden.</p>";
-        return;
+
+
+
+function einzeilAnzeigen($film):string{
+	$output = "<div class='einzelFilm'>"; // ein div zum Stylen
+	$output .= "<div>"; // ein div zum Stylen
+
+	$output .= "<h2>" . htmlspecialchars($film['titel']) . "</h2>"; // titel
+
+	if (!empty($film['poster'])) { // das bild
+		$output .= "<img src='" . htmlspecialchars($film['poster']) . "' alt='" . htmlspecialchars($film['titel']) . "'>"; // Das bild bekommt einen Alias
+	} else {
+		$output .= "<img src='../bilder/movie.png' alt='platzhalter'>"; // Oder ein Standard-Platzhalterbild
 	}
-	echo "<div class='film'>";
-	
+
+	// Erscheinungsjahr
+	if (!empty($film['erscheinungs_jahr'])) {
+		$output .= "<p>Erscheinungs Jahr: " . htmlspecialchars($film['erscheinungs_jahr']) . "</p>";
+	}
+
+	$output .= "</div>";
+	$output .= "<div>";
+
+	foreach($film as $key => $value) {
+		if (!empty($value) && $value!== 'N/A' && $key !== 'poster' && $key !== 'id') {
+			$output.= "<p>$key: ". htmlspecialchars($value)."</p>";
+		}
+	}
+
+	$output .= "</div>";
+	$output .= "</div>";
+
+	return $output;
 }
 
 function write_error($message):void {
@@ -35,10 +61,10 @@ function write_error($message):void {
 	$timestamp = date('d-m-Y H:i:s');
 	$logMessage = "[$timestamp] $message\n";
 	
-	file_put_contents($logFile, $logMessage);
+	file_put_contents($logFile, $logMessage, FILE_APPEND);
 }
 
-function hinweise_log($message):void{
+function hinweis_log($message):void{
 	$hinweise = __DIR__ . '/../admin/data/hinweise.log';
 	$timestamp = date('d-m-Y H:i:s');
 	$logMessage = "[$timestamp] $message\n";
@@ -65,11 +91,6 @@ function read_message()
 		return $message;
 	}
 }
-function write_message($param)
-{
-	$_SESSION['message'] = $param;
-}
-
 
 
 function autoloadNS(string $param) :void 

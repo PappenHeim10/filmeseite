@@ -1,1 +1,13 @@
-[18-02-2025 10:24:40] Fehler beim Einfügen des Users: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cohenimperial@gmail.com' for key 'email'
+[18-02-2025 12:06:50] Fehler in der getFilmNachNameMethose: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause' mvc\FilmController::getFilmeIdNachName
+[18-02-2025 12:09:27] Fehler in der getFilmNachNameMetdose: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause' mvc\FilmController::getFilmeIdNachName
+[18-02-2025 12:09:28] Fehler in der getFilmNachNameMetdose: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause' mvc\FilmController::getFilmeIdNachName
+[18-02-2025 12:09:29] Fehler in der getFilmNachNameMetdose: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause' mvc\FilmController::getFilmeIdNachName
+[18-02-2025 12:09:58] Kein Film gefunden: Gone
+[18-02-2025 12:10:03] Kein Film gefunden: Gone
+[18-02-2025 12:11:03] Kein Film gefunden: Green
+[18-02-2025 12:11:10] Kein Film gefunden: Man
+[18-02-2025 12:14:32] Fehler in der getFilmNachNameMetdose: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 mvc\FilmController::getFilmeIdNachName
+[18-02-2025 12:17:32] Kein Film gefunden: Left
+[18-02-2025 12:17:39] Kein Film gefunden: Right
+[18-02-2025 12:17:50] Kein Film gefunden: Room
+[18-02-2025 12:18:11] Kein Film gefunden: Ron
