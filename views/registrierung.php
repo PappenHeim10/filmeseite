@@ -37,6 +37,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 
 { 
     $user = new User($_POST);
+	$user->registrierung();
+
     write_error($user->validiereEmail);
 }
 ?>

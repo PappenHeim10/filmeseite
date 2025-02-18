@@ -22,22 +22,20 @@ function filmeAnzeign($filme):void {
 	endforeach;
 }
 
+
 function write_error($message):void {
 	$logFile = __DIR__ . '/../admin/data/error.log';// Protokolldatei im übergeordneten Verzeichnis
 	$timestamp = date('d-m-Y H:i:s');
 	$logMessage = "[$timestamp] $message\n";
 	
-	$existingContent = file_get_contents($logFile);
-
-	$newContent = $logMessage . $existingContent;
-
-	file_put_contents($logFile, $newContent, FILE_APPEND | LOCK_EX);
+	file_put_contents($logFile, $logMessage);
 }
 
 function hinweise_log($message):void{
 	$hinweise = __DIR__ . '/../admin/data/hinweise.log';
 	$timestamp = date('d-m-Y H:i:s');
 	$logMessage = "[$timestamp] $message\n";
+	
 	file_put_contents($hinweise, $logMessage, FILE_APPEND | LOCK_EX);
 }
 
@@ -67,7 +65,7 @@ function write_message($param)
 
 
 
-function autoloadNS(string $param) 
+function autoloadNS(string $param) :void 
 {
 	$arr = explode("\\", $param);
 	$className = $arr[count($arr) - 1];

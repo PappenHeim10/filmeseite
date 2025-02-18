@@ -1,11 +1,11 @@
 <?php
 namespace mvc;
 
-
 class FilmController
 {
     private $api; // Der API Key 
     public $filmeModel; // Die Filme Model mit der die Basis Methoden aufgerugen werden
+
 
     public function __construct(Array $daten = []) // Konstruktor wird mit den Daten initialisiert
     {
@@ -94,12 +94,12 @@ class FilmController
     }
 
     public function getFilmNachId($id):array | false{ 
-        $filmDaten = $this->filmeModel->select($id);REVIEW:// Ich versteh diesen teil des codes nicht ganz
+        $filmDaten = $this->filmeModel->select($id);// Nimmt einen Film aus der Datenbank nach dessen ID und gibt dessen Daten zurück
 
-        if(!$filmDaten){ // 
+        if(!$filmDaten){ // Wenn es keine Daten gibt wird false zurück gegeben
             return false;
         }
-        return $filmDaten;
+        return $filmDaten; // Die Daten des Filmes werden zurückgegeben
     }
 
     public function getAlleFilme():array | false

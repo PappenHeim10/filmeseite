@@ -1,13 +1,12 @@
 <?php
 session_start(); // Die Session wird gestartet
+require_once 'include/templates.php';
 require_once 'include/datenbank.php';
 require_once 'models/Filme.php'; // die nötigen dependencies werden eingebungen
 require_once 'include/functions.php'; // die nötigen dependencies werden eingebungen
-require_once 'include/templates.php';
 require_once 'models/user.php';//
 require_once 'models/genres.php';
 require_once 'models/Api.php';
-require_once 'klassenUndajax/FilmController.php';
 require_once 'klassenUndajax/ajax_suche.php'; // Ist für die Js funktione
 
 
@@ -24,8 +23,7 @@ echo "</div>"
 
 $header = new Header();
 $nav = new Navigation(); 
-$filmController = new mvc\FilmController();// Komponenten werden initialisiert
-#$userController = new mvc\ WICHTIG: Zuende schreiben
+#$userController = new mvc\ TODO: User Klasse zuende schreiben
 
 
 $header->render();// Komponenten wereden hier gerendert
@@ -36,6 +34,8 @@ $view = isset($_GET['view']) ? $_GET['view'] : 'start';// Hier wird der view fes
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;  // Hier wird die Seiten Position gespeichert
 $title = isset($_GET['title']) ? trim($_GET['title']) : ''; // Hier wird der die eingabe formatiert und die $titel variable weitergegeben oder leer gelassen
 $imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : ''; 
+
+
 
 
 
@@ -55,12 +55,19 @@ switch ($action) { //
     case 'registrierung':
         $view = 'registrierung';
         break;
+    case 'login':
+        $view = 'login';
+        break;
+    case 'logout':
+        $view = 'logout';
+        break;
     default:
         $view = 'start';
         break;
 }
-?>
 
+
+?>
 <form action="" method="get"> <!-- Das Such Formular. Alle anfragen werden über $_GET geschickt -->
     <input type="hidden" name="page" value="1"><!-- Die such wird immer über die erste seite gestartet -->
     <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>"> <!-- Die Aktion und damit der view werden nicht geändert --> 
@@ -121,8 +128,11 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
 }
 ?>
 </div>
+</div>
+
+
 <?php
 $foot = new Footer(); // die footer werden eingebunden
 $foot->render();
 ?>
-</div>
+</body>

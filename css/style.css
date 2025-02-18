@@ -6,9 +6,18 @@
     font-style: normal;
 }
 
+.body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
 
 .wrapper{
     font-family: Bebas;
+    flex:1;
+
 }
 
 .test{
@@ -123,6 +132,10 @@
     flex-direction: row;
 }
 
+.main{
+    flex: 1;
+}
+
 .current{
     font-weight: bold;
     border: 1px solid rgb(255, 0, 0);
@@ -138,4 +151,17 @@
     border: 1px solid rgb(0, 17, 255);
     padding: 2px;
 
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.footer-Links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }

@@ -127,15 +127,15 @@ class User extends \Datenbank
 
 
       //TODO Registration zuende schreiben
-      public function registrierung(){
+    public function registrierung(){
         #$this->validation();
-
         if(empty($this->fehler)){
             $this->insert();
             header('Location: index.php');
             exit;
         }
-      }
+    }
+    
 }
 ?>
 
