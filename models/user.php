@@ -125,7 +125,6 @@ class User extends \Datenbank
             return false;
         }
 	}
-
 }
 ?>
 

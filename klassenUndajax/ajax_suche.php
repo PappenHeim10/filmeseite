@@ -1,5 +1,5 @@
 <?php
-include_once 'FilmController.php';
+include_once 'FilmController.php'; //FIXME: Die Funktion getht nicht
 
 
 $filmController = new mvc\FilmController(); // Alle Filme aus der Datenbank werden Aufgerufen

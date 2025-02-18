@@ -13,7 +13,7 @@
     <?php
 
     if (!empty($fehler)) {
-        foreach ($fehler as $fehl) {
+        foreach ($fehler as $fehl) { //FIXME: Dies Funktion geht immernoch nicht.
             echo "<p>" . $fehl . "</p><br>";
         }
     }

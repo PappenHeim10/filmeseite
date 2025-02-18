@@ -25,7 +25,7 @@
         <label for="nachname">Nachname:</label>
         <input type="text" name="nachname" id="nachname" required autocomplete="family-name"><br><br>
         <div>
-            <?php ?>
+            <?php ?><!--  -->
         </div>
         </div>
 
@@ -66,9 +66,10 @@
 </form>
 
 <?php
-if($_SERVER['REQUEST_METHOD'] == 'POST')
+if($_SERVER['REQUEST_METHOD'] == 'POST') //
 
 { 
-    
+    $user = new User($_POST);
+    //DO!: $usercontoller = new UserContoller;
 }
 ?>

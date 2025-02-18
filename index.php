@@ -23,7 +23,7 @@ echo "</div>"
 
 $header = new Header();
 $nav = new Navigation(); 
-#$userController = new mvc\ TODO: User Klasse zuende schreiben
+#$userController = new mvc\ TODO: Diese Klasse schreiben
 
 
 $header->render();// Komponenten wereden hier gerendert
@@ -69,7 +69,7 @@ switch ($action) { //
     <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>"> <!-- Die Aktion und damit der view werden nicht geändert --> 
     <label for="title">Titel Eingeben: </label>
     <input type="text" name="title" id="searchInput" onkeyup="showMovies(this.value)" placeholder="Titanic" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
-    <input type="submit" value="Suchen"> 
+    <input type="submit" value="Suchen"><!-- OPTIM: Die suche ist so eingeseelt das  sie auf der Start seite nicht Funktioniert-->
 </form>
 
 <div class="main"> 
