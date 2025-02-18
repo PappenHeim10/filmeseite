@@ -39,14 +39,12 @@ class Api {
         // Fehlerbehandlung des API requests
         if ($error) {
             error_log("cURL-Fehler: " . $error); // Fehler protokollieren
-            write_error("cURL-Fehler: " . $error. "<br>". __FILE__ ); // Fehler ausgeben
             return ['Response' => 'False', 'Error' => 'cURL-Fehler: ' . $error]; // TODO Ich brauche einen ort an dem ich das Ausgeben
         }
 
         // Prüfen, ob der HTTP-Statuscode OK ist
         if ($httpCode !== 200) {
              error_log("OMDb API Fehler (HTTP Code $httpCode): " . $response); // Fehler protokollieren
-             write_error("OMDb API Fehler (HTTP Code $httpCode): " . $response. "<br>". __FILE__ ); // Error ausgeben
             return ['Response' => 'False', 'Error' => 'OMDb API Fehler (HTTP Code ' . $httpCode . ')']; //TODO auch hier brauche ich einen Ort an dem ich das Ausgeben kann
         }
 
@@ -58,7 +56,6 @@ class Api {
         // Prüfen, ob die API-Antwort gültig ist (Response === 'True' und die Suche erfolgreich)
         if ($data === null) {
             error_log("JSON-Dekodierungsfehler: " . json_last_error_msg());
-            write_error("JSON-Dekodierungsfehler: ". json_last_error_msg(). "<br>". __FILE__ ); // Fehler protokollieren und ausgeben
             return ['Response' => 'False', 'Error' => 'Fehler beim Dekodieren der JSON-Datei: ' . json_last_error_msg()];
         }
 

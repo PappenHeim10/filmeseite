@@ -21,8 +21,8 @@ function showMovies(str) { // die Funktion wird definiert und nimmt einen Sring 
         } else if (this.readyState === 4) { // Fehlerbehandlung
             document.getElementById("movie").innerHTML = "<p>Fehler beim Abrufen der Vorschläge.</p>";
             console.error("Fehler. Status:", this.status, "Response:", this.responseText);
-        }ovie
+        }
     };
-    xmlhttp.open("GET", "include/ajax_suche.php?q=" + encodeURIComponent(str), true); // Verwende die neue Datei
+    xmlhttp.open("GET", "klassenUndajax/ajax_suche.php?q=" + encodeURIComponent(str), true); // Verwende die neue Datei
     xmlhttp.send();
 }

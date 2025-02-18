@@ -1,7 +1,6 @@
 <?php
 namespace mvc;
-require_once 'include/datenbank.php';
-
+use mvc\Api;
 class FilmController
 {
     private $api; // Der API Key 
@@ -155,7 +154,7 @@ class FilmController
             $params = [];
 
             if ($suchbegriff !== '') {
-                $sql .= " WHERE LOWER(titel) LIKE LOWER(:suchbegriff))"; //WICHTIG: Hier muss getestet werden
+                $sql .= " WHERE LOWER(titel) LIKE LOWER(:suchbegriff))"; // FIXME: Die Filme werden nicht vernünfitg gezählt
                 $params[':suchbegriff'] = '%' . $suchbegriff . '%';
             }
 

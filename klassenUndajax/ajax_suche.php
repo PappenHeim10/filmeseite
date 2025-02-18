@@ -1,5 +1,7 @@
-
 <?php
+include_once 'FilmController.php';
+
+
 $filmController = new mvc\FilmController(); // Alle Filme aus der Datenbank werden Aufgerufen
 $filme = $filmController->getAlleFilme(); // Alle Filme (in from von arrays) aus der Datenbank werden in einer Variable gespeichert
 

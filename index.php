@@ -2,13 +2,13 @@
 session_start(); // Die Session wird gestartet
 require_once 'include/datenbank.php';
 require_once 'models/Filme.php'; // die nötigen dependencies werden eingebungen
-include_once 'include/functions.php'; // die nötigen dependencies werden eingebungen
-include_once 'include/templates.php';
-include_once 'models/user.php';//
+require_once 'include/functions.php'; // die nötigen dependencies werden eingebungen
+require_once 'include/templates.php';
+require_once 'models/user.php';//
 require_once 'models/genres.php';
 require_once 'models/Api.php';
-require_once 'klassen/FilmController.php';
-include_once 'include/ajax_suche.php'; // Ist für die Js funktione
+require_once 'klassenUndajax/FilmController.php';
+require_once 'klassenUndajax/ajax_suche.php'; // Ist für die Js funktione
 
 
 $whitelist = ['multipleMovies','404seite','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
