@@ -154,7 +154,7 @@ class FilmController
             $params = [];
 
             if ($suchbegriff !== '') {
-                $sql .= " WHERE LOWER(titel) LIKE LOWER(:suchbegriff))"; // FIXME: Die Filme werden nicht vernünfitg gezählt
+                $sql .= " WHERE LOWER(titel) LIKE LOWER(:suchbegriff)"; // FIXME: Die Filme werden nicht vernünfitg gezählt
                 $params[':suchbegriff'] = '%' . $suchbegriff . '%';
             }
 

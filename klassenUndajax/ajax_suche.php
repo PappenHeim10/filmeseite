@@ -36,7 +36,3 @@ foreach($hint as $film){ // Für jeden Film der als hinweis angegeben wird
     }
 }
 ?>
-
-<pre>
-    <?php print_r($gesuchteFilme) ?>
-</pre>
