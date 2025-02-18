@@ -76,6 +76,10 @@ function autoloadNS(string $param)
 	{
 		require_once "models/$className.php";
 	}
+	if(file_exists("kassenUndajax/$className.php"))
+	{
+		require_once "kassenUndajax/$className.php";
+	}
 }
 
 spl_autoload_register('autoloadNS');

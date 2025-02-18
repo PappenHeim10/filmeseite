@@ -1,6 +1,7 @@
 <?php
 namespace mvc;
-use mvc\Api;
+
+
 class FilmController
 {
     private $api; // Der API Key 
@@ -114,7 +115,7 @@ class FilmController
 
 //Korrigierte Version
 // FilmController.php (getFilmeAusDerDatenbank-Methode)
-    public function getFilmeAusDerDatenbank(string $suchbegriff, int $seite, $sortOrder = 'DESC'): array|false 
+    public function getFilmeAusDerDatenbank(string $suchbegriff, int $seite, $sortOrder = 'DESC'): array|false
     {
         $limit = 10;
         $offset = ($seite - 1) * $limit;
