@@ -101,9 +101,6 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
             break;
 
         case'registrierung':
-            if($_SERVER['REQUEST_METHOD'] == 'POST'){
-                $userController->registrierung(); //
-            }
             require_once "views/$view.php";
             break;
 
