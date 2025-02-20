@@ -1,6 +1,12 @@
 <?php
 namespace mvc;
-
+?>
+<pre> 
+    <?php
+    print_r($_POST);
+    ?>
+</pre>
+<?php
 class UserController
 {
     use \Validation;
@@ -16,8 +22,8 @@ class UserController
     {
         $fehler = []; //
         $daten = [];
-        
-        if($_SERVER['REQUEST_METHOD'] == 'POST'){
+
+        if($_SERVER['REQUEST_METHOD'] == 'POST'){ // Post
             $daten  = $_POST;
             $user = new User($daten);
             
@@ -40,6 +46,42 @@ class UserController
                 }
             }
         }
+    foreach($fehler as $fehl){
+        hinweis_log($fehl . ", ". __METHOD__);
+    }
+    return $fehler;
+    }
+
+    private function validateUser(array $daten):array
+    {
+        $fehler = [];
+        
+        // Anrede
+        if (empty($daten['anrede']) || !in_array($daten['anrede'], ['Herr', 'Frau', 'Divers'])) {
+            $fehler['anrede'] = "Ungültige Anrede.";
+        }
+
+        // Email
+        if (is_array($this->validiereEmail($daten['email']))) {
+            $fehler[] = $this->validiereEmail($daten['email']);
+        }
+
+        // Benutzername
+        if (empty($daten['benutzername']) || strlen($daten['benutzername']) < 5) {
+            $fehler['benutzernamen_leange'] = "Benutzername muss mindestens 5 Zeichen lang sein.";
+        }
+
+        // Passwort
+       if (is_array($this->validirePasswort($daten['passwort']))) {
+            $fehler[] = $this->validirePasswort($daten['passwort']);
+
+            if(empty($fehler)){
+                if($daten['passwort'] != $daten['pww']){
+                    $fehler['pww'] = "Die Passwörter stimmen nicht überein.";
+                }
+            }
+        }
+        return $fehler;
     }
 
     public function listeBenutzer()
@@ -72,9 +114,14 @@ class UserController
               exit;
         }
     }
-
 }
 
 ?>
 
 
+
+<pre> 
+    <?php
+    print_r($_POST);
+    ?>
+</pre>

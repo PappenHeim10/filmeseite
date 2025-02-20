@@ -52,48 +52,9 @@ interface iDatenbank
 
 
 
-trait Validation { // DO!: Die Validierung zuende Kommentieren
-
-    private function validateUser(array $daten):bool|array
+trait Validation { // FIXME: Die Validdirung funktioniert nicht
+    private function validirePasswort(String $passwort) :array
     {
-        $fehler = [];
-        
-        // Anrede
-        if (empty($daten['anrede']) || !in_array($daten['anrede'], ['Herr', 'Frau', 'Divers'])) {
-            $fehler['anrede'] = "Ungültige Anrede.";
-        }
-
-        // Email
-        if (is_array($this->validiereEmail($daten['email']))) {
-            $fehler[] = $this->validiereEmail($daten['email']);
-        }
-
-        // Benutzername
-        if (empty($daten['benutzername']) || strlen($daten['benutzername']) < 5) {
-            $fehler['benutzernamen_leange'] = "Benutzername muss mindestens 5 Zeichen lang sein.";
-        }
-
-        // Passwort
-       if (is_array($this->validirePasswort($daten['passwort']))) {
-            $fehler[] = $this->validirePasswort($daten['passwort']);
-
-            if(empty($fehler)){
-                if($daten['passwort'] != $daten['pww']){
-                    $fehler['pww'] = "Die Passwörter stimmen nicht überein.";
-                }
-                
-            }
-        }
-        if(empty($fehler)){
-            return true;
-        }else{
-            return $fehler;
-        }
-    }
-
-    private function validirePasswort($passwort) :array|bool
-    {
-    
         $fehler = [];
 
         if(strlen($passwort) < 8) {
@@ -105,18 +66,13 @@ trait Validation { // DO!: Die Validierung zuende Kommentieren
         if(!preg_match("/[^a-zA-Z0-9]/", $passwort)) {
           $fehler['sonderzeichen'] = "Das Passwort muss mindestens ein Sonderzeichen enthalten.";
         }
-
-        if(empty($fehler)){
-            return true;
-        }else{
-            foreach($fehler as $fehl){
-                hinweis_log($fehl);
-            }
-            return $fehler;
+        foreach($fehler as $fehl){
+            hinweis_log($fehl . ", ". __METHOD__);
         }
+        return $fehler;
     }
 
-    private function validiereEmail($email):array|bool
+    private function validiereEmail(String $email):array|bool
     {
         $fehler = [];
         if(strlen($email) < 3){
@@ -141,7 +97,6 @@ trait Validation { // DO!: Die Validierung zuende Kommentieren
         if (strlen($domain) < 3) {
             $fehler['laenge_domain'] = "Der Domainname muss mindestens 3 Zeichen lang sein.";
         }
-
         // Top-Level-Domain (TLD)
         $domainParts = explode('.', $domain);
         if (count($domainParts) > 1) {
@@ -163,14 +118,10 @@ trait Validation { // DO!: Die Validierung zuende Kommentieren
                 $fehler['zahlen_tld'] = "Die Top-Level-Domain darf keine Zahlen enthalten.";
             }
         }
-        if(empty($fehler)){
-            return true;
-        }else{
-            foreach($fehler as $fehl){
-                hinweis_log($fehl);
-            }
-            return $fehler;
+        foreach($fehler as $fehl){
+            hinweis_log($fehl . ", ". __METHOD__);
         }
+        return $fehler;
     }
 
     private function bereinigen($data):string // OPTIM: Bin mir nich ganz sicher wann ich diese Funktionenn benutzez kann
@@ -186,7 +137,7 @@ trait Validation { // DO!: Die Validierung zuende Kommentieren
         $data = stripslashes($data);
         $data = htmlspecialchars($data);
         return $data;
-      }
+    }
 }
 
 ?>

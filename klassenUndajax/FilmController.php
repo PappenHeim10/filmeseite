@@ -174,7 +174,7 @@ class FilmController
             return 0;
         }
     }
-    public function getFilmeIdNachName($titel):int|false
+    public function getFilmeIdNachName(String $titel):int|false
     {
         try{
             $sql = "SELECT id FROM filme WHERE lower(titel) LIKE :titel"; // Das ist der sql querey der ausgeführt werden soll

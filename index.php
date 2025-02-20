@@ -40,7 +40,7 @@ $imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : '';
 
 
 
-switch ($action) { // 
+switch ($action) {
     case 'liste':
         $view = 'liste';
         break;
@@ -48,7 +48,6 @@ switch ($action) { //
         $view = 'singleMovies';
         break;
     case 'registrierung':
-        $userController->registrierung();
         $view = 'registrierung';
         break;
     case 'login':
@@ -74,7 +73,7 @@ switch ($action) { //
         break;
 }
 
-
+if($view != 'start'){
 ?>
 <form action="" method="get"> <!-- Das Such Formular. Alle anfragen werden über $_GET geschickt -->
     <input type="hidden" name="page" value="1"><!-- Die such wird immer über die erste seite gestartet -->
@@ -84,6 +83,9 @@ switch ($action) { //
     <input type="submit" value="Suchen"><!-- OPTIM: Die suche ist so eingeseelt das  sie auf der Start seite nicht Funktioniert-->
 </form>
 
+<?php
+}
+?>
 <div class="main"> 
 
 <?php
@@ -99,6 +101,9 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
             break;
 
         case'registrierung':
+            if($_SERVER['REQUEST_METHOD'] == 'POST'){
+                $userController->registrierung(); //
+            }
             require_once "views/$view.php";
             break;
 

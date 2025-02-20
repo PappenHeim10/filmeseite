@@ -1,4 +1,4 @@
-<form action="?action=registrierung" method="post">
+<form action="" method="post">
     <fieldset class="registrierung">
         <legend>Registrierung</legend>
         <div class="registrierungBox">
@@ -47,7 +47,7 @@
                 <label for="passwort">Passwort:</label>
                 <input type="password" name="passwort" id="passwort" required autocomplete="new-password"><br><br>
                 <div>
-                    <?php if(isset($fehler['passwort'])) echo "<span class='error'>" . htmlspecialchars($fehler['passwort']) . "</span>"; ?>
+                    <?php if(isset($fehler['kurz'])) echo "<span class='error'>" . htmlspecialchars($fehler['kurz']) . "</span>"; ?>
                 </div>
             </div>
 
