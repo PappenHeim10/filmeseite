@@ -1,4 +1,5 @@
 <?php
+namespace mvc;
 include_once 'include/helpers.php';
 require_once 'include/datenbank.php';
 
@@ -40,8 +41,8 @@ class User extends \Datenbank
             $stmt->bindParam(':vorname', $this->vorname);
             $stmt->bindParam(':nachname', $this->nachname);
             $stmt->bindParam(':email', $this->email);
-            $stmt->bindParam(':benutzername', $this->benutzername);
-            $stmt->bindParam(':passwort', $this->passwort);
+            $stmt->bindParam(':benutzername', $this->benutzername); 
+            $stmt->bindParam(':passwort', $this->passwort);// DO!: Das Passwort muss gehasht werden
             $stmt->execute();
 
             echo "<h1>User erstellt</h1>";
@@ -49,11 +50,11 @@ class User extends \Datenbank
         }
         catch(\PDOException $e)
         {
-            $_SESSION['error'] = "Fehler beim Einfügen des Users: ". $e->getMessage();
+            write_error("Fehler beim Einfügen des Users: ". $e->getMessage());
             return false;
         }
     }
-    public function update($i):bool
+    public function update($id):bool
     {
         try
         {
@@ -65,13 +66,14 @@ class User extends \Datenbank
             $stmt->bindParam(':email', $this->email);
             $stmt->bindParam(':benutzername', $this->benutzername);
             $stmt->bindParam(':passwort', $this->passwort);
-            $stmt->bindParam(':id', $i);
+            $stmt->bindParam(':id', $id);
             $stmt->execute();
+
             return true;
         }
         catch(\PDOException $e)
         {
-            $_SESSION['error'] = "Fehler beim Aktualisieren des Users: ". $e->getMessage();
+            write_error("Fehler beim Aktualisieren des Users: ". $e->getMessage());
             return false;
         }
     }
@@ -87,7 +89,7 @@ class User extends \Datenbank
         }
         catch(\PDOException $e)
         {
-            $_SESSION['error'] = "Fehler beim Löschen des Users: ". $e->getMessage();
+            write_error("Fehler beim Löschen des Users: ". $e->getMessage());
             return false;
         }
     }
@@ -103,7 +105,7 @@ class User extends \Datenbank
             return $stmt->fetch(\PDO::FETCH_ASSOC); // Fetch a single result as an associative array
 	}
 	catch(\PDOException $e){
-            $_SESSION['error'] = "Fehler beim Auslesen: ". $e->getMessage();
+            write_error("Fehler beim Auslesen: ". $e->getMessage());// WICHTIG: Die anderen write_error schreiben 
             echo $e->getMessage();
             return false;
         }
@@ -124,46 +126,34 @@ class User extends \Datenbank
             return false;
         }
 	}
-    public function einLoggen($benutzername, $passwort) {
-        $fehler = [];
-        
+    public function benutzernameExistiert(string $benutzername): bool
+    {
         try {
-          $sql = "SELECT * FROM users WHERE benutzername = :benutzername";
-          $stmt = $this->db->prepare($sql);
-          $stmt->bindParam(':benutzername', $benutzername);
-          $stmt->execute();
-    
-          if ($stmt->rowCount() == 1) {
-            $row = $stmt->fetch(\PDO::FETCH_ASSOC);
-            $hashedPassword = $row['passwort'];
-    
-            if ($passwort == $hashedPassword) {
-              $_SESSION['loggedIn'] = true;
-              $_SESSION['benutzername'] = $row['benutzername'];
-              return true;
-            } else {
-              $fehler['passwort'] = "Falsches Passwort.";
-            }
-          } else {
-            $fehler['notfound'] = "Benutzername nicht gefunden!";
-          }
+            $sql = "SELECT COUNT(*) FROM users WHERE benutzername = :benutzername";
+            $stmt = $this->db->prepare($sql);
+            $stmt->bindParam(':benutzername', $benutzername);
+            $stmt->execute();
+            $count = $stmt->fetchColumn(); // Holt die Anzahl direkt
+            return $count > 0;
         } catch (\PDOException $e) {
-          $fehler['db'] = "Fehler bei der Datenbankabfrage: " . $e->getMessage();
+            write_error('Fehler bei der Überprüfung des Benutzernamens: ' . $e->getMessage());
+            return true; // Im Fehlerfall sicherheitshalber true zurückgeben
         }
-        return $fehler;
-      }
-
-
-      //TODO Registration zuende schreiben
-      public function registrierung(){
-        #$this->validation();
-
-        if(empty($this->fehler)){
-            $this->insert();
-            header('Location: index.php');
-            exit;
+    }
+    public function emailExistiert(string $email): bool
+    {
+        try {
+            $sql = "SELECT COUNT(*) FROM users WHERE email = :email";
+            $stmt = $this->db->prepare($sql);
+            $stmt->bindParam(':email', $email);
+            $stmt->execute();
+            $count = $stmt->fetchColumn(); // Holt die Anzahl direkt
+            return $count > 0;
+        } catch (\PDOException $e) {
+            write_error('Fehler bei der Überprüfung der E-Mail Adresse: '. $e->getMessage());
+            return true; // Im Fehlerfall sicherheitshalber true zurückgeben
         }
-      }
+    }
 }
 ?>
 

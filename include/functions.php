@@ -22,22 +22,53 @@ function filmeAnzeign($filme):void {
 	endforeach;
 }
 
+
+
+function einzeilAnzeigen($film):string{
+	$output = "<div class='einzelFilm'>"; // ein div zum Stylen
+	$output .= "<div>"; // ein div zum Stylen
+
+	$output .= "<h2>" . htmlspecialchars($film['titel']) . "</h2>"; // titel
+
+	if (!empty($film['poster'])) { // das bild
+		$output .= "<img src='" . htmlspecialchars($film['poster']) . "' alt='" . htmlspecialchars($film['titel']) . "'>"; // Das bild bekommt einen Alias
+	} else {
+		$output .= "<img src='../bilder/movie.png' alt='platzhalter'>"; // Oder ein Standard-Platzhalterbild
+	}
+
+	// Erscheinungsjahr
+	if (!empty($film['erscheinungs_jahr'])) {
+		$output .= "<p>Erscheinungs Jahr: " . htmlspecialchars($film['erscheinungs_jahr']) . "</p>";
+	}
+
+	$output .= "</div>";
+	$output .= "<div>";
+
+	foreach($film as $key => $value) {
+		if (!empty($value) && $value!== 'N/A' && $key !== 'poster' && $key !== 'id') {
+			$output.= "<p>$key: ". htmlspecialchars($value)."</p>";
+		}
+	}
+
+	$output .= "</div>";
+	$output .= "</div>";
+
+	return $output;
+}
+
 function write_error($message):void {
 	$logFile = __DIR__ . '/../admin/data/error.log';// Protokolldatei im übergeordneten Verzeichnis
 	$timestamp = date('d-m-Y H:i:s');
 	$logMessage = "[$timestamp] $message\n";
 	
-	$existingContent = file_get_contents($logFile);
-
-	$newContent = $logMessage . $existingContent;
-
-	file_put_contents($logFile, $newContent, FILE_APPEND | LOCK_EX);
+	file_put_contents($logFile, $logMessage, FILE_APPEND);
 }
 
-function hinweise_log($message):void{
+function hinweis_log($message):void{
 	$hinweise = __DIR__ . '/../admin/data/hinweise.log';
 	$timestamp = date('d-m-Y H:i:s');
 	$logMessage = "[$timestamp] $message\n";
+
 	file_put_contents($hinweise, $logMessage, FILE_APPEND | LOCK_EX);
 }
 
@@ -60,14 +91,9 @@ function read_message()
 		return $message;
 	}
 }
-function write_message($param)
-{
-	$_SESSION['message'] = $param;
-}
 
 
-
-function autoloadNS(string $param) 
+function autoloadNS(string $param) :void 
 {
 	$arr = explode("\\", $param);
 	$className = $arr[count($arr) - 1];
@@ -75,6 +101,10 @@ function autoloadNS(string $param)
 	if (file_exists("models/$className.php")) 
 	{
 		require_once "models/$className.php";
+	}
+	if(file_exists("kassenUndajax/$className.php"))
+	{
+		require_once "kassenUndajax/$className.php";
 	}
 }
 

@@ -3,7 +3,6 @@ namespace mvc;
 ?>
 <div class="liste"> 
 <?php
-
 // Es werden nach Filmen in der Datenbank gesucht
 if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['title']))
 {
@@ -35,10 +34,10 @@ if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['ti
     }
 
     // --- Pagination ---
-    $totalresults = $filmController->countFilme($title); // IMMER aus der DB
-    $totalPages = ceil($totalresults / 10);
+    $totalresults = $filmController->countFilme($title); // Die Anzahl der Filme mit dem gleichen Namen werden gesucht
+    $totalPages = ceil($totalresults / 10); // Anzahl der Filme durch die anzahl der filme die Angezeigt werden können
 
-    if ($totalresults > 0 && $totalPages > 1) :
+    if ($totalresults > 0 && $totalPages > 1) : // W
         $currentPage = $page;
         echo "<div class='pagination'>";
 
@@ -76,7 +75,21 @@ if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['ti
     endif;
 }else{
 
+    $zufallsfilme = [];
+    for ($i = 0; $i < 10; $i++) {
+        $neuerFilm = $filmController->getZufallsFilm();
+        $zufallsfilme[] = $neuerFilm;
+        $zufallsfilme = array_unique($zufallsfilme, SORT_REGULAR); // SORT_REGULAR für Objekte/Arrays
+
+        //Prüfen, ob ein Duplikat entfernt wurde
+        while(count($zufallsfilme) <= $i) {
+        $neuerFilm = $filmController->getZufallsFilm();
+        $zufallsfilme[] = $neuerFilm;
+        $zufallsfilme = array_unique($zufallsfilme, SORT_REGULAR);
+        }
+    }
+    filmeAnzeign($zufallsfilme);
 }
 ?>
 
-<div id="movie"> </div>
+<div id="movie"></div>

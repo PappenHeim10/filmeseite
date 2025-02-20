@@ -1,18 +1,18 @@
 <?php
 session_start(); // Die Session wird gestartet
+require_once 'include/templates.php';
 require_once 'include/datenbank.php';
 require_once 'models/Filme.php'; // die nötigen dependencies werden eingebungen
-include_once 'include/functions.php'; // die nötigen dependencies werden eingebungen
-include_once 'include/templates.php';
-include_once 'models/user.php';//
+require_once 'include/functions.php'; // die nötigen dependencies werden eingebungen
+require_once 'models/user.php';//
 require_once 'models/genres.php';
 require_once 'models/Api.php';
-require_once 'klassen/FilmController.php';
+require_once 'klassenUndajax/ajax_suche.php'; // Ist für die Js funktione
+include_once 'include/helpers.php';
+include_once 'klassenUndajax/UserController.php';
 
 
-
-
-$whitelist = ['multipleMovies','404seite','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
+$whitelist = ['multipleMovies','404seite','upload','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
 
 
 echo "<div id='success'>";
@@ -25,8 +25,8 @@ echo "</div>"
 
 $header = new Header();
 $nav = new Navigation(); 
-$filmController = new mvc\FilmController();// Komponenten werden initialisiert
-
+#$userController = new mvc\ TODO: Diese Klasse schreiben
+$userController = new mvc\UserController();
 
 $header->render();// Komponenten wereden hier gerendert
 $nav->render();
@@ -39,35 +39,49 @@ $imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : '';
 
 
 
-switch ($action) { // Der acrtin
+
+switch ($action) { // 
     case 'liste':
         $view = 'liste';
         break;
     case 'singleMovies':
         $view = 'singleMovies';
-        if (!empty($title)) { 
-            $imdbId = $api->getFilmIDNachTitel($title);
-            if($imdbId){
-                $movie = $api->getFilmDetails($imdbId);
-            }
-        }
         break;
     case 'registrierung':
+        $userController->registrierung();
         $view = 'registrierung';
         break;
+    case 'login':
+        $view = 'login';
+        break;
+    case 'logout':
+        $view = 'logout';
+        break;
+    case 'upload':
+        $view = 'upload';
+        break;
+    #case 'zeigeBenutzer':
+    #    // Überprüfe, ob eine ID übergeben wurde
+    #    if (isset($_GET['id']) && is_numeric($_GET['id'])) {
+    #       $id = (int)$_GET['id']; // Stelle sicher, dass es eine Zahl ist.
+    #       $userController->zeigeBenutzer($id);
+    #    } else {
+    #        // Fehlerbehandlung: Keine oder ungültige ID
+    #        header('Location: 404.php'); // Oder Fehlerseite.
+    #        exit;
     default:
         $view = 'start';
         break;
 }
 
-?>
 
+?>
 <form action="" method="get"> <!-- Das Such Formular. Alle anfragen werden über $_GET geschickt -->
     <input type="hidden" name="page" value="1"><!-- Die such wird immer über die erste seite gestartet -->
     <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>"> <!-- Die Aktion und damit der view werden nicht geändert --> 
     <label for="title">Titel Eingeben: </label>
     <input type="text" name="title" id="searchInput" onkeyup="showMovies(this.value)" placeholder="Titanic" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
-    <input type="submit" value="Suchen"> 
+    <input type="submit" value="Suchen"><!-- OPTIM: Die suche ist so eingeseelt das  sie auf der Start seite nicht Funktioniert-->
 </form>
 
 <div class="main"> 
@@ -108,6 +122,10 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
             require_once "views/$view.php";
             break;
 
+        case'upload':
+            require_once "views/$view.php";
+            break;
+
         case'logout':
             session_destroy();
             header('Location: index.php');
@@ -122,8 +140,11 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
 }
 ?>
 </div>
+</div>
+
+
 <?php
 $foot = new Footer(); // die footer werden eingebunden
 $foot->render();
 ?>
-</div>
+</body>

@@ -28,9 +28,8 @@ class Navigation{
         $output .= '<a href="?action=singleMovies">Einzelansicht</a>';
         if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == 'true')
         {
-            $output .= '<a href="?action=forum">Forum</a>';
+            $output .= '<a href="?action=upload">Upload</a>';
         }
-        $output .= '<a href="">Suche</a>';
         $output .= '</div><div class="login">';
         if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == 'true')
         {
@@ -39,8 +38,7 @@ class Navigation{
             $output .= '<a href="?action=login">Login</a>';
             $output .= '<a href="?action=registrierung">Registrierung</a>';
         }
-        $output .= '<a href=?action=agb>Agb</a>';
-        $output .= '<a href=?action=impressum>Impressum</a>';
+
         $output .= '</div></div>';
 
         echo $output; // Die render Funktion gibt alle elemente aus
@@ -54,19 +52,22 @@ class Footer { // Die footer Klasse wird definiert
   
   
       $output = '<div class="footer">'; // Hier werden die einzelnen Elemente in der Variable gespeichert
+      $output .= '<div class=""footer-Info>';
       $output .= '<footer>&copy; Cohen D. Imperial<br>'; 
       $output .= strftime("%A, %d. %B %Y");
+      $output .= '</div>';
+      $output .= '<div class="footer-Links">';
+      $output .= '<a href=?action=agb>Agb</a>';
+      $output .= '<a href=?action=impressum>Impressum</a>';
+      $output .= '</div>';
       $output .= '</footer>';
       $output .= '</div>';
       $output .= '<script src="js/script.js"></script></div></div>';
-
 
 
       echo $output; // Die render Runktion gibt alle elemente aus
     }
   }
 ?>
-
-
 
 
