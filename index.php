@@ -8,6 +8,8 @@ require_once 'models/user.php';//
 require_once 'models/genres.php';
 require_once 'models/Api.php';
 require_once 'klassenUndajax/ajax_suche.php'; // Ist für die Js funktione
+include_once 'include/helpers.php';
+include_once 'klassenUndajax/UserController.php';
 
 
 $whitelist = ['multipleMovies','404seite','upload','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
@@ -24,7 +26,7 @@ echo "</div>"
 $header = new Header();
 $nav = new Navigation(); 
 #$userController = new mvc\ TODO: Diese Klasse schreiben
-
+$userController = new mvc\UserController();
 
 $header->render();// Komponenten wereden hier gerendert
 $nav->render();
@@ -46,6 +48,7 @@ switch ($action) { //
         $view = 'singleMovies';
         break;
     case 'registrierung':
+        $userController->registrierung();
         $view = 'registrierung';
         break;
     case 'login':
@@ -57,6 +60,15 @@ switch ($action) { //
     case 'upload':
         $view = 'upload';
         break;
+    #case 'zeigeBenutzer':
+    #    // Überprüfe, ob eine ID übergeben wurde
+    #    if (isset($_GET['id']) && is_numeric($_GET['id'])) {
+    #       $id = (int)$_GET['id']; // Stelle sicher, dass es eine Zahl ist.
+    #       $userController->zeigeBenutzer($id);
+    #    } else {
+    #        // Fehlerbehandlung: Keine oder ungültige ID
+    #        header('Location: 404.php'); // Oder Fehlerseite.
+    #        exit;
     default:
         $view = 'start';
         break;

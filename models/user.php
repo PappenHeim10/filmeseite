@@ -1,11 +1,12 @@
 <?php
+namespace mvc;
 include_once 'include/helpers.php';
 require_once 'include/datenbank.php';
 
 class User extends \Datenbank
 {
     use \GetterSetter; // Getter Setter als trait um redundanten code zu vermeiden
-    use Validation;
+    use \Validation;
     private $anrede;
     private $vorname;
     private $nachname;
@@ -40,8 +41,8 @@ class User extends \Datenbank
             $stmt->bindParam(':vorname', $this->vorname);
             $stmt->bindParam(':nachname', $this->nachname);
             $stmt->bindParam(':email', $this->email);
-            $stmt->bindParam(':benutzername', $this->benutzername);
-            $stmt->bindParam(':passwort', $this->passwort);
+            $stmt->bindParam(':benutzername', $this->benutzername); 
+            $stmt->bindParam(':passwort', $this->passwort);// DO!: Das Passwort muss gehasht werden
             $stmt->execute();
 
             echo "<h1>User erstellt</h1>";
@@ -125,6 +126,34 @@ class User extends \Datenbank
             return false;
         }
 	}
+    public function benutzernameExistiert(string $benutzername): bool
+    {
+        try {
+            $sql = "SELECT COUNT(*) FROM users WHERE benutzername = :benutzername";
+            $stmt = $this->db->prepare($sql);
+            $stmt->bindParam(':benutzername', $benutzername);
+            $stmt->execute();
+            $count = $stmt->fetchColumn(); // Holt die Anzahl direkt
+            return $count > 0;
+        } catch (\PDOException $e) {
+            write_error('Fehler bei der Überprüfung des Benutzernamens: ' . $e->getMessage());
+            return true; // Im Fehlerfall sicherheitshalber true zurückgeben
+        }
+    }
+    public function emailExistiert(string $email): bool
+    {
+        try {
+            $sql = "SELECT COUNT(*) FROM users WHERE email = :email";
+            $stmt = $this->db->prepare($sql);
+            $stmt->bindParam(':email', $email);
+            $stmt->execute();
+            $count = $stmt->fetchColumn(); // Holt die Anzahl direkt
+            return $count > 0;
+        } catch (\PDOException $e) {
+            write_error('Fehler bei der Überprüfung der E-Mail Adresse: '. $e->getMessage());
+            return true; // Im Fehlerfall sicherheitshalber true zurückgeben
+        }
+    }
 }
 ?>
 

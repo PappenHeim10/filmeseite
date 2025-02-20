@@ -2,7 +2,6 @@
 require_once 'functions.php';
 
 
-
 trait GetterSetter {  
     /**
      * Diese Funktion wird automatisch aufgerufen, wenn auf eine Eigenschaft
@@ -53,26 +52,50 @@ interface iDatenbank
 
 
 
-trait Validation {
+trait Validation { // DO!: Die Validierung zuende Kommentieren
 
-    public function schonVergeben($anzahl): array
+    private function validateUser(array $daten):bool|array
     {
         $fehler = [];
+        
+        // Anrede
+        if (empty($daten['anrede']) || !in_array($daten['anrede'], ['Herr', 'Frau', 'Divers'])) {
+            $fehler['anrede'] = "Ungültige Anrede.";
+        }
 
-        if ($anzahl['emailCount'] > 0) {
-            $fehler['emailused'] = "Diese E-Mail-Adresse ist bereits registriert.";
+        // Email
+        if (is_array($this->validiereEmail($daten['email']))) {
+            $fehler[] = $this->validiereEmail($daten['email']);
         }
-        if ($anzahl['benutzernameCount'] > 0) {
-            $fehler['benutzernameused'] = "Dieser Benutzername ist bereits vergeben.";
+
+        // Benutzername
+        if (empty($daten['benutzername']) || strlen($daten['benutzername']) < 5) {
+            $fehler['benutzernamen_leange'] = "Benutzername muss mindestens 5 Zeichen lang sein.";
         }
-        return $fehler;
+
+        // Passwort
+       if (is_array($this->validirePasswort($daten['passwort']))) {
+            $fehler[] = $this->validirePasswort($daten['passwort']);
+
+            if(empty($fehler)){
+                if($daten['passwort'] != $daten['pww']){
+                    $fehler['pww'] = "Die Passwörter stimmen nicht überein.";
+                }
+                
+            }
+        }
+        if(empty($fehler)){
+            return true;
+        }else{
+            return $fehler;
+        }
     }
 
-    function validirePasswort($passwort) :array
+    private function validirePasswort($passwort) :array|bool
     {
     
         $fehler = [];
-      
+
         if(strlen($passwort) < 8) {
           $fehler['kurz'] = "Das Passwort muss mindestens 8 Zeichen lang sein.";
         }
@@ -82,13 +105,19 @@ trait Validation {
         if(!preg_match("/[^a-zA-Z0-9]/", $passwort)) {
           $fehler['sonderzeichen'] = "Das Passwort muss mindestens ein Sonderzeichen enthalten.";
         }
-        return $fehler; 
-      }
 
+        if(empty($fehler)){
+            return true;
+        }else{
+            foreach($fehler as $fehl){
+                hinweis_log($fehl);
+            }
+            return $fehler;
+        }
+    }
 
-    public function validiereEmail($email):array
+    private function validiereEmail($email):array|bool
     {
-
         $fehler = [];
         if(strlen($email) < 3){
             $fehler['laenge'] = "Die E-Mail-Adresse muss mindestens 3 Zeichen lang sein.";
@@ -122,8 +151,6 @@ trait Validation {
             $tld = null; // Or perhaps $tld = "invalid"; 
             $fehler['tld_domain'] = 'Die E-Mail-Adresse muss einen Punkt beinhalten.';
         }
-
-        
         // Mindestlänge TLD 2 Zeichen
         if($tld){
             if (strlen($tld) < 2) {
@@ -135,12 +162,18 @@ trait Validation {
             if (preg_match('/[0-9]/', $tld)) {
                 $fehler['zahlen_tld'] = "Die Top-Level-Domain darf keine Zahlen enthalten.";
             }
-
         }
-        return $fehler;
+        if(empty($fehler)){
+            return true;
+        }else{
+            foreach($fehler as $fehl){
+                hinweis_log($fehl);
+            }
+            return $fehler;
+        }
     }
 
-    public function bereinigen($data):string
+    private function bereinigen($data):string // OPTIM: Bin mir nich ganz sicher wann ich diese Funktionenn benutzez kann
     {
         $data = trim($data);
         $data = stripslashes($data);
@@ -148,7 +181,7 @@ trait Validation {
         return $data;
     }
 
-    function test_input($data) :String{
+    private function test_input($data) :String{
         $data = trim($data);
         $data = stripslashes($data);
         $data = htmlspecialchars($data);

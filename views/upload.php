@@ -10,14 +10,7 @@
         <li>Maximal 100Mb</li>
         <li>.json oder .xml</li>
     </ul>
-    <?php
 
-    if (!empty($fehler)) {
-        foreach ($fehler as $fehl) { //FIXME: Dies Funktion geht immernoch nicht.
-            echo "<p>" . $fehl . "</p><br>";
-        }
-    }
-    ?>
 </div>
 <?php
 if (isset($_POST["submit"])) {
@@ -29,17 +22,20 @@ if (isset($_POST["submit"])) {
     if (isset($_FILES["fileToUpload"]) && $_FILES["fileToUpload"]["error"] === UPLOAD_ERR_OK) {
         $target_file = $target_dir . "/" . basename($_FILES["fileToUpload"]["name"]);
         $dateiTyp = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+        hinweis_log("Eine Datei ist bereit zum hochladen.");
 
         // Datei existiert bereits?
         if (file_exists($target_file)) {
             $fehler[] = "Datei bereits vorhanden.";
             $uploadOk = 0;
+            hinweis_log('Eine Datei ist bereits vorhanden.');
         }
 
         // Dateigröße prüfen (100 MB)
         if ($_FILES["fileToUpload"]["size"] > 100 * 1024 * 1024) {
             $fehler[] = "Datei ist zu groß (maximal 100 MB).";
             $uploadOk = 0;
+            hinweis_log('Eine Datei ist zu groß.');
         }
 
         // Dateityp prüfen (Kleinbuchstaben!)
@@ -86,6 +82,16 @@ if (isset($_POST["submit"])) {
                 break;
 
         }
+    }
+}
+?>
+
+
+<?php
+if(is_array($fehler) && !empty($fehler)){
+    foreach ($fehler as $fehl) {
+        echo "<p>".htmlspecialchars($fehl)."</p><br>";
+        hinweis_log($fehl);
     }
 }
 ?>
