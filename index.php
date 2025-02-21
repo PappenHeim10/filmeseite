@@ -12,9 +12,7 @@ include_once 'include/helpers.php';
 include_once 'klassenUndajax/UserController.php';
 require_once 'klassenUndajax/FilmController.php';
 
-
 $whitelist = ['multipleMovies','404seite','upload','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
-
 
 echo "<div id='success'>";
 echo read_message(); // Nachrichten werden hier ausgegeben
@@ -74,8 +72,8 @@ switch ($action) {
         $view = 'start';
         break;
 }
-
 ?>
+
 <form action="" method="get"> <!-- Das Such Formular. Alle anfragen werden über $_GET geschickt -->
     <input type="hidden" name="page" value="1"><!-- Die such wird immer über die erste seite gestartet -->
     <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>"> <!-- Die Aktion und damit der view werden nicht geändert --> 
@@ -89,11 +87,9 @@ switch ($action) {
     ?>
 </form>
 
-
 <div class="main"> 
 
 <?php
-
 
 if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist wird der Ihnhalt ausgeführt
 {
@@ -147,12 +143,13 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
     require_once "views/404seite.php";
 }
 ?>
-</div>
-</div>
 
+</div>
+</div>
 
 <?php
 $foot = new Footer(); // die footer werden eingebunden
 $foot->render();
 ?>
+
 </body>
