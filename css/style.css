@@ -134,6 +134,7 @@
 
 .main{
     flex: 1;
+    min-height: 70vh;
 }
 
 .current{
