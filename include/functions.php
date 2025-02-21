@@ -53,7 +53,7 @@ function einzeilAnzeigen($film):string{
 	$output .= "</div>";
 	$output .= "</div>";
 
-	return $output;
+	return $output ;
 }
 
 function write_error($message):void {
@@ -110,3 +110,8 @@ function autoloadNS(string $param) :void
 
 spl_autoload_register('autoloadNS');
 ?>
+
+
+
+
+

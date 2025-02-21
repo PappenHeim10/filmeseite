@@ -5,7 +5,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 }
 ?>
 
-
 <form action="?action=login" method="post">
     <fieldset>
     <legend>Login</legend>
@@ -26,9 +25,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     </fieldset>
 </form>
 <?php
-if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    
-}
 ?>
 
 

@@ -96,7 +96,7 @@ class FilmController
     }
 
     public function getFilmNachId($id):array | false{ 
-        $filmDaten = $this->filmeModel->select($id);// Nimmt einen Film aus der Datenbank nach dessen ID und gibt dessen Daten zurück
+        $filmDaten = $this->filmeModel->select($id);
 
         if(!$filmDaten){ // Wenn es keine Daten gibt wird false zurück gegeben
             return false;

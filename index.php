@@ -78,7 +78,7 @@ switch ($action) {
     <input type="hidden" name="page" value="1"><!-- Die such wird immer über die erste seite gestartet -->
     <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>"> <!-- Die Aktion und damit der view werden nicht geändert --> 
     <label for="title">Titel Eingeben: </label>
-    <input type="text" name="title" id="searchInput" onkeyup="showResult(this.value)" onkeyup="showMovies(this.value)" placeholder="House" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
+    <input type="text" name="title" id="searchInput" onkeyup="showMovies(this.value)" placeholder="House" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
     <input type="submit" value="Suchen"><!-- OPTIM: Die suche ist so eingeseelt das  sie auf der Start seite nicht Funktioniert-->
     <?php 
     if($view != 'start'){

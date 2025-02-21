@@ -10,7 +10,6 @@ if (!empty($imdbId)){ // Wenn ein imdb nummer zur verfügung steht
     }
 }
 
-
 if(empty($imdbId) && empty($title))
 {
     $film = $filmController->getZufallsFilm();
@@ -25,7 +24,6 @@ if(empty($imdbId) && empty($title))
     }
 }
 
-
 if($title){
 
     $filmId = $filmController->getFilmeIdNachName($title);
@@ -33,10 +31,16 @@ if($title){
         echo "<p>Es ist ein Fehler aufgetreten: Keine ID mit dem Titel '$title' gefunden.</p>";
         return; // Abbruch der Funktion, damit keine Fehler bei leeren Datenbankergebnissen passiert
     }
-    $film = $filmController->getFilmNachId($filmId);
+    if(is_array($filmId)){
+        $film = $filmController->getFilmNachId($filmId[0]);
+    }else{
+        $film = $filmController->getFilmNachId($filmId);
+    }
 
     if (is_array($film)) {
         echo einzeilAnzeigen($film); // Wenn der Film ein array ist
+
+        
     }
     else {
         echo "<p>Es ist ein Fehler aufgetreten: Kein Film mit dem Titel '$title' gefunden.</p>";
@@ -44,3 +48,11 @@ if($title){
 }
 ?>
 
+
+<form action="" method="post">
+    <label for="titel">Titel:</label>
+    <input type="text" name="titel">
+    <label for="inhalt">Inhalt:</label>
+    <textarea name="inhalt"></textarea>
+    <input type="submit" value="Posten">
+</form>

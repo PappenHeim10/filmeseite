@@ -1,10 +1,9 @@
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $fehler = $userController->registrierung(); //
-
 }
-
 ?>
+
 <form action="" method="post">
     <fieldset class="registrierung">
         <legend>Registrierung</legend>
