@@ -64,7 +64,7 @@ class Footer { // Die footer Klasse wird definiert
       $output .= '</div>';
       $output .= '<script src="js/script.js"></script></div></div>';
 
-
+      
       echo $output; // Die render Runktion gibt alle elemente aus
     }
   }

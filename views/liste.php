@@ -9,7 +9,7 @@ if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['ti
     $filme = $filmController->getFilmeAusDerDatenbank($title,$page);
 
     if (is_array($filme) && !empty($filme)) : // Immer Datenbank-Schlüssel
-        filmeAnzeign($filme);
+        filmeAnzeigen($filme);
     elseif(isset($filme['Error'])): // API Fehler anzeigen
         echo "<p>".htmlspecialchars($filme['Error'])."</p>";
     else :
@@ -88,6 +88,6 @@ if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['ti
         $zufallsfilme = array_unique($zufallsfilme, SORT_REGULAR);
         }
     }
-    filmeAnzeign($zufallsfilme);
+    filmeAnzeigen($zufallsfilme);
 }
 ?>

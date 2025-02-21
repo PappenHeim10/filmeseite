@@ -1,6 +1,6 @@
 <?php
 namespace mvc;
-require_once 'include/datenbank.php';
+require_once __DIR__. '/../include/datenbank.php';
 
 class Filme extends \Datenbank {
 
@@ -17,8 +17,6 @@ class Filme extends \Datenbank {
     private $imdbvotes;
     private $boxoffice;
     private $poster;
-
-
 
     // Konstruktor
     public function __construct(Array $daten = []) // Konstruktor wird mit den Daten initialisiert

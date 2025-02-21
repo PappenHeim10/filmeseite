@@ -7,9 +7,10 @@ require_once 'include/functions.php'; // die nötigen dependencies werden eingeb
 require_once 'models/user.php';//
 require_once 'models/genres.php';
 require_once 'models/Api.php';
-require_once 'klassenUndajax/ajax_suche.php'; // Ist für die Js funktione
+require_once 'include/datenbank.php';
 include_once 'include/helpers.php';
 include_once 'klassenUndajax/UserController.php';
+require_once 'klassenUndajax/FilmController.php';
 
 
 $whitelist = ['multipleMovies','404seite','upload','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
@@ -22,6 +23,8 @@ echo "</div>"
 
 <div class="wrapper"> <!-- Hier beginnt der wrapper zum stylen -->
 <?php
+
+$api = new mvc\Api();
 
 $header = new Header();
 $nav = new Navigation(); 
@@ -37,8 +40,7 @@ $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;  // Hier wird die Seiten 
 $title = isset($_GET['title']) ? trim($_GET['title']) : ''; // Hier wird der die eingabe formatiert und die $titel variable weitergegeben oder leer gelassen
 $imdbId = isset($_GET['imdbID']) ? $_GET['imdbID'] : ''; 
 
-
-
+$filmController = new mvc\FilmController();
 
 switch ($action) {
     case 'liste':

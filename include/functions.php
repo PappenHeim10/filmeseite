@@ -1,5 +1,5 @@
 <?php
-function filmeAnzeign($filme):void {
+function filmeAnzeigen($filme):void {
 
     if (empty($filme)) {
         echo "<p>Keine Filme gefunden.</p>"; // Wenn es Werder filme in der Datenbank noch welche von der API kommne

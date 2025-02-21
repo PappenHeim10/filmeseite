@@ -1,5 +1,7 @@
 <?php
 namespace mvc;
+use mvc\Api;
+use mvc\Filme;
 
 class FilmController
 {
@@ -230,6 +232,11 @@ class FilmController
         $zufallsFilm = $filme[$zufall]; // Hole den Film anhand des Schlüssels
     
         return $zufallsFilm; // Gib den Film direkt zurück, nicht die ID
+    }
+    public function getFilmeMitApi($titel){
+        $filme = $this->api->getFilme($titel);
+
+        return $filme; //
     }
 }
 

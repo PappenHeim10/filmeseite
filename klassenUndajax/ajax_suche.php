@@ -1,10 +1,14 @@
 <?php
-include_once 'FilmController.php'; //FIXME: Die Funktion getht nicht
+require_once __DIR__. '/FilmController.php';
+require_once __DIR__. '/../models/Api.php';
+require_once __DIR__. '/../models/Filme.php';
+require_once __DIR__. '/../include/datenbank.php';
 
 
 
 $filmController = new mvc\FilmController(); // Alle Filme aus der Datenbank werden Aufgerufen
 $filme = $filmController->getAlleFilme(); // Alle Filme (in from von arrays) aus der Datenbank werden in einer Variable gespeichert
+
 
 
 $titelListe = []; // Das ist die Liste mit allen titel
@@ -20,20 +24,27 @@ $q = strtolower($q); // und in kleinbuchstaben gesetzt
 
 $hint = []; // Die Variable in der die ergebnisse der suche gespeichert werden 
 
-if ($q !== '') { // Wenn q kein string ist
-    foreach ($titelListe as $name) { // es wird durch die list iteriert
-        if (strpos(strtolower($name), $q) !== false) { // Sucht im Titel ob er q enthält
-            $hint[] = $name; // wird der name in der liste gespeichert
+
+if ($q !== "") {
+    $q = strtolower($q);
+    $len = strlen($q);
+    foreach($titelListe as $titel) {
+        if (stristr($q, substr($titel, 0, $len))) {
+            $hint[] = $titel;
         }
     }
 }
 
-$gesuchteFilme = []; // Die daten aller Filme werden hier gespeichert
-foreach($hint as $film){ // Für jeden Film der als hinweis angegeben wird
-    if (is_array($film) && !empty($film)){ // wenn der film icht leer ist und ein array
-        $filmid = $filmController->getFilmeIdNachName($film); // gib die id zurück
-        $filmDaten = $filmController->getFilmNachId($filmid); // Nimmt die daten des Films
-        $gesuchteFilme[] = $filmDaten; //Speichert sie dann nochmal in einem Array
-    }
+
+foreach($hint as $titel){
+    $filmIds[] = $filmController->getFilmeIdNachName($titel);
+}
+
+foreach($filmIds as $id){
+    $filmData[] = $filmController->getFilmNachId($id);
 }
 ?>
+
+<pre>
+    <?php print_r($filmData); ?>
+</pre>

@@ -1,5 +1,9 @@
+<div class="liste"> 
+
 <?php
 echo "BeDugging: View=$view , action=$action, title=$title, page=$page, imdbId=$imdbId";
+
+
 
 
 
@@ -7,3 +11,7 @@ echo "BeDugging: View=$view , action=$action, title=$title, page=$page, imdbId=$
 
 
 <div id="movie"></div>
+
+</div>
+
+</div>
