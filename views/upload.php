@@ -10,7 +10,6 @@
         <li>Maximal 100Mb</li>
         <li>.json oder .xml</li>
     </ul>
-
 </div>
 <?php
 if (isset($_POST["submit"])) {
@@ -86,12 +85,15 @@ if (isset($_POST["submit"])) {
 }
 ?>
 
-
+<div>
 <?php
-if(is_array($fehler) && !empty($fehler)){
-    foreach ($fehler as $fehl) {
-        echo "<p>".htmlspecialchars($fehl)."</p><br>";
-        hinweis_log($fehl);
+if(isset($fehler)){
+    if(is_array($fehler) && !empty($fehler)){
+        foreach ($fehler as $fehl) {
+            echo "<p>".htmlspecialchars($fehl)."</p><br>";
+            hinweis_log($fehl);
+        }
     }
 }
 ?>
+</div>

@@ -1,12 +1,6 @@
 <?php
 namespace mvc;
-?>
-<pre> 
-    <?php
-    print_r($_POST);
-    ?>
-</pre>
-<?php
+
 class UserController
 {
     use \Validation;
@@ -18,7 +12,7 @@ class UserController
         $this->userModel = new User(); // Instanz der User-Klasse (dein Model)
     }
 
-    public function registrierung()
+    public function registrierung():array|bool
     {
         $fehler = []; //
         $daten = [];
@@ -37,22 +31,20 @@ class UserController
                 $fehler['ver_email'] = "Email existiert bereits.";
             }
 
-            if (empty($fehler)) {
+            if ($fehler == true) {
                 if ($user->insert()) { 
-                   header('Location: registriert.php');
+                    header('Location: registriert.php');
                     exit;
                 } else {
-                    $fehler['speicherung'] = "Fehler beim Speichern des Benutzers.";
+                    write_error("Fehler beim Speichern des Benutzers.");
                 }
             }
         }
-    foreach($fehler as $fehl){
-        hinweis_log($fehl . ", ". __METHOD__);
-    }
-    return $fehler;
+        return $fehler;
     }
 
-    private function validateUser(array $daten):array
+
+    private function validateUser(array $daten):array|bool
     {
         $fehler = [];
         
@@ -63,7 +55,7 @@ class UserController
 
         // Email
         if (is_array($this->validiereEmail($daten['email']))) {
-            $fehler[] = $this->validiereEmail($daten['email']);
+            $fehler['email'] = $this->validiereEmail($daten['email']);
         }
 
         // Benutzername
@@ -73,13 +65,15 @@ class UserController
 
         // Passwort
        if (is_array($this->validirePasswort($daten['passwort']))) {
-            $fehler[] = $this->validirePasswort($daten['passwort']);
+            $fehler['passwort'] = $this->validirePasswort($daten['passwort']);
+       }
 
-            if(empty($fehler)){
-                if($daten['passwort'] != $daten['pww']){
-                    $fehler['pww'] = "Die Passwörter stimmen nicht überein.";
-                }
-            }
+        if($daten['passwort'] != $daten['pww']){
+            $fehler['pww'] = "Die Passwörter stimmen nicht überein.";
+        }
+
+        if(empty($fehler)){
+            return true;
         }
         return $fehler;
     }
@@ -102,6 +96,7 @@ class UserController
               exit;
         }
     }
+
     public function zeigeBenutzer($id) // WICHTIG: Dieser Funktion fehlt ein View.
     {
         $user = $this->userModel->select($id);
@@ -114,14 +109,19 @@ class UserController
               exit;
         }
     }
+
+    public function login(array $daten){
+        $user = $this->userModel->benutzernameExistiert($daten['benutzername']);
+        if($user){
+            $user = $this->userModel->giveUserInfo($daten['benutzername']);
+
+            if(password_verify($daten['passwort'], $user['passwort'])){
+                header('Location: eingelogged.php');
+                exit;
+            }
+        }
+        $fehler['login'] = "Benutzername oder Passwort falsch.";
+        return $fehler;
+    }
 }
-
 ?>
-
-
-
-<pre> 
-    <?php
-    print_r($_POST);
-    ?>
-</pre>

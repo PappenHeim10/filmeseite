@@ -14,3 +14,8 @@
 [20-02-2025 13:13:08] Kein Film gefunden: Men
 [20-02-2025 13:13:18] Kein Film gefunden: Men
 [20-02-2025 13:14:46] Kein Film gefunden: Men
+[21-02-2025 08:37:26] Fehler beim Einfügen des Users: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'GreedXSin' for key 'benutzername'
+[21-02-2025 08:38:11] Fehler beim Einfügen des Users: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'GreedXSin' for key 'benutzername'
+[21-02-2025 08:39:16] Fehler beim Einfügen des Users: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'GreedXSin' for key 'benutzername'
+[21-02-2025 08:39:16] Fehler beim Speichern des Benutzers.
+[21-02-2025 09:39:22] Kein Film gefunden: King

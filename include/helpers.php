@@ -52,8 +52,8 @@ interface iDatenbank
 
 
 
-trait Validation { // FIXME: Die Validdirung funktioniert nicht
-    private function validirePasswort(String $passwort) :array
+trait Validation { 
+    private function validirePasswort(String $passwort) :array|bool
     {
         $fehler = [];
 
@@ -66,8 +66,9 @@ trait Validation { // FIXME: Die Validdirung funktioniert nicht
         if(!preg_match("/[^a-zA-Z0-9]/", $passwort)) {
           $fehler['sonderzeichen'] = "Das Passwort muss mindestens ein Sonderzeichen enthalten.";
         }
-        foreach($fehler as $fehl){
-            hinweis_log($fehl . ", ". __METHOD__);
+
+        if(empty($fehler)){
+            return true;
         }
         return $fehler;
     }
@@ -118,8 +119,8 @@ trait Validation { // FIXME: Die Validdirung funktioniert nicht
                 $fehler['zahlen_tld'] = "Die Top-Level-Domain darf keine Zahlen enthalten.";
             }
         }
-        foreach($fehler as $fehl){
-            hinweis_log($fehl . ", ". __METHOD__);
+        if(empty($fehler)){
+            return true;
         }
         return $fehler;
     }

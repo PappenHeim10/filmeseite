@@ -1,9 +1,10 @@
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    $userController->registrierung(); //
-}
-?>
+    $fehler = $userController->registrierung(); //
 
+}
+
+?>
 <form action="" method="post">
     <fieldset class="registrierung">
         <legend>Registrierung</legend>
@@ -37,15 +38,24 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 <label for="email">E-Mail:</label>
                 <input type="email" name="email" id="email" required autocomplete="email" value="<?php echo isset($daten['email']) ? htmlspecialchars($daten['email']) : ''; ?>"><br><br>
                 <div>
-                    <?php if(isset($fehler['email'])) echo "<span class='error'>" . htmlspecialchars($fehler['email']) . "</span>"; ?>
+                    <?php if(isset($fehler['ver_email'])) echo "<span class='error'>" . htmlspecialchars($fehler['ver_email']) . "</span>"; ?>
+                    <?php if(isset($fehler['email']['laenge'])) echo "<span class='error'>" . htmlspecialchars($fehler['email']['laenge'])."</span>";?>
+                    <?php if(isset($fehler['email']['sonderzeichen_lokal'])) echo "<span class='error'>". htmlspecialchars($fehler['email']['sonderzeichen_lokal']) ?>
+                    <?php if(isset($fehler['email']['sonderzeichen_domain'])) echo "<span class='error'>". htmlspecialchars($fehler['email']['sonderzeichen_domain'])?>
+                    <?php if(isset($fehler['email']['zahlen_domain'])) echo "<span class='error'>". htmlspecialchars($fehler['email']['zahlen_domain'])?>
+                    <?php if(isset($fehler['email']['laenge_domain'])) echo "<span class='error'>". htmlspecialchars($fehler['email']['laenge_domain'])?>
+                    <?php if(isset($fehler['email']['tld_domain'])) echo "<span class='error'>". htmlspecialchars($fehler['email']['tld_domain'])?>
+                    <?php if(isset($fehler['email']['laenge_tld'])) echo "<span class='error'>". htmlspecialchars($fehler['email']['laenge_tld'])?>
+                    <?php if(isset($fehler['email']['sonderzeichen_tld'])) echo "<span class='error'>". htmlspecialchars($fehler['email']['sonderzeichen_tld'])?>
+                    <?php if(isset($fehler['email']['zahlen_tld'])) echo "<span class='error'>". htmlspecialchars($fehler['email']['zahlen_tld'])?>
                 </div>
             </div>
 
             <div>
                 <label for="benutzername">Benutzername:</label>
-                <input type="text" name="benutzername" id="benutzername" required autocomplete="username" value="<?php echo isset($daten['benutzername']) ? htmlspecialchars($daten['benutzername']) : ''; ?>"><br><br>
+                <input type="text" name="benutzername" id="benutzername" required  value="<?php echo isset($daten['benutzername']) ? htmlspecialchars($daten['benutzername']) : ''; ?>"><br><br>
                 <div>
-                    <?php if(isset($fehler['benutzername'])) echo "<span class='error'>" . htmlspecialchars($fehler['benutzername']) . "</span>"; ?>
+                    <?php if(isset($fehler['ver_benutzername'])) echo "<span class='error'>" . htmlspecialchars($fehler['ver_benutzername']) . "</span>"; ?>
                 </div>
             </div>
 
@@ -53,7 +63,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 <label for="passwort">Passwort:</label>
                 <input type="password" name="passwort" id="passwort" required autocomplete="new-password"><br><br>
                 <div>
-                    <?php if(isset($fehler['kurz'])) echo "<span class='error'>" . htmlspecialchars($fehler['kurz']) . "</span>"; ?>
+                    <?php if(isset($fehler['passwort']['kurz'])) echo "<span class='error'>" . htmlspecialchars($fehler['passwort']['kurz']) . "</span>"; ?>
+                    <?php if(isset($fehler['passwort']['zahl'])) echo "<span class='error'>" .htmlspecialchars($fehler['passwort']['zahl']) . "</span>"; ?>
+                    <?php if(isset($fehler['passwort']['sonderzeichen'])) echo "<span class='error'>" .htmlspecialchars($fehler['passwort']['sonderzeichen']) . "</span>"; ?>
                 </div>
             </div>
 

@@ -2,6 +2,7 @@
 include_once 'FilmController.php'; //FIXME: Die Funktion getht nicht
 
 
+
 $filmController = new mvc\FilmController(); // Alle Filme aus der Datenbank werden Aufgerufen
 $filme = $filmController->getAlleFilme(); // Alle Filme (in from von arrays) aus der Datenbank werden in einer Variable gespeichert
 

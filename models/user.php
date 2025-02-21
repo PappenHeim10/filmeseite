@@ -32,6 +32,7 @@ class User extends \Datenbank
             }
         }
     }
+
     public function insert():bool
     {
         try{
@@ -42,10 +43,12 @@ class User extends \Datenbank
             $stmt->bindParam(':nachname', $this->nachname);
             $stmt->bindParam(':email', $this->email);
             $stmt->bindParam(':benutzername', $this->benutzername); 
-            $stmt->bindParam(':passwort', $this->passwort);// DO!: Das Passwort muss gehasht werden
+
+            $hashedPassword = password_hash($this->passwort, PASSWORD_DEFAULT);
+            $stmt->bindParam(':passwort', $hashedPassword);// DO!: Das Passwort muss gehasht werden
             $stmt->execute();
 
-            echo "<h1>User erstellt</h1>";
+            #echo "<h1>User erstellt</h1>";
             return true;
         }
         catch(\PDOException $e)
@@ -54,6 +57,7 @@ class User extends \Datenbank
             return false;
         }
     }
+
     public function update($id):bool
     {
         try
@@ -77,6 +81,7 @@ class User extends \Datenbank
             return false;
         }
     }
+
     public function delete($i):bool
     {
         try
@@ -126,6 +131,7 @@ class User extends \Datenbank
             return false;
         }
 	}
+
     public function benutzernameExistiert(string $benutzername): bool
     {
         try {
@@ -140,6 +146,7 @@ class User extends \Datenbank
             return true; // Im Fehlerfall sicherheitshalber true zurückgeben
         }
     }
+
     public function emailExistiert(string $email): bool
     {
         try {
@@ -152,6 +159,20 @@ class User extends \Datenbank
         } catch (\PDOException $e) {
             write_error('Fehler bei der Überprüfung der E-Mail Adresse: '. $e->getMessage());
             return true; // Im Fehlerfall sicherheitshalber true zurückgeben
+        }
+    }
+
+    public function giveUserInfo(string $name):bool|array
+    {
+        try {
+            $sql = "SELECT * FROM users WHERE benutzername = :benutzername";
+            $stmt = $this->db->prepare($sql);
+            $stmt->bindParam(':benutzername', $name);
+            $stmt->execute();
+            return $stmt->fetch(\PDO::FETCH_ASSOC);
+        } catch (\PDOException $e) {
+            write_error('Fehler bei der Abfrage der Benutzerdaten: '. $e->getMessage());
+            return false;
         }
     }
 }

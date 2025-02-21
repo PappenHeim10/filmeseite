@@ -91,5 +91,3 @@ if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['ti
     filmeAnzeign($zufallsfilme);
 }
 ?>
-
-<div id="movie"></div>

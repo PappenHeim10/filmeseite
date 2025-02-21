@@ -1,5 +1,5 @@
 <div class="registrierung">
-<h1>Erforlgreich registriert!!</h1>
+<h1>Erforlgreich eingelogged!!</h1>
 </div>
 <?php
 session_start(); // Die Session muss gestarted werden bevor man auf die Session Variablen zugreifen kann
