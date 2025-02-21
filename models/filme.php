@@ -137,18 +137,17 @@ class Filme extends \Datenbank {
         }
     }
 
-    public function select($id):array |false
+    public function select(int $id):array|false
     {
         try
         {
             $sql = "SELECT * FROM filme WHERE id = :id";
             $stmt = $this->db->prepare($sql);
-            $stmt->execute(['id' => $id]); // Simplified binding
+            $stmt->execute(['id' => $id]);
             return $stmt->fetch(\PDO::FETCH_ASSOC); // Fetch a single result as an associative array
             
         }catch(\PDOException $e)
         {
-            error_log($e->getMessage());
             write_error('Fehler beim Auslesen: '. $e->getMessage(). "<br>". __FILE__ );
             return false;
         }

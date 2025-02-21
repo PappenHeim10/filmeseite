@@ -176,7 +176,7 @@ class FilmController
             return 0;
         }
     }
-    public function getFilmeIdNachName(String $titel):int|false
+    public function getFilmeIdNachName(String $titel):array|false
     {
         try{
             $sql = "SELECT id FROM filme WHERE lower(titel) LIKE :titel"; // Das ist der sql querey der ausgeführt werden soll
@@ -184,13 +184,13 @@ class FilmController
             $stmt->bindValue(":titel", strtolower($titel). "%", \PDO::PARAM_STR);
             $stmt->execute();
 
-            $result = $stmt->fetchColumn();
+            $results = $stmt->fetchAll(\PDO::FETCH_COLUMN); // Hier werden alle ids aufgerufen selbst wenn es nur eins ist
 
-            if($result === false){
+            if($results === false){
                 write_error("Kein Film gefunden: $titel");
                 return false;
             }else{
-                return (int)$result;
+                return $results;
             }
         } catch (\PDOException $e) {
             write_error("Fehler in der getFilmNachNameMetdose: " .$e->getMessage() . " " . __METHOD__);
