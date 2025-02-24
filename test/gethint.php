@@ -53,6 +53,7 @@ if ($q !== null) {
   }
 }
 
+
 // Output "no suggestion" if no hint was found or output correct values
 echo $hint === " " ? "no suggestion" : $hint;
 ?>

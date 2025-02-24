@@ -5,8 +5,7 @@ require_once __DIR__. '/../models/Filme.php';
 require_once __DIR__. '/../include/datenbank.php';
 
 $filmController = new mvc\FilmController(); // Alle Filme aus der Datenbank werden Aufgerufen
-$filmTitelListe = $filmController->getFilmTitelListe(); // Alle Filme (in from von arrays) aus der Datenbank werden in einer Variable gespeichert
-
+$filmTitelListe = $filmController->getFilmTitelListe(); //Ein Array als liste aller Filme 
 
 $q = $_GET['q'] ?? ''; // Wenn der q parameter nicht existiert wird ein leerer string benutzt
 $q = trim($q); // q wird getrimmt 
@@ -39,7 +38,6 @@ foreach($filmIds as $id){
     }else{
         $filmData[] = $filmController->getFilmNachId($id);
     }
-
 }
 
 if(isset($filmData))

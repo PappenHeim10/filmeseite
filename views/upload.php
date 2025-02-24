@@ -106,5 +106,9 @@ if(isset($fehler)){
         }
     }
 }
+
+// NOTE: Es sollen 2 besipiel dateien zur verfügung stehen die als beispiel musster benutzt werden
+// NOTE: Auf die Datei wird zugegriffen und die anzahl , beschaffenheit, reihenfolge der keys übrpfüft
+// NOTE: Wenn alle Keys 
 ?>
 </div>

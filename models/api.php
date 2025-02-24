@@ -52,7 +52,7 @@ class Api { // TEST: Ich muss schauen ob der key noch funktioniert und zur not e
 
 
         // Dekodieren der JSON-Antwort
-        $data = json_decode($response, true);
+        $data = json_decode($response, true); // OPTIM: Diese Decode ist für json_dateien Es muss nicht decodiert werden wann es die daten schon in einem bestimmten format ruft 
 
         
         // Prüfen, ob die API-Antwort gültig ist (Response === 'True' und die Suche erfolgreich)

@@ -45,7 +45,11 @@ foreach($titel_Liste as $imdbId){ // DO!: Den Herausfinden was ichmit einer XML 
         write_error("Fehler beim Abrufen der Filmdaten für in XML für IMDb-ID: " . $imdbId);
         continue; // Mit dem nächsten Film fortfahren
     }
+
+
+    $xml_datei = $xml_dir . '/' . $imdbId . '.xml';
     // WICHTIG: Hier musss das Passende script für die XML erstellung hin
+
 }
 
 ?>
