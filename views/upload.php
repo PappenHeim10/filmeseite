@@ -15,12 +15,23 @@
 if (isset($_POST["submit"])) {
     $fehler = [];
     $uploadOk = 1;
-    $target_dir = "admin/data/uploadedFiles";
+    $target_dir_for_xml = "admin/data/library_in_XML";
+    $target_dir_for_json = "admin/data/library_in_JSON";
 
     // Prüfen, OB eine Datei hochgeladen wurde, BEVOR auf $_FILES zugegriffen wird.
     if (isset($_FILES["fileToUpload"]) && $_FILES["fileToUpload"]["error"] === UPLOAD_ERR_OK) {
-        $target_file = $target_dir . "/" . basename($_FILES["fileToUpload"]["name"]);
         $dateiTyp = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+        
+        if($dateiTyp == "xml"){
+            $target_dir = $target_dir_for_xml;
+        }elseif($dateiTyp == "json"){
+            $target_dir = $target_dir_for_json;
+        }else{
+            $fehler[] = "Dateiendung ist nicht bekannt.";
+            $uploadOk = 0;
+        }
+
+        $target_file = $target_dir . "/" . basename($_FILES["fileToUpload"]["name"]);
         hinweis_log("Eine Datei ist bereit zum hochladen.");
 
         // Datei existiert bereits?

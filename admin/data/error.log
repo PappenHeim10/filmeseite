@@ -97,3 +97,5 @@
 [21-02-2025 13:19:12] Kein Film gefunden: Miraculous: Tales of Ladybug &amp; Cat Noir
 [21-02-2025 13:20:51] Kein Film gefunden: Miraculous: Tales of Ladybug &amp; Cat Noir
 [21-02-2025 13:20:51] Kein Film gefunden: Miraculous: Tales of Ladybug &amp; Cat Noir
+[24-02-2025 07:41:18] Fehler beim Einfügen des Users: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'HotPotato' for key 'benutzername'
+[24-02-2025 07:41:18] Fehler beim Speichern des Benutzers.
