@@ -3,3 +3,5 @@
 
 #ignoriere alle log Dateien
 *.log
+
+admin/*
