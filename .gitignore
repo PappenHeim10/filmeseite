@@ -5,3 +5,5 @@
 *.log
 
 admin/*
+key.env
+klassenUndajax/convertiere_nach_JSON.php

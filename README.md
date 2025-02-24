@@ -39,15 +39,6 @@ Folgen Sie diesen Schritten, um das Projekt einzurichten:
 
    - Nach erfolgreicher Konfiguration wird die Datenbankverbindung automatisch eingerichtet
 
-### Erste Anmeldung
-
-Nach erfolgreicher Installation können Sie sich mit folgenden Zugangsdaten als Administrator einloggen:
-
-**Als Administrator:**
-- benutzername: admin
-- Passwort: admin
-
-Ansonsten fügen sie einen administratrt pber die MYSQL injection in die Datenbank ein
 
 ## Sicherheit
 
@@ -63,6 +54,10 @@ Ansonsten fügen sie einen administratrt pber die MYSQL injection in die Datenba
 - Fehlerbehandlung durch try-catch
 - Benutzerfreundliche Oberfläche
 
+## Zusätzliche Informationen
+
+- Documentation befindet sich in im admin ordner
+- dump.sql ist der zustand der Datenbank aus 16.02.2025
 
 ## Lizenz
 

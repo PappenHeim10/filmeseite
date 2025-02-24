@@ -3,7 +3,7 @@ namespace mvc;
 
 class Api { // TEST: Ich muss schauen ob der key noch funktioniert und zur not einen anderen key benutzen
 
-    private String $apiKey = "f9d69f9c";
+    private String $apiKey = "5c526890";
     private String $basisURL = "http://www.omdbapi.com/"; // Basis-URL für die API
 
     // Generalisierte Methode für API-Anfragen
