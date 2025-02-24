@@ -22,8 +22,8 @@ $alleImdbIds = $filmController->getImdbIdListe(); // Alle Filme aus der Datenban
 $api = new mvc\Api(); // Die API wird aufgerufen
 
 
-foreach($alleImdbIds as $imdbId){
-    $filmDatenJSON = $api->getFilmDetailsInJson($imdbId); // Die FilmeDaten werden an die API übergeben
+foreach($alleImdbIds as $imdbId){ //FIXME: Es es muss gefragt werden pb dei datei schon existier und damit sie überscprungen woird und ich muss nach der RESPONSE[]
+     $filmDatenJSON = $api->getFilmDetailsInJson($imdbId); // Die FilmeDaten werden an die API übergeben
 
     if ($filmDatenJSON === null) {
         write_error("Fehler beim Abrufen der Filmdaten für in JSON für IMDb-ID: " . $imdbId);

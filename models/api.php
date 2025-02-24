@@ -5,7 +5,7 @@ use SimpleXMLElement;
 
 class Api { // TEST: Ich muss schauen ob der key noch funktioniert und zur not einen anderen key benutzen
 
-    private String $apiKey = $_ENV['API_KEY2'];
+    private String $apiKey = "5c526890";
     private String $basisURL = "http://www.omdbapi.com/"; // Basis-URL für die API
 
     // Generalisierte Methode für API-Anfragen
