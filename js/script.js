@@ -45,4 +45,3 @@ function showResult(str) {
     xmlhttp.send();
 }
 
-

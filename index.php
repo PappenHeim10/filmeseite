@@ -12,6 +12,7 @@ include_once 'include/helpers.php';
 include_once 'klassenUndajax/UserController.php';
 require_once 'klassenUndajax/FilmController.php';
 
+
 $whitelist = ['multipleMovies','404seite','upload','impressum','agb','forum', 'Home','login','logout' , 'singleMovies',  'index', 'registrierung', 'start', 'liste']; // Die whiteliset wird inistialisiert
 
 echo "<div id='success'>";
@@ -142,6 +143,7 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
 }else{
     require_once "views/404seite.php";
 }
+
 ?>
 
 </div>
@@ -151,5 +153,4 @@ if(in_array($view, $whitelist)) // Heystack. Wenn der view in der Whitelist ist 
 $foot = new Footer(); // die footer werden eingebunden
 $foot->render();
 ?>
-
 </body>

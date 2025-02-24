@@ -4,6 +4,10 @@
 #ignoriere alle log Dateien
 *.log
 
-admin/*
 key.env
+
+admin/*
+
 klassenUndajax/convertiere_nach_JSON.php
+
+../key.env

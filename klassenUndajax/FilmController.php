@@ -39,7 +39,7 @@ class FilmController
         }while($page <= $totalPages); //NOTE: Der Obige code block wird sollange ausgeführt
 
         foreach($filmeVonApi as $film){ // Sobald es Keine Filmemehr gibt
-            $filmdetails = $this->api->getFilmDetails($film['imdbID']); // NOTE:  Das wird am ende ausgeführt wenn es keine Filme mehr gibt
+            $filmdetails = $this->api->getFilmDetailsInJson($film['imdbID']); // NOTE:  Das wird am ende ausgeführt wenn es keine Filme mehr gibt
             if ($filmdetails && $filmdetails['Response'] === 'True'){
                 if ($this->filmExistiert($filmdetails['imdbID'])) {
                     continue; // Film wird übersprungen
@@ -237,6 +237,29 @@ class FilmController
         $filme = $this->api->getFilme($titel);
 
         return $filme; //
+    }
+    public function getImdbIdListe():array|bool{
+        try{
+            $sql = "SELECT imdbid FROM filme";
+            $stmt = $this->filmeModel->db->prepare($sql);
+            $stmt->execute();
+            $imdbIds = $stmt->fetchAll(\PDO::FETCH_COLUMN);
+            
+            return $imdbIds;
+        }catch(\PDOException $e){
+            write_error("Fehler in der getImdbIdListeMethode: " .$e->getMessage());
+            return false;
+        }
+    }
+    
+    public function getFilmTitelListe():array|bool{
+
+        $sql = "SELECT titel FROM filme";
+        $stmt = $this->filmeModel->db->prepare($sql);
+        $stmt->execute();
+        $titel = $stmt->fetchAll(\PDO::FETCH_COLUMN);
+        
+        return $titel;
     }
 }
 

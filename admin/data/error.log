@@ -99,3 +99,1154 @@
 [21-02-2025 13:20:51] Kein Film gefunden: Miraculous: Tales of Ladybug &amp; Cat Noir
 [24-02-2025 07:41:18] Fehler beim Einfügen des Users: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'HotPotato' for key 'benutzername'
 [24-02-2025 07:41:18] Fehler beim Speichern des Benutzers.
+[24-02-2025 10:22:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0003037 - String could not be parsed as XML
+[24-02-2025 10:22:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0008677 - String could not be parsed as XML
+[24-02-2025 10:22:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0009700 - String could not be parsed as XML
+[24-02-2025 10:22:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0014547 - String could not be parsed as XML
+[24-02-2025 10:22:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0014606 - String could not be parsed as XML
+[24-02-2025 10:22:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0019004 - String could not be parsed as XML
+[24-02-2025 10:22:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0019760 - String could not be parsed as XML
+[24-02-2025 10:22:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0020481 - String could not be parsed as XML
+[24-02-2025 10:22:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0020503 - String could not be parsed as XML
+[24-02-2025 10:22:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0023594 - String could not be parsed as XML
+[24-02-2025 10:22:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0024671 - String could not be parsed as XML
+[24-02-2025 10:22:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0025048 - String could not be parsed as XML
+[24-02-2025 10:22:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0025896 - String could not be parsed as XML
+[24-02-2025 10:22:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0027349 - String could not be parsed as XML
+[24-02-2025 10:22:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0030871 - String could not be parsed as XML
+[24-02-2025 10:22:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0031885 - String could not be parsed as XML
+[24-02-2025 10:22:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0032566 - String could not be parsed as XML
+[24-02-2025 10:22:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0032599 - String could not be parsed as XML
+[24-02-2025 10:22:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0034587 - String could not be parsed as XML
+[24-02-2025 10:22:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036324 - String could not be parsed as XML
+[24-02-2025 10:22:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036439 - String could not be parsed as XML
+[24-02-2025 10:22:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036723 - String could not be parsed as XML
+[24-02-2025 10:22:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0037378 - String could not be parsed as XML
+[24-02-2025 10:22:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0038174 - String could not be parsed as XML
+[24-02-2025 10:22:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0040725 - String could not be parsed as XML
+[24-02-2025 10:22:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0040853 - String could not be parsed as XML
+[24-02-2025 10:22:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041154 - String could not be parsed as XML
+[24-02-2025 10:22:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041430 - String could not be parsed as XML
+[24-02-2025 10:22:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041627 - String could not be parsed as XML
+[24-02-2025 10:22:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041699 - String could not be parsed as XML
+[24-02-2025 10:22:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0044098 - String could not be parsed as XML
+[24-02-2025 10:22:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0045129 - String could not be parsed as XML
+[24-02-2025 10:22:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0045300 - String could not be parsed as XML
+[24-02-2025 10:22:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0046874 - String could not be parsed as XML
+[24-02-2025 10:22:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0047505 - String could not be parsed as XML
+[24-02-2025 10:22:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0047628 - String could not be parsed as XML
+[24-02-2025 10:22:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0049854 - String could not be parsed as XML
+[24-02-2025 10:22:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0049873 - String could not be parsed as XML
+[24-02-2025 10:22:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0050099 - String could not be parsed as XML
+[24-02-2025 10:22:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051459 - String could not be parsed as XML
+[24-02-2025 10:22:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051604 - String could not be parsed as XML
+[24-02-2025 10:22:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051702 - String could not be parsed as XML
+[24-02-2025 10:22:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051744 - String could not be parsed as XML
+[24-02-2025 10:22:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0052295 - String could not be parsed as XML
+[24-02-2025 10:22:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0052964 - String could not be parsed as XML
+[24-02-2025 10:22:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0053361 - String could not be parsed as XML
+[24-02-2025 10:22:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0056586 - String could not be parsed as XML
+[24-02-2025 10:22:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0056703 - String could not be parsed as XML
+[24-02-2025 10:22:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058536 - String could not be parsed as XML
+[24-02-2025 10:22:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058656 - String could not be parsed as XML
+[24-02-2025 10:22:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058657 - String could not be parsed as XML
+[24-02-2025 10:22:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058658 - String could not be parsed as XML
+[24-02-2025 10:22:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0059017 - String could not be parsed as XML
+[24-02-2025 10:22:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060153 - String could not be parsed as XML
+[24-02-2025 10:22:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060492 - String could not be parsed as XML
+[24-02-2025 10:22:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060565 - String could not be parsed as XML
+[24-02-2025 10:22:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060758 - String could not be parsed as XML
+[24-02-2025 10:22:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0061095 - String could not be parsed as XML
+[24-02-2025 10:22:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0061177 - String could not be parsed as XML
+[24-02-2025 10:22:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062369 - String could not be parsed as XML
+[24-02-2025 10:22:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062370 - String could not be parsed as XML
+[24-02-2025 10:22:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062994 - String could not be parsed as XML
+[24-02-2025 10:22:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0063069 - String could not be parsed as XML
+[24-02-2025 10:22:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0063696 - String could not be parsed as XML
+[24-02-2025 10:22:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0066343 - String could not be parsed as XML
+[24-02-2025 10:22:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0066456 - String could not be parsed as XML
+[24-02-2025 10:22:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0067310 - String could not be parsed as XML
+[24-02-2025 10:22:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0068612 - String could not be parsed as XML
+[24-02-2025 10:22:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0068833 - String could not be parsed as XML
+[24-02-2025 10:22:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0069973 - String could not be parsed as XML
+[24-02-2025 10:22:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0069995 - String could not be parsed as XML
+[24-02-2025 10:22:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070301 - String could not be parsed as XML
+[24-02-2025 10:22:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070640 - String could not be parsed as XML
+[24-02-2025 10:22:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070705 - String could not be parsed as XML
+[24-02-2025 10:22:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070723 - String could not be parsed as XML
+[24-02-2025 10:22:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070778 - String could not be parsed as XML
+[24-02-2025 10:22:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070968 - String could not be parsed as XML
+[24-02-2025 10:22:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0071007 - String could not be parsed as XML
+[24-02-2025 10:22:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0072730 - String could not be parsed as XML
+[24-02-2025 10:22:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0072890 - String could not be parsed as XML
+[24-02-2025 10:22:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0073511 - String could not be parsed as XML
+[24-02-2025 10:22:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0073582 - String could not be parsed as XML
+[24-02-2025 10:22:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0074506 - String could not be parsed as XML
+[24-02-2025 10:22:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0074624 - String could not be parsed as XML
+[24-02-2025 10:22:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0074806 - String could not be parsed as XML
+[24-02-2025 10:22:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076095 - String could not be parsed as XML
+[24-02-2025 10:22:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076162 - String could not be parsed as XML
+[24-02-2025 10:22:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076519 - String could not be parsed as XML
+[24-02-2025 10:22:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076716 - String could not be parsed as XML
+[24-02-2025 10:22:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076823 - String could not be parsed as XML
+[24-02-2025 10:22:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077290 - String could not be parsed as XML
+[24-02-2025 10:22:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077645 - String could not be parsed as XML
+[24-02-2025 10:22:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077831 - String could not be parsed as XML
+[24-02-2025 10:22:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077975 - String could not be parsed as XML
+[24-02-2025 10:22:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0078397 - String could not be parsed as XML
+[24-02-2025 10:22:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0079483 - String could not be parsed as XML
+[24-02-2025 10:22:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0079588 - String could not be parsed as XML
+[24-02-2025 10:22:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0079803 - String could not be parsed as XML
+[24-02-2025 10:22:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0082468 - String could not be parsed as XML
+[24-02-2025 10:22:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0082477 - String could not be parsed as XML
+[24-02-2025 10:22:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0083722 - String could not be parsed as XML
+[24-02-2025 10:22:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0084922 - String could not be parsed as XML
+[24-02-2025 10:22:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0086439 - String could not be parsed as XML
+[24-02-2025 10:22:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0086491 - String could not be parsed as XML
+[24-02-2025 10:22:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0086525 - String could not be parsed as XML
+[24-02-2025 10:22:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0087182 - String could not be parsed as XML
+[24-02-2025 10:22:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0087985 - String could not be parsed as XML
+[24-02-2025 10:22:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0088271 - String could not be parsed as XML
+[24-02-2025 10:22:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0089482 - String could not be parsed as XML
+[24-02-2025 10:22:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0089606 - String could not be parsed as XML
+[24-02-2025 10:22:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0089893 - String could not be parsed as XML
+[24-02-2025 10:22:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0091027 - String could not be parsed as XML
+[24-02-2025 10:22:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0091223 - String could not be parsed as XML
+[24-02-2025 10:22:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0092045 - String could not be parsed as XML
+[24-02-2025 10:22:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0092106 - String could not be parsed as XML
+[24-02-2025 10:22:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0092359 - String could not be parsed as XML
+[24-02-2025 10:22:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0093374 - String could not be parsed as XML
+[24-02-2025 10:22:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0094321 - String could not be parsed as XML
+[24-02-2025 10:22:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0094535 - String could not be parsed as XML
+[24-02-2025 10:22:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0095491 - String could not be parsed as XML
+[24-02-2025 10:22:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0095963 - String could not be parsed as XML
+[24-02-2025 10:22:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0096236 - String could not be parsed as XML
+[24-02-2025 10:22:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0096267 - String could not be parsed as XML
+[24-02-2025 10:22:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0096463 - String could not be parsed as XML
+[24-02-2025 10:22:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0097778 - String could not be parsed as XML
+[24-02-2025 10:22:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0098206 - String could not be parsed as XML
+[24-02-2025 10:22:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0098477 - String could not be parsed as XML
+[24-02-2025 10:22:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0098532 - String could not be parsed as XML
+[24-02-2025 10:22:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099472 - String could not be parsed as XML
+[24-02-2025 10:22:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099474 - String could not be parsed as XML
+[24-02-2025 10:22:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099810 - String could not be parsed as XML
+[24-02-2025 10:22:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099975 - String could not be parsed as XML
+[24-02-2025 10:22:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0100050 - String could not be parsed as XML
+[24-02-2025 10:22:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0100605 - String could not be parsed as XML
+[24-02-2025 10:22:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0100967 - String could not be parsed as XML
+[24-02-2025 10:22:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0101921 - String could not be parsed as XML
+[24-02-2025 10:22:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0102286 - String could not be parsed as XML
+[24-02-2025 10:22:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0102492 - String could not be parsed as XML
+[24-02-2025 10:22:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0103905 - String could not be parsed as XML
+[24-02-2025 10:22:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0104036 - String could not be parsed as XML
+[24-02-2025 10:22:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0104070 - String could not be parsed as XML
+[24-02-2025 10:22:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0105592 - String could not be parsed as XML
+[24-02-2025 10:22:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0105903 - String could not be parsed as XML
+[24-02-2025 10:22:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0106052 - String could not be parsed as XML
+[24-02-2025 10:22:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0106053 - String could not be parsed as XML
+[24-02-2025 10:22:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0107438 - String could not be parsed as XML
+[24-02-2025 10:22:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0107473 - String could not be parsed as XML
+[24-02-2025 10:22:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0109307 - String could not be parsed as XML
+[24-02-2025 10:22:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0110613 - String could not be parsed as XML
+[24-02-2025 10:22:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0111495 - String could not be parsed as XML
+[24-02-2025 10:22:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0111662 - String could not be parsed as XML
+[24-02-2025 10:22:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0111727 - String could not be parsed as XML
+[24-02-2025 10:22:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0112572 - String could not be parsed as XML
+[24-02-2025 10:22:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0113198 - String could not be parsed as XML
+[24-02-2025 10:22:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0114095 - String could not be parsed as XML
+[24-02-2025 10:22:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0114614 - String could not be parsed as XML
+[24-02-2025 10:22:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0116414 - String could not be parsed as XML
+[24-02-2025 10:22:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0117911 - String could not be parsed as XML
+[24-02-2025 10:22:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0118159 - String could not be parsed as XML
+[24-02-2025 10:22:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0118491 - String could not be parsed as XML
+[24-02-2025 10:22:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0118843 - String could not be parsed as XML
+[24-02-2025 10:22:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0119174 - String could not be parsed as XML
+[24-02-2025 10:22:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0120689 - String could not be parsed as XML
+[24-02-2025 10:22:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0120863 - String could not be parsed as XML
+[24-02-2025 10:22:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0120885 - String could not be parsed as XML
+[24-02-2025 10:22:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0124315 - String could not be parsed as XML
+[24-02-2025 10:22:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0124718 - String could not be parsed as XML
+[24-02-2025 10:22:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0126698 - String could not be parsed as XML
+[24-02-2025 10:22:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0126916 - String could not be parsed as XML
+[24-02-2025 10:22:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0127760 - String could not be parsed as XML
+[24-02-2025 10:22:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0133011 - String could not be parsed as XML
+[24-02-2025 10:22:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0134858 - String could not be parsed as XML
+[24-02-2025 10:22:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0137330 - String could not be parsed as XML
+[24-02-2025 10:22:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0140745 - String could not be parsed as XML
+[24-02-2025 10:22:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0141006 - String could not be parsed as XML
+[24-02-2025 10:22:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0142032 - String could not be parsed as XML
+[24-02-2025 10:22:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0143940 - String could not be parsed as XML
+[24-02-2025 10:22:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0144201 - String could not be parsed as XML
+[24-02-2025 10:22:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0149593 - String could not be parsed as XML
+[24-02-2025 10:22:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0153080 - String could not be parsed as XML
+[24-02-2025 10:22:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0156812 - String could not be parsed as XML
+[24-02-2025 10:22:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0161191 - String could not be parsed as XML
+[24-02-2025 10:22:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0165247 - String could not be parsed as XML
+[24-02-2025 10:22:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0165727 - String could not be parsed as XML
+[24-02-2025 10:22:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0165798 - String could not be parsed as XML
+[24-02-2025 10:22:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0172493 - String could not be parsed as XML
+[24-02-2025 10:22:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0175142 - String could not be parsed as XML
+[24-02-2025 10:22:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0185371 - String could not be parsed as XML
+[24-02-2025 10:22:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0186619 - String could not be parsed as XML
+[24-02-2025 10:22:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0186726 - String could not be parsed as XML
+[24-02-2025 10:22:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0188453 - String could not be parsed as XML
+[24-02-2025 10:22:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0189649 - String could not be parsed as XML
+[24-02-2025 10:22:44] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0190332 - String could not be parsed as XML
+[24-02-2025 10:22:44] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0190641 - String could not be parsed as XML
+[24-02-2025 10:22:44] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0190829 - String could not be parsed as XML
+[24-02-2025 10:22:44] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0197951 - String could not be parsed as XML
+[24-02-2025 10:22:44] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0199753 - String could not be parsed as XML
+[24-02-2025 10:22:45] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0201992 - String could not be parsed as XML
+[24-02-2025 10:22:45] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0202109 - String could not be parsed as XML
+[24-02-2025 10:22:45] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0202880 - String could not be parsed as XML
+[24-02-2025 10:22:45] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0203233 - String could not be parsed as XML
+[24-02-2025 10:22:45] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0206080 - String could not be parsed as XML
+[24-02-2025 10:22:46] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0206516 - String could not be parsed as XML
+[24-02-2025 10:22:46] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0208003 - String could not be parsed as XML
+[24-02-2025 10:22:46] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0210234 - String could not be parsed as XML
+[24-02-2025 10:22:46] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0211042 - String could not be parsed as XML
+[24-02-2025 10:22:46] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0212558 - String could not be parsed as XML
+[24-02-2025 10:22:47] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0220880 - String could not be parsed as XML
+[24-02-2025 10:22:47] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0221218 - String could not be parsed as XML
+[24-02-2025 10:22:47] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0243255 - String could not be parsed as XML
+[24-02-2025 10:22:47] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0248555 - String could not be parsed as XML
+[24-02-2025 10:22:47] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0251736 - String could not be parsed as XML
+[24-02-2025 10:22:47] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0257106 - String could not be parsed as XML
+[24-02-2025 10:22:48] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0259054 - String could not be parsed as XML
+[24-02-2025 10:22:48] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0259656 - String could not be parsed as XML
+[24-02-2025 10:22:48] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0262287 - String could not be parsed as XML
+[24-02-2025 10:22:48] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0262830 - String could not be parsed as XML
+[24-02-2025 10:22:48] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0263975 - String could not be parsed as XML
+[24-02-2025 10:22:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0264796 - String could not be parsed as XML
+[24-02-2025 10:22:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0265208 - String could not be parsed as XML
+[24-02-2025 10:22:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0266987 - String could not be parsed as XML
+[24-02-2025 10:22:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0269217 - String could not be parsed as XML
+[24-02-2025 10:22:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0274965 - String could not be parsed as XML
+[24-02-2025 10:22:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0275277 - String could not be parsed as XML
+[24-02-2025 10:22:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0277371 - String could not be parsed as XML
+[24-02-2025 10:22:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0279113 - String could not be parsed as XML
+[24-02-2025 10:22:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0280609 - String could not be parsed as XML
+[24-02-2025 10:22:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0283877 - String could not be parsed as XML
+[24-02-2025 10:22:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0284244 - String could not be parsed as XML
+[24-02-2025 10:22:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0285680 - String could not be parsed as XML
+[24-02-2025 10:22:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0286788 - String could not be parsed as XML
+[24-02-2025 10:22:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0287839 - String could not be parsed as XML
+[24-02-2025 10:22:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0289765 - String could not be parsed as XML
+[24-02-2025 10:22:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0292945 - String could not be parsed as XML
+[24-02-2025 10:22:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0293715 - String could not be parsed as XML
+[24-02-2025 10:22:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0294433 - String could not be parsed as XML
+[24-02-2025 10:22:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0300051 - String could not be parsed as XML
+[24-02-2025 10:22:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0301370 - String could not be parsed as XML
+[24-02-2025 10:22:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0304824 - String could not be parsed as XML
+[24-02-2025 10:22:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0305669 - String could not be parsed as XML
+[24-02-2025 10:22:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0306047 - String could not be parsed as XML
+[24-02-2025 10:22:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0306841 - String could not be parsed as XML
+[24-02-2025 10:22:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0312528 - String could not be parsed as XML
+[24-02-2025 10:22:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0313016 - String could not be parsed as XML
+[24-02-2025 10:22:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0314405 - String could not be parsed as XML
+[24-02-2025 10:22:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0315638 - String could not be parsed as XML
+[24-02-2025 10:22:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0315983 - String could not be parsed as XML
+[24-02-2025 10:22:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0317676 - String could not be parsed as XML
+[24-02-2025 10:22:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0322802 - String could not be parsed as XML
+[24-02-2025 10:22:55] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0324013 - String could not be parsed as XML
+[24-02-2025 10:22:55] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0325618 - String could not be parsed as XML
+[24-02-2025 10:22:55] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0329200 - String could not be parsed as XML
+[24-02-2025 10:22:55] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0333780 - String could not be parsed as XML
+[24-02-2025 10:22:55] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0335119 - String could not be parsed as XML
+[24-02-2025 10:22:56] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0338459 - String could not be parsed as XML
+[24-02-2025 10:22:56] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0345950 - String could not be parsed as XML
+[24-02-2025 10:22:56] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0347618 - String could not be parsed as XML
+[24-02-2025 10:22:56] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0349682 - String could not be parsed as XML
+[24-02-2025 10:22:56] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0356634 - String could not be parsed as XML
+[24-02-2025 10:22:57] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0362120 - String could not be parsed as XML
+[24-02-2025 10:22:57] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0384252 - String could not be parsed as XML
+[24-02-2025 10:22:57] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0384629 - String could not be parsed as XML
+[24-02-2025 10:22:57] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0385002 - String could not be parsed as XML
+[24-02-2025 10:22:57] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0385004 - String could not be parsed as XML
+[24-02-2025 10:22:57] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0385880 - String could not be parsed as XML
+[24-02-2025 10:22:58] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0387228 - String could not be parsed as XML
+[24-02-2025 10:22:58] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0388980 - String could not be parsed as XML
+[24-02-2025 10:22:58] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0389790 - String could not be parsed as XML
+[24-02-2025 10:22:58] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0390559 - String could not be parsed as XML
+[24-02-2025 10:22:59] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0393735 - String could not be parsed as XML
+[24-02-2025 10:22:59] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0393879 - String could not be parsed as XML
+[24-02-2025 10:22:59] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0397065 - String could not be parsed as XML
+[24-02-2025 10:22:59] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0397113 - String could not be parsed as XML
+[24-02-2025 10:22:59] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0397442 - String could not be parsed as XML
+[24-02-2025 10:23:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0397619 - String could not be parsed as XML
+[24-02-2025 10:23:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0399060 - String could not be parsed as XML
+[24-02-2025 10:23:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0401828 - String could not be parsed as XML
+[24-02-2025 10:23:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0404220 - String could not be parsed as XML
+[24-02-2025 10:23:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0404254 - String could not be parsed as XML
+[24-02-2025 10:23:00] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0405497 - String could not be parsed as XML
+[24-02-2025 10:23:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0410297 - String could not be parsed as XML
+[24-02-2025 10:23:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0412142 - String could not be parsed as XML
+[24-02-2025 10:23:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0413406 - String could not be parsed as XML
+[24-02-2025 10:23:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0416881 - String could not be parsed as XML
+[24-02-2025 10:23:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0419198 - String could not be parsed as XML
+[24-02-2025 10:23:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0419208 - String could not be parsed as XML
+[24-02-2025 10:23:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0420252 - String could not be parsed as XML
+[24-02-2025 10:23:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0421239 - String could not be parsed as XML
+[24-02-2025 10:23:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0421729 - String could not be parsed as XML
+[24-02-2025 10:23:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0422434 - String could not be parsed as XML
+[24-02-2025 10:23:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0425637 - String could not be parsed as XML
+[24-02-2025 10:23:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0426592 - String could not be parsed as XML
+[24-02-2025 10:23:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0426883 - String could not be parsed as XML
+[24-02-2025 10:23:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0428579 - String could not be parsed as XML
+[24-02-2025 10:23:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0429626 - String could not be parsed as XML
+[24-02-2025 10:23:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0432402 - String could not be parsed as XML
+[24-02-2025 10:23:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0437729 - String could not be parsed as XML
+[24-02-2025 10:23:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0441834 - String could not be parsed as XML
+[24-02-2025 10:23:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0443518 - String could not be parsed as XML
+[24-02-2025 10:23:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0445094 - String could not be parsed as XML
+[24-02-2025 10:23:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0445840 - String could not be parsed as XML
+[24-02-2025 10:23:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0452608 - String could not be parsed as XML
+[24-02-2025 10:23:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0456773 - String could not be parsed as XML
+[24-02-2025 10:23:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0459945 - String could not be parsed as XML
+[24-02-2025 10:23:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0462538 - String could not be parsed as XML
+[24-02-2025 10:23:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0462667 - String could not be parsed as XML
+[24-02-2025 10:23:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0466342 - String could not be parsed as XML
+[24-02-2025 10:23:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0466408 - String could not be parsed as XML
+[24-02-2025 10:23:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0467200 - String could not be parsed as XML
+[24-02-2025 10:23:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0468558 - String could not be parsed as XML
+[24-02-2025 10:23:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0477574 - String could not be parsed as XML
+[24-02-2025 10:23:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0481006 - String could not be parsed as XML
+[24-02-2025 10:23:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0482527 - String could not be parsed as XML
+[24-02-2025 10:23:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0482930 - String could not be parsed as XML
+[24-02-2025 10:23:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0483184 - String could not be parsed as XML
+[24-02-2025 10:23:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0490228 - String could not be parsed as XML
+[24-02-2025 10:23:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0492956 - String could not be parsed as XML
+[24-02-2025 10:23:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0498483 - String could not be parsed as XML
+[24-02-2025 10:23:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0783238 - String could not be parsed as XML
+[24-02-2025 10:23:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0784938 - String could not be parsed as XML
+[24-02-2025 10:23:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0795363 - String could not be parsed as XML
+[24-02-2025 10:23:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0795368 - String could not be parsed as XML
+[24-02-2025 10:23:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0795461 - String could not be parsed as XML
+[24-02-2025 10:23:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0799949 - String could not be parsed as XML
+[24-02-2025 10:23:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0803061 - String could not be parsed as XML
+[24-02-2025 10:23:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0805564 - String could not be parsed as XML
+[24-02-2025 10:23:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0806165 - String could not be parsed as XML
+[24-02-2025 10:23:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0808506 - String could not be parsed as XML
+[24-02-2025 10:23:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0810819 - String could not be parsed as XML
+[24-02-2025 10:23:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0830558 - String could not be parsed as XML
+[24-02-2025 10:23:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0836641 - String could not be parsed as XML
+[24-02-2025 10:23:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0844708 - String could not be parsed as XML
+[24-02-2025 10:23:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0846308 - String could not be parsed as XML
+[24-02-2025 10:23:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0852705 - String could not be parsed as XML
+[24-02-2025 10:23:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0852713 - String could not be parsed as XML
+[24-02-2025 10:23:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0856262 - String could not be parsed as XML
+[24-02-2025 10:23:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0873886 - String could not be parsed as XML
+[24-02-2025 10:23:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0877057 - String could not be parsed as XML
+[24-02-2025 10:23:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0905315 - String could not be parsed as XML
+[24-02-2025 10:23:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0923633 - String could not be parsed as XML
+[24-02-2025 10:23:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0944947 - String could not be parsed as XML
+[24-02-2025 10:23:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0947810 - String could not be parsed as XML
+[24-02-2025 10:23:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0956177 - String could not be parsed as XML
+[24-02-2025 10:23:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0974959 - String could not be parsed as XML
+[24-02-2025 10:23:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0977855 - String could not be parsed as XML
+[24-02-2025 10:23:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0990407 - String could not be parsed as XML
+[24-02-2025 10:23:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1000734 - String could not be parsed as XML
+[24-02-2025 10:23:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10097312 - String could not be parsed as XML
+[24-02-2025 10:23:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1013860 - String could not be parsed as XML
+[24-02-2025 10:23:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10172266 - String could not be parsed as XML
+[24-02-2025 10:23:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10274284 - String could not be parsed as XML
+[24-02-2025 10:23:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10275370 - String could not be parsed as XML
+[24-02-2025 10:23:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1028528 - String could not be parsed as XML
+[24-02-2025 10:23:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10293406 - String could not be parsed as XML
+[24-02-2025 10:23:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10350626 - String could not be parsed as XML
+[24-02-2025 10:23:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10365730 - String could not be parsed as XML
+[24-02-2025 10:23:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1046163 - String could not be parsed as XML
+[24-02-2025 10:23:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10466872 - String could not be parsed as XML
+[24-02-2025 10:23:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10472884 - String could not be parsed as XML
+[24-02-2025 10:23:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1050160 - String could not be parsed as XML
+[24-02-2025 10:23:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10653784 - String could not be parsed as XML
+[24-02-2025 10:23:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10731768 - String could not be parsed as XML
+[24-02-2025 10:23:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10803634 - String could not be parsed as XML
+[24-02-2025 10:23:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10847306 - String could not be parsed as XML
+[24-02-2025 10:23:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10919420 - String could not be parsed as XML
+[24-02-2025 10:23:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt10972026 - String could not be parsed as XML
+[24-02-2025 10:23:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11032374 - String could not be parsed as XML
+[24-02-2025 10:23:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1107319 - String could not be parsed as XML
+[24-02-2025 10:23:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1108209 - String could not be parsed as XML
+[24-02-2025 10:23:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1114265 - String could not be parsed as XML
+[24-02-2025 10:23:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11143196 - String could not be parsed as XML
+[24-02-2025 10:23:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1114677 - String could not be parsed as XML
+[24-02-2025 10:23:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11198330 - String could not be parsed as XML
+[24-02-2025 10:23:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11214590 - String could not be parsed as XML
+[24-02-2025 10:23:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11252248 - String could not be parsed as XML
+[24-02-2025 10:23:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11286314 - String could not be parsed as XML
+[24-02-2025 10:23:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1132620 - String could not be parsed as XML
+[24-02-2025 10:23:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1133985 - String could not be parsed as XML
+[24-02-2025 10:23:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11384200 - String could not be parsed as XML
+[24-02-2025 10:23:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11384690 - String could not be parsed as XML
+[24-02-2025 10:23:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11388406 - String could not be parsed as XML
+[24-02-2025 10:23:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11417508 - String could not be parsed as XML
+[24-02-2025 10:23:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11423214 - String could not be parsed as XML
+[24-02-2025 10:23:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1160419 - String could not be parsed as XML
+[24-02-2025 10:23:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1161624 - String could not be parsed as XML
+[24-02-2025 10:23:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1172994 - String could not be parsed as XML
+[24-02-2025 10:23:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11823076 - String could not be parsed as XML
+[24-02-2025 10:23:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11835714 - String could not be parsed as XML
+[24-02-2025 10:23:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt11859012 - String could not be parsed as XML
+[24-02-2025 10:23:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12054414 - String could not be parsed as XML
+[24-02-2025 10:23:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12120130 - String could not be parsed as XML
+[24-02-2025 10:23:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1213644 - String could not be parsed as XML
+[24-02-2025 10:23:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1216487 - String could not be parsed as XML
+[24-02-2025 10:23:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1220619 - String could not be parsed as XML
+[24-02-2025 10:23:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1223933 - String could not be parsed as XML
+[24-02-2025 10:23:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12252958 - String could not be parsed as XML
+[24-02-2025 10:23:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1226240 - String could not be parsed as XML
+[24-02-2025 10:23:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12263866 - String could not be parsed as XML
+[24-02-2025 10:23:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12299432 - String could not be parsed as XML
+[24-02-2025 10:23:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1231460 - String could not be parsed as XML
+[24-02-2025 10:23:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12338128 - String could not be parsed as XML
+[24-02-2025 10:23:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1234719 - String could not be parsed as XML
+[24-02-2025 10:23:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1245526 - String could not be parsed as XML
+[24-02-2025 10:23:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1250757 - String could not be parsed as XML
+[24-02-2025 10:23:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12588092 - String could not be parsed as XML
+[24-02-2025 10:23:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12688688 - String could not be parsed as XML
+[24-02-2025 10:23:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12851366 - String could not be parsed as XML
+[24-02-2025 10:23:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12851512 - String could not be parsed as XML
+[24-02-2025 10:23:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt12879624 - String could not be parsed as XML
+[24-02-2025 10:23:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1292042 - String could not be parsed as XML
+[24-02-2025 10:23:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt13269536 - String could not be parsed as XML
+[24-02-2025 10:23:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt13315324 - String could not be parsed as XML
+[24-02-2025 10:23:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1333125 - String could not be parsed as XML
+[24-02-2025 10:23:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt13405778 - String could not be parsed as XML
+[24-02-2025 10:23:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1343097 - String could not be parsed as XML
+[24-02-2025 10:23:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1369845 - String could not be parsed as XML
+[24-02-2025 10:23:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1375598 - String could not be parsed as XML
+[24-02-2025 10:23:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1379161 - String could not be parsed as XML
+[24-02-2025 10:23:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1380224 - String could not be parsed as XML
+[24-02-2025 10:23:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1381055 - String could not be parsed as XML
+[24-02-2025 10:23:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt13819562 - String could not be parsed as XML
+[24-02-2025 10:23:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1382246 - String could not be parsed as XML
+[24-02-2025 10:23:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1414111 - String could not be parsed as XML
+[24-02-2025 10:23:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt14184932 - String could not be parsed as XML
+[24-02-2025 10:23:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1422020 - String could not be parsed as XML
+[24-02-2025 10:23:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1429449 - String could not be parsed as XML
+[24-02-2025 10:23:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt14298328 - String could not be parsed as XML
+[24-02-2025 10:23:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt14344690 - String could not be parsed as XML
+[24-02-2025 10:23:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt14365434 - String could not be parsed as XML
+[24-02-2025 10:23:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt14535168 - String could not be parsed as XML
+[24-02-2025 10:23:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1462041 - String could not be parsed as XML
+[24-02-2025 10:23:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1463208 - String could not be parsed as XML
+[24-02-2025 10:23:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt14703382 - String could not be parsed as XML
+[24-02-2025 10:23:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1486185 - String could not be parsed as XML
+[24-02-2025 10:23:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1487118 - String could not be parsed as XML
+[24-02-2025 10:23:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1490017 - String could not be parsed as XML
+[24-02-2025 10:23:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt14948432 - String could not be parsed as XML
+[24-02-2025 10:23:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt14966898 - String could not be parsed as XML
+[24-02-2025 10:23:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt15109082 - String could not be parsed as XML
+[24-02-2025 10:23:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt15132930 - String could not be parsed as XML
+[24-02-2025 10:23:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1515091 - String could not be parsed as XML
+[24-02-2025 10:23:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt15176202 - String could not be parsed as XML
+[24-02-2025 10:23:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt15185242 - String could not be parsed as XML
+[24-02-2025 10:23:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt15239678 - String could not be parsed as XML
+[24-02-2025 10:23:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt1532577 - String could not be parsed as XML
+[24-02-2025 10:23:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt15331462 - String could not be parsed as XML
+[24-02-2025 10:23:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt15340724 - String could not be parsed as XML
+[24-02-2025 10:23:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt15464988 - String could not be parsed as XML
+[24-02-2025 10:23:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt15497220 - String could not be parsed as XML
+[24-02-2025 10:23:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt15567174 - String could not be parsed as XML
+[24-02-2025 10:23:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0003037 - String could not be parsed as XML
+[24-02-2025 10:23:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0008677 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0009700 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0014547 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0014606 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0019004 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0019760 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0020481 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0020503 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0023594 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0024671 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0025048 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0025896 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0027349 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0030871 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0031885 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0032566 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0032599 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0034587 - String could not be parsed as XML
+[24-02-2025 10:23:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036324 - String could not be parsed as XML
+[24-02-2025 10:32:16] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0003037
+[24-02-2025 10:32:17] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0003037
+[24-02-2025 10:32:17] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0008677
+[24-02-2025 10:32:17] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0008677
+[24-02-2025 10:32:18] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0009700
+[24-02-2025 10:32:18] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0009700
+[24-02-2025 10:32:18] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0014547
+[24-02-2025 10:32:18] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0014547
+[24-02-2025 10:32:19] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0014606
+[24-02-2025 10:32:19] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0014606
+[24-02-2025 10:32:19] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0019004
+[24-02-2025 10:32:19] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0019004
+[24-02-2025 10:32:20] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0019760
+[24-02-2025 10:32:20] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0019760
+[24-02-2025 10:32:20] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0020481
+[24-02-2025 10:32:20] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0020481
+[24-02-2025 10:32:20] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0020503
+[24-02-2025 10:32:20] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0020503
+[24-02-2025 10:32:21] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0023594
+[24-02-2025 10:32:21] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0023594
+[24-02-2025 10:32:22] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0024671
+[24-02-2025 10:32:22] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0024671
+[24-02-2025 10:32:22] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0025048
+[24-02-2025 10:32:22] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0025048
+[24-02-2025 10:32:23] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0025896
+[24-02-2025 10:32:23] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0025896
+[24-02-2025 10:32:23] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0027349
+[24-02-2025 10:32:23] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0027349
+[24-02-2025 10:32:23] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0030871
+[24-02-2025 10:32:23] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0030871
+[24-02-2025 10:32:24] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0031885
+[24-02-2025 10:32:24] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0031885
+[24-02-2025 10:32:24] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0032566
+[24-02-2025 10:32:24] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0032566
+[24-02-2025 10:32:25] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0032599
+[24-02-2025 10:32:25] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0032599
+[24-02-2025 10:32:25] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0034587
+[24-02-2025 10:32:25] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0034587
+[24-02-2025 10:32:26] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0036324
+[24-02-2025 10:32:26] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0036324
+[24-02-2025 10:32:26] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0036439
+[24-02-2025 10:32:26] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0036439
+[24-02-2025 10:32:27] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0036723
+[24-02-2025 10:32:27] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0036723
+[24-02-2025 10:32:27] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0037378
+[24-02-2025 10:32:27] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0037378
+[24-02-2025 10:32:27] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0038174
+[24-02-2025 10:32:28] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0038174
+[24-02-2025 10:32:28] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0040725
+[24-02-2025 10:32:28] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0040725
+[24-02-2025 10:32:29] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0040853
+[24-02-2025 10:32:29] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0040853
+[24-02-2025 10:32:29] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0041154
+[24-02-2025 10:32:29] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0041154
+[24-02-2025 10:32:29] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0041430
+[24-02-2025 10:32:29] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0041430
+[24-02-2025 10:32:30] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0041627
+[24-02-2025 10:32:30] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0041627
+[24-02-2025 10:32:30] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0041699
+[24-02-2025 10:32:30] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0041699
+[24-02-2025 10:32:31] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0044098
+[24-02-2025 10:32:31] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0044098
+[24-02-2025 10:32:31] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0045129
+[24-02-2025 10:32:31] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0045129
+[24-02-2025 10:32:32] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0045300
+[24-02-2025 10:32:32] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0045300
+[24-02-2025 10:32:32] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0046874
+[24-02-2025 10:32:32] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0046874
+[24-02-2025 10:32:33] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0047505
+[24-02-2025 10:32:33] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0047505
+[24-02-2025 10:32:33] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0047628
+[24-02-2025 10:32:33] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0047628
+[24-02-2025 10:32:34] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0049854
+[24-02-2025 10:32:34] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0049854
+[24-02-2025 10:32:34] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0049873
+[24-02-2025 10:32:34] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0049873
+[24-02-2025 10:32:34] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0050099
+[24-02-2025 10:32:34] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0050099
+[24-02-2025 10:32:35] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0051459
+[24-02-2025 10:32:35] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0051459
+[24-02-2025 10:32:35] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0051604
+[24-02-2025 10:32:35] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0051604
+[24-02-2025 10:32:36] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0051702
+[24-02-2025 10:32:36] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0051702
+[24-02-2025 10:32:36] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0051744
+[24-02-2025 10:32:36] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0051744
+[24-02-2025 10:32:36] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0052295
+[24-02-2025 10:32:37] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0052295
+[24-02-2025 10:32:37] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0052964
+[24-02-2025 10:32:37] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0052964
+[24-02-2025 10:32:37] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0053361
+[24-02-2025 10:32:37] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0053361
+[24-02-2025 10:32:38] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0056586
+[24-02-2025 10:32:38] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0056586
+[24-02-2025 10:32:38] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0056703
+[24-02-2025 10:32:38] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0056703
+[24-02-2025 10:32:39] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0058536
+[24-02-2025 10:32:39] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0058536
+[24-02-2025 10:32:39] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0058656
+[24-02-2025 10:32:39] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0058656
+[24-02-2025 10:32:40] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0058657
+[24-02-2025 10:32:40] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0058657
+[24-02-2025 10:32:40] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0058658
+[24-02-2025 10:32:40] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0058658
+[24-02-2025 10:32:41] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0059017
+[24-02-2025 10:32:41] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0059017
+[24-02-2025 10:32:41] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0060153
+[24-02-2025 10:32:41] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0060153
+[24-02-2025 10:32:42] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0060492
+[24-02-2025 10:32:42] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0060492
+[24-02-2025 10:32:42] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0060565
+[24-02-2025 10:32:42] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0060565
+[24-02-2025 10:32:43] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0060758
+[24-02-2025 10:32:43] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0060758
+[24-02-2025 10:32:43] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0061095
+[24-02-2025 10:32:43] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0061095
+[24-02-2025 10:32:43] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0061177
+[24-02-2025 10:32:43] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0061177
+[24-02-2025 10:32:44] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0062369
+[24-02-2025 10:32:44] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0062369
+[24-02-2025 10:32:44] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0062370
+[24-02-2025 10:32:44] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0062370
+[24-02-2025 10:32:45] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0062994
+[24-02-2025 10:32:45] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0062994
+[24-02-2025 10:32:45] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0063069
+[24-02-2025 10:32:45] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0063069
+[24-02-2025 10:32:46] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0063696
+[24-02-2025 10:32:46] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0063696
+[24-02-2025 10:32:46] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0066343
+[24-02-2025 10:32:46] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0066343
+[24-02-2025 10:32:47] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0066456
+[24-02-2025 10:32:47] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0066456
+[24-02-2025 10:32:47] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0067310
+[24-02-2025 10:32:47] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0067310
+[24-02-2025 10:32:48] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0068612
+[24-02-2025 10:32:48] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0068612
+[24-02-2025 10:32:48] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0068833
+[24-02-2025 10:32:48] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0068833
+[24-02-2025 10:32:49] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0069973
+[24-02-2025 10:32:49] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0069973
+[24-02-2025 10:32:49] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0069995
+[24-02-2025 10:32:49] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0069995
+[24-02-2025 10:32:49] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070301
+[24-02-2025 10:32:49] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070301
+[24-02-2025 10:32:50] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070640
+[24-02-2025 10:32:50] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070640
+[24-02-2025 10:32:50] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070705
+[24-02-2025 10:32:50] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070705
+[24-02-2025 10:32:50] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070723
+[24-02-2025 10:32:51] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070723
+[24-02-2025 10:32:51] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070778
+[24-02-2025 10:32:51] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070778
+[24-02-2025 10:32:51] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070968
+[24-02-2025 10:32:51] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0070968
+[24-02-2025 10:32:52] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0071007
+[24-02-2025 10:32:52] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0071007
+[24-02-2025 10:32:52] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0072730
+[24-02-2025 10:32:52] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0072730
+[24-02-2025 10:32:52] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0072890
+[24-02-2025 10:32:52] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0072890
+[24-02-2025 10:32:53] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0073511
+[24-02-2025 10:32:53] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0073511
+[24-02-2025 10:32:53] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0073582
+[24-02-2025 10:32:53] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0073582
+[24-02-2025 10:32:54] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0074506
+[24-02-2025 10:32:54] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0074506
+[24-02-2025 10:32:54] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0074624
+[24-02-2025 10:32:54] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0074624
+[24-02-2025 10:32:54] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0074806
+[24-02-2025 10:32:54] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0074806
+[24-02-2025 10:32:55] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0076095
+[24-02-2025 10:32:55] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0076095
+[24-02-2025 10:32:55] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0076162
+[24-02-2025 10:32:55] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0076162
+[24-02-2025 10:32:56] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0076519
+[24-02-2025 10:32:56] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0076519
+[24-02-2025 10:32:56] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0076716
+[24-02-2025 10:32:56] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0076716
+[24-02-2025 10:32:57] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0076823
+[24-02-2025 10:32:57] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0076823
+[24-02-2025 10:32:57] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0077290
+[24-02-2025 10:32:57] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0077290
+[24-02-2025 10:32:57] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0077645
+[24-02-2025 10:32:57] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0077645
+[24-02-2025 10:32:58] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0077831
+[24-02-2025 10:32:58] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0077975
+[24-02-2025 10:32:58] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0077975
+[24-02-2025 10:32:59] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0078397
+[24-02-2025 10:32:59] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0078397
+[24-02-2025 10:32:59] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0079483
+[24-02-2025 10:32:59] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0079588
+[24-02-2025 10:33:00] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0079803
+[24-02-2025 10:33:00] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0082468
+[24-02-2025 10:33:01] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0082477
+[24-02-2025 10:33:01] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0083722
+[24-02-2025 10:33:01] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0084922
+[24-02-2025 10:33:02] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0086439
+[24-02-2025 10:33:02] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0086491
+[24-02-2025 10:33:03] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0086525
+[24-02-2025 10:33:03] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0087182
+[24-02-2025 10:33:03] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0087985
+[24-02-2025 10:33:04] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0088271
+[24-02-2025 10:33:04] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0089482
+[24-02-2025 10:33:05] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0089606
+[24-02-2025 10:33:05] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0089893
+[24-02-2025 10:33:06] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0091027
+[24-02-2025 10:33:06] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0091223
+[24-02-2025 10:33:06] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0092045
+[24-02-2025 10:33:07] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0092106
+[24-02-2025 10:33:07] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0092359
+[24-02-2025 10:33:08] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0093374
+[24-02-2025 10:33:08] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0094321
+[24-02-2025 10:33:08] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0094535
+[24-02-2025 10:33:09] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0095491
+[24-02-2025 10:33:09] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0095963
+[24-02-2025 10:33:10] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0096236
+[24-02-2025 10:33:10] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0096267
+[24-02-2025 10:33:10] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0096463
+[24-02-2025 10:33:11] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0097778
+[24-02-2025 10:33:11] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0098206
+[24-02-2025 10:33:12] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0098477
+[24-02-2025 10:33:12] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0098532
+[24-02-2025 10:33:12] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0099472
+[24-02-2025 10:33:13] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0099474
+[24-02-2025 10:33:13] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0099810
+[24-02-2025 10:33:13] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0099975
+[24-02-2025 10:33:14] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0100050
+[24-02-2025 10:33:14] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0100605
+[24-02-2025 10:33:15] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0100967
+[24-02-2025 10:33:15] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0101921
+[24-02-2025 10:33:16] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0102286
+[24-02-2025 10:33:16] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0102492
+[24-02-2025 10:33:16] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0103905
+[24-02-2025 10:33:17] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0104036
+[24-02-2025 10:33:17] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0104070
+[24-02-2025 10:33:18] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0105592
+[24-02-2025 10:33:18] Fehler beim Abrufen der Filmdaten in XML für IMDb-ID: tt0105903
+[24-02-2025 10:35:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0003037 - String could not be parsed as XML
+[24-02-2025 10:35:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0008677 - String could not be parsed as XML
+[24-02-2025 10:35:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0009700 - String could not be parsed as XML
+[24-02-2025 10:35:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0014547 - String could not be parsed as XML
+[24-02-2025 10:35:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0014606 - String could not be parsed as XML
+[24-02-2025 10:35:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0019004 - String could not be parsed as XML
+[24-02-2025 10:35:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0019760 - String could not be parsed as XML
+[24-02-2025 10:35:01] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0020481 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0020503 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0023594 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0024671 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0025048 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0025896 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0027349 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0030871 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0031885 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0032566 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0032599 - String could not be parsed as XML
+[24-02-2025 10:35:02] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0034587 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036324 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036439 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036723 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0037378 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0038174 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0040725 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0040853 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041154 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041430 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041627 - String could not be parsed as XML
+[24-02-2025 10:35:03] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041699 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0044098 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0045129 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0045300 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0046874 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0047505 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0047628 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0049854 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0049873 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0050099 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051459 - String could not be parsed as XML
+[24-02-2025 10:35:04] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051604 - String could not be parsed as XML
+[24-02-2025 10:35:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051702 - String could not be parsed as XML
+[24-02-2025 10:35:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051744 - String could not be parsed as XML
+[24-02-2025 10:35:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0052295 - String could not be parsed as XML
+[24-02-2025 10:35:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0052964 - String could not be parsed as XML
+[24-02-2025 10:35:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0053361 - String could not be parsed as XML
+[24-02-2025 10:35:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0056586 - String could not be parsed as XML
+[24-02-2025 10:35:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0056703 - String could not be parsed as XML
+[24-02-2025 10:35:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058536 - String could not be parsed as XML
+[24-02-2025 10:35:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058656 - String could not be parsed as XML
+[24-02-2025 10:35:05] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058657 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058658 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0059017 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060153 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060492 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060565 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060758 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0061095 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0061177 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062369 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062370 - String could not be parsed as XML
+[24-02-2025 10:35:06] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062994 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0063069 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0063696 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0066343 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0066456 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0067310 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0068612 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0068833 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0069973 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0069995 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070301 - String could not be parsed as XML
+[24-02-2025 10:35:07] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070640 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070705 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070723 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070778 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070968 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0071007 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0072730 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0072890 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0073511 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0073582 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0074506 - String could not be parsed as XML
+[24-02-2025 10:35:08] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0074624 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0074806 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076095 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076162 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076519 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076716 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076823 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077290 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077645 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077831 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077975 - String could not be parsed as XML
+[24-02-2025 10:35:09] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0078397 - String could not be parsed as XML
+[24-02-2025 10:35:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0079483 - String could not be parsed as XML
+[24-02-2025 10:35:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0079588 - String could not be parsed as XML
+[24-02-2025 10:35:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0079803 - String could not be parsed as XML
+[24-02-2025 10:35:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0082468 - String could not be parsed as XML
+[24-02-2025 10:35:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0082477 - String could not be parsed as XML
+[24-02-2025 10:35:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0083722 - String could not be parsed as XML
+[24-02-2025 10:35:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0084922 - String could not be parsed as XML
+[24-02-2025 10:35:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0086439 - String could not be parsed as XML
+[24-02-2025 10:35:10] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0086491 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0086525 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0087182 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0087985 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0088271 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0089482 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0089606 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0089893 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0091027 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0091223 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0092045 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0092106 - String could not be parsed as XML
+[24-02-2025 10:35:11] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0092359 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0093374 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0094321 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0094535 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0095491 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0095963 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0096236 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0096267 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0096463 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0097778 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0098206 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0098477 - String could not be parsed as XML
+[24-02-2025 10:35:12] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0098532 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099472 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099474 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099810 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099975 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0100050 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0100605 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0100967 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0101921 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0102286 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0102492 - String could not be parsed as XML
+[24-02-2025 10:35:13] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0103905 - String could not be parsed as XML
+[24-02-2025 10:35:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0104036 - String could not be parsed as XML
+[24-02-2025 10:35:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0104070 - String could not be parsed as XML
+[24-02-2025 10:35:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0105592 - String could not be parsed as XML
+[24-02-2025 10:35:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0105903 - String could not be parsed as XML
+[24-02-2025 10:35:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0106052 - String could not be parsed as XML
+[24-02-2025 10:35:14] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0106053 - String could not be parsed as XML
+[24-02-2025 10:35:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0107438 - String could not be parsed as XML
+[24-02-2025 10:35:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0107473 - String could not be parsed as XML
+[24-02-2025 10:35:15] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0109307 - String could not be parsed as XML
+[24-02-2025 10:35:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0110613 - String could not be parsed as XML
+[24-02-2025 10:35:16] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0111495 - String could not be parsed as XML
+[24-02-2025 10:35:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0111662 - String could not be parsed as XML
+[24-02-2025 10:35:17] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0111727 - String could not be parsed as XML
+[24-02-2025 10:35:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0112572 - String could not be parsed as XML
+[24-02-2025 10:35:18] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0113198 - String could not be parsed as XML
+[24-02-2025 10:35:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0114095 - String could not be parsed as XML
+[24-02-2025 10:35:19] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0114614 - String could not be parsed as XML
+[24-02-2025 10:35:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0116414 - String could not be parsed as XML
+[24-02-2025 10:35:20] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0117911 - String could not be parsed as XML
+[24-02-2025 10:35:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0118159 - String could not be parsed as XML
+[24-02-2025 10:35:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0118491 - String could not be parsed as XML
+[24-02-2025 10:35:21] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0118843 - String could not be parsed as XML
+[24-02-2025 10:35:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0119174 - String could not be parsed as XML
+[24-02-2025 10:35:22] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0120689 - String could not be parsed as XML
+[24-02-2025 10:35:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0120863 - String could not be parsed as XML
+[24-02-2025 10:35:23] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0120885 - String could not be parsed as XML
+[24-02-2025 10:35:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0124315 - String could not be parsed as XML
+[24-02-2025 10:35:24] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0124718 - String could not be parsed as XML
+[24-02-2025 10:35:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0126698 - String could not be parsed as XML
+[24-02-2025 10:35:25] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0126916 - String could not be parsed as XML
+[24-02-2025 10:35:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0127760 - String could not be parsed as XML
+[24-02-2025 10:35:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0133011 - String could not be parsed as XML
+[24-02-2025 10:35:26] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0134858 - String could not be parsed as XML
+[24-02-2025 10:35:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0137330 - String could not be parsed as XML
+[24-02-2025 10:35:27] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0140745 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0003037 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0141006 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0008677 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0009700 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0014547 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0014606 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0019004 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0142032 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0019760 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0020481 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0020503 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0023594 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0024671 - String could not be parsed as XML
+[24-02-2025 10:35:28] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0025048 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0025896 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0143940 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0027349 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0030871 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0031885 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0032566 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0032599 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0144201 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0034587 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036324 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036439 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036723 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0037378 - String could not be parsed as XML
+[24-02-2025 10:35:29] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0149593 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0038174 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0040725 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0040853 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041154 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041430 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0153080 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041627 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041699 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0044098 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0045129 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0045300 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0046874 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0047505 - String could not be parsed as XML
+[24-02-2025 10:35:30] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0156812 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0047628 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0049854 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0049873 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0161191 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0050099 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051459 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051604 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051702 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0165247 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051744 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0052295 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0052964 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0053361 - String could not be parsed as XML
+[24-02-2025 10:35:31] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0056586 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0056703 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058536 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0165727 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058656 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058657 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058658 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0059017 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0165798 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060153 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060492 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060565 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060758 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0172493 - String could not be parsed as XML
+[24-02-2025 10:35:32] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0061095 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0061177 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062369 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062370 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0175142 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062994 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0063069 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0063696 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0066343 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0185371 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0066456 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0067310 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0068612 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0068833 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0186619 - String could not be parsed as XML
+[24-02-2025 10:35:33] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0069973 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0069995 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070301 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070640 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0186726 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070705 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070723 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070778 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0070968 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0188453 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0071007 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0072730 - String could not be parsed as XML
+[24-02-2025 10:35:34] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0072890 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0073511 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0189649 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0073582 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0074506 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0074624 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0074806 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076095 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076162 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076519 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076716 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0190641 - String could not be parsed as XML
+[24-02-2025 10:35:35] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0076823 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077290 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077645 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077831 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0077975 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0078397 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0190829 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0079483 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0079588 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0079803 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0197951 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0082468 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0082477 - String could not be parsed as XML
+[24-02-2025 10:35:36] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0083722 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0084922 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0086439 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0086491 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0199753 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0086525 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0087182 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0087985 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0088271 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0089482 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0089606 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0089893 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0091027 - String could not be parsed as XML
+[24-02-2025 10:35:37] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0091223 - String could not be parsed as XML
+[24-02-2025 10:35:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0092045 - String could not be parsed as XML
+[24-02-2025 10:35:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0092106 - String could not be parsed as XML
+[24-02-2025 10:35:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0092359 - String could not be parsed as XML
+[24-02-2025 10:35:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0093374 - String could not be parsed as XML
+[24-02-2025 10:35:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0094321 - String could not be parsed as XML
+[24-02-2025 10:35:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0094535 - String could not be parsed as XML
+[24-02-2025 10:35:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0095491 - String could not be parsed as XML
+[24-02-2025 10:35:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0095963 - String could not be parsed as XML
+[24-02-2025 10:35:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0096236 - String could not be parsed as XML
+[24-02-2025 10:35:38] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0096267 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0096463 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0097778 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0098206 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0098477 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0098532 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099472 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099474 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099810 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0099975 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0100050 - String could not be parsed as XML
+[24-02-2025 10:35:39] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0100605 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0100967 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0101921 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0102286 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0102492 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0103905 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0104036 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0104070 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0105592 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0105903 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0106052 - String could not be parsed as XML
+[24-02-2025 10:35:40] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0106053 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0107438 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0107473 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0109307 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0110613 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0111495 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0111662 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0111727 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0112572 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0113198 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0114095 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0114614 - String could not be parsed as XML
+[24-02-2025 10:35:41] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0116414 - String could not be parsed as XML
+[24-02-2025 10:35:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0117911 - String could not be parsed as XML
+[24-02-2025 10:35:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0118159 - String could not be parsed as XML
+[24-02-2025 10:35:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0118491 - String could not be parsed as XML
+[24-02-2025 10:35:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0118843 - String could not be parsed as XML
+[24-02-2025 10:35:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0119174 - String could not be parsed as XML
+[24-02-2025 10:35:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0120689 - String could not be parsed as XML
+[24-02-2025 10:35:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0120863 - String could not be parsed as XML
+[24-02-2025 10:35:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0120885 - String could not be parsed as XML
+[24-02-2025 10:35:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0124315 - String could not be parsed as XML
+[24-02-2025 10:35:42] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0124718 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0126698 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0126916 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0127760 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0133011 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0134858 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0137330 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0140745 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0141006 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0142032 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0143940 - String could not be parsed as XML
+[24-02-2025 10:35:43] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0144201 - String could not be parsed as XML
+[24-02-2025 10:35:44] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0149593 - String could not be parsed as XML
+[24-02-2025 10:35:44] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0153080 - String could not be parsed as XML
+[24-02-2025 10:35:44] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0156812 - String could not be parsed as XML
+[24-02-2025 10:40:48] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0003037 - String could not be parsed as XML
+[24-02-2025 10:40:48] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0008677 - String could not be parsed as XML
+[24-02-2025 10:40:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0009700 - String could not be parsed as XML
+[24-02-2025 10:40:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0014547 - String could not be parsed as XML
+[24-02-2025 10:40:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0014606 - String could not be parsed as XML
+[24-02-2025 10:40:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0019004 - String could not be parsed as XML
+[24-02-2025 10:40:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0019760 - String could not be parsed as XML
+[24-02-2025 10:40:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0020481 - String could not be parsed as XML
+[24-02-2025 10:40:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0020503 - String could not be parsed as XML
+[24-02-2025 10:40:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0023594 - String could not be parsed as XML
+[24-02-2025 10:40:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0024671 - String could not be parsed as XML
+[24-02-2025 10:40:49] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0025048 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0025896 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0027349 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0030871 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0031885 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0032566 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0032599 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0034587 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036324 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036439 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0036723 - String could not be parsed as XML
+[24-02-2025 10:40:50] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0037378 - String could not be parsed as XML
+[24-02-2025 10:40:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0038174 - String could not be parsed as XML
+[24-02-2025 10:40:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0040725 - String could not be parsed as XML
+[24-02-2025 10:40:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0040853 - String could not be parsed as XML
+[24-02-2025 10:40:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041154 - String could not be parsed as XML
+[24-02-2025 10:40:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041430 - String could not be parsed as XML
+[24-02-2025 10:40:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041627 - String could not be parsed as XML
+[24-02-2025 10:40:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0041699 - String could not be parsed as XML
+[24-02-2025 10:40:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0044098 - String could not be parsed as XML
+[24-02-2025 10:40:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0045129 - String could not be parsed as XML
+[24-02-2025 10:40:51] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0045300 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0046874 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0047505 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0047628 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0049854 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0049873 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0050099 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051459 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051604 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051702 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0051744 - String could not be parsed as XML
+[24-02-2025 10:40:52] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0052295 - String could not be parsed as XML
+[24-02-2025 10:40:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0052964 - String could not be parsed as XML
+[24-02-2025 10:40:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0053361 - String could not be parsed as XML
+[24-02-2025 10:40:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0056586 - String could not be parsed as XML
+[24-02-2025 10:40:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0056703 - String could not be parsed as XML
+[24-02-2025 10:40:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058536 - String could not be parsed as XML
+[24-02-2025 10:40:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058656 - String could not be parsed as XML
+[24-02-2025 10:40:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058657 - String could not be parsed as XML
+[24-02-2025 10:40:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0058658 - String could not be parsed as XML
+[24-02-2025 10:40:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0059017 - String could not be parsed as XML
+[24-02-2025 10:40:53] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060153 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060492 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060565 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0060758 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0061095 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0061177 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062369 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062370 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0062994 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0063069 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0063696 - String could not be parsed as XML
+[24-02-2025 10:40:54] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0066343 - String could not be parsed as XML
+[24-02-2025 10:40:55] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0066456 - String could not be parsed as XML
+[24-02-2025 10:40:55] Fehler bei der XML-Kodierung der Filmdaten für IMDb-ID: tt0067310 - String could not be parsed as XML

@@ -1,13 +1,15 @@
 <?php
 namespace mvc;
 
+use SimpleXMLElement;
+
 class Api { // TEST: Ich muss schauen ob der key noch funktioniert und zur not einen anderen key benutzen
 
-    private String $apiKey = "5c526890";
+    private String $apiKey = $_ENV['API_KEY2'];
     private String $basisURL = "http://www.omdbapi.com/"; // Basis-URL für die API
 
     // Generalisierte Methode für API-Anfragen
-    private function apiRequest($params) : array { // Es wird um einen parameter gebeten und ein array erwartet
+    private function apiRequestJSON($params) : array { // Es wird um einen parameter gebeten und ein array erwartet
         
         // Füge den API-Schlüssel zu den Parametern hinzu
         $params['apikey'] = $this->apiKey;
@@ -58,8 +60,53 @@ class Api { // TEST: Ich muss schauen ob der key noch funktioniert und zur not e
             error_log("JSON-Dekodierungsfehler: " . json_last_error_msg());
             return ['Response' => 'False', 'Error' => 'Fehler beim Dekodieren der JSON-Datei: ' . json_last_error_msg()];
         }
-
         return $data;
+    }
+
+    private function apiRequestXML($params):SimpleXMLElement|array{ // Es wird um einen parameter gebeten und ein array erwartet
+        
+        $params['apikey'] = $this->apiKey;
+
+        $queryString = http_build_query($params); // Macht das URL-Encoding automatisch!
+
+        $url = $this->basisURL . "?" . $queryString;
+
+        $ch = curl_init();
+        curl_setopt_array($ch, [
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_TIMEOUT => 10,
+            CURLOPT_FAILONERROR => true,
+        ]);
+
+        $response = curl_exec($ch);
+        $error = curl_error($ch);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+
+        if($error){
+            write_error("cURL-Fehler: " . $error);
+            return ['Response' => 'False', 'Error' => 'cURL-Fehler: '. $error];
+        }
+
+        if($httpCode !== 200){
+            write_error("OMDb API Fehler (HTTP Code $httpCode): " . $response);
+            return ['Response' => 'False', 'Error' => 'OMDb API Fehler (HTTP Code ' . $httpCode . ')'];
+        }
+
+        try{
+            $xml = simplexml_load_string($response);
+            #$json = json_encode($xml);
+            #return json_decode($json, true);
+            if($xml === false){
+                write_error("XML-Dekodierungsfehler: Kein gültiges XML gefunden");
+                return ['Response' => 'False', 'Error' => 'Fehler beim Dekodieren des XML-Dokumentes'];
+            }
+            return $xml;
+        }catch(\Exception $e){
+            write_error("XML-Dekodierungsfehler: " . $e);
+            return ['Response' => 'False', 'Error' => 'Fehler beim Dekodieren des XML-Dokumentes: ' . $e->getMessage()];
+        }
     }
 
 
@@ -69,17 +116,35 @@ class Api { // TEST: Ich muss schauen ob der key noch funktioniert und zur not e
             's' => $title,     // Suchbegriff
             'page' => $page,    // Seitenzahl
         ];
-        return $this->apiRequest($params);
+        return $this->apiRequestJSON($params);
     }
 
+    public function getFilmeAsXML($title, $page = 1):array|SimpleXMLElement{ 
+        $params = [
+            's' => $title,     // Suchbegriff
+            'page' => $page,    // Seitenzahl
+            'r' => 'xml',      // XML-Antwort
+        ];
+        return $this->apiRequestXML($params);
+    }
 
     // Methode für einzelne Filmdetails
-    public function getFilmDetails($imdbId):array {
+    public function getFilmDetailsInJson($imdbId):array {
         $params = [
             'i' => $imdbId,    // IMDb-ID
             'plot' => 'full',  // Vollständigen Plot abrufen
+            'r' => 'json',      // JSON-Antwort
         ];
-        return $this->apiRequest($params);
+        return $this->apiRequestJSON($params);
+    }
+
+    public function getFilmDetailsInXML($imdbId):array|SimpleXMLElement {
+        $params = [
+            'i' => $imdbId,    // IMDb-ID
+            'plot' => 'full',  // Vollständigen Plot abrufen
+            'r' => 'xml',      // XML-Antwort
+        ];
+        return $this->apiRequestXML($params);
     }
 
     // Methode, um die IMDb-ID anhand des Titels zu bekommen
@@ -120,9 +185,8 @@ class Api { // TEST: Ich muss schauen ob der key noch funktioniert und zur not e
             $movies = $result['Search'];
             $randomIndex = array_rand($movies); // Verwende array_rand für Zufallsauswahl
             $imdbId = $movies[$randomIndex]['imdbID'];
-            return $this->getFilmDetails($imdbId); // getMovieDetails für Details verwenden
+            return $this->getFilmDetailsInJson($imdbId); // getMovieDetails für Details verwenden
         }
-
         return false; // Kein Film gefunden oder Fehler
     }
 
