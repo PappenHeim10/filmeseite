@@ -5,7 +5,7 @@ $api = new mvc\Api();
 
 $filme = $api->getFilmDetailsInXML('tt0067310'); // TEST: Hier die Datei als XML schreiben
 
-
+//NOTE: diese Datei ist ein XML-File
 
 ?>
 <pre>

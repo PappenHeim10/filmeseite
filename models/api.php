@@ -3,13 +3,12 @@ namespace mvc;
 
 use SimpleXMLElement;
 
-class Api { // TEST: Ich muss schauen ob der key noch funktioniert und zur not einen anderen key benutzen
+class Api {
 
     private String $apiKey = "5c526890";
-    private String $basisURL = "http://www.omdbapi.com/"; // Basis-URL für die API
+    private String $basisURL = "http://www.omdbapi.com/";
 
-    // Generalisierte Methode für API-Anfragen
-    private function apiRequestJSON($params) : array { // Es wird um einen parameter gebeten und ein array erwartet
+    private function apiRequestJSON($params) : array { // OPTIM: ich brauche diese Mthode nicht unbendingt. Ich kann eine Mthode benutzten und die Datei mit XML encode vor der rückgabe umwandeln
         
         // Füge den API-Schlüssel zu den Parametern hinzu
         $params['apikey'] = $this->apiKey;
@@ -95,7 +94,7 @@ class Api { // TEST: Ich muss schauen ob der key noch funktioniert und zur not e
         }
 
         try{
-            $xml = simplexml_load_string($response);
+            $xml = simplexml_load_string($response); // NOTE: simplexml_load_string ist eine Methode die XML-Dateien/Strings in ein SimpleXMLElement-Objekt umwandelt
             #$json = json_encode($xml);
             #return json_decode($json, true);
             if($xml === false){
