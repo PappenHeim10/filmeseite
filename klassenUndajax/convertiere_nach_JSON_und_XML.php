@@ -29,7 +29,7 @@ foreach($alleImdbIds as $imdbId){ //FIXME: Es es muss gefragt werden pb dei date
         write_error("Fehler beim Abrufen der Filmdaten für in JSON für IMDb-ID: " . $imdbId);
         continue; // Mit dem nächsten Film fortfahren
     }
-    
+
     $jsonDaten = json_encode($filmDatenJSON); // Die FilmeDaten werden in JSON formatiert
 
     $json_datei = $json_dir . '/' . $imdbId . '.json';
@@ -38,33 +38,29 @@ foreach($alleImdbIds as $imdbId){ //FIXME: Es es muss gefragt werden pb dei date
 }
 
 
-foreach($titel_Liste as $imdbId){ // DO!: Den Herausfinden was ichmit einer XML Datei machen kann.
+foreach($titel_Liste as $imdbId){ // DO!: Den Herausfinden was ich mit einer XML Datei machen kann.
     $filmDatenXML = $api->getFilmDetailsInXml($imdbId); // Die FilmeDaten werden an die API übergeben
 
-
- 
     if ($filmDatenXML instanceof SimpleXMLElement) { // Überprüfen, ob $filme ein SimpleXMLElement ist
-        foreach ($filme->Movie as $film) { // Assuming "Movie" is the element name
-            $imdbId = $film->imdbID; // Assuming "imdbID" is the element containing the IMDb ID
+            $imdbId = $filmDatenXML->imdbID; // Assuming "imdbID" is the element containing the IMDb ID
             $xml_datei = $xml_dir . '/' . $imdbId . '.xml';
-    
+
             // XML-Dokument erstellen und formatieren (optional, aber empfohlen)
             $dom = new DOMDocument('1.0', 'UTF-8');
             $dom->preserveWhiteSpace = false; // Whitespace entfernen (optional)
             $dom->formatOutput = true; // Formatierung aktivieren (optional)
-    
+
             // Wurzelknoten importieren und hinzufügen
             $importedNode = $dom->importNode($film, true); // Importiere den SimpleXMLElement-Knoten
             $dom->appendChild($importedNode);
-    
-    
+
+            // XML-Dokument speichern
             $dom->save($xml_datei);
-        }
     } else {
         // Fehlerbehandlung, falls $filme kein SimpleXMLElement ist
-        write_error("Fehler: Keine XML-Daten erhalten.");
+        write_error("Fehler: Keine XML-Datei: " . $imdbId);
     }
-
 }
+
 
 ?>
