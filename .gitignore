@@ -4,6 +4,8 @@
 #ignoriere alle log Dateien
 C:\xampp\htdocs\phpa-d\filmesite\admin\data\error.log
 
+*.log
+
 key.env
 
 admin/*
