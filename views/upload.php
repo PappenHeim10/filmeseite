@@ -96,7 +96,7 @@ if (isset($_POST["submit"])) {
 }
 ?>
 
-<div>
+<div class="error">
 <?php
 if(isset($fehler)){
     if(is_array($fehler) && !empty($fehler)){

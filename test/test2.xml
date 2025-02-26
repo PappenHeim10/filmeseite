@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Filme>
+  <Title>Tiger Wolf Rabbit</Title>
+  <Year>2024</Year>
+  <Rated>N/A</Rated>
+  <Released>01 Oct 2024</Released>
+  <Runtime>126 min</Runtime>
+  <Genre>Crime, Drama</Genre>
+  <Director>Bai Wu</Director>
+  <Writer>Ke Shang</Writer>
+  <Actors>Yang Xiao, Liying Zhao, Ye Liu</Actors>
+  <Plot>Cui Dalu (played by Xiao Yang), Li Hongying (played by Zhao Liying), and Zhao Zishan (played by Liu Ye) have each lost a child and become entangled. Along the way of finding, they encounter one bizarre and dangerous crisis after a...</Plot>
+  <Language>Chinese</Language>
+  <Country>China, Hong Kong</Country>
+  <Awards>N/A</Awards>
+  <Poster>https://m.media-amazon.com/images/M/MV5BMTU3MjU2MWYtMDAyNi00ZDhiLTg0MDEtN2FmZGM5Y2Q4M2U0XkEyXkFqcGc@._V1_SX300.jpg</Poster>
+  <Ratings>
+    <Source>Internet Movie Database</Source>
+    <Value>6.1/10</Value>
+  </Ratings>
+  <Metascore>N/A</Metascore>
+  <imdbRating>6.1</imdbRating>
+  <imdbVotes>218</imdbVotes>
+  <imdbID>tt30845371</imdbID>
+  <Type>movie</Type>
+  <DVD>N/A</DVD>
+  <BoxOffice>N/A</BoxOffice>
+  <Production>N/A</Production>
+  <Website>N/A</Website>
+  <Response>True</Response>
+</Filme>

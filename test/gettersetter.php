@@ -3,7 +3,7 @@ namespace mvc;
 include_once '../include/namespace.php';
 
 class TestKlasse {
-    use GetterSetter;
+    use \GetterSetter;
 
     private $attribut;
 
