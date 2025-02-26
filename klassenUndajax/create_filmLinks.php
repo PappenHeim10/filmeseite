@@ -15,26 +15,32 @@ $xml->appendChild($root);
 
 
 
-
-
 foreach($filmTitelUndImdbIdListe as $filmTitelUndImdbIds)
 {
 
     //NOTE: Hier wird der Url erstellt
-    $url = "?action=singleMovies&imdbID=" . $filmTitelUndImdbIds['imdbid'] . "&view=singleMovies";
-    $safe_url = htmlspecialchars($url);
+    $baseurl = "?action=singleMovies&imdbID=" . $filmTitelUndImdbIds['imdbid'] . "&view=singleMovies";
+    $safe_url = htmlspecialchars($baseurl);
 
 
     // NOTE: Hier wird der Titel erstellt
     $titel = $filmTitelUndImdbIds['titel'];
     $safe_titel = htmlspecialchars($titel);
 
-
     //NOTE: Hier wird der Link erstellt
-    $link = $xml->createElement('a'); //erstelle das <a> element.
-    $link->setAttribute('href', $safe_url); //WICHTIG: setze das href Attribut.
-    $linkText = $xml->createTextNode($safe_titel);//erstelle einen text node.(der Text der im Link angezeigt wird)
-    $link->appendChild($linkText);//füge den TextNode dem a element hinzu.
+    $ahref = $xml->createElement('a'); //erstelle das <a> element.
+    $ahref->setAttribute('href', $safe_url); //WICHTIG: setze das href Attribut.
+
+    $link = $xml->createElement('link');
+    $url = $xml->createElement('url');
+
+    $titel = $xml->createElement('titel', $safe_titel);
+
+    $url->appendChild($ahref);
+    
+    $link->appendChild($titel);
+    $link->appendChild($url);
+
     $root->appendChild($link); //füge dem Url Node den Link hinzu.
 }
 

@@ -1,9 +1,10 @@
 <?php
 
 $xml  =new DOMDocument();
+
 $xml->load("filmLinks.xml");
 
-$x=$xmlDoc->getElementsByTagName('link');
+$link = $xml->getElementsByTagName('link');
 
 //get the q parameter from URL
 $q=$_GET["q"];
