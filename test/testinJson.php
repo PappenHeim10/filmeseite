@@ -8,6 +8,7 @@ $jsonData = json_decode($datei, true);
 echo '<pre> ' . print_r($jsonData, true) . '</pre>';
 
 
+
 $xml = new DOMDocument('1.0', 'utf-8');
 $xml->formatOutput = true;
 $root = $xml->createElement('Filme');
@@ -27,7 +28,6 @@ foreach($jsonData as $key => $value){
 }
 
 $xml->save('test2.xml');
-
 
 
 /*

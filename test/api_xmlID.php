@@ -13,6 +13,7 @@ $xml->formatOutput = true;
 $root = $xml->createElement('Film');
 $xml->appendChild($root);
 
+
 foreach($filmInJson as $key => $value){
     if(is_array($value)){
         $subNode = $xml->createElement($key);

@@ -1,23 +1,12 @@
 <?php
-require_once __DIR__. '/FilmController.php';
-require_once __DIR__. '/../models/Api.php';
-require_once __DIR__. '/../models/Filme.php';
-require_once __DIR__. '/../include/datenbank.php';
 
-$filmController = new mvc\FilmController(); // Alle Filme aus der Datenbank werden Aufgerufen
-$filme = $filmController->getAlleFilme(); // Alle Filme (in from von arrays) aus der Datenbank werden in einer Variable gespeichert
-
-
-$xmlDoc=new DOMDocument();
-$xmlDoc->load("links.xml");
-
+$xml  =new DOMDocument();
+$xml->load("filmLinks.xml");
 
 $x=$xmlDoc->getElementsByTagName('link');
 
-
 //get the q parameter from URL
 $q=$_GET["q"];
-
 
 //lookup all links from the xml file if length of q>0
 if (strlen($q)>0) {

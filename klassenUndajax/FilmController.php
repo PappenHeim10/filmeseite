@@ -78,8 +78,8 @@ class FilmController
     }
 
 
-    public function einzelInsertNachID($imdbId) :void{ 
-        $filmdetails = $this->api->getFilmDetails($imdbId);
+    public function getFilmInJsonDurchImdbId($imdbId) :void{ 
+        $filmdetails = $this->api->getFilmDetailsInJson($imdbId);
 
         if ($this->filmeModel->db === null) { 
             error_log("Datenbankverbindung in bulkInsert fehlgeschlagen.");
@@ -248,6 +248,19 @@ class FilmController
             return $imdbIds;
         }catch(\PDOException $e){
             write_error("Fehler in der getImdbIdListeMethode: " .$e->getMessage());
+            return false;
+        }
+    }
+    public function getFilmTitelUndImdbIds():array|bool{
+        try{
+            $sql = "SELECT imdbid , titel FROM filme";
+            $stmt = $this->filmeModel->db->prepare($sql);
+            $stmt->execute();
+            $filme = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+            
+            return $filme;
+        }catch(\PDOException $e){
+            write_error("Fehler in der getFilmTitelUndImdbIdsMethode: " .$e->getMessage());
             return false;
         }
     }
