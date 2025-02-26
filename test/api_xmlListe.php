@@ -4,11 +4,15 @@ $api = new mvc\Api();
 
 $filme = $api->getFilmeAsXML('love', 1); //NOTE: Das ist ein XML object
 
-$xml = simplexml_load_string($filme); // NOTE: simplexml_load_string ist eine Methode umwandelt
+foreach ($filme->children() as $film) {//TEST: Ich bin mir nicht sicher was das ist
+    echo $film->titel . '<br>';
+}
+
+
 
 ?>
 <pre>
     <?php
-    print_r($filme);
+    print_r($filme); 
    ?>
 </pre>

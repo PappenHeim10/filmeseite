@@ -63,7 +63,7 @@ class Api {
     }
 
     private function apiRequestXML($params):SimpleXMLElement|array{ // Es wird um einen parameter gebeten und ein array erwartet
-        
+        //OPTIM: Kann umgeschriebn werden um den r parameter im Array zu prüfen und dann in ein SimpleXMLElement umzuwandeln
         $params['apikey'] = $this->apiKey;
 
         $queryString = http_build_query($params); // Macht das URL-Encoding automatisch!
@@ -93,6 +93,7 @@ class Api {
             return ['Response' => 'False', 'Error' => 'OMDb API Fehler (HTTP Code ' . $httpCode . ')'];
         }
 
+        
         try{
             $xml = simplexml_load_string($response); // NOTE: simplexml_load_string ist eine Methode die XML-Dateien/Strings in ein SimpleXMLElement-Objekt umwandelt
             #$json = json_encode($xml);
