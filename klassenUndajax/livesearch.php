@@ -6,18 +6,23 @@ $xml->load("filmLinks.xml");
 
 $link = $xml->getElementsByTagName('link');
 
-//get the q parameter from URL
-$q=$_GET["q"];
+// NOTE: Hier wird der q parameter aus der funktion geholt
+$q = $_GET['q'] ?? ''; // Wenn der q parameter nicht existiert wird ein leerer string benutzt
+$q = trim($q); // q wird getrimmt 
+$q = strtolower($q); // und in kleinbuchstaben gesetzt
 
-//lookup all links from the xml file if length of q>0
-if (strlen($q)>0) {
-  $hint="";
-  for($i=0; $i<($x->length); $i++) {
-    $y=$x->item($i)->getElementsByTagName('title');
-    $z=$x->item($i)->getElementsByTagName('url');
-    if ($y->item(0)->nodeType==1) {
+
+if (strlen($q)>0) { // Wenn die länge des q parameters größer als 0 ist
+  $hint=""; // hint wird initialieseirt
+
+  for($i=0; $i < ($link->length); $i++) { 
+
+    $titel = $link->item($i)->getElementsByTagName('titel');
+    $url = $link->item($i)->getElementsByTagName('url');
+
+    if ($titel->item(0)->nodeType==1) {
       //find a link matching the search text
-      if (stristr($y->item(0)->childNodes->item(0)->nodeValue,$q)) {
+      if (stristr($titel->item(0)->childNodes->item(0)->nodeValue,$q)) {
         if ($hint=="") {
           $hint="<a href='" .
           $z->item(0)->childNodes->item(0)->nodeValue .
