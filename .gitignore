@@ -2,7 +2,7 @@
 *.env
 
 #ignoriere alle log Dateien
-*.log
+C:\xampp\htdocs\phpa-d\filmesite\admin\data\error.log
 
 key.env
 
