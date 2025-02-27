@@ -42,7 +42,6 @@ class UserController
         return $fehler;
     }
 
-
     private function validateUser(array $daten):array|bool
     {
         $fehler = [];

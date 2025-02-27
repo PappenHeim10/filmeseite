@@ -275,5 +275,4 @@ class FilmController
         return $titel;
     }
 }
-
 ?>
