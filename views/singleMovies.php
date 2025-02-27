@@ -48,7 +48,6 @@ if($title){
 }
 ?>
 
-
 <form action="" method="post">
     <label for="titel">Titel:</label>
     <input type="text" name="titel">

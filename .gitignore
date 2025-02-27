@@ -1,15 +1,11 @@
 # ignoriere alle env Dateien
-*.env
 
-#ignoriere alle log Dateien
-C:\xampp\htdocs\phpa-d\filmesite\admin\data\error.log
 
 *.log
 
 key.env
 
-admin/*
 
-klassenUndajax/convertiere_nach_JSON.php
+admin/data/library_in_JSON
+admin/data/library_in_XML
 
-../key.env

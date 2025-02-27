@@ -8,7 +8,7 @@ CREATE TABLE filme (
     id INT AUTO_INCREMENT PRIMARY KEY,
     titel VARCHAR(255) NOT NULL,
     imdbid VARCHAR(255) NOT NULL UNIQUE,
-    plot TEXT NOT NULL,
+    plot TEXT,
     erscheinungs_jahr YEAR,
     erscheinungs_datum DATE,
     laufzeit INT(20),
@@ -18,12 +18,11 @@ CREATE TABLE filme (
     imdbvotes INT(20),
     boxoffice INT(20),
     poster VARCHAR(400)
-    vollstaendig BOOLEAN DEFAULT;
 );
 
 CREATE TABLE genres(
     id INT PRIMARY KEY,
-    genre VARCHAR(255) NOT NULL
+    genre VARCHAR(255) NOT NULL UNIQUE
 );
 
 CREATE TABLE filme_genres(
@@ -48,26 +47,25 @@ CREATE TABLE filme_schauspieler(
     film_id INT NOT NULL,
     schauspieler_id INT NOT NULL,
     FOREIGN KEY (film_id) REFERENCES filme(id),
-    FOREIGN KEY (schauspieler_id) REFERENCES schauspieler(id)
+    FOREIGN KEY (schauspieler_id) REFERENCES schauspieler(id) ON DELETE CASCADE
 );
 
 CREATE TABLE sprachen(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    sprache VARCHAR(255) NOT NULL
+    sprache VARCHAR(255) NOT NULL UNIQUE
 );
 
 CREATE TABLE filme_sprachen(
     id INT AUTO_INCREMENT PRIMARY KEY,
     film_id INT NOT NULL,
     sprache_id INT NOT NULL,
-    FOREIGN KEY (film_id) REFERENCES filme(id),
-    FOREIGN KEY (sprache_id) REFERENCES sprachen(id)
+    FOREIGN KEY (film_id) REFERENCES filme(id) ON DELETE CASCADE,
+    FOREIGN KEY (sprache_id) REFERENCES sprachen(id) ON DELETE CASCADE
 );
 
 CREATE TABLE director(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    vorname VARCHAR(255) NOT NULL,
-    nachname VARCHAR(255) NOT NULL,
+    director VARCHAR(255) NOT NULL,
     geburtsdatum DATE,
     geburtsort VARCHAR(255),
     biografie TEXT
@@ -90,21 +88,21 @@ CREATE TABLE filme_land(
     id INT AUTO_INCREMENT PRIMARY KEY,
     film_id INT NOT NULL,
     land_id INT NOT NULL,
-    FOREIGN KEY (film_id) REFERENCES filme(id),
-    FOREIGN KEY (land_id) REFERENCES land(id)
+    FOREIGN KEY (film_id) REFERENCES filme(id) ON DELETE CASCADE,
+    FOREIGN KEY (land_id) REFERENCES land(id) ON DELETE CASCADE
 );
 
 CREATE TABLE auszeichnungen(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    preis VARCHAR(255) NOT NULL
+    auszeichnungen VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE filme_auszeichnungen(
     id INT AUTO_INCREMENT PRIMARY KEY,
     film_id INT NOT NULL,
-    preis_id INT NOT NULL,
-    FOREIGN KEY (film_id) REFERENCES filme(id),
-    FOREIGN KEY (preis_id) REFERENCES auszeichnungen(id)
+    auszeichnungen_id INT NOT NULL,
+    FOREIGN KEY (film_id) REFERENCES filme(id) ON DELETE CASCADE,
+    FOREIGN KEY (auszeichnungen_id) REFERENCES auszeichnungen(id) ON DELETE CASCADE
 );
 
 CREATE TABLE autoren(
@@ -154,3 +152,15 @@ CREATE TABLE admin(
     username VARCHAR(255) NOT NULL UNIQUE,
     passwort VARCHAR(255) NOT NULL
 );
+
+CREATE TABLE posts(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titel VARCHAR(255) NOT NULL,
+    inhalt TEXT NOT NULL,
+    datum DATE NOT NULL,
+    zeit TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    user_id INT NOT NULL,
+    film_id INT NOT NULL,
+    FOREIGN KEY (film_id) REFERENCES filme(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+)
