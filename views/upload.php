@@ -13,6 +13,10 @@
 </div>
 
 <?php
+// Die Titel und die ID werden gerufen
+
+
+
 if (isset($_POST["submit"])) { 
     $fehler = []; // Hier werden alle uploads gespeichert
     $uploadOk = 1; // das ok wird auf ja gestellt
@@ -22,15 +26,25 @@ if (isset($_POST["submit"])) {
     // Prüfen, OB eine Datei hochgeladen wurde, BEVOR auf $_FILES zugegriffen wird.
     if (isset($_FILES["fileToUpload"]) && $_FILES["fileToUpload"]["error"] === UPLOAD_ERR_OK) {
         $dateiTyp = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
-        
+
+
         if($dateiTyp == "xml"){
             $target_dir = $target_dir_for_xml;
+            
+
         }elseif($dateiTyp == "json"){
             $target_dir = $target_dir_for_json;
         }else{
-            $fehler[] = "Dateiendung ist nicht bekannt.";
+            $fehler[] = "Falscher Dateitype.";
             $uploadOk = 0;
         }
+
+
+        
+
+
+
+
 
         $target_file = $target_dir . "/" . basename($_FILES["fileToUpload"]["name"]);
         hinweis_log("Eine Datei ist bereit zum hochladen.");
