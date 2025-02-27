@@ -14,20 +14,9 @@ LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `filme`
 CHARACTER SET 'utf8mb4'
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS
-(titel, erscheinungs_jahr, jugendfreigabe, erscheinungs_datum, laufzeit,plot, poster, jugendfreigabe, metascore, imdbbewertung, imdbvotes, imdbid, BoxOffice)  -- Reihenfolge korrigiert
-SET 
-    titel = titel,  -- Reihenfolge korrigiert
-    erscheinungs_jahr = erscheinungs_jahr,
-    erscheinungs_datum = STR_TO_DATE(erscheinungs_datum, '%d %M %Y'),
-    laufzeit = REPLACE(laufzeit, ' min', ''),
-    jugendfreigabe = jugendfreigabe,
-    metascore = Metascore,
-    imdbbewertung = imdbbewertung,
-    imdbvotes = imdbVotes,
-    imdbid = imdbID,
-    boxoffice = BoxOffice,
-    poster = Poster;
+IGNORE 1 ROWS;
+
+INSERT INTO `filme`('titel', 'imdbid', 'plot', 'erscheinungs_jahr', 'erscheinungs_datum', 'laufzeit')-- DO!: Hier muss ich das zuende schreiben
 
 LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `schauspieler`
  CHARACTER SET 'utf8mb4'
