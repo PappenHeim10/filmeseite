@@ -20,15 +20,14 @@ echo read_message(); // Nachrichten werden hier ausgegeben
 echo "</div>"
 ?>
 
-<div class="wrapper"> <!-- Hier beginnt der wrapper zum stylen -->
+<div class="wrapper">
 <?php
 
 $api = new mvc\Api();
 
 $header = new Header();
 $nav = new Navigation(); 
-#$userController = new mvc\ TODO: Diese Klasse schreiben
-$userController = new mvc\UserController();
+$userController = new mvc\UserController(); // Dependancies werden hier erstellt
 
 $header->render();// Komponenten wereden hier gerendert
 $nav->render();
@@ -79,15 +78,15 @@ switch ($action) {
     <input type="hidden" name="page" value="1"><!-- Die such wird immer über die erste seite gestartet -->
     <input type="hidden" name="action" value="<?php echo htmlspecialchars($view);?>"> <!-- Die Aktion und damit der view werden nicht geändert --> 
     <label for="title">Titel Eingeben: </label>
-    <input type="text" name="title" id="searchInput" onkeyup="showMovies(this.value)" placeholder="House" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
+    <input type="text" name="title" id="searchInput" onkeyup="handleKeyUp(value);" placeholder="House" value="<?php echo htmlspecialchars(urldecode($title)); ?>">
     <input type="submit" value="Suchen"><!-- OPTIM: Die suche ist so eingeseelt das  sie auf der Start seite nicht Funktioniert-->
-    <?php 
+</form>
+
+<?php 
     if($view != 'start'){
         echo "<div id='livesearch'></div>";
     }
-    ?>
-</form>
-
+?>
 <div class="main"> 
 
 <?php

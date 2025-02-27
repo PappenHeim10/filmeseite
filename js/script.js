@@ -1,3 +1,9 @@
+function handleKeyUp(value) {
+  showResult(value);  // Führt showResult() aus
+  showMovies(value);  // Führt showMovies() aus
+}
+
+
 function showMovies(str) { // die Funktion wird definiert und nimmt einen Sring entgegen
     if (str.trim() === "") { // -wenn der String leer ist 
         document.getElementById("movie").innerHTML = ""; // Wir der Ausgabe ort geleert
@@ -29,19 +35,61 @@ function showMovies(str) { // die Funktion wird definiert und nimmt einen Sring 
 
 
 function showResult(str) {
-    if (str.length==0) {
-      document.getElementById("livesearch").innerHTML="";
-      document.getElementById("livesearch").style.border="0px";
+  if (str.length == 0) {
+      document.getElementById("livesearch").innerHTML = "";
+      document.getElementById("livesearch").style.border = "0px";
+      document.getElementById("livesearch").style.position = "static"; // Reset position
       return;
-    }
-    var xmlhttp=new XMLHttpRequest();
-    xmlhttp.onreadystatechange=function() {
-      if (this.readyState==4 && this.status==200) {
-        document.getElementById("livesearch").innerHTML=this.responseText;
-        document.getElementById("livesearch").style.border="1px solid #A5ACB2";
+  }
+
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          try {  //  Fehlerbehandlung für JSON.parse()
+              const response = JSON.parse(this.responseText); // JSON parsen
+
+              let html = '';
+              if (response.length > 0) {
+                  response.forEach(item => {
+                      html += '<div><a href="' + item.url + '">' + item.titel + '</a></div>'; // Links erstellen
+                  });
+                  document.getElementById("livesearch").innerHTML = html;
+                  document.getElementById("livesearch").style.border = "1px solid rgb(36, 65, 48)";
+                  document.getElementById("livesearch").style.backgroundColor = "rgb(255, 255, 255)";
+                  document.getElementById("livesearch").style.position = "absolute";
+                  document.getElementById("livesearch").style.zIndex = "100";
+
+                  const searchInput = document.getElementById("searchInput");
+                  const inputRect = searchInput.getBoundingClientRect();
+                  document.getElementById("livesearch").style.top = (inputRect.bottom) + "px";
+                  document.getElementById("livesearch").style.left = (inputRect.left) + "px";
+                  document.getElementById("livesearch").style.width = (inputRect.width) + "px";
+              } else {
+                  document.getElementById("livesearch").innerHTML = "<div>Keine Vorschläge gefunden.</div>"; // Oder einfach ausblenden
+              }
+
+          } catch (e) {
+              console.error("Fehler beim Parsen der JSON-Antwort:", e);
+              document.getElementById("livesearch").innerHTML = "<div>Fehler bei der Verarbeitung der Daten.</div>";
+          }
       }
-    }
-    xmlhttp.open("GET","livesearch.php?q="+str,true);
-    xmlhttp.send();
+  };
+
+  xmlhttp.open("GET", "klassenUndajax/livesearch.php?q=" + encodeURIComponent(str), true); // Korrekte URL und Wert
+  xmlhttp.setRequestHeader('X-Requested-With', 'XMLHttpRequest'); // Optionaler Header
+  xmlhttp.send();
 }
 
+// Event-Listener (ausblenden bei Klick außerhalb) - wie zuvor
+document.addEventListener('click', function(event) {
+  const searchInput = document.getElementById('searchInput');
+  const livesearch = document.getElementById('livesearch');
+  if (!searchInput.contains(event.target) && !livesearch.contains(event.target)) {
+      livesearch.style.display = 'none';
+  }
+});
+
+
+function test(){
+  alert("test");
+}

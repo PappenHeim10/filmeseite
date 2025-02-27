@@ -4,7 +4,7 @@ namespace mvc;
 class UserController
 {
     use \Validation;
-    private $userModel;
+    private User $userModel;
     // Die Validation-Trait ist in namespace.php
 
     public function __construct()
@@ -12,10 +12,9 @@ class UserController
         $this->userModel = new User(); // Instanz der User-Klasse (dein Model)
     }
 
-    public function registrierung():array|bool
+    public function registrierung():array
     {
-        $fehler = []; //
-        $daten = [];
+        $fehler = [];
 
         if($_SERVER['REQUEST_METHOD'] == 'POST'){ // Post
             $daten  = $_POST;
@@ -78,6 +77,7 @@ class UserController
         return $fehler;
     }
 
+
     public function listeBenutzer()
     {
         $users = $this->userModel->selectAll();
@@ -97,6 +97,7 @@ class UserController
         }
     }
 
+
     public function zeigeBenutzer($id) // WICHTIG: Dieser Funktion fehlt ein View.
     {
         $user = $this->userModel->select($id);
@@ -109,6 +110,7 @@ class UserController
               exit;
         }
     }
+
 
     public function login(array $daten){
         $user = $this->userModel->benutzernameExistiert($daten['benutzername']);
@@ -124,4 +126,6 @@ class UserController
         return $fehler;
     }
 }
+
+
 ?>

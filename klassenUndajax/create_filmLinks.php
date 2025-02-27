@@ -1,48 +1,39 @@
 <?php
+// In index.php ODER wo auch immer du die XML-Datei erstellst.
 require_once __DIR__. '/FilmController.php';
-require_once __DIR__. '/../models/Api.php';
-require_once __DIR__. '/../models/Filme.php';
-require_once __DIR__. '/../include/datenbank.php';
+require_once __DIR__. '/../models/Api.php'; // Falls benötigt
+require_once __DIR__. '/../models/Filme.php'; // Falls benötigt
+require_once __DIR__. '/../include/datenbank.php'; // Falls benötigt
 
-$filmController = new mvc\FilmController();
-$filmTitelUndImdbIdListe = $filmController->getFilmTitelUndImdbIds();
+use mvc\FilmController;
 
+$filmController = new FilmController();
+$filmTitelUndImdbIdListe = $filmController->getFilmTitelUndImdbIds(); // Die Titel und die ID werden gerugen
 
 $xml = new DOMDocument('1.0', 'UTF-8');
-$xml->formatOutput = true;
-$root = $xml->createElement('Hinwise');
+$xml->formatOutput = true; //TIP: Für bessere Lesbarkeit
+$root = $xml->createElement('Hinweise'); // Das Root Element wird erstellt
 $xml->appendChild($root);
 
-
-
-foreach($filmTitelUndImdbIdListe as $filmTitelUndImdbIds)
-{
-
-    //NOTE: Hier wird der Url erstellt
-    $baseurl = "?action=singleMovies&imdbID=" . $filmTitelUndImdbIds['imdbid'] . "&view=singleMovies";
-    $safe_url = htmlspecialchars($baseurl);
-
-
-    // NOTE: Hier wird der Titel erstellt
-    $titel = $filmTitelUndImdbIds['titel'];
-    $safe_titel = htmlspecialchars($titel);
-
-    //NOTE: Hier wird der Link erstellt
-    $ahref = $xml->createElement('a'); //erstelle das <a> element.
-    $ahref->setAttribute('href', $safe_url); //WICHTIG: setze das href Attribut.
-
+foreach ($filmTitelUndImdbIdListe as $film) {
     $link = $xml->createElement('link');
+
+    // NOTE: Das Titel Element wird erstellt, der Element Text wird erstellt und dann dem Titel Element hinzugefügt
+    $titel = $xml->createElement('titel');
+    $titelText = $xml->createTextNode(htmlspecialchars($film['titel'], ENT_QUOTES, 'UTF-8')); //  Textknoten erstellen!
+    $titel->appendChild($titelText);
+
+    // NOTE: Das Url Element wird erstellt, die URL wird erstellt und dann dem Url Element hinzugefügt
     $url = $xml->createElement('url');
+    $urlValue = "?action=singleMovies&imdbID=" . urlencode($film['imdbid']) . "&view=singleMovies";
+    $urlText = $xml->createTextNode($urlValue);
+    $url->appendChild($urlText);
 
-    $titel = $xml->createElement('titel', $safe_titel);
-
-    $url->appendChild($ahref);
-    
     $link->appendChild($titel);
     $link->appendChild($url);
-
-    $root->appendChild($link); //füge dem Url Node den Link hinzu.
+    $root->appendChild($link);
 }
 
-$xml->save('filmLinks.xml');
+$xml->save('filmLinks.xml'); // Speicherort überprüfen!
+
 ?>

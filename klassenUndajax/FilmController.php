@@ -251,19 +251,19 @@ class FilmController
             return false;
         }
     }
-    public function getFilmTitelUndImdbIds():array|bool{
-        try{
-            $sql = "SELECT imdbid , titel FROM filme";
-            $stmt = $this->filmeModel->db->prepare($sql);
-            $stmt->execute();
-            $filme = $stmt->fetchAll(\PDO::FETCH_ASSOC);
-            
-            return $filme;
-        }catch(\PDOException $e){
-            write_error("Fehler in der getFilmTitelUndImdbIdsMethode: " .$e->getMessage());
-            return false;
+// In FilmController.php
+        public function getFilmTitelUndImdbIds(): array
+        {
+            try {
+                $sql = "SELECT titel, imdbid FROM filme"; // Nur Titel und IMDb-ID
+                $stmt = $this->filmeModel->db->prepare($sql);
+                $stmt->execute();
+                return $stmt->fetchAll(\PDO::FETCH_ASSOC);
+            } catch (\PDOException $e) {
+                write_error("Fehler in getFilmTitelUndImdbIds: " . $e->getMessage());
+                return []; // Leeres Array im Fehlerfall
+            }
         }
-    }
     
     public function getFilmTitelListe():array|bool{
 

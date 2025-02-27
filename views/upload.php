@@ -11,11 +11,12 @@
         <li>.json oder .xml</li>
     </ul>
 </div>
+
 <?php
-if (isset($_POST["submit"])) {
-    $fehler = [];
-    $uploadOk = 1;
-    $target_dir_for_xml = "admin/data/library_in_XML";
+if (isset($_POST["submit"])) { 
+    $fehler = []; // Hier werden alle uploads gespeichert
+    $uploadOk = 1; // das ok wird auf ja gestellt
+    $target_dir_for_xml = "admin/data/library_in_XML"; // Die zielverzeichnisse werden für xml und json festgeleg
     $target_dir_for_json = "admin/data/library_in_JSON";
 
     // Prüfen, OB eine Datei hochgeladen wurde, BEVOR auf $_FILES zugegriffen wird.
