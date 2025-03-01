@@ -12,7 +12,7 @@ if(isset($_REQUEST['title']) && isset($_REQUEST['page']) && !empty($_REQUEST['ti
         filmeAnzeigen($filme);
     elseif(isset($filme['Error'])): // API Fehler anzeigen
         echo "<p>".htmlspecialchars($filme['Error'])."</p>";
-    else :
+    else:
         echo "<p>Keine Filme gefunden.</p>"; // Keine Ergebnisse (weder API noch DB)
     endif;
     ?>

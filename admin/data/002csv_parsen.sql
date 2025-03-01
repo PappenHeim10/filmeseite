@@ -9,14 +9,14 @@ LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (id, genre);
 
-
-LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `filme`
+LOAD DATA LOCAL INFILE 'csv/filme.csv'
+INTO TABLE `filme`
 CHARACTER SET 'utf8mb4'
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS
+(titel, erscheinungs_jahr, jugendfreigabe, erscheinungs_datum, laufzeit, plot, poster, metascore, imdbbewertung, imdbid, boxoffice);
 
-INSERT INTO `filme`('titel', 'imdbid', 'plot', 'erscheinungs_jahr', 'erscheinungs_datum', 'laufzeit')-- DO!: Hier muss ich das zuende schreiben
 
 LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `schauspieler`
  CHARACTER SET 'utf8mb4'

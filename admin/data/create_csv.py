@@ -3,9 +3,6 @@ import json
 import csv
 
 def json_zu_csv_mit_fehlenden_keys(json_ordner, csv_datei_pfad):
-    """
-    Liest alle JSON-Dateien und füllt fehlende Keys mit None auf.
-    """
 
     alle_daten = []
     alle_keys = set()
@@ -35,7 +32,7 @@ def json_zu_csv_mit_fehlenden_keys(json_ordner, csv_datei_pfad):
         writer.writerows(alle_daten)
 
 json_ordner = 'admin/data/library_in_JSON'
-csv_datei_pfad = 'admin/data/csv/filme.csv'
+csv_datei_pfad = 'admin/data/csv/alle_filme.csv'
 
 if not os.path.exists(json_ordner):
     print(f"Fehler: Das Verzeichnis '{json_ordner}' existiert nicht.")

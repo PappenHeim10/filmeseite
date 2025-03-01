@@ -64,7 +64,6 @@ class FilmController
         $stmt->execute();
     }
 
-
     //HILFS FUNKTION für filmeMasseneinfuegen()
     private function filmExistiert(string $imdbId): bool 
     {
