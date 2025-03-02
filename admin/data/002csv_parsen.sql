@@ -18,66 +18,41 @@ IGNORE 1 ROWS
 (titel, erscheinungs_jahr, jugendfreigabe, erscheinungs_datum, laufzeit, plot, poster, metascore, imdbbewertung, imdbid, boxoffice);
 
 
-LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `schauspieler`
+LOAD DATA LOCAL INFILE 'csv/schauspieler.csv' INTO TABLE `schauspieler`
  CHARACTER SET 'utf8mb4'
  FIELDS TERMINATED BY ','
  LINES TERMINATED BY '\n'
  IGNORE 1 LINES
- (Actors)
- SET
-    schauspieler = REPLACE(Actors, '|', ', ');
+ (schauspieler);
 
 
-LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `sprachen`
+LOAD DATA LOCAL INFILE 'csv/sprachen.csv' INTO TABLE `sprachen`
  CHARACTER SET 'utf8mb4'
  FIELDS TERMINATED BY ','
  LINES TERMINATED BY '\n'
  IGNORE 1 LINES
- (Language)
- SET
-    sprache = Language;
+(sprache);
 
-LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `land`
+
+LOAD DATA LOCAL INFILE 'csv/laender.csv' INTO TABLE `land`
+CHARACTER SET 'utf8mb4'
+FIELDS TERMINATED BY ','
+    -- ENCLOSED BY '"'  <-- REMOVE THIS LINE
+    -- OPTIONALLY ENCLOSED BY '"' <--  OR USE THIS (MySQL 8.0.22+)
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(land);
+
+LOAD DATA LOCAL INFILE 'csv/directoren.csv' INTO TABLE `director`
  CHARACTER SET 'utf8mb4'
  FIELDS TERMINATED BY ','
  LINES TERMINATED BY '\n'
  IGNORE 1 LINES
- (Country)
- SET
-    land = Country;
+ (director);
 
-LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `director`
+LOAD DATA LOCAL INFILE 'csv/autoren.csv' INTO TABLE `autoren`
  CHARACTER SET 'utf8mb4'
  FIELDS TERMINATED BY ','
  LINES TERMINATED BY '\n'
  IGNORE 1 LINES
- (Director)
-    SET
-        director = Director;
-
-LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `autoren`
- CHARACTER SET 'utf8mb4'
- FIELDS TERMINATED BY ','
- LINES TERMINATED BY '\n'
- IGNORE 1 LINES
- (Writer)
-    SET
-        autoren = Writer;
-
-LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `auszeichnungen`
- CHARACTER SET 'utf8mb4'
- FIELDS TERMINATED BY ','
- LINES TERMINATED BY '\n'
- IGNORE 1 LINES
- (Awards)
-    SET
-        auszeichnungen = Awards;
-
-LOAD DATA LOCAL INFILE 'csv/filme.csv' INTO TABLE `bewertungen`
- CHARACTER SET 'utf8mb4'
- FIELDS TERMINATED BY ','
- LINES TERMINATED BY '\n'
- IGNORE 1 LINES
- (Ratings)
-    SET
-        bewertungen = Ratings;
+ (autor);

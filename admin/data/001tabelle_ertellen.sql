@@ -35,11 +35,7 @@ CREATE TABLE filme_genres(
 
 CREATE TABLE schauspieler(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    vorname VARCHAR(255) NOT NULL,
-    nachname VARCHAR(255) NOT NULL,
-    geburtsdatum DATE,
-    geburtsort VARCHAR(255),
-    biografie TEXT
+    schauspieler VARCHAR(255) UNIQUE
 );
 
 CREATE TABLE filme_schauspieler(
@@ -65,10 +61,7 @@ CREATE TABLE filme_sprachen(
 
 CREATE TABLE director(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    director VARCHAR(255) NOT NULL,
-    geburtsdatum DATE,
-    geburtsort VARCHAR(255),
-    biografie TEXT
+    director VARCHAR(255) NOT NULL UNIQUE
 );
 
 CREATE TABLE film_director(
@@ -107,19 +100,15 @@ CREATE TABLE filme_auszeichnungen(
 
 CREATE TABLE autoren(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    vorname VARCHAR(255) NOT NULL,
-    nachname VARCHAR(255) NOT NULL,
-    geburtsdatum DATE,
-    geburtsort VARCHAR(255),
-    biografie TEXT
+    autor VARCHAR(255) NOT NULL UNIQUE
 );
 
 CREATE TABLE filme_autoren(
     id INT AUTO_INCREMENT PRIMARY KEY,
     film_id INT NOT NULL,
-    autoren_id INT NOT NULL,
+    autor_id INT NOT NULL,
     FOREIGN KEY (film_id) REFERENCES filme(id),
-    FOREIGN KEY (autoren_id) REFERENCES autoren(id)
+    FOREIGN KEY (autor_id) REFERENCES autoren(id)
 );
 
 CREATE TABLE bewertungen(
