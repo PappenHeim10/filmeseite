@@ -2,52 +2,63 @@
 namespace mvc;
 #echo "BeDugging: View=$view , action=$action, title=$title, page=$page, imdbId=$imdbId";
 
-if (!empty($imdbId)){ // Wenn ein imdb nummer zur verfügung steht
-    $film = $filmController->getFilmNachImdb($imdbId); // Wird deren die filmdaten anhand der nummer aufgerugefen
+$film = $filmController->getFilmDetailsById($imdbId);
 
-    if (is_array($film)) { // Wenn der Film ein array ist
-        echo einzeilAnzeigen($film); //
-    }
-}
+if($imdbId != ""){
+?>
+<div class="singelSeite">
+<div>
+<h2><?php echo $film['titel']; ?></h2>
+<img src="<?php echo $film['poster']; ?>" alt="">
+<p>Jugendfreigabe: <?php echo $film['jugendfreigabe'] ?></p>
+<p>Erscheinungsjahr: <?php echo $film['erscheinungs_jahr'];?></p>
+</div>
+<div>
+    
 
-if(empty($imdbId) && empty($title))
-{
-    $film = $filmController->getZufallsFilm();
-
-    if(!$film){
-        echo "<p>Es ist ein Fehler aufgetreten: Kein zufälliges Film gefunden.</p>";
-        return;  // Abbruch der Funktion, damit keine Fehler bei leeren Datenbankergebnissen passiert
-    }
-
-    if (is_array($film)) {
-        echo einzeilAnzeigen($film); // Wenn der Film ein array ist
-    }
-}
-
-if($title){
-
-    $filmId = $filmController->getFilmeIdNachName($title);
-    if (!$filmId) {
-        echo "<p>Es ist ein Fehler aufgetreten: Keine ID mit dem Titel '$title' gefunden.</p>";
-        return; // Abbruch der Funktion, damit keine Fehler bei leeren Datenbankergebnissen passiert
-    }
-    if(is_array($filmId)){
-        $film = $filmController->getFilmNachId($filmId[0]);
-    }else{
-        $film = $filmController->getFilmNachId($filmId);
-    }
-
-    if (is_array($film)) {
-        echo einzeilAnzeigen($film); // Wenn der Film ein array ist
-
-        
-    }
-    else {
-        echo "<p>Es ist ein Fehler aufgetreten: Kein Film mit dem Titel '$title' gefunden.</p>";
-    }
+<h3>Beschreibung:</h3>
+    <p><?php echo $film['plot'];?></p>
+</div>
+<div>
+<h3>Details:</h3>
+    <p>Genre:
+        <?php
+            if (isset($film['genre']) && is_array($film['genre'])){
+                $genreListe = implode(", ", $film['genre']);
+                echo $genreListe;
+            } else {
+                echo "Kein Genre gefunden.";
+            }
+        ?>
+    </p>
+    <p>Runtime: <?php echo $film['laufzeit'];?></p>
+    <p>Autor: <?php echo $film['autor'];?></p>
+    <p>ErscheinungsDatum: <?php echo $film['erscheinungs_datum'];?></p>
+    <p>Directoren: <?php echo $film['director'];?></p>
+    <p>Schauspieler:
+        <?php
+            if (isset($film['schauspieler']) && is_array($film['schauspieler'])) {
+                $schauspielerListe = implode(", ", $film['schauspieler']);
+                echo $schauspielerListe;
+            } else {
+                echo "Keine Schauspieler gefunden.";
+            }
+        ?>
+    </p>
+    <p>Sprachen: <?php echo $film['sprache'] ?></p>
+</p>
+</div>
+<div>
+<h3>Bewertungen:</h3>
+    <p>Metascore: <?php echo $film['metascore'];?></p>
+    <p>IMDB Rating: <?php echo $film['imdbbewertung'];?></p>
+    <p>IMDB Votes: <?php echo $film['imdbvotes'];?></p>
+    <p>Box Office: <?php echo $film['boxoffice'];?></p>
+</div> 
+</div>
+<?php
 }
 ?>
-
 <form action="" method="post">
     <label for="titel">Titel:</label>
     <input type="text" name="titel">
@@ -55,3 +66,6 @@ if($title){
     <textarea name="inhalt"></textarea>
     <input type="submit" value="Posten">
 </form>
+
+
+

@@ -214,5 +214,24 @@ class FilmController
         
         return $titel;
     }
+
+    public function getFilmDetailsById($imdbid):array|false{
+        try
+        {
+            $sql = "SELECT id FROM filme WHERE imdbid = :imdbid";
+            $stmt = $this->filmeModel->db->prepare($sql);
+            $stmt->bindValue(":imdbid", $imdbid, \PDO::PARAM_STR);
+            $stmt->execute();
+
+            $filmId = $stmt->fetch(\PDO::FETCH_COLUMN);
+     
+            $filmDaten = $this->filmeModel->select($filmId);
+            return $filmDaten;
+        }
+        catch(\PDOException $e){
+            write_error("Fehler in getFilmDetailsById: " . $e->getMessage());
+            return false;
+        }
+    }
 }
 ?>

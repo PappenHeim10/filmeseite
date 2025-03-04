@@ -30,3 +30,78 @@
 [04-03-2025 13:38:44] Fehler beim Speichern des Benutzers.
 [04-03-2025 13:38:58] Fehler beim Einfügen des Users: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'anrede' in 'field list'
 [04-03-2025 13:38:58] Fehler beim Speichern des Benutzers.
+[04-03-2025 15:00:40] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-03-2025 15:00:41] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-03-2025 15:00:42] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-03-2025 15:01:44] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-03-2025 15:02:02] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-03-2025 15:02:59] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-03-2025 15:05:51] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-03-2025 15:06:38] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-03-2025 15:07:20] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-03-2025 15:07:21] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-03-2025 15:17:22] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(DISTINCT director.name) AS director,
+                    GROUP_...' at line 8
+[04-03-2025 15:17:23] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(DISTINCT director.name) AS director,
+                    GROUP_...' at line 8
+[04-03-2025 15:26:19] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.imdbid, 
+                    filme.poster, 
+                    filme.plot...' at line 5
+[04-03-2025 15:26:35] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.imdbid, 
+                    filme.poster, 
+                    filme.plot...' at line 5
+[04-03-2025 15:26:36] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.imdbid, 
+                    filme.poster, 
+                    filme.plot...' at line 5
+[04-03-2025 15:27:48] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.imdbid,
+                    filme.poster, 
+                    filme.plot,...' at line 5
+[04-03-2025 15:27:49] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.imdbid,
+                    filme.poster, 
+                    filme.plot,...' at line 5
+[04-03-2025 15:28:06] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.imdbid,
+                    filme.poster, 
+                    filme.plot,...' at line 5
+[04-03-2025 15:28:49] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.imdbid,
+                    filme.poster, 
+                    filme.plot,...' at line 5
+[04-03-2025 15:29:22] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.imdbid,
+                    filme.poster, 
+                    filme.plot,...' at line 5
+[04-03-2025 15:30:28] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(DISTINCT director.director) AS director,
+                    GR...' at line 18
+[04-03-2025 15:30:29] Fehler in getFilmDetailsById: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(DISTINCT director.director) AS director,
+                    GR...' at line 18
+[04-03-2025 15:31:21] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:31:22] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:32:29] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:32:29] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:32:30] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:34:36] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:34:39] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:34:40] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:35:44] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:35:45] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:35:49] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:35:52] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:35:56] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:35:59] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:37:16] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:39:56] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:39:56] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_genres' doesn't exist
+[04-03-2025 15:40:21] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_schauspieler' doesn't exist
+[04-03-2025 15:40:22] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.film_schauspieler' doesn't exist
+[04-03-2025 15:40:52] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.sprache' doesn't exist
+[04-03-2025 15:40:52] Fehler in getFilmDetailsById: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.sprache' doesn't exist
+[04-03-2025 15:41:23] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'film_schauspieler.film_id' in 'on clause'
+[04-03-2025 15:41:24] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'film_schauspieler.film_id' in 'on clause'
+[04-03-2025 15:42:28] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'film_schauspieler.film_id' in 'on clause'
+[04-03-2025 15:42:28] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'film_schauspieler.film_id' in 'on clause'
+[04-03-2025 15:42:29] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'film_schauspieler.film_id' in 'on clause'
+[04-03-2025 15:42:56] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'filme_sprache.film_id' in 'on clause'
+[04-03-2025 15:42:57] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'filme_sprache.film_id' in 'on clause'
+[04-03-2025 15:43:07] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'filme_sprache.sprache_id' in 'on clause'
+[04-03-2025 15:43:12] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'filme_sprache.sprache_id' in 'on clause'
+[04-03-2025 15:43:42] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sprache.id' in 'on clause'
+[04-03-2025 15:43:47] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sprache.id' in 'on clause'
+[04-03-2025 15:45:24] Fehler in getFilmDetailsById: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'autor.id' in 'on clause'
