@@ -15,66 +15,7 @@ class FilmController
         $this->filmeModel = new Filme(); // Die Filme Model wird initialisiert
     }
 
-    // In FilmController
 
-    public function filmeMassenEinfuegen(string $suchbegriff): void
-    {
-        $page = 1; // Es wird die einz als Variable gesetzt
-        $filmeVonApi = []; // Es wird ein Array erstellt
-
-        do{
-            $filmliste = $this->api->getFilme($suchbegriff, $page); // Die film Liste wird mit filmen gefüllt
-
-            if($filmliste && isset($filmliste['Search']) && is_array($filmliste['Search'])) // Wenn es die Filmliste gibt
-            {
-                $filmeVonApi = array_merge($filmeVonApi, $filmliste['Search']); // wird sie zu dem filmeVonApi Array hinzugefügt
-                $page++; // Die Seite wird um 1 erhöht
-                $totalresults = isset($filmliste['totalResults']) ? (int)$filmliste['totalResults'] : 0;
-                $totalPages = ceil($totalresults / 10); // Die Seiten Anzahl wird ermittelt
-            }else{
-                hinweis_log('Keine seiten mehr nach seite: ' . $page); // Wenn es Probleme bei der Ermittlung der Seiten gibt
-                break;
-            }
-            
-        }while($page <= $totalPages); //NOTE: Der Obige code block wird sollange ausgeführt
-
-        foreach($filmeVonApi as $film){ // Sobald es Keine Filmemehr gibt
-            $filmdetails = $this->api->getFilmDetailsInJson($film['imdbID']); // NOTE:  Das wird am ende ausgeführt wenn es keine Filme mehr gibt
-            if ($filmdetails && $filmdetails['Response'] === 'True'){
-                if ($this->filmExistiert($filmdetails['imdbID'])) {
-                    continue; // Film wird übersprungen
-                } else {
-                        // Film einfügen
-                    $this->filmeModel->setDaten($filmdetails);
-                    if (!$this->filmeModel->insert()) {
-                        write_error("Fehler beim Einfügen von Film: " . print_r($filmdetails, true). "<br>". __FILE__ );
-                    }
-                }
-            }
-        }
-        $this->setVollstaendig($suchbegriff);
-    }
-
-    private function setVollstaendig(string $suchbegriff): void
-    {
-        $sql = "UPDATE filme SET vollstaendig = 1 WHERE LOWER(titel) LIKE LOWER(:suchbegriff)";
-        $stmt = $this->filmeModel->db->prepare($sql);
-        $stmt->execute([':suchbegriff' => $suchbegriff]);
-
-        $stmt->execute();
-    }
-
-    //HILFS FUNKTION für filmeMasseneinfuegen()
-    private function filmExistiert(string $imdbId): bool 
-    {
-        $sql = "SELECT COUNT(*) FROM filme WHERE imdbid = :imdbid";
-        $stmt = $this->filmeModel->db->prepare($sql);
-        $stmt->execute([':imdbid' => $imdbId]);
-    
-        $count = $stmt->fetchColumn();
-
-        return $count > 0;
-    }
 
 
     public function getFilmInJsonDurchImdbId($imdbId) :void{ 
@@ -251,19 +192,19 @@ class FilmController
         }
     }
 // In FilmController.php
-        public function getFilmTitelUndImdbIds(): array
-        {
-            try {
-                $sql = "SELECT titel, imdbid FROM filme"; // Nur Titel und IMDb-ID
-                $stmt = $this->filmeModel->db->prepare($sql);
-                $stmt->execute();
-                return $stmt->fetchAll(\PDO::FETCH_ASSOC);
-            } catch (\PDOException $e) {
-                write_error("Fehler in getFilmTitelUndImdbIds: " . $e->getMessage());
-                return []; // Leeres Array im Fehlerfall
-            }
+    public function getFilmTitelUndImdbIds(): array
+    {
+        try {
+            $sql = "SELECT titel, imdbid FROM filme"; // Nur Titel und IMDb-ID
+            $stmt = $this->filmeModel->db->prepare($sql);
+            $stmt->execute();
+            return $stmt->fetchAll(\PDO::FETCH_ASSOC);
+        } catch (\PDOException $e) {
+            write_error("Fehler in getFilmTitelUndImdbIds: " . $e->getMessage());
+            return []; // Leeres Array im Fehlerfall
         }
-    
+    }
+
     public function getFilmTitelListe():array|bool{
 
         $sql = "SELECT titel FROM filme";
