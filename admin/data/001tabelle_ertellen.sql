@@ -113,3 +113,21 @@ CREATE TABLE filme_bewertungen(
     FOREIGN KEY (film_id) REFERENCES filme(id),
     FOREIGN KEY (bewertung_id) REFERENCES bewertungen(id)
 );
+
+CREATE TABLE users(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    anrede VARCHAR(255) NOT NULL,
+    vorname VARCHAR(255) NOT NULL,
+    nachname VARCHAR(255) NOT NULL,
+    benutzername VARCHAR(255) NOT NULL UNIQUE,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    passwort VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE admin(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    benutzername VARCHAR(255) NOT NULL UNIQUE,
+    passwort VARCHAR(255) NOT NULL
+);
+
+INSERT INTO admin (benutzername, passwort) VALUES ('admin', 'admin');

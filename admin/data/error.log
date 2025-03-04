@@ -1,1 +1,32 @@
 [04-03-2025 10:10:50] Datenbankverbindungsfehler: SQLSTATE[HY000] [2002] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte<br>C:\xampp\htdocs\phpa-d\filmesite\include\datenbank.php
+[04-03-2025 13:14:18] Fehler bei der Überprüfung des Benutzernamens: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:14:18] Fehler bei der Überprüfung der E-Mail Adresse: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:14:18] Fehler beim Einfügen des Users: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:14:18] Fehler beim Speichern des Benutzers.
+[04-03-2025 13:14:34] Fehler bei der Überprüfung des Benutzernamens: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:17:51] Fehler bei der Überprüfung des Benutzernamens: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:17:51] Fehler bei der Überprüfung der E-Mail Adresse: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:17:51] Fehler beim Einfügen des Users: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:17:51] Fehler beim Speichern des Benutzers.
+[04-03-2025 13:18:11] Fehler bei der Überprüfung des Benutzernamens: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:18:11] Fehler bei der Überprüfung der E-Mail Adresse: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:18:11] Fehler beim Einfügen des Users: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:18:11] Fehler beim Speichern des Benutzers.
+[04-03-2025 13:18:34] Fehler bei der Überprüfung des Benutzernamens: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:18:34] Fehler bei der Überprüfung der E-Mail Adresse: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:19:53] Fehler bei der Überprüfung des Benutzernamens: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:19:53] Fehler bei der Überprüfung der E-Mail Adresse: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:19:53] Fehler beim Einfügen des Users: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'filmeseite_cohen.users' doesn't exist
+[04-03-2025 13:19:53] Fehler beim Speichern des Benutzers.
+[04-03-2025 13:29:19] Fehler beim Einfügen des Users: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'anrede' in 'field list'
+[04-03-2025 13:29:19] Fehler beim Speichern des Benutzers.
+[04-03-2025 13:32:32] Fehler beim Einfügen des Users: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'anrede' in 'field list'
+[04-03-2025 13:32:32] Fehler beim Speichern des Benutzers.
+[04-03-2025 13:37:58] Fehler beim Einfügen des Users: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'anrede' in 'field list'
+[04-03-2025 13:37:58] Fehler beim Speichern des Benutzers.
+[04-03-2025 13:38:12] Fehler beim Einfügen des Users: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'anrede' in 'field list'
+[04-03-2025 13:38:12] Fehler beim Speichern des Benutzers.
+[04-03-2025 13:38:44] Fehler beim Einfügen des Users: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'anrede' in 'field list'
+[04-03-2025 13:38:44] Fehler beim Speichern des Benutzers.
+[04-03-2025 13:38:58] Fehler beim Einfügen des Users: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'anrede' in 'field list'
+[04-03-2025 13:38:58] Fehler beim Speichern des Benutzers.

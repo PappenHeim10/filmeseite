@@ -76,7 +76,6 @@ function showResult(str) {
   };
 
   xmlhttp.open("GET", "klassenUndajax/livesearch.php?q=" + encodeURIComponent(str), true); // Korrekte URL und Wert
-  xmlhttp.setRequestHeader('X-Requested-With', 'XMLHttpRequest'); // Optionaler Header
   xmlhttp.send();
 }
 
@@ -88,8 +87,3 @@ document.addEventListener('click', function(event) {
       livesearch.style.display = 'none';
   }
 });
-
-
-function test(){
-  alert("test");
-}

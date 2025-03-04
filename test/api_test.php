@@ -17,7 +17,7 @@ $api = new Api();
 <pre>
     <?php
     $title = "love house";
-    $result = $api->getFilmDetails($title);
+    $result = $api->getFilmDetailsInJson($title);
     print_r($result);
    ?>
 </pre>

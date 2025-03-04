@@ -7,6 +7,7 @@ require_once __DIR__. '/../include/datenbank.php';
 $filmController = new mvc\FilmController(); // Alle Filme aus der Datenbank werden Aufgerufen
 $filmTitelListe = $filmController->getFilmTitelListe(); //Ein Array als liste aller Filme 
 
+
 $q = $_GET['q'] ?? ''; // Wenn der q parameter nicht existiert wird ein leerer string benutzt
 $q = trim($q); // q wird getrimmt 
 $q = strtolower($q); // und in kleinbuchstaben gesetzt
@@ -21,25 +22,27 @@ if ($q !== "") {
             $hint[] = $titel;
         }
     }
-}
 
-$filmIds = [];
+    $filmIds = [];
 
-foreach($hint as $titel){
-    $filmIds[] = $filmController->getFilmeIdNachName($titel);
-}
-
-foreach($filmIds as $id){
-    if(is_array($id))
-    {
-        foreach($id as $idpoint){
-            $filmData[] = $filmController->getFilmNachId($idpoint);
-        }
-    }else{
-        $filmData[] = $filmController->getFilmNachId($id);
+    foreach($hint as $titel){
+        $filmIds[] = $filmController->getFilmeIdNachName($titel);
     }
+    
+    foreach($filmIds as $id){
+        if(is_array($id))
+        {
+            foreach($id as $idpoint){
+                $filmData[] = $filmController->getFilmNachId($idpoint);
+            }
+        }else{
+            $filmData[] = $filmController->getFilmNachId($id);
+        }
+    }
+    
+    if(isset($filmData))
+        filmeAnzeigen($filmData);
 }
 
-if(isset($filmData))
-    filmeAnzeigen($filmData);
+
 ?>

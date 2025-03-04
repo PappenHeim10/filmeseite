@@ -12,15 +12,14 @@ class UserController
         $this->userModel = new User(); // Instanz der User-Klasse (dein Model)
     }
 
-    public function registrierung():array
+    public function registrierung():array|bool
     {
         $fehler = [];
-
-        if($_SERVER['REQUEST_METHOD'] == 'POST'){ // Post
+        if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $daten  = $_POST;
             $user = new User($daten);
             
-            $fehler = $this->validateUser($daten); // Hier findet die gesamte Validierung statt
+            $fehler = $this->validateUser($daten);
             if($this->userModel->benutzernameExistiert($daten['benutzername']))
             {
                 $fehler['ver_benutzername'] = "Benutzername existiert bereits.";
@@ -125,6 +124,4 @@ class UserController
         return $fehler;
     }
 }
-
-
 ?>

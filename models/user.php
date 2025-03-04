@@ -45,10 +45,10 @@ class User extends \Datenbank
             $stmt->bindParam(':benutzername', $this->benutzername); 
 
             $hashedPassword = password_hash($this->passwort, PASSWORD_DEFAULT);
-            $stmt->bindParam(':passwort', $hashedPassword);// DO!: Das Passwort muss gehasht werden
+            $stmt->bindParam(':passwort', $hashedPassword);
             $stmt->execute();
 
-            #echo "<h1>User erstellt</h1>";
+
             return true;
         }
         catch(\PDOException $e)
@@ -143,7 +143,7 @@ class User extends \Datenbank
             return $count > 0;
         } catch (\PDOException $e) {
             write_error('Fehler bei der Überprüfung des Benutzernamens: ' . $e->getMessage());
-            return true; // Im Fehlerfall sicherheitshalber true zurückgeben
+            return false; // Im Fehlerfall sicherheitshalber true zurückgeben
         }
     }
 
@@ -158,7 +158,7 @@ class User extends \Datenbank
             return $count > 0;
         } catch (\PDOException $e) {
             write_error('Fehler bei der Überprüfung der E-Mail Adresse: '. $e->getMessage());
-            return true; // Im Fehlerfall sicherheitshalber true zurückgeben
+            return false; // Im Fehlerfall sicherheitshalber true zurückgeben
         }
     }
 

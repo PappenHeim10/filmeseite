@@ -1,12 +1,13 @@
 <?php
 function filmeAnzeigen($filme):void {
-
+	$i = 0;
     if (empty($filme)) {
         echo "<p>Keine Filme gefunden.</p>"; // Wenn es Werder filme in der Datenbank noch welche von der API kommne
         return;
     }
 
     foreach ($filme as $film) : // Die Filme werden hier angezeigt
+		$i++; // Zähler um die Anzeigeposition zu bestimmen
         $title = htmlspecialchars($film['titel'] ?? 'N/A');
         $poster = htmlspecialchars($film['poster'] ?? '#');
         $year = htmlspecialchars($film['erscheinungs_jahr'] ?? 'N/A');
@@ -30,7 +31,7 @@ function einzeilAnzeigen($film):string{
 
 	$output .= "<h2>" . htmlspecialchars($film['titel']) . "</h2>"; // titel
 
-	if (!empty($film['poster'])) { // das bild
+	if (!empty($film['poster']) || $film['poster'] !== 'N/A' || imagecreatefromjpeg( $film['poster']) !== false ) { // das bild
 		$output .= "<img src='" . htmlspecialchars($film['poster']) . "' alt='" . htmlspecialchars($film['titel']) . "'>"; // Das bild bekommt einen Alias
 	} else {
 		$output .= "<img src='../bilder/movie.png' alt='platzhalter'>"; // Oder ein Standard-Platzhalterbild
