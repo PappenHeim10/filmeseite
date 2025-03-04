@@ -1,9 +1,8 @@
 DROP DATABASE IF EXISTS filmeseite_cohen;
-
 CREATE DATABASE filmeseite_cohen DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
 USE filmeseite_cohen;
 
+-- Tabellen erstellen (dein vorhandenes Schema)
 CREATE TABLE filme (
     id INT AUTO_INCREMENT PRIMARY KEY,
     titel VARCHAR(255) NOT NULL,
@@ -16,7 +15,7 @@ CREATE TABLE filme (
     metascore INT(20) ,
     imdbbewertung DECIMAL (6,2),
     imdbvotes INT(20),
-    boxoffice INT(20),
+    boxoffice VARCHAR(255),
     poster VARCHAR(400)
 );
 
@@ -74,7 +73,7 @@ CREATE TABLE film_director(
 
 CREATE TABLE land(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    land VARCHAR(255) NOT NULL
+    land VARCHAR(255) NOT NULL UNIQUE  -- UNIQUE hinzugefügt
 );
 
 CREATE TABLE filme_land(
@@ -85,18 +84,7 @@ CREATE TABLE filme_land(
     FOREIGN KEY (land_id) REFERENCES land(id) ON DELETE CASCADE
 );
 
-CREATE TABLE auszeichnungen(
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    auszeichnungen VARCHAR(255) NOT NULL
-);
 
-CREATE TABLE filme_auszeichnungen(
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    film_id INT NOT NULL,
-    auszeichnungen_id INT NOT NULL,
-    FOREIGN KEY (film_id) REFERENCES filme(id) ON DELETE CASCADE,
-    FOREIGN KEY (auszeichnungen_id) REFERENCES auszeichnungen(id) ON DELETE CASCADE
-);
 
 CREATE TABLE autoren(
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -111,11 +99,11 @@ CREATE TABLE filme_autoren(
     FOREIGN KEY (autor_id) REFERENCES autoren(id)
 );
 
+
 CREATE TABLE bewertungen(
-    id INT AUTO_INCREMENT PRIMARY KEY,
+   id INT AUTO_INCREMENT PRIMARY KEY,
     quelle VARCHAR(255) NOT NULL,
-    bewertung DECIMAL(2,1) NOT NULL,
-    kommentar TEXT
+    bewertung VARCHAR(255) NOT NULL -- Geändert zu VARCHAR, da auch Textwerte wie "6.5/10" vorkommen.
 );
 
 CREATE TABLE filme_bewertungen(
@@ -125,31 +113,3 @@ CREATE TABLE filme_bewertungen(
     FOREIGN KEY (film_id) REFERENCES filme(id),
     FOREIGN KEY (bewertung_id) REFERENCES bewertungen(id)
 );
-
-CREATE TABLE users(
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    anrede VARCHAR(255) NOT NULL,
-    vorname VARCHAR(255) NOT NULL,
-    nachname VARCHAR(255) NOT NULL,
-    benutzername VARCHAR(255) NOT NULL UNIQUE,
-    email VARCHAR(255) NOT NULL UNIQUE,
-    passwort VARCHAR(255) NOT NULL
-);
-
-CREATE TABLE admin(
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) NOT NULL UNIQUE,
-    passwort VARCHAR(255) NOT NULL
-);
-
-CREATE TABLE posts(
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    titel VARCHAR(255) NOT NULL,
-    inhalt TEXT NOT NULL,
-    datum DATE NOT NULL,
-    zeit TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    user_id INT NOT NULL,
-    film_id INT NOT NULL,
-    FOREIGN KEY (film_id) REFERENCES filme(id),
-    FOREIGN KEY (user_id) REFERENCES users(id)
-)

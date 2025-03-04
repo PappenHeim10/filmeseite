@@ -1,708 +1,707 @@
-Ratings
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '98%'}, {'Source': 'Metacritic', 'Value': '96/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '97%'}, {'Source': 'Metacritic', 'Value': '99/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '99%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '92%'}, {'Source': 'Metacritic', 'Value': '85/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '95%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '98%'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '8.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}, {'Source': 'Metacritic', 'Value': '93/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '78%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '97%'}, {'Source': 'Metacritic', 'Value': '84/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '80%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '88%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '78%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '60%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '95%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '90%'}, {'Source': 'Metacritic', 'Value': '60/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '80%'}, {'Source': 'Metacritic', 'Value': '71/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '94%'}, {'Source': 'Metacritic', 'Value': '72/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '81%'}, {'Source': 'Metacritic', 'Value': '63/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '95%'}, {'Source': 'Metacritic', 'Value': '89/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '64%'}, {'Source': 'Metacritic', 'Value': '54/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '63%'}, {'Source': 'Metacritic', 'Value': '68/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '93%'}, {'Source': 'Metacritic', 'Value': '95/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '86%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '70%'}, {'Source': 'Metacritic', 'Value': '66/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '78%'}, {'Source': 'Metacritic', 'Value': '68/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '96%'}, {'Source': 'Metacritic', 'Value': '86/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '93%'}, {'Source': 'Metacritic', 'Value': '89/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '93%'}, {'Source': 'Metacritic', 'Value': '53/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '80%'}, {'Source': 'Metacritic', 'Value': '64/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '91%'}, {'Source': 'Metacritic', 'Value': '75/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '60%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '91%'}, {'Source': 'Metacritic', 'Value': '79/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '89%'}, {'Source': 'Metacritic', 'Value': '74/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '95%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '65%'}, {'Source': 'Metacritic', 'Value': '61/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '60%'}, {'Source': 'Metacritic', 'Value': '44/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Metacritic', 'Value': '66/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '36%'}, {'Source': 'Metacritic', 'Value': '41/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '48%'}, {'Source': 'Metacritic', 'Value': '53/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}, {'Source': 'Metacritic', 'Value': '82/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '21%'}, {'Source': 'Metacritic', 'Value': '35/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '20%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '57%'}, {'Source': 'Metacritic', 'Value': '44/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '62%'}, {'Source': 'Metacritic', 'Value': '43/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '33%'}, {'Source': 'Metacritic', 'Value': '27/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '69%'}, {'Source': 'Metacritic', 'Value': '61/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '83%'}, {'Source': 'Metacritic', 'Value': '73/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '56%'}, {'Source': 'Metacritic', 'Value': '51/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '44%'}, {'Source': 'Metacritic', 'Value': '36/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '88%'}, {'Source': 'Metacritic', 'Value': '58/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '13%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '76%'}, {'Source': 'Metacritic', 'Value': '64/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '55%'}, {'Source': 'Metacritic', 'Value': '56/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '70%'}, {'Source': 'Metacritic', 'Value': '67/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '95%'}, {'Source': 'Metacritic', 'Value': '90/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}, {'Source': 'Metacritic', 'Value': '56/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '0%'}, {'Source': 'Metacritic', 'Value': '26/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '79%'}, {'Source': 'Metacritic', 'Value': '71/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '27%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}, {'Source': 'Metacritic', 'Value': '100/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '64%'}, {'Source': 'Metacritic', 'Value': '54/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '59%'}, {'Source': 'Metacritic', 'Value': '53/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '82%'}, {'Source': 'Metacritic', 'Value': '55/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '45%'}, {'Source': 'Metacritic', 'Value': '46/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '39%'}, {'Source': 'Metacritic', 'Value': '44/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '82%'}, {'Source': 'Metacritic', 'Value': '73/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '77%'}, {'Source': 'Metacritic', 'Value': '63/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '79%'}, {'Source': 'Metacritic', 'Value': '61/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '80%'}, {'Source': 'Metacritic', 'Value': '78/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '86%'}, {'Source': 'Metacritic', 'Value': '74/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '71%'}, {'Source': 'Metacritic', 'Value': '75/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '80%'}, {'Source': 'Metacritic', 'Value': '64/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '47%'}, {'Source': 'Metacritic', 'Value': '43/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '88%'}, {'Source': 'Metacritic', 'Value': '75/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '73%'}, {'Source': 'Metacritic', 'Value': '61/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '84%'}, {'Source': 'Metacritic', 'Value': '68/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '54%'}, {'Source': 'Metacritic', 'Value': '51/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '51%'}, {'Source': 'Metacritic', 'Value': '48/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '31%'}, {'Source': 'Metacritic', 'Value': '28/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '59%'}, {'Source': 'Metacritic', 'Value': '51/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '98%'}, {'Source': 'Metacritic', 'Value': '94/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '16%'}, {'Source': 'Metacritic', 'Value': '35/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '14%'}, {'Source': 'Metacritic', 'Value': '34/100'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '4.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '30%'}, {'Source': 'Metacritic', 'Value': '33/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Metacritic', 'Value': '28/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '21%'}, {'Source': 'Metacritic', 'Value': '34/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '73%'}, {'Source': 'Metacritic', 'Value': '77/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '21%'}, {'Source': 'Metacritic', 'Value': '31/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '13%'}, {'Source': 'Metacritic', 'Value': '29/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '17%'}, {'Source': 'Metacritic', 'Value': '35/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '47%'}, {'Source': 'Metacritic', 'Value': '45/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '56%'}, {'Source': 'Metacritic', 'Value': '47/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '64%'}, {'Source': 'Metacritic', 'Value': '63/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '75%'}, {'Source': 'Metacritic', 'Value': '69/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '67%'}, {'Source': 'Metacritic', 'Value': '61/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '32%'}, {'Source': 'Metacritic', 'Value': '32/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Metacritic', 'Value': '71/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '82%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '11%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '35%'}, {'Source': 'Metacritic', 'Value': '41/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '69%'}, {'Source': 'Metacritic', 'Value': '60/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '42%'}, {'Source': 'Metacritic', 'Value': '43/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '33%'}, {'Source': 'Metacritic', 'Value': '39/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '35%'}, {'Source': 'Metacritic', 'Value': '49/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '41%'}, {'Source': 'Metacritic', 'Value': '56/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '10%'}, {'Source': 'Metacritic', 'Value': '19/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '75%'}, {'Source': 'Metacritic', 'Value': '71/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '2.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '3%'}, {'Source': 'Metacritic', 'Value': '15/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '49%'}, {'Source': 'Metacritic', 'Value': '42/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '89%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '83%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '2.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '35%'}, {'Source': 'Metacritic', 'Value': '47/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '73%'}, {'Source': 'Metacritic', 'Value': '72/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '45%'}, {'Source': 'Metacritic', 'Value': '57/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '68%'}, {'Source': 'Metacritic', 'Value': '67/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '88%'}, {'Source': 'Metacritic', 'Value': '70/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '14%'}, {'Source': 'Metacritic', 'Value': '27/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '34%'}, {'Source': 'Metacritic', 'Value': '40/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '45%'}, {'Source': 'Metacritic', 'Value': '55/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '87%'}, {'Source': 'Metacritic', 'Value': '89/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '74%'}, {'Source': 'Metacritic', 'Value': '68/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '62%'}, {'Source': 'Metacritic', 'Value': '55/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '49%'}, {'Source': 'Metacritic', 'Value': '54/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '25%'}, {'Source': 'Metacritic', 'Value': '43/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '28%'}, {'Source': 'Metacritic', 'Value': '41/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '67%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '50%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '35%'}, {'Source': 'Metacritic', 'Value': '52/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '20%'}, {'Source': 'Metacritic', 'Value': '22/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '80%'}, {'Source': 'Metacritic', 'Value': '71/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '5%'}, {'Source': 'Metacritic', 'Value': '34/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '89%'}, {'Source': 'Metacritic', 'Value': '73/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '16%'}, {'Source': 'Metacritic', 'Value': '33/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '54%'}, {'Source': 'Metacritic', 'Value': '53/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '50%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '21%'}, {'Source': 'Metacritic', 'Value': '45/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '41%'}, {'Source': 'Metacritic', 'Value': '43/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '87%'}, {'Source': 'Metacritic', 'Value': '80/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '2.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '7%'}, {'Source': 'Metacritic', 'Value': '11/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '43%'}, {'Source': 'Metacritic', 'Value': '50/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '67%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '29%'}, {'Source': 'Metacritic', 'Value': '44/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Metacritic', 'Value': '65/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Metacritic', 'Value': '67/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '4%'}, {'Source': 'Metacritic', 'Value': '11/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '2.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '2%'}, {'Source': 'Metacritic', 'Value': '17/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '84%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '81%'}, {'Source': 'Metacritic', 'Value': '70/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '84%'}, {'Source': 'Metacritic', 'Value': '66/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '65%'}, {'Source': 'Metacritic', 'Value': '66/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '67%'}, {'Source': 'Metacritic', 'Value': '29/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '42%'}, {'Source': 'Metacritic', 'Value': '42/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '80%'}, {'Source': 'Metacritic', 'Value': '63/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '44%'}, {'Source': 'Metacritic', 'Value': '55/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '62%'}, {'Source': 'Metacritic', 'Value': '50/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '9.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '53%'}, {'Source': 'Metacritic', 'Value': '63/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '78%'}, {'Source': 'Metacritic', 'Value': '69/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '45%'}, {'Source': 'Metacritic', 'Value': '39/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '5%'}, {'Source': 'Metacritic', 'Value': '31/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '75%'}, {'Source': 'Metacritic', 'Value': '62/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '89%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '67%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '94%'}, {'Source': 'Metacritic', 'Value': '89/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '80%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '14%'}, {'Source': 'Metacritic', 'Value': '34/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '63%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '24%'}, {'Source': 'Metacritic', 'Value': '46/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '97%'}, {'Source': 'Metacritic', 'Value': '68/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '88%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.2/10'}, {'Source': 'Metacritic', 'Value': '72/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '35%'}, {'Source': 'Metacritic', 'Value': '37/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '44%'}, {'Source': 'Metacritic', 'Value': '47/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '62%'}, {'Source': 'Metacritic', 'Value': '59/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '77%'}, {'Source': 'Metacritic', 'Value': '61/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}, {'Source': 'Metacritic', 'Value': '49/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '85%'}, {'Source': 'Metacritic', 'Value': '76/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '26%'}, {'Source': 'Metacritic', 'Value': '39/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '72%'}, {'Source': 'Metacritic', 'Value': '61/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '83%'}, {'Source': 'Metacritic', 'Value': '74/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '85%'}, {'Source': 'Metacritic', 'Value': '73/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '1.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '1%'}, {'Source': 'Metacritic', 'Value': '15/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '69%'}, {'Source': 'Metacritic', 'Value': '66/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '77%'}, {'Source': 'Metacritic', 'Value': '67/100'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '2.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '15%'}, {'Source': 'Metacritic', 'Value': '31/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '72%'}, {'Source': 'Metacritic', 'Value': '60/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '5%'}, {'Source': 'Metacritic', 'Value': '18/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '40%'}, {'Source': 'Metacritic', 'Value': '45/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '53%'}, {'Source': 'Metacritic', 'Value': '60/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}]"
-[]
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '63%'}, {'Source': 'Metacritic', 'Value': '57/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '62%'}, {'Source': 'Metacritic', 'Value': '49/100'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '7%'}, {'Source': 'Metacritic', 'Value': '35/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.6/10'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '10%'}, {'Source': 'Metacritic', 'Value': '29/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '75%'}, {'Source': 'Metacritic', 'Value': '42/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '96%'}, {'Source': 'Metacritic', 'Value': '83/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '30%'}, {'Source': 'Metacritic', 'Value': '34/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '97%'}, {'Source': 'Metacritic', 'Value': '72/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '97%'}, {'Source': 'Metacritic', 'Value': '89/100'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '60%'}, {'Source': 'Metacritic', 'Value': '48/100'}]"
-[]
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '8.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '92%'}, {'Source': 'Metacritic', 'Value': '79/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '2.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '86%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '86%'}, {'Source': 'Metacritic', 'Value': '71/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '10%'}, {'Source': 'Metacritic', 'Value': '31/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '18%'}, {'Source': 'Metacritic', 'Value': '33/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '52%'}, {'Source': 'Metacritic', 'Value': '52/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '71%'}, {'Source': 'Metacritic', 'Value': '35/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '24%'}, {'Source': 'Metacritic', 'Value': '38/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '63%'}, {'Source': 'Metacritic', 'Value': '51/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '30%'}, {'Source': 'Metacritic', 'Value': '36/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '63%'}, {'Source': 'Metacritic', 'Value': '56/100'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '34%'}, {'Source': 'Metacritic', 'Value': '45/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '44%'}, {'Source': 'Metacritic', 'Value': '47/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '55%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '67%'}, {'Source': 'Metacritic', 'Value': '57/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '57%'}, {'Source': 'Metacritic', 'Value': '59/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '97%'}, {'Source': 'Metacritic', 'Value': '79/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '94%'}, {'Source': 'Metacritic', 'Value': '73/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '88%'}, {'Source': 'Metacritic', 'Value': '72/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '44%'}, {'Source': 'Metacritic', 'Value': '43/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '75%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '53%'}, {'Source': 'Metacritic', 'Value': '54/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '90%'}, {'Source': 'Metacritic', 'Value': '71/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '92%'}, {'Source': 'Metacritic', 'Value': '60/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '77%'}, {'Source': 'Metacritic', 'Value': '53/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '87%'}, {'Source': 'Metacritic', 'Value': '69/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '96%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '65%'}, {'Source': 'Metacritic', 'Value': '57/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '25%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '70%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '68%'}, {'Source': 'Metacritic', 'Value': '58/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '8%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '10%'}, {'Source': 'Metacritic', 'Value': '20/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '88%'}, {'Source': 'Metacritic', 'Value': '79/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '80%'}, {'Source': 'Metacritic', 'Value': '62/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '96%'}, {'Source': 'Metacritic', 'Value': '81/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '52%'}, {'Source': 'Metacritic', 'Value': '52/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '58%'}, {'Source': 'Metacritic', 'Value': '55/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '87%'}, {'Source': 'Metacritic', 'Value': '67/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '65%'}, {'Source': 'Metacritic', 'Value': '54/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '73%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '81%'}, {'Source': 'Metacritic', 'Value': '74/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '23%'}, {'Source': 'Metacritic', 'Value': '47/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '85%'}, {'Source': 'Metacritic', 'Value': '66/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}]"
-"[{'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '99%'}, {'Source': 'Metacritic', 'Value': '81/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '45%'}, {'Source': 'Metacritic', 'Value': '53/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '56%'}, {'Source': 'Metacritic', 'Value': '55/100'}]"
-[]
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '95%'}, {'Source': 'Metacritic', 'Value': '87/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '11%'}, {'Source': 'Metacritic', 'Value': '41/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '19%'}, {'Source': 'Metacritic', 'Value': '32/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}, {'Source': 'Metacritic', 'Value': '57/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '84%'}, {'Source': 'Metacritic', 'Value': '65/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '77%'}, {'Source': 'Metacritic', 'Value': '54/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '44%'}, {'Source': 'Metacritic', 'Value': '48/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '93%'}, {'Source': 'Metacritic', 'Value': '86/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '91%'}, {'Source': 'Metacritic', 'Value': '77/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '79%'}, {'Source': 'Metacritic', 'Value': '66/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '67%'}, {'Source': 'Metacritic', 'Value': '56/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '71%'}, {'Source': 'Metacritic', 'Value': '61/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '59%'}, {'Source': 'Metacritic', 'Value': '42/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '90%'}, {'Source': 'Metacritic', 'Value': '79/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '25%'}, {'Source': 'Metacritic', 'Value': '36/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '89%'}, {'Source': 'Metacritic', 'Value': '75/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '70%'}, {'Source': 'Metacritic', 'Value': '65/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '82%'}, {'Source': 'Metacritic', 'Value': '71/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '38%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '70%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '93%'}, {'Source': 'Metacritic', 'Value': '83/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '50%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '20%'}, {'Source': 'Metacritic', 'Value': '30/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '43%'}, {'Source': 'Metacritic', 'Value': '50/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '86%'}, {'Source': 'Metacritic', 'Value': '67/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '43%'}, {'Source': 'Metacritic', 'Value': '54/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '73%'}, {'Source': 'Metacritic', 'Value': '65/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '86%'}, {'Source': 'Metacritic', 'Value': '68/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '95%'}, {'Source': 'Metacritic', 'Value': '88/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '79%'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '66%'}, {'Source': 'Metacritic', 'Value': '65/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '6%'}, {'Source': 'Metacritic', 'Value': '12/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '98%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '38%'}, {'Source': 'Metacritic', 'Value': '43/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '71%'}, {'Source': 'Metacritic', 'Value': '58/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '77%'}, {'Source': 'Metacritic', 'Value': '68/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.1/10'}, {'Source': 'Metacritic', 'Value': '78/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '9.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '37%'}, {'Source': 'Metacritic', 'Value': '31/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}]"
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '5.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '64%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.7/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '72%'}, {'Source': 'Metacritic', 'Value': '60/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '80%'}, {'Source': 'Metacritic', 'Value': '70/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}, {'Source': 'Rotten Tomatoes', 'Value': '90%'}, {'Source': 'Metacritic', 'Value': '65/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.8/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '81%'}, {'Source': 'Metacritic', 'Value': '43/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '92%'}, {'Source': 'Metacritic', 'Value': '76/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '59%'}, {'Source': 'Metacritic', 'Value': '46/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '75%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '77%'}, {'Source': 'Metacritic', 'Value': '69/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '87%'}, {'Source': 'Metacritic', 'Value': '75/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '3.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '7%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '62%'}, {'Source': 'Metacritic', 'Value': '52/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '37%'}, {'Source': 'Metacritic', 'Value': '37/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '95%'}, {'Source': 'Metacritic', 'Value': '83/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.2/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.2/10'}, {'Source': 'Rotten Tomatoes', 'Value': '84%'}, {'Source': 'Metacritic', 'Value': '73/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.2/10'}, {'Source': 'Metacritic', 'Value': '41/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.9/10'}, {'Source': 'Rotten Tomatoes', 'Value': '75%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '100%'}, {'Source': 'Metacritic', 'Value': '72/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.6/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.0/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.7/10'}, {'Source': 'Rotten Tomatoes', 'Value': '81%'}, {'Source': 'Metacritic', 'Value': '65/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '89%'}, {'Source': 'Metacritic', 'Value': '85/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '46%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '42%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.5/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.1/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '7.9/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.1/10'}, {'Source': 'Rotten Tomatoes', 'Value': '73%'}, {'Source': 'Metacritic', 'Value': '59/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '8.4/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '5.6/10'}, {'Source': 'Rotten Tomatoes', 'Value': '95%'}, {'Source': 'Metacritic', 'Value': '79/100'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '4.3/10'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.0/10'}, {'Source': 'Rotten Tomatoes', 'Value': '20%'}]"
-"[{'Source': 'Internet Movie Database', 'Value': '6.4/10'}, {'Source': 'Rotten Tomatoes', 'Value': '81%'}, {'Source': 'Metacritic', 'Value': '68/100'}]"
-[]
-[]
-"[{'Source': 'Internet Movie Database', 'Value': '4.9/10'}]"
+Internet_Movie_Database_Rating,Metacritic_Rating,Rotten_Tomatoes_Rating
+5.2/10,,
+5.1/10,,
+6.2/10,,
+6.1/10,,
+6.5/10,,
+8.3/10,96/100,98%
+5.4/10,,
+6.4/10,,
+6.4/10,,
+6.3/10,,
+4.6/10,,
+5.9/10,,
+5.1/10,,
+6.3/10,,
+7.9/10,99/100,97%
+6.3/10,,
+7.8/10,,99%
+7.2/10,85/100,92%
+5.7/10,,
+4.7/10,,
+6.7/10,,95%
+6.7/10,,
+7.0/10,,
+8.1/10,,98%
+,,
+8.2/10,93/100,100%
+6.6/10,,
+6.0/10,,
+7.8/10,,100%
+6.8/10,,
+5.3/10,,
+6.0/10,,
+7.2/10,,78%
+6.5/10,,
+7.1/10,,
+6.2/10,,
+6.4/10,,
+5.1/10,,
+7.9/10,84/100,97%
+6.5/10,,
+6.2/10,,
+6.7/10,,80%
+6.6/10,,88%
+5.8/10,,
+7.5/10,,78%
+5.2/10,,
+6.3/10,,60%
+8.0/10,,95%
+6.2/10,,
+6.2/10,,
+4.9/10,,
+6.7/10,60/100,90%
+6.5/10,71/100,80%
+7.0/10,,
+6.9/10,,
+7.4/10,72/100,94%
+4.4/10,,
+5.8/10,63/100,81%
+5.8/10,,
+6.3/10,,
+7.4/10,89/100,95%
+5.1/10,,
+5.6/10,,
+6.1/10,,
+5.6/10,,
+5.4/10,,
+6.2/10,54/100,64%
+5.8/10,68/100,63%
+5.4/10,,
+7.1/10,95/100,93%
+6.1/10,,
+6.9/10,,86%
+4.3/10,,
+7.0/10,66/100,70%
+5.4/10,,
+7.5/10,,
+7.5/10,,
+6.4/10,68/100,78%
+8.0/10,86/100,96%
+5.8/10,,
+7.5/10,89/100,93%
+5.1/10,,
+5.2/10,,
+7.0/10,53/100,93%
+7.4/10,64/100,80%
+7.3/10,75/100,91%
+6.9/10,,
+6.4/10,,60%
+6.4/10,,
+5.9/10,,
+5.2/10,,
+6.2/10,,
+7.4/10,79/100,91%
+7.0/10,,
+6.6/10,,
+7.6/10,74/100,89%
+5.5/10,,
+5.2/10,,
+7.1/10,,95%
+6.2/10,61/100,65%
+6.9/10,,
+6.4/10,,
+6.4/10,44/100,60%
+6.4/10,66/100,
+6.3/10,41/100,36%
+6.3/10,53/100,48%
+4.5/10,,
+4.8/10,,
+7.6/10,82/100,100%
+5.1/10,35/100,21%
+5.6/10,,20%
+6.1/10,44/100,57%
+6.2/10,,
+7.2/10,43/100,62%
+6.8/10,,
+6.4/10,,
+4.8/10,27/100,33%
+8.4/10,,
+6.9/10,,
+6.1/10,61/100,69%
+6.8/10,,
+4.7/10,,
+6.8/10,73/100,83%
+5.9/10,51/100,56%
+6.7/10,36/100,44%
+6.0/10,,
+7.5/10,,100%
+6.8/10,,100%
+4.0/10,,
+7.5/10,58/100,88%
+5.8/10,,
+4.7/10,,13%
+6.6/10,,
+6.9/10,,
+7.7/10,64/100,76%
+5.6/10,,
+6.9/10,56/100,55%
+7.4/10,67/100,70%
+7.2/10,90/100,95%
+6.7/10,56/100,
+5.4/10,,
+4.7/10,,
+8.2/10,,
+7.0/10,,
+4.4/10,26/100,0%
+6.2/10,71/100,79%
+5.4/10,,
+5.3/10,,27%
+8.1/10,100/100,100%
+6.2/10,,
+8.9/10,,
+6.2/10,54/100,64%
+6.9/10,53/100,59%
+6.5/10,55/100,82%
+5.4/10,46/100,45%
+5.3/10,44/100,39%
+4.2/10,,
+5.2/10,,
+5.9/10,,
+8.0/10,73/100,82%
+7.7/10,63/100,77%
+8.6/10,61/100,79%
+7.6/10,78/100,80%
+7.1/10,74/100,86%
+7.4/10,75/100,71%
+6.9/10,64/100,80%
+4.9/10,,
+6.6/10,43/100,47%
+5.3/10,,
+7.3/10,,
+5.2/10,,
+7.4/10,,
+6.0/10,,
+3.5/10,,
+6.9/10,,
+6.5/10,,
+7.5/10,75/100,88%
+3.9/10,,
+4.2/10,,
+7.0/10,61/100,73%
+8.4/10,,
+4.9/10,,
+5.7/10,,
+7.5/10,68/100,84%
+7.3/10,51/100,54%
+6.3/10,48/100,51%
+5.6/10,28/100,31%
+6.1/10,,
+6.3/10,,
+6.0/10,51/100,59%
+6.7/10,,
+7.9/10,94/100,98%
+6.3/10,35/100,16%
+5.6/10,,
+4.0/10,,
+5.7/10,34/100,14%
+,,
+4.4/10,,
+6.6/10,,
+4.8/10,,
+8.0/10,,
+7.3/10,,
+5.2/10,33/100,30%
+6.1/10,28/100,
+4.6/10,,
+7.6/10,,
+8.3/10,,
+5.8/10,34/100,21%
+6.4/10,77/100,73%
+6.1/10,,
+6.0/10,31/100,21%
+5.4/10,29/100,13%
+5.2/10,35/100,17%
+6.5/10,,
+7.7/10,,
+4.8/10,,
+8.5/10,,
+7.4/10,45/100,47%
+6.7/10,47/100,56%
+7.1/10,63/100,64%
+6.9/10,69/100,75%
+6.5/10,,
+7.8/10,61/100,67%
+5.8/10,32/100,32%
+6.4/10,71/100,
+6.8/10,,82%
+3.8/10,,11%
+5.8/10,,
+4.9/10,,
+5.8/10,41/100,35%
+7.2/10,,
+7.2/10,60/100,69%
+7.0/10,,
+7.9/10,,
+8.0/10,,
+6.2/10,43/100,42%
+4.5/10,,
+5.4/10,,
+5.6/10,39/100,33%
+5.6/10,49/100,35%
+5.5/10,56/100,41%
+4.1/10,19/100,10%
+4.2/10,,
+8.2/10,,
+5.9/10,,
+7.5/10,71/100,75%
+2.1/10,15/100,3%
+6.6/10,42/100,49%
+7.8/10,,89%
+6.1/10,,83%
+2.6/10,,
+4.8/10,47/100,35%
+6.9/10,72/100,73%
+4.4/10,57/100,45%
+7.2/10,67/100,68%
+7.1/10,70/100,88%
+6.6/10,,
+5.1/10,27/100,14%
+5.1/10,40/100,34%
+5.7/10,,
+8.1/10,,
+7.4/10,55/100,45%
+7.5/10,89/100,87%
+6.7/10,68/100,74%
+5.1/10,,
+7.4/10,55/100,62%
+6.1/10,54/100,49%
+6.5/10,,
+4.4/10,43/100,25%
+4.7/10,,
+5.5/10,41/100,28%
+5.8/10,,67%
+7.5/10,,
+7.0/10,,50%
+4.5/10,,
+7.1/10,,
+6.5/10,,
+6.2/10,,
+6.2/10,,
+6.8/10,52/100,35%
+8.7/10,,
+8.4/10,,
+7.3/10,,
+7.0/10,22/100,20%
+6.2/10,,
+7.5/10,,
+6.5/10,71/100,80%
+4.8/10,34/100,5%
+6.7/10,,
+7.3/10,73/100,89%
+4.7/10,33/100,16%
+6.9/10,53/100,54%
+5.4/10,,50%
+6.5/10,,
+6.3/10,45/100,21%
+8.4/10,,
+7.6/10,,
+7.4/10,,
+8.5/10,,
+6.1/10,,
+6.4/10,43/100,41%
+7.2/10,,
+8.5/10,,
+7.3/10,80/100,87%
+5.8/10,,
+2.8/10,11/100,7%
+8.0/10,,
+6.7/10,50/100,43%
+6.3/10,,
+5.4/10,,
+6.9/10,,
+6.2/10,,67%
+6.1/10,,
+6.6/10,,
+7.1/10,,
+6.4/10,44/100,29%
+7.9/10,,
+6.6/10,65/100,
+7.7/10,,
+8.0/10,,
+7.3/10,67/100,
+3.5/10,11/100,4%
+2.4/10,17/100,2%
+7.3/10,,84%
+7.3/10,70/100,81%
+6.3/10,,
+7.7/10,66/100,84%
+7.1/10,66/100,65%
+6.5/10,29/100,67%
+7.9/10,,
+6.5/10,42/100,42%
+6.5/10,63/100,80%
+7.4/10,,
+5.5/10,55/100,44%
+4.6/10,,
+6.1/10,50/100,62%
+8.9/10,,
+6.5/10,,
+6.2/10,,
+9.2/10,,
+6.8/10,63/100,53%
+5.3/10,,
+5.3/10,,
+6.8/10,69/100,78%
+5.8/10,39/100,45%
+7.3/10,,
+5.7/10,,
+5.1/10,31/100,5%
+6.9/10,62/100,75%
+5.2/10,,
+7.5/10,,89%
+7.0/10,,67%
+6.8/10,89/100,94%
+5.5/10,,100%
+5.8/10,,80%
+5.8/10,34/100,14%
+7.3/10,,
+8.2/10,,
+5.9/10,,63%
+5.4/10,,
+5.5/10,46/100,24%
+6.0/10,68/100,97%
+8.0/10,,88%
+8.0/10,,
+8.4/10,,
+8.2/10,72/100,
+6.4/10,37/100,35%
+7.3/10,,
+4.6/10,,
+7.3/10,,
+4.7/10,47/100,44%
+8.3/10,,
+6.6/10,59/100,62%
+6.5/10,61/100,77%
+7.2/10,49/100,
+7.8/10,76/100,85%
+5.5/10,39/100,26%
+7.3/10,,
+,,
+6.0/10,61/100,72%
+7.7/10,,
+3.6/10,,
+8.0/10,74/100,83%
+8.1/10,,
+6.3/10,73/100,85%
+7.5/10,,
+3.6/10,,
+5.3/10,,
+5.8/10,,
+5.0/10,,
+1.9/10,15/100,1%
+7.1/10,66/100,69%
+8.4/10,,
+5.1/10,,
+4.1/10,,
+7.1/10,67/100,77%
+,,
+7.8/10,,
+6.7/10,,
+2.3/10,,
+5.3/10,31/100,15%
+7.0/10,60/100,72%
+6.3/10,,
+7.0/10,,
+7.8/10,,
+,,
+6.4/10,,
+7.6/10,,100%
+7.2/10,,
+6.3/10,,
+6.4/10,,
+4.4/10,18/100,5%
+5.5/10,45/100,40%
+7.3/10,60/100,53%
+6.2/10,,
+8.7/10,,
+7.0/10,,
+3.1/10,,
+5.7/10,,
+,,
+,,
+7.2/10,,
+6.2/10,,
+7.0/10,57/100,63%
+7.6/10,,
+6.3/10,49/100,62%
+,,
+5.4/10,,
+,,
+6.0/10,35/100,7%
+4.6/10,,
+,,
+5.4/10,29/100,10%
+6.3/10,42/100,75%
+7.7/10,83/100,96%
+6.3/10,34/100,30%
+7.0/10,72/100,97%
+7.7/10,89/100,97%
+,,
+7.4/10,48/100,60%
+,,
+,,
+8.5/10,79/100,92%
+7.8/10,,
+2.4/10,,
+7.4/10,,86%
+7.6/10,,
+3.3/10,,
+7.9/10,,
+7.8/10,71/100,86%
+8.1/10,,100%
+6.8/10,,
+5.5/10,31/100,10%
+6.2/10,,
+8.0/10,,
+4.8/10,33/100,18%
+6.7/10,52/100,52%
+4.6/10,,
+4.7/10,35/100,71%
+7.4/10,,
+6.3/10,,
+6.2/10,,
+,,
+6.3/10,,
+6.2/10,,
+5.7/10,38/100,24%
+8.3/10,,
+6.6/10,51/100,63%
+7.8/10,,
+6.2/10,36/100,30%
+6.2/10,56/100,63%
+,,
+7.7/10,,
+8.1/10,,
+7.3/10,,
+6.9/10,,
+6.2/10,,
+7.8/10,,
+5.6/10,45/100,34%
+6.6/10,47/100,44%
+7.8/10,,
+5.6/10,,
+5.7/10,,55%
+6.5/10,57/100,67%
+4.1/10,,
+8.6/10,,
+6.3/10,59/100,57%
+7.6/10,,
+8.1/10,,
+7.0/10,,
+5.2/10,,
+8.6/10,,
+8.0/10,79/100,97%
+7.6/10,73/100,94%
+7.3/10,72/100,88%
+5.7/10,,
+7.3/10,,100%
+6.3/10,43/100,44%
+8.5/10,,
+7.7/10,,
+5.6/10,,75%
+6.3/10,54/100,53%
+6.2/10,,
+5.7/10,,
+7.4/10,,
+7.3/10,,
+7.3/10,,
+8.0/10,71/100,90%
+6.6/10,60/100,92%
+5.4/10,53/100,77%
+6.2/10,69/100,87%
+7.3/10,,96%
+6.1/10,57/100,65%
+3.7/10,,
+4.7/10,,25%
+6.1/10,,
+6.2/10,,70%
+6.4/10,58/100,68%
+6.1/10,,
+7.6/10,,100%
+7.1/10,,
+5.2/10,,8%
+6.6/10,,
+6.0/10,,
+7.1/10,,
+5.0/10,20/100,10%
+5.9/10,,
+8.1/10,79/100,88%
+6.0/10,62/100,80%
+7.1/10,,
+8.2/10,,
+6.1/10,,
+6.9/10,81/100,96%
+6.3/10,52/100,52%
+6.3/10,,
+8.4/10,,
+5.9/10,55/100,58%
+6.4/10,,
+6.9/10,,
+8.6/10,,
+7.0/10,67/100,87%
+6.5/10,,
+7.0/10,54/100,65%
+7.0/10,,
+5.5/10,,73%
+7.1/10,,
+7.5/10,,
+7.7/10,74/100,81%
+6.5/10,,
+7.3/10,,
+7.3/10,,
+6.5/10,,
+6.7/10,,
+6.1/10,47/100,23%
+6.9/10,66/100,85%
+6.1/10,,
+6.9/10,,
+7.5/10,,
+,,100%
+,,
+6.5/10,,100%
+7.3/10,81/100,99%
+6.6/10,53/100,45%
+5.2/10,,
+6.1/10,55/100,56%
+,,
+,,
+6.1/10,,
+7.2/10,,100%
+6.1/10,,
+8.4/10,,
+7.8/10,,
+6.8/10,87/100,95%
+8.4/10,,
+6.8/10,,
+,,
+5.2/10,41/100,11%
+5.5/10,32/100,19%
+6.2/10,57/100,
+6.5/10,,
+6.8/10,,
+6.5/10,65/100,84%
+7.3/10,54/100,77%
+6.5/10,48/100,44%
+7.5/10,86/100,93%
+7.2/10,,
+6.5/10,77/100,91%
+5.4/10,,
+6.0/10,66/100,79%
+6.8/10,56/100,67%
+6.4/10,61/100,71%
+3.8/10,,
+6.7/10,,
+6.8/10,42/100,59%
+7.0/10,79/100,90%
+6.6/10,36/100,25%
+7.3/10,75/100,89%
+5.7/10,65/100,70%
+7.6/10,,
+7.0/10,,
+8.9/10,,
+7.4/10,71/100,82%
+4.9/10,,38%
+6.4/10,,70%
+5.6/10,,
+7.3/10,83/100,93%
+4.3/10,,50%
+5.6/10,30/100,20%
+6.3/10,50/100,43%
+6.6/10,67/100,86%
+7.1/10,,
+6.4/10,54/100,43%
+8.8/10,,
+6.5/10,65/100,73%
+4.8/10,68/100,86%
+7.3/10,88/100,95%
+8.2/10,,79%
+,,
+5.5/10,,
+5.8/10,,
+5.9/10,65/100,66%
+3.4/10,12/100,6%
+7.3/10,,98%
+6.4/10,,
+8.7/10,,
+7.2/10,,
+6.1/10,43/100,38%
+6.6/10,,
+5.3/10,,
+6.6/10,58/100,71%
+7.7/10,68/100,77%
+8.1/10,78/100,
+7.8/10,,
+6.5/10,,
+7.3/10,,
+7.5/10,,
+9.6/10,,
+5.7/10,31/100,37%
+8.2/10,,
+7.9/10,,
+7.1/10,,
+4.8/10,,
+5.3/10,,
+,,
+5.9/10,,64%
+6.7/10,,
+6.0/10,,
+4.8/10,,100%
+7.8/10,,
+5.5/10,,
+7.4/10,,
+6.4/10,60/100,72%
+6.5/10,70/100,80%
+6.9/10,,
+8.4/10,,
+8.2/10,,
+7.2/10,,
+6.8/10,,
+7.5/10,65/100,90%
+7.8/10,,
+6.1/10,43/100,81%
+6.9/10,,
+7.1/10,76/100,92%
+7.0/10,46/100,59%
+8.5/10,,
+6.8/10,,75%
+8.2/10,69/100,77%
+8.1/10,,
+7.0/10,75/100,87%
+4.4/10,,
+7.4/10,,
+3.3/10,,7%
+6.3/10,52/100,62%
+6.5/10,,
+6.3/10,37/100,37%
+6.9/10,,100%
+7.0/10,83/100,95%
+6.2/10,,
+7.1/10,,
+7.2/10,73/100,84%
+5.2/10,41/100,
+7.9/10,,75%
+6.4/10,72/100,100%
+7.6/10,,
+7.5/10,,
+4.0/10,,
+8.0/10,,
+4.7/10,65/100,81%
+7.1/10,,
+4.9/10,,
+6.6/10,85/100,89%
+7.0/10,,46%
+5.3/10,,42%
+5.5/10,,
+5.1/10,,
+7.9/10,,
+6.1/10,59/100,73%
+8.4/10,,
+5.6/10,79/100,95%
+4.3/10,,
+6.0/10,,20%
+6.4/10,68/100,81%
+,,
+,,
+4.9/10,,
 
