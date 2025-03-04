@@ -127,3 +127,5 @@ IGNORE 1 LINES
 (@imdbid, @autor)  -- Read into variables
 SET film_id = (SELECT id FROM filme WHERE imdbid = @imdbid),
     autor_id = (SELECT id FROM autoren WHERE autor = @autor);
+
+
