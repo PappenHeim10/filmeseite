@@ -1,42 +1,61 @@
 Country
+France
+United Kingdom
 United States
 Soviet Union
 Mexico
-United Kingdom
 Germany
-France
 Sweden
 Japan
+"Italy, United States"
 West Germany
+Italy
 "United Kingdom, United States"
 Egypt
+"Mexico, United States"
 "West Germany, France, Italy"
+"Brazil, France, Italy"
 "Italy, France"
 Netherlands
+Czechoslovakia
+"Italy, Spain"
+Brazil
 "United States, Canada, Japan"
+"Italy, France, West Germany"
 Hong Kong
 "France, Italy"
+"France, Italy, Spain"
+"Japan, United States"
 "Senegal, France"
 "France, Spain, Italy"
-"Japan, United States"
-Italy
+"Spain, West Germany"
+"South Korea, Japan"
+"United States, Japan"
+"Italy, West Germany, Spain, Liechtenstein"
 "Canada, Japan"
 "West Germany, Italy, Pakistan"
+"Philippines, United States"
 "United Kingdom, Italy"
 "Hong Kong, United States"
 "Taiwan, Hong Kong"
 "Japan, West Germany"
+Canada
+"United Kingdom, France"
+"France, West Germany"
 "France, Italy, West Germany"
 Taiwan
 "France, Canada"
+"Côte d&#x27;Ivoire, France, West Germany, Switzerland"
 "Italy, United States, Hong Kong"
 Yugoslavia
+"Spain, Puerto Rico"
 Spain
+"United States, United Kingdom, Italy"
 "United States, Mexico"
+"Spain, United States, Puerto Rico"
 "West Germany, Austria"
 "United States, Netherlands, Italy"
 Australia
-"United States, Japan"
 "United States, Indonesia"
 "Australia, United States"
 "United Kingdom, Spain, United States"
@@ -45,13 +64,14 @@ Australia
 Poland
 "Finland, Sweden"
 "France, United States, United Kingdom"
-"United Kingdom, France"
-Canada
+"Canada, Australia"
 Belgium
+"Federal Republic of Yugoslavia, Yugoslavia"
 "United Kingdom, Japan"
 "Argentina, Canada"
 "Canada, United States"
 "China, Hong Kong, Taiwan"
+"United States, United Kingdom"
 "Romania, USA"
 "Russia, United Kingdom"
 "France, Switzerland, Poland"
@@ -63,9 +83,11 @@ USA
 "United States, Canada, Federal Republic of Yugoslavia"
 "United Kingdom, Canada, Italy"
 "United Kingdom, France, Japan, United States"
-Brazil
+"United States, United Kingdom, France, Germany, Japan"
+Romania
 "Canada, USA, Hong Kong"
 "United States, Canada, Germany, Czech Republic"
+Iran
 "Sweden, Denmark"
 "Hong Kong, South Korea"
 "France, Germany, United States, Japan"
@@ -78,11 +100,13 @@ Turkey
 "France, Switzerland, Belgium, Luxembourg"
 "United States, Canada"
 "Germany, United States"
+"France, United States"
 "Italy, Thailand"
 "United States, China, Canada, Taiwan, Spain"
 "Romania, United States"
 "Czech Republic, United Kingdom, Germany, Denmark, Italy, France, United States"
 India
+"Italy, USA"
 "United States, Germany, Japan, France, United Kingdom"
 Thailand
 "Spain, Italy, Portugal, France"
@@ -93,8 +117,6 @@ UK
 "United Kingdom, Luxembourg"
 "France, Germany, United States"
 "USA, Canada"
-"United States, United Kingdom"
-Iran
 "United States, United Kingdom, Netherlands"
 South Korea
 "Canada, United Kingdom"
@@ -108,12 +130,17 @@ South Korea
 "France, Belgium"
 "Canada, Germany, United States"
 "China, Hong Kong"
+"United States, Germany, France"
+"Netherlands, Germany, United Kingdom, Belgium"
 China
 "Denmark, Iceland"
 "United States, South Korea"
 "Isle of Man, United Kingdom, United States, Germany"
+"Italy, Turkey"
 "Sweden, United Kingdom"
 "China, Hong Kong, Japan, Taiwan, South Korea, United States"
+"Japan, Poland"
+Norway
 "United States, Germany, United Kingdom"
 "Luxembourg, United Kingdom"
 "Switzerland, United States"
@@ -123,13 +150,19 @@ Hungary
 "Hong Kong, China"
 "United States, Mexico, United Kingdom, Colombia"
 "India, United States"
+"New Zealand, South Korea"
 "Taiwan, China"
 "Netherlands, United Kingdom, Germany, United States"
 "United States, Bahrain"
 "United Kingdom, United States, Germany, Denmark, Belgium, Japan"
+"Australia, United Kingdom"
+Denmark
 "UK, Sweden"
 "United States, United Kingdom, South Africa"
+"Italy, France, Germany"
+Serbia
 "United States, Canada, United Kingdom"
+"Netherlands, Germany, South Africa"
 "Germany, USA"
 "United Kingdom, France, Spain, United States, Japan"
 Russia
@@ -137,29 +170,34 @@ Russia
 "United States, United Arab Emirates"
 "Finland, Iceland"
 "Japan, United Kingdom"
-Denmark
+"United States, Dominican Republic, Mexico, Slovenia"
 "New Zealand, United Kingdom, Canada, Australia, United States"
-"France, United States"
+"Ireland, United States"
 "United States, Canada, Hungary"
+"United States, New Zealand, Canada"
 "United Kingdom, Nigeria"
+Indonesia
 "United States, Australia, United Kingdom"
 "Malaysia, Taiwan, Singapore, France, Germany, Netherlands, Indonesia, Switzerland, Qatar"
 "United States, South Korea, United Kingdom"
+"Netherlands, United States"
 "Iran, Turkey"
 "Sweden, Denmark, Germany, Norway, Spain"
 "Israel, United States"
 South Africa
 "France, United Kingdom, United States"
+"Germany, United Kingdom"
 "United States, Spain, United Kingdom"
 "USA, Romania"
 "Sweden, Germany, Denmark"
 N/A
-Indonesia
 "Ukraine, Poland"
 "United States, Australia, Mexico"
 "United States, Norway"
+Gibraltar
 "United Kingdom, France, India, United States"
 "Sweden, Denmark, Germany"
+Israel
 "United States, Hong Kong, Cambodia, United Kingdom"
 "United Kingdom, United States, Mexico"
 "Austria, Germany, France"
@@ -172,14 +210,17 @@ Bangladesh
 "United States, Denmark, Australia, Norway"
 "Australia, United Arab Emirates, United States"
 "United States, United Kingdom, South Africa, Germany, France"
+"Czech Republic, Russia, Ukraine"
 Ireland
 "United States, Canada, United Arab Emirates, Hungary, Italy, New Zealand, Jordan, Gambia"
 "Japan, Australia"
 Portugal
 "Sweden, United States"
+"Russia, United States"
+"United States, Netherlands"
+"United Kingdom, United States, Sweden"
 "Norway, France"
 "France, Germany"
-"Germany, United Kingdom"
 "Japan, Malaysia"
 Bulgaria
 "Germany, Luxembourg, United Kingdom"
@@ -194,50 +235,63 @@ Bulgaria
 "United States, Italy, Spain"
 "United States, Poland, United Kingdom"
 "United Kingdom, Jordan"
+"Turkey, Germany, France"
 "Finland, United States, Canada"
+"United Kingdom, Croatia, United States"
 "China, Canada"
 Chile
 "Finland, United Kingdom, Germany, United States"
+"Spain, United States, Italy"
 "United States, Canada, France"
 "United States, Canada, India"
 "United Kingdom, South Africa, United States, Germany"
 New Zealand
 "Canada, United States, Australia"
 "Czech Republic, Slovakia, Germany"
+"United Kingdom, Russia, United States"
 "United States, South Korea, Australia"
+"China, United States"
 "Israel, United States, Germany"
 "France, Ireland, Sweden"
+"United Kingdom, Canada"
 "India, United Kingdom"
 "United States, Spain"
+"South Africa, United States"
 "United States, United Kingdom, France"
+Nigeria
 "France, South Korea, Japan, United States, Brazil, Canada, Italy"
+"United States, Philippines"
 "United States, Greece"
 "Romania, France, Greece"
 "Austria, Germany"
-"China, United States"
-Norway
 "Luxembourg, France"
 "Australia, Myanmar"
+"Canada, Bulgaria, France, Singapore, Ukraine"
 "United States, United Arab Emirates, Colombia, Spain"
 "United States, Hungary"
 "United Kingdom, South Africa"
-"United States, Denmark, Australia, Canada"
 Austria
+"United States, Denmark, Australia, Canada"
 "United Kingdom, Ireland, France, Netherlands"
 "Spain, France"
+"Ireland, Luxembourg, Belgium, United States, France"
 "United States, Canada, Mexico, Hong Kong"
+"USA, Japan"
 "Denmark, Norway, Australia, United States"
 "China, Hong Kong, United States"
 "United Kingdom, China"
 "United States, India"
 "France, Belgium, Japan, United States"
+"Iran, Cyprus"
 Finland
 "Denmark, France, Sweden, Germany, Belgium"
 Switzerland
 "United States, Denmark, Australia"
 "United States, Bangladesh, India"
 "United States, Canada, China"
+"Switzerland, Germany, Sweden"
 "United Kingdom, Ireland"
+"United Kingdom, Switzerland, Netherlands, Hungary"
 "Serbia, South Korea, Slovenia"
 Czech Republic
 "Nepal, United States"
@@ -249,18 +303,30 @@ Czech Republic
 "Germany, United Kingdom, Canada, Sweden, United States"
 "United States, France"
 "Germany, Italy, United States"
+"Sweden, Denmark, Norway"
+"Argentina, Spain"
 Croatia
 "United States, United Kingdom, Hong Kong"
 "Kenya, Switzerland"
+"Australia, Netherlands"
 "Finland, United States, Australia, Canada, United Kingdom"
+"Mexico, India, United States, Bulgaria, Spain"
+"United States, Canada, New Zealand, Hungary"
 "United States, Spain, Hungary, China"
+"Germany, United States, Japan, China, South Africa, Canada"
 "United States, Japan, France"
 "Austria, Canada"
 "Italy, Germany, France"
 "United States, China"
 Pakistan
+"Italy, Canada"
 "Sweden, Germany"
 "United States, United Kingdom, Singapore, Italy, Thailand, Canada"
 "Netherlands, Belgium"
 "France, Belgium, South Korea"
+"Argentina, France, Chile"
+"Mexico, United Kingdom, Canada, India, Hungary, United States, Netherlands, China"
+"United States, Japan, United Kingdom"
+"Russia, Hungary"
+"Spain, Belgium, United States"
 

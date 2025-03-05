@@ -24,7 +24,7 @@ if ($q !== "") {
     }
 
     $filmIds = [];
-
+    ksort($hint, SORT_REGULAR);
     foreach($hint as $titel){
         $filmIds[] = $filmController->getFilmeIdNachName($titel);
     }
@@ -43,6 +43,4 @@ if ($q !== "") {
     if(isset($filmData))
         filmeAnzeigen($filmData);
 }
-
-
 ?>

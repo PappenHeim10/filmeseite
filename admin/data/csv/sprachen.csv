@@ -1,49 +1,64 @@
 Language
+"None, French"
 None
 English
+"None, English"
 "English, Portuguese"
 Spanish
+"English, Latin, Hungarian"
 "English, German, French"
 German
 "English, French"
 "French, German, English"
 "English, Hindi"
+"English, Spanish"
 "English, Czech, Serbian"
 "English, Italian"
+"English, French, Nepali"
 "English, French, Russian"
 Swedish
 Japanese
 "Japanese, French"
-"English, Spanish"
+Italian
 Russian
 "English, Mandarin"
 Arabic
 "French, Italian, Albanian, English"
 French
 "Japanese, Mandarin"
+Portuguese
 "English, Polish, Spanish"
 "English, French, German, Chinese, Italian, Arabic"
-Italian
+"Italian, English"
 "Dutch, German"
+Czech
 "English, Russian"
 "English, Russian, Turkish, French, Romany, Italian"
 Mandarin
+"Japanese, English"
 "English, French, German, Hebrew, Japanese, Russian, Spanish, Swahili"
 "English, Japanese"
+Korean
 "English, Cantonese, Spanish"
+"English, Spanish, Italian, German"
 "Swedish, Spanish"
 "English, German"
 "Urdu, German"
 "English, Yiddish"
+"French, English"
 "English, Spanish, French"
 "English, Spanish, Hebrew"
+"English, Latin"
 "Italian, German, Hebrew"
 "English, Hebrew"
 "English, Japanese, German"
 "English, Arabic"
 Cantonese
 Serbo-Croatian
+"English, Arabic, Italian"
 "Cantonese, Mandarin"
+"English, Berber languages, French"
+"Latin, English, German, Italian"
 "English, French, German, Vietnamese"
 "English, French, Spanish"
 "English, Russian, Spanish"
@@ -55,49 +70,53 @@ Serbo-Croatian
 Finnish
 "English, Italian, Serbo-Croatian"
 "English, Cantonese"
+"English, Algonquin, Mohawk, Cree, Latin, French"
 "English, Navajo, Hopi"
 "Spanish, English, Japanese, Latin"
+"Serbian, Serbo-Croatian"
 "Spanish, German"
 "Cantonese, Mandarin, English"
+"Italian, Chinese"
 "Cantonese, Hokkien"
 "English, French, Italian, Hindi"
 "Cantonese, Shanghainese, French, Spanish"
 "Romany, Serbian, Bulgarian"
 "English, Cantonese, German, Spanish, Thai"
+"English, Dutch"
 "English, Tok Pisin, Japanese, Greek"
 "English, Albanian"
-Portuguese
+Romanian
 "French, Italian, Greek, Turkish"
+Persian
 "Cantonese, Korean, English"
 Turkish
 "English, German, Czech"
 "Mandarin, Chinese"
-"Japanese, English"
 N/A
 "Italian, Thai"
 "English, Spanish, Greek"
 "French, Italian, English"
 "Czech, German, English, Slovak"
 Telugu
+"English, Somali, Arabic"
 "English, German, Arabic, French, Cantonese"
 Thai
 Hindi
-Persian
 "Korean, English"
 "English, Portuguese, French"
 "English, Persian"
 "English, Japanese, Spanish"
 "Italian, French, English"
 "Hindi, English"
-"French, English"
 "English, Italian, German"
+"Dutch, German, English, Hebrew"
 "English, American Sign "
-Korean
 "Danish, English, Spanish"
 "English, Welsh"
 "English, Armenian"
 "Italian, English, Arabic, French"
 "English, Slovak, French"
+Norwegian
 "French, Russian, English"
 "Dutch, English, Spanish"
 Hungarian
@@ -106,17 +125,23 @@ Malayalam
 "English, Polish"
 "English, French, Cantonese, Yiddish"
 "English, French, German, Ukrainian"
+Danish
 "Mandarin, Cantonese"
 "English, Italian, Portuguese"
+Serbian
+"English, Japanese, Korean"
+"English, French, Italian"
+"Japanese, English, Spanish, Russian"
 "English, Arabic, French"
+"English, Japanese, German, Korean, Spanish, French"
 "Hindi, Rajasthani"
-Danish
+"Chinese, Cantonese"
 "English, Chinese"
+Indonesian
 "English, French, Arabic, Urdu"
 Malay
 Kannada
 "Korean, English, Urdu"
-"English, Latin"
 "English, Italian, Arabic, Spanish, Japanese, French"
 "English, Spanish, Arabic"
 "Turkish, Persian"
@@ -126,16 +151,24 @@ Kannada
 "Swedish, Italian, English, French"
 "Italian, Russian, English"
 Chinese
+"Japanese, English, German"
 "English, Korean"
 "Turkish, Spanish, Portuguese"
 "Indonesian, Minangkabau"
 "Japanese, English, French, Spanish, Italian, German"
+"English, Portuguese, Spanish, Korean, German, French, Japanese"
 "English, Norwegian"
 "English, Urdu, Arabic"
+Hebrew
 Polish
 "Portuguese, English"
+"German, English"
+"French, Afrikaans, English, Dutch"
 "German, English, Swahili"
+"English, Ukrainian"
 Bengali
+"Zulu, English"
+"Catalan, Spanish"
 "French, English, Japanese"
 "German, Mandarin, English"
 "English, Turkish"
@@ -143,18 +176,21 @@ Bengali
 "Irish Gaelic, English, Gaelic"
 "Turkish, Sign "
 "English, French, Italian, German, Romany"
+"Flemish, Dutch"
 "English, Swedish"
 "English, Afrikaans"
 "Hindi, Punjabi, English"
-Norwegian
 "French, German, Danish, English"
+"English, Vietnamese, German, Spanish, Russian"
 "French, English, Arabic, Slovak"
 "Malay, Cantonese, Mandarin"
 "English, French, Romanian, Dutch, Mandarin"
 "Bulgarian, English"
+"English, Egyptian (Ancient)"
 "English, Arabic, Urdu, Pashtu, French"
 "Turkish, French"
 "English, Russian, French, Persian, Korean"
+"English, Swahili, Nama, Xhosa, Korean"
 "French, Sign , English"
 "Hindi, English, Vietnamese"
 "English, Danish, Italian"
@@ -163,27 +199,39 @@ Norwegian
 "English, Spanish, French, German"
 "English, Vietnamese"
 "English, Finnish"
-Indonesian
+Dutch
+"Japanese, Portuguese, English"
 "Thai, English"
+"Persian, English"
+"English, Korean, Icelandic, Russian"
 Tamil
-Czech
+"English, French, Chinese"
+"Spanish, English, Portuguese, Italian, Polish, Japanese"
 "English, Romanian"
 "Russian, German"
 "Hebrew, Arabic, English"
 "Japanese, English, Korean, German"
+"Mandarin, Pushto, Spanish, English"
 "English, Spanish, Russian, Mandarin"
 "French, Korean, English"
-Romanian
-"German, English"
 "English, Burmese"
-"None, English"
+"French, English, Portuguese, Maya, Spanish"
+"Chinese, Mandarin"
 "English, Russian, Hungarian"
+"Indonesian, None"
+"Japanese, English, French, German, Spanish, Portuguese"
+"English, Irish Gaelic"
+"Japanese, English, German, French"
+"Spanish, Catalan"
 "Bengali, Hindi, Tamil"
+"English, Russian, Norwegian, Hungarian, Macedonian, Finnish"
 "Turkish, Italian"
 "French, Flemish, English, Italian, Hebrew"
 "Finnish, English"
 "English, German, Italian"
+"French, Dutch, Arabic, Lingala"
 "Swiss German, English, German"
+"German, English, Swiss German, Swedish, French, Italian"
 "English, Serbian"
 Nepali
 "English, American Sign , Indonesian"
@@ -195,16 +243,21 @@ Nepali
 "Tamil, Telugu"
 "German, Russian"
 "Japanese, Japanese Sign , English"
+"Swedish, Danish, Norwegian"
 Catalan
 Croatian
 "Turkish, Indian Sign "
 "German, Arabic, Bosnian, Serbo-Croatian"
+"Serbian, Russian, Macedonian, German, Slovenian"
 "French, English, Arabic"
 "Turkish, Greek"
+"English, Hindi, Spanish"
 "German, English, Arabic"
+"English, Italian, Mandarin"
 "English, Italian, Russian, German"
 "French, Russian"
 Urdu
+"Portuguese, German, Spanish, Japanese, English"
 "French, Russian, German"
 "English, Russian, Italian, Spanish, Indonesian"
 "Russian, English"
@@ -212,8 +265,11 @@ Urdu
 "French, Flemish, English"
 "English, Dinka"
 "Japanese, French, German, English"
-"Spanish, Catalan"
+"English, Xhosa, Maya, Spanish, Haitian, French"
+"English, Japanese, Italian, Portuguese, French, Spanish"
 "Swedish, German"
+"Irish Gaelic, English"
+"Spanish, English"
 "Telugu, Kannada, Tamil"
 "Turkish, Kurdish"
 

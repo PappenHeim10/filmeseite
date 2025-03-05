@@ -1,237 +1,291 @@
 <?php
+
 namespace mvc;
+
 use mvc\Api;
 use mvc\Filme;
+use PDO;
+use PDOException;
 
 class FilmController
 {
-    private $api; // Der API Key 
-    public $filmeModel; // Die Filme Model mit der die Basis Methoden aufgerugen werden
+    private Api $api; // Type-Hinting für bessere Lesbarkeit und Typsicherheit
+    public Filme $filmeModel; // Type-Hinting
 
-
-    public function __construct(Array $daten = []) // Konstruktor wird mit den Daten initialisiert
+    public function __construct()
     {
-        $this->api = new Api(); // Die API wird initialisiert
-        $this->filmeModel = new Filme(); // Die Filme Model wird initialisiert
+        $this->api = new Api();
+        $this->filmeModel = new Filme();
     }
 
-
-
-
-    public function getFilmInJsonDurchImdbId($imdbId) :void{ 
+    /**
+     * Holt Filmdetails von der externen API und speichert sie in der Datenbank.
+     *
+     * @param string $imdbId
+     * @return void
+     */
+    public function getFilmInJsonDurchImdbId(string $imdbId): void
+    {
         $filmdetails = $this->api->getFilmDetailsInJson($imdbId);
 
-        if ($this->filmeModel->db === null) { 
-            error_log("Datenbankverbindung in bulkInsert fehlgeschlagen.");
-            write_error("Datenbankverbindung in bulkInsert fehlgeschlagen.". "<br>". __FILE__ );
-            return; // Oder Exception werfen, je nach Fehlerbehandlungsstrategie
+        if (!$filmdetails) { // API-Aufruf fehlgeschlagen
+            error_log("API-Aufruf fehlgeschlagen für IMDb ID: $imdbId");
+            return; // Frühzeitiger Abbruch, da keine Daten
         }
-        $film = new Filme($filmdetails); // Wird ein neus Objekt erstellt
 
-        // Hier ist die Fehlerbehandlung
-        if(!$film->insert()) {
-            error_log("Fehler beim Einfügen des Films: " . print_r($filmdetails, true));
-            write_error("Fehler beim Einfügen des Films: " . $film->title. "<br>". __FILE__ );
+        // Versuche, den Film zu speichern.  Fehlerbehandlung im Filme-Model
+        $film = new Filme($filmdetails);
+        if (!$film->insert()) {
+            // Fehlerprotokollierung erfolgt bereits in der insert()-Methode
+            return;
         }
     }
 
-    public function getFilmNachId($id):array | false{ 
-        $filmDaten = $this->filmeModel->select($id);
-
-        if(!$filmDaten){ // Wenn es keine Daten gibt wird false zurück gegeben
-            return false;
-        }
-        return $filmDaten; // Die Daten des Filmes werden zurückgegeben
-    }
-
-    public function getAlleFilme():array | false
+    /**
+     * Holt einen Film anhand seiner Datenbank-ID.
+     *
+     * @param int $id
+     * @return array|false
+     */
+    public function getFilmNachId(int $id): array|false
     {
-        $filme = $this->filmeModel->selectAll();
-
-        if(!$filme){
-            write_error("Fehler in: ". __METHOD__);
-            return false;
-        }
-        return $filme;
+        return $this->filmeModel->select($id); // Direkte Rückgabe, keine zusätzliche Logik
     }
-//Im FilmController
 
-//Korrigierte Version
-// FilmController.php (getFilmeAusDerDatenbank-Methode)
-    public function getFilmeAusDerDatenbank(string $suchbegriff, int $seite, $sortOrder = 'DESC'): array|false
+    /**
+     * Holt alle Filme aus der Datenbank.
+     * @return array|false
+     */
+    public function getAlleFilme(): array|false
+    {
+        return $this->filmeModel->selectAll(); // Direkte Rückgabe, Fehlerbehandlung in selectAll
+    }
+
+    /**
+     * Holt Filme aus der Datenbank mit Suchbegriff, Paginierung und Sortierung.
+     *
+     * @param string $suchbegriff
+     * @param int $seite
+     * @param string $sortOrder
+     * @return array|false
+     */
+    public function getFilmeAusDerDatenbank(string $suchbegriff, int $seite, string $sortOrder = 'DESC'): array|false
     {
         $limit = 10;
         $offset = ($seite - 1) * $limit;
 
+        // Validierung der Sortierreihenfolge, um SQL-Injection zu verhindern.
+        $sortOrder = strtoupper($sortOrder); // Immer Großbuchstaben
+        if (!in_array($sortOrder, ['ASC', 'DESC'])) {
+            $sortOrder = 'DESC'; // Standardwert, falls ungültig
+        }
+
         try {
-            //  WHERE-Bedingung:
             $sql = "SELECT * FROM filme
                     WHERE LOWER(titel) LIKE LOWER(:suchbegriff)
                     ORDER BY erscheinungs_jahr $sortOrder
-                    LIMIT :limit OFFSET :offset"; //WICHTIG: Wozu ist dieses OFFSET
-
+                    LIMIT :limit OFFSET :offset";
 
             $stmt = $this->filmeModel->db->prepare($sql);
-            $stmt->bindValue(':suchbegriff', '%' . $suchbegriff . '%', \PDO::PARAM_STR);
-            $stmt->bindValue(':limit', $limit, \PDO::PARAM_INT);
-            $stmt->bindValue(':offset', $offset, \PDO::PARAM_INT);
+            $stmt->bindValue(':suchbegriff', "%$suchbegriff%", PDO::PARAM_STR);
+            $stmt->bindValue(':limit', $limit, PDO::PARAM_INT);
+            $stmt->bindValue(':offset', $offset, PDO::PARAM_INT);
             $stmt->execute();
 
-            $result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
-            if (empty($result)) { // Verwende empty()
-                return false;
-            }
-            return $result;
+            $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            return $result ?: false; // Gib das Ergebnis zurück oder false, wenn es leer ist
 
-        } catch (\PDOException $e) {
-            error_log("Fehler beim Abrufen: " . $e->getMessage());
-            write_error("Fehler beim Abrufen: " . $e->getMessage());
+        } catch (PDOException $e) {
+            error_log("Fehler in getFilmeAusDerDatenbank: " . $e->getMessage());
             return false;
         }
     }
-    
-    public function countFilme(string $suchbegriff): int
+
+    /**
+     * Zählt die Anzahl der Filme in der Datenbank (optional mit Suchbegriff).
+     *
+     * @param string $suchbegriff
+     * @return int
+     */
+    public function countFilme(string $suchbegriff = ''): int
     {
         try {
             $sql = "SELECT COUNT(*) FROM filme";
-
             $params = [];
 
             if ($suchbegriff !== '') {
-                $sql .= " WHERE LOWER(titel) LIKE LOWER(:suchbegriff)"; // 
-                $params[':suchbegriff'] = '%' . $suchbegriff . '%';
+                $sql .= " WHERE LOWER(titel) LIKE LOWER(:suchbegriff)";
+                $params[':suchbegriff'] = "%$suchbegriff%";
             }
 
             $stmt = $this->filmeModel->db->prepare($sql);
-            if ($suchbegriff !== '') {
-            $stmt->bindValue(':suchbegriff', '%' . $suchbegriff . '%', \PDO::PARAM_STR); // Nur binden wenn benötigt
-            }
-
-            $stmt->execute();
+            $stmt->execute($params); // Einheitliche Ausführung mit Parametern
 
             return (int)$stmt->fetchColumn();
 
-        } catch (\PDOException $e) {
-            write_error("Fehler beim Zählen der Filme: " . $e->getMessage()); // Schreibe Fehler
+        } catch (PDOException $e) {
+            error_log("Fehler in countFilme: " . $e->getMessage());
             return 0;
         }
     }
-    public function getFilmeIdNachName(String $titel):array|false
+
+    /**
+     * Holt die Datenbank-IDs von Filmen anhand ihres Titels (Teilübereinstimmung).
+     *
+     * @param string $titel
+     * @return array|false
+     */
+    public function getFilmeIdNachName(string $titel): array|false
     {
-        try{
-            $sql = "SELECT id FROM filme WHERE lower(titel) LIKE :titel"; // Das ist der sql querey der ausgeführt werden soll
-            $stmt = $this->filmeModel->db->prepare($sql); // 
-            $stmt->bindValue(":titel", strtolower($titel). "%", \PDO::PARAM_STR);
+        try {
+            $sql = "SELECT id FROM filme WHERE LOWER(titel) LIKE :titel";
+            $stmt = $this->filmeModel->db->prepare($sql);
+            $stmt->bindValue(':titel', strtolower("$titel%"), PDO::PARAM_STR); // String-Verkettung
             $stmt->execute();
 
-            $results = $stmt->fetchAll(\PDO::FETCH_COLUMN); // Hier werden alle ids aufgerufen selbst wenn es nur eins ist
+            $results = $stmt->fetchAll(PDO::FETCH_COLUMN);
+            return $results ?: false; // Gibt entweder die Ergebnisse oder false zurück
 
-            if($results === false){
-                write_error("Kein Film gefunden: $titel");
-                return false;
-            }else{
-                return $results;
-            }
-        } catch (\PDOException $e) {
-            write_error("Fehler in der getFilmNachNameMetdose: " .$e->getMessage() . " " . __METHOD__);
+        } catch (PDOException $e) {
+            error_log("Fehler in getFilmeIdNachName: " . $e->getMessage());
             return false;
         }
     }
 
-    public function getFilmNachImdb($imdbID):array|false
+    /**
+     * Holt einen Film anhand seiner IMDb-ID aus der Datenbank.
+     *
+     * @param string $imdbID
+     * @return array|false
+     */
+    public function getFilmNachImdb(string $imdbID): array|false
     {
-        try{
+        try {
             $sql = "SELECT * FROM filme WHERE imdbid = :imdbid";
             $stmt = $this->filmeModel->db->prepare($sql);
-            $stmt->bindValue(":imdbid", $imdbID, \PDO::PARAM_STR);
+            $stmt->bindValue(':imdbid', $imdbID, PDO::PARAM_STR);
             $stmt->execute();
 
-            return $stmt->fetch(\PDO::FETCH_ASSOC);
-        } catch (\PDOException $e) {
-            write_error("Fehler in der getFilmNachImdbMethode: " .$e->getMessage());
+            return $stmt->fetch(PDO::FETCH_ASSOC) ?: false; // Gibt entweder das Ergebnis oder false zurück
 
+        } catch (PDOException $e) {
+            error_log("Fehler in getFilmNachImdb: " . $e->getMessage());
             return false;
         }
     }
-
-
-    public function getZufallsFilm(): array | false
+     /**
+     * Holt einen zufälligen Film aus der Datenbank.
+     *
+     * @return array|false
+     */
+    public function getZufallsFilm(): array|false
     {
-        $filme = $this->getAlleFilme();
-        if ($filme === false) {
-            write_error("Fehler beim Abrufen der Filme." . __METHOD__);
+        $filme = $this->filmeModel->selectAll();
+        if (empty($filme)) {
+             error_log("Keine Filme für Zufallsauswahl gefunden.");
             return false;
         }
-    
-        if (empty($filme)) { // Prüfe auf leeres Array, bevor du count() verwendest
-            write_error("Keine Filme in der Datenbank gefunden." . __METHOD__);
-            return false;
-        }
-        
-        $zufall = array_rand($filme); // array_rand gibt den zufälligen Schlüssel zurück
-        $zufallsFilm = $filme[$zufall]; // Hole den Film anhand des Schlüssels
-    
-        return $zufallsFilm; // Gib den Film direkt zurück, nicht die ID
-    }
-    public function getFilmeMitApi($titel){
-        $filme = $this->api->getFilme($titel);
 
-        return $filme; //
+        return $filme[array_rand($filme)];
     }
-    public function getImdbIdListe():array|bool{
-        try{
+
+
+    /**
+     * Holt Filme von der externen API (basierend auf Titel).
+     *
+     * @param string $titel
+     * @return mixed  // Typ anpassen, je nachdem, was Api::getFilme() zurückgibt.
+     */
+    public function getFilmeMitApi(string $titel)
+    {
+        return $this->api->getFilme($titel); // Direkte Rückgabe
+    }
+
+    /**
+     * Holt eine Liste von IMDb-IDs aus der Datenbank.
+     *
+     * @return array|false
+     */
+    public function getImdbIdListe(): array|false
+    {
+        try {
             $sql = "SELECT imdbid FROM filme";
             $stmt = $this->filmeModel->db->prepare($sql);
             $stmt->execute();
-            $imdbIds = $stmt->fetchAll(\PDO::FETCH_COLUMN);
-            
-            return $imdbIds;
-        }catch(\PDOException $e){
-            write_error("Fehler in der getImdbIdListeMethode: " .$e->getMessage());
+            $imdbIds = $stmt->fetchAll(PDO::FETCH_COLUMN);
+
+            return $imdbIds ?: [];  // Gib ein leeres Array zurück, wenn keine IDs gefunden wurden.
+
+        } catch (PDOException $e) {
+            error_log("Fehler in getImdbIdListe: " . $e->getMessage());
             return false;
         }
     }
-// In FilmController.php
+
+    /**
+     * Holt eine Liste von Filmtiteln und IMDb-IDs aus der Datenbank.
+     *
+     * @return array
+     */
     public function getFilmTitelUndImdbIds(): array
     {
         try {
-            $sql = "SELECT titel, imdbid FROM filme"; // Nur Titel und IMDb-ID
+            $sql = "SELECT titel, imdbid FROM filme";
             $stmt = $this->filmeModel->db->prepare($sql);
             $stmt->execute();
-            return $stmt->fetchAll(\PDO::FETCH_ASSOC);
-        } catch (\PDOException $e) {
-            write_error("Fehler in getFilmTitelUndImdbIds: " . $e->getMessage());
+            return $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        } catch (PDOException $e) {
+            error_log("Fehler in getFilmTitelUndImdbIds: " . $e->getMessage());
             return []; // Leeres Array im Fehlerfall
         }
     }
-
-    public function getFilmTitelListe():array|bool{
-
-        $sql = "SELECT titel FROM filme";
-        $stmt = $this->filmeModel->db->prepare($sql);
-        $stmt->execute();
-        $titel = $stmt->fetchAll(\PDO::FETCH_COLUMN);
-        
-        return $titel;
+    /**
+     * Holt eine Liste der Filmtitel
+     *
+     * @return array|false
+     */
+    public function getFilmTitelListe(): array|false
+    {
+        try{
+            $sql = "SELECT titel FROM filme";
+            $stmt = $this->filmeModel->db->prepare($sql);
+            $stmt->execute();
+            $titel = $stmt->fetchAll(PDO::FETCH_COLUMN);
+            
+            return $titel ?: [];
+        }catch(PDOException $e){
+            error_log("Fehler in getFilmTitelListe: " . $e->getMessage());
+            return false;
+        }
     }
 
-    public function getFilmDetailsById($imdbid):array|false{
-        try
-        {
+    /**
+     * Holt die ID und anschließend alle details eines Filmes anhand seiner IMDb ID
+     *
+     * @param  mixed $imdbid
+     * @return array|false
+     */
+    public function getFilmDetailsById(string $imdbid): array|false
+    {
+        try {
             $sql = "SELECT id FROM filme WHERE imdbid = :imdbid";
             $stmt = $this->filmeModel->db->prepare($sql);
-            $stmt->bindValue(":imdbid", $imdbid, \PDO::PARAM_STR);
+            $stmt->bindValue(":imdbid", $imdbid, PDO::PARAM_STR);
             $stmt->execute();
 
-            $filmId = $stmt->fetch(\PDO::FETCH_COLUMN);
-     
-            $filmDaten = $this->filmeModel->select($filmId);
-            return $filmDaten;
-        }
-        catch(\PDOException $e){
-            write_error("Fehler in getFilmDetailsById: " . $e->getMessage());
+            $filmId = $stmt->fetch(PDO::FETCH_COLUMN);
+            
+            // Kurzschluss, wenn keine Film-ID gefunden wurde.
+            if (!$filmId) {
+                return false;
+            }
+
+            return $this->filmeModel->select($filmId);
+
+        } catch (PDOException $e) {
+            error_log("Fehler in getFilmDetailsById: " . $e->getMessage());
             return false;
         }
     }
 }
-?>

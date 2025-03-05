@@ -99,3 +99,5 @@ spalten_auswahl = {
 einzigartige_werte = [datei_dir + 'schauspieler.csv', datei_dir + 'directoren.csv', datei_dir + 'laender.csv', datei_dir + 'sprachen.csv', datei_dir + 'autoren.csv']
 
 csv_spalten_extrahieren(eingabe_datei, ausgabe_dateien, spalten_auswahl, einzigartige_werte)
+
+print("CSV-Spalten extrahiert und geschrieben.")

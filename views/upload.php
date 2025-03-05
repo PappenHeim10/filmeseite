@@ -21,7 +21,7 @@ if (isset($_POST["submit"])) {
 
     // Prüfen, OB eine Datei hochgeladen wurde, BEVOR auf $_FILES zugegriffen wird.
     if (isset($_FILES["fileToUpload"]) && $_FILES["fileToUpload"]["error"] === UPLOAD_ERR_OK) {
-        $dateiTyp = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+        $dateiTyp = strtolower(pathinfo($_FILES["fileToUpload"]["name"], PATHINFO_EXTENSION));
 
 
         if($dateiTyp == "xml"){
@@ -35,15 +35,18 @@ if (isset($_POST["submit"])) {
             $fehler[] = "Falscher Dateitype.";
             $uploadOk = 0;
         }
+        if(isset($target_dir))
+        {
+            $target_file = $target_dir . "/" . basename($_FILES["fileToUpload"]["name"]);
+        }
 
-        $target_file = $target_dir . "/" . basename($_FILES["fileToUpload"]["name"]);
         hinweis_log("Eine Datei ist bereit zum hochladen.");
 
         // Datei existiert bereits?
-        if (file_exists($target_file)) {
+        if (isset($target_file) && file_exists($target_file)){
             $fehler[] = "Datei bereits vorhanden.";
             $uploadOk = 0;
-            hinweis_log('Eine Datei ist bereits vorhanden.');
+            hinweis_log('Der Filme ist bereits in der Datenbank.');
         }
 
         // Dateigröße prüfen (100 MB)

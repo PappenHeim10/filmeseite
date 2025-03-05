@@ -1,4 +1,8 @@
 imdbid,autor
+tt0003037,Marcel Allain
+tt0003037,Louis Feuillade
+tt0003037,Pierre Souvestre
+tt0004084,N/A
 tt0008677,James W. Adams
 tt0008677,Adrian Johnson
 tt0009700,J.G. Hawks
@@ -7,6 +11,11 @@ tt0014547,Edmund Goulding
 tt0014547,Willard Mack
 tt0014606,Tod Browning
 tt0014606,Charles Kenyon
+tt0016123,Roland West
+tt0016123,Crane Wilbur
+tt0016123,Willard Mack
+tt0016654,Douglas Fairbanks
+tt0016654,Jack Cunningham
 tt0019004,Herman J. Mankiewicz
 tt0019004,Alfred Savoir
 tt0019004,Ernest Vajda
@@ -16,12 +25,16 @@ tt0020481,Ford Beebe
 tt0020503,Willard Mack
 tt0020503,Harvey F. Thew
 tt0020503,Gordon Rigby
+tt0021668,Earl Derr Biggers
+tt0021668,Hugh Stanislaus Stange
+tt0021668,Barry Conners
 tt0022802,Joseph Jackson
 tt0022802,Wilson Mizner
 tt0022802,Courtney Terrett
 tt0023158,Samuel Hoffenstein
 tt0023158,George Marion Jr.
 tt0023158,Waldemar Young
+tt0023236,Robert Ellis
 tt0023293,J.B. Priestley
 tt0023293,Benn W. Levy
 tt0023293,R.C. Sherriff
@@ -30,12 +43,18 @@ tt0023594,Wells Root
 tt0023594,Howard Hawks
 tt0024671,Jorge Pezet
 tt0024671,Fernando de Fuentes
+tt0024894,Edgar Allan Poe
+tt0024894,Peter Ruric
+tt0024894,Edgar G. Ulmer
 tt0025048,James O. Spearing
 tt0025048,Russell G. Shields
 tt0025048,Lew Lehr
+tt0025488,Felix Adler
 tt0025896,Eric Ansell
 tt0025896,Billie Bristow
 tt0025896,John Quin
+tt0026123,Arthur Strawn
+tt0026123,Henry Myers
 tt0026264,Lillian Hellman
 tt0026264,Mordaunt Shairp
 tt0026264,Guy Bolton
@@ -47,11 +66,17 @@ tt0027221,Frank Partos
 tt0027221,Dale Van Every
 tt0027349,Roy Chanslor
 tt0027349,Earl Felton
+tt0027367,Abem Finkel
+tt0027367,William Wister Haines
+tt0027367,Robert Lord
 tt0028767,Lajos Biró
 tt0028767,Arthur Wimperis
 tt0030871,Thea von Harbou
 tt0030871,Richard Eichberg
 tt0030871,Hans Klaehr
+tt0031208,Edgar Wallace
+tt0031208,Patrick Kirwan
+tt0031208,Walter Summers
 tt0031210,Casey Robinson
 tt0031210,George Emerson Brewer Jr.
 tt0031210,Bertram Bloch
@@ -61,6 +86,9 @@ tt0031593,Mildred Cram
 tt0031885,Jean Renoir
 tt0031885,Carl Koch
 tt0031885,Beaumarchais
+tt0032258,Curt Siodmak
+tt0032258,Eric Taylor
+tt0032258,Edmund L. Hartmann
 tt0032383,Grover Jones
 tt0032383,Lionel Houser
 tt0032383,F. Hugh Herbert
@@ -72,30 +100,66 @@ tt0032599,Charles MacArthur
 tt0032617,Leon Gordon
 tt0032617,Maurine Dallas Watkins
 tt0032617,Octavus Roy Cohen
+tt0033397,Robert Lees
+tt0033397,Frederic I. Rinaldo
+tt0033397,Eric Taylor
 tt0033616,Lester Cole
 tt0033616,John Wexley
 tt0033616,Ladislas Fodor
+tt0033879,Harry Essex
+tt0033879,Sid Schwartz
+tt0033879,Len Golos
+tt0033916,Stuart Anthony
 tt0034389,Robert MacGunigle
 tt0034389,Harry Clork
 tt0034389,Albert Mannheimer
+tt0034521,Harvey Gates
+tt0034521,Robert Kehoe
+tt0034522,Ben Hecht
+tt0034522,Seton I. Miller
+tt0034522,Rafael Sabatini
 tt0034587,DeWitt Bodeen
+tt0035009,Fred Myton
+tt0035124,Clarence Upson Young
+tt0035489,Lillie Hayward
+tt0035489,Michael Jacoby
+tt0035489,Jessie Douglas Kerruish
+tt0035743,Warren Foster
+tt0035743,Jacob Grimm
+tt0035743,Wilhelm Grimm
 tt0036324,Leslie Charteris
 tt0036324,Leslie Arliss
 tt0036324,Wolfgang Wilhelm
 tt0036439,Arthur St. Claire
+tt0036705,Earl Derr Biggers
+tt0036705,George Callahan
 tt0036723,Virginia Van Upp
 tt0036723,Marion Parsonnet
 tt0036723,Paul Gangelin
 tt0036745,Francis M. Cockrell
 tt0036745,Marian B. Cockrell
 tt0036745,Joan Harrison
+tt0036999,Dane Lussier
+tt0036999,Frederick Kohner
+tt0036999,Curt Siodmak
+tt0037084,Larry Williams
+tt0037084,Pierre Gendron
+tt0037084,Martin Mooney
+tt0037301,Edward Dein
 tt0037378,Royal K. Cole
 tt0037378,Ronald Davidson
 tt0037378,Basil Dickey
+tt0037927,Royal K. Cole
+tt0037927,Sherman L. Lowe
+tt0038007,Royal K. Cole
+tt0038007,Albert DeMond
+tt0038007,Basil Dickey
 tt0038174,Bill Peet
 tt0038289,Frank Launder
 tt0038289,Sidney Gilliat
 tt0038289,Wolfgang Wilhelm
+tt0038360,Roy Chanslor
+tt0038360,Cornell Woolrich
 tt0038452,George Callahan
 tt0038452,Earl Derr Biggers
 tt0038453,Jay Dratler
@@ -109,6 +173,9 @@ tt0038958,Aubrey Wisberg
 tt0038988,Robert Rossen
 tt0038988,John Patrick
 tt0038988,Robert Riskin
+tt0039192,Rumer Godden
+tt0039192,Michael Powell
+tt0039192,Emeric Pressburger
 tt0039302,Delmer Daves
 tt0039302,David Goodis
 tt0040270,Malvin Wald
@@ -122,6 +189,9 @@ tt0040853,Oscar Rydqvist
 tt0041154,Kazuo Hirotsu
 tt0041154,Kôgo Noda
 tt0041154,Yasujirô Ozu
+tt0041182,Alexandre Dumas
+tt0041182,Charles Bennett
+tt0041182,Richard Schayer
 tt0041430,Ladislas Fodor
 tt0041430,Christopher Isherwood
 tt0041430,René Fülöp-Miller
@@ -130,35 +200,61 @@ tt0041627,John Gilling
 tt0041627,Francis Searle
 tt0041699,Ryûzô Kikushima
 tt0041699,Akira Kurosawa
+tt0042256,Talbot Jennings
+tt0042256,Thomas B. Costain
 tt0042379,John Meredyth Lucas
 tt0042379,Lawrence B. Marcus
 tt0042379,Ketti Frings
+tt0042600,Ronald Davidson
 tt0043084,Jean Genet
 tt0043208,N/A
 tt0044098,Gerhard Menzel
 tt0044098,Willi Forst
 tt0044098,Georg Marischka
+tt0044423,Jerry Sackheim
 tt0045129,Charles Yerkow
 tt0045129,Samuel Roeca
 tt0045300,Samuel Newman
 tt0045300,Alex Raymond
+tt0046026,Curt Siodmak
+tt0046026,Ivan Tors
 tt0046036,George Bricker
 tt0046036,Jack Leonard
 tt0046036,William Sackheim
+tt0046097,Roberto Bianchi Montero
+tt0046097,Carlo Lombardo
+tt0046097,Alberto Vecchietti
+tt0046248,Wyott Ordung
+tt0046789,Oscar Brodney
+tt0046789,Howard Pyle
+tt0046791,Nunnally Johnson
+tt0046791,Hugh Wheeler
+tt0046791,Richard W. Webb
 tt0046874,Clifford Odets
 tt0046874,George Seaton
+tt0046876,Harry Essex
+tt0046876,Arthur A. Ross
+tt0046876,Maurice Zimm
 tt0046928,The Gordons
 tt0046928,Bernard C. Schoenfeld
+tt0047244,Bill Danch
 tt0047505,Maurice Moiseiwitsch
 tt0047505,Harold Buchman
 tt0047505,Carl Foreman
 tt0047628,Klimenti Mints
 tt0047628,Evgeniy Pomeshchikov
+tt0047849,Millard Kaufman
+tt0047849,Don McGuire
+tt0047849,Howard Breslin
+tt0047898,Edward D. Wood Jr.
+tt0047898,Alex Gordon
 tt0048316,John Patrick
 tt0048316,Han Suyin
 tt0048316,Maurice Griffe
 tt0048317,Daniel Fuchs
 tt0048317,Isobel Lennart
+tt0049013,Gerald Drayson Adams
+tt0049013,John C. Higgins
 tt0049452,Robert Buckner
 tt0049452,Maurice Geraghty
 tt0049761,El Sayed Bedeir
@@ -172,14 +268,27 @@ tt0049873,Ted Sherdeman
 tt0050099,Robert Carson
 tt0050099,James Wellard
 tt0050099,Peter Myers
+tt0050143,Frank Hall
+tt0050143,Edward D. Wood Jr.
+tt0050143,Ronald V. Ashcroft
+tt0050197,David Duncan
+tt0050197,Robert Blees
+tt0050197,Paul Yawitz
 tt0050233,Janet Green
 tt0050233,John Cresswell
 tt0050658,Billy Wilder
 tt0050658,I.A.L. Diamond
 tt0050658,Claude Anet
+tt0050722,David Duncan
+tt0050722,Pat Fielder
+tt0050723,Louis Vittes
+tt0050723,Endre Bohem
+tt0051063,Ray Buffum
 tt0051459,Richard Brooks
 tt0051459,James Poe
 tt0051459,Tennessee Williams
+tt0051576,Charles Eric Maine
+tt0051576,J. McLaren Ross
 tt0051604,Jean Redon
 tt0051604,Claude Sautet
 tt0051604,Frédéric Dard
@@ -188,15 +297,30 @@ tt0051702,David Walker
 tt0051732,Eileen Bassing
 tt0051732,Robert Bassing
 tt0051744,Robb White
+tt0051746,Aben Kandel
+tt0051746,Herman Cohen
+tt0051756,Louis Vittes
+tt0051947,H. Haile Chace
+tt0051948,David Duncan
 tt0052295,Werner Jörg Lüddecke
 tt0052295,Thea von Harbou
 tt0052295,Richard Eichberg
+tt0052631,Joseph Stefano
+tt0052667,Filippo Sanjust
+tt0052667,Riccardo Freda
+tt0052846,Ray Kellogg
+tt0052846,Jay Simms
+tt0052901,Herman Cohen
+tt0052901,Aben Kandel
 tt0052964,Charles Spaak
 tt0052964,Princesse Bibesco
 tt0052964,Georges Neveux
 tt0053114,Zenzô Matsuyama
 tt0053114,Masaki Kobayashi
 tt0053114,Jumpei Gomikawa
+tt0053146,Jacques Viot
+tt0053146,Vinicius de Moraes
+tt0053146,Marcel Camus
 tt0053361,Noël Calef
 tt0053361,John Hawkesworth
 tt0053361,Shelley Smith
@@ -206,24 +330,47 @@ tt0053750,William Inge
 tt0054022,Norman Krasna
 tt0054022,Hal Kanter
 tt0054022,Arthur Miller
+tt0054067,Ennio De Concini
+tt0054067,Mario Serandrei
+tt0054067,Nikolay Gogol
+tt0054197,Ivan Goff
+tt0054197,Ben Roberts
 tt0056586,Nino Battiferri
 tt0056586,Luigi Capuano
 tt0056586,Arpad DeRiso
 tt0056703,Timothy Carey
 tt0056823,Willem Frederik Hermans
 tt0056823,Fons Rademakers
+tt0056919,Milos Forman
+tt0056919,Jaroslav Papousek
 tt0057012,Stanley Kubrick
 tt0057012,Terry Southern
 tt0057012,Peter George
 tt0057076,Richard Maibaum
 tt0057076,Johanna Harwood
 tt0057076,Ian Fleming
+tt0057155,Giovanni Grimaldi
+tt0057155,Bruno Corbucci
+tt0057155,Edgar Allan Poe
 tt0057263,Arnold Schulman
 tt0057379,Robert Dillon
 tt0057379,J.B. Priestley
+tt0057603,Anton Chekhov
+tt0057603,Aleksei Tolstoy
+tt0057603,Guy de Maupassant
+tt0058006,Walter Lima Jr.
+tt0058006,Glauber Rocha
+tt0058006,Paulo Gil Soares
+tt0058377,Renato Polselli
+tt0058377,Ernesto Gastaldi
+tt0058377,Giuseppe Pellegrini
 tt0058536,Romeo Muller
 tt0058536,Robert May
 tt0058536,Johnny Marks
+tt0058544,Shin'ichi Sekizawa
+tt0058567,Marcello Fondato
+tt0058567,Giuseppe Barilla
+tt0058567,Mario Bava
 tt0058586,Blake Edwards
 tt0058586,William Peter Blatty
 tt0058586,Harry Kurnitz
@@ -232,9 +379,23 @@ tt0058657,Ian Niall
 tt0058657,Lowell S. Hawley
 tt0058658,Roger Hanin
 tt0058658,Jean Halain
+tt0058692,Alexandre Dumas
+tt0058692,Paul Andréota
+tt0058692,Christian-Jaque
+tt0058826,Beverly Arnold
+tt0058954,Joan Gardner
+tt0058954,Robert Silliphant
+tt0058954,Don Marquis
 tt0059017,Walter Newman
 tt0059017,Frank Pierson
 tt0059017,Roy Chanslor
+tt0059080,Niisan Takahashi
+tt0059346,Shin'ichi Sekizawa
+tt0059464,Jeff Smith
+tt0059464,Dok Stanford
+tt0059464,Bill Rebane
+tt0059465,Jerry Sohl
+tt0059465,H.P. Lovecraft
 tt0059978,Dan Curtis
 tt0060153,Lorenzo Semple Jr.
 tt0060153,Bob Kane
@@ -249,6 +410,20 @@ tt0061095,Jean Curtelin
 tt0061177,Woody Allen
 tt0061177,Frank Buxton
 tt0061177,Louise Lasser
+tt0061432,Jesús Franco
+tt0061432,Luis Revenga
+tt0061432,Gert Günther Hoffmann
+tt0061549,Kim Ki-duk
+tt0061549,Yun-sung Seo
+tt0061550,Iwao Yamazaki
+tt0061550,Ryûzô Nakanishi
+tt0061550,William Ross
+tt0061931,Len Korobkin
+tt0061931,Harvey Kurtzman
+tt0061931,Arthur Rankin Jr.
+tt0061955,Cornell Woolrich
+tt0061955,François Truffaut
+tt0061955,Jean-Louis Richard
 tt0062369,Murray Schisgal
 tt0062370,Agenore Incrocci
 tt0062370,Furio Scarpelli
@@ -267,6 +442,9 @@ tt0063696,Charles A. Wallace
 tt0064603,Bill Walsh
 tt0064603,Don DaGradi
 tt0064603,Gordon Buford
+tt0064727,Anthony Scott Veitch
+tt0064727,Harry Alan Towers
+tt0064727,Jesús Franco
 tt0065856,Sam Hall
 tt0065856,Gordon Russell
 tt0065955,Roy Andersson
@@ -281,10 +459,23 @@ tt0067310,Werner P. Zibaso
 tt0067491,Sam Hall
 tt0067491,Dan Curtis
 tt0068205,Éric Rohmer
+tt0068282,H.R. Christian
+tt0068282,Joe Viola
+tt0068282,Jonathan Demme
 tt0068612,Robert Crumb
 tt0068612,Ralph Bakshi
+tt0068641,Damiano Damiani
+tt0068641,Fulvio Gicca Palli
+tt0068641,Enrico Ribulsi
+tt0068655,Yves Robert
+tt0068655,Francis Veber
+tt0068727,Robert Louis Stevenson
+tt0068727,Milton Subotsky
 tt0068833,Wes Craven
 tt0068833,Ulla Isaksson
+tt0069343,Lucile Laks
+tt0069343,Marcello Danon
+tt0069792,Larry Cohen
 tt0069945,John Carpenter
 tt0069945,Dan O'Bannon
 tt0069973,Jesús Franco
@@ -294,35 +485,65 @@ tt0069995,Daphne Du Maurier
 tt0069995,Allan Scott
 tt0069995,Chris Bryant
 tt0070301,Wei Lo
+tt0070565,Francesco Barilli
+tt0070565,Massimo D'Avak
+tt0070565,Gaston Leroux
 tt0070640,Steve Shagan
+tt0070641,Sergio Donati
+tt0070641,Goffredo Fofi
 tt0070705,Wei Lo
 tt0070723,Stanley R. Greenberg
 tt0070723,Harry Harrison
 tt0070778,Hao Ho
 tt0070968,Sean Jara
 tt0071007,Blanche Hanalis
+tt0071221,Oscar Williams
+tt0071221,Fred Weintraub
+tt0071221,Alexandra Rose
+tt0071222,Roy Moore
+tt0071229,Leigh Vance
+tt0071229,Clive Egleton
 tt0071391,Ed Brennan
 tt0071391,Joseph Van Winkle
 tt0071391,James Hannah Jr.
+tt0071519,Anthony Hinds
+tt0071519,Mary Shelley
 tt0072157,Kazuo Kamimura
 tt0072157,Kazuo Koike
 tt0072157,Norio Osada
+tt0072709,Louis Malle
+tt0072709,Joyce Buñuel
+tt0072709,Ghislain Uhry
 tt0072730,L.Q. Jones
 tt0072730,Harlan Ellison
 tt0072730,Wayne Cruseturner
 tt0072890,Frank Pierson
 tt0072890,P.F. Kluge
 tt0072890,Thomas Moore
+tt0072930,Bitto Albertini
+tt0072930,Ambrogio Molteni
 tt0073155,Christopher Frank
 tt0073155,Andrzej Zulawski
 tt0073312,Woody Allen
+tt0073393,David E. Boston
+tt0073393,Robert L. Burrill
+tt0073393,David R. Kottas
 tt0073511,Jack Davies
 tt0073582,Dario Argento
 tt0073582,Bernardino Zapponi
+tt0073961,N/A
+tt0074356,Jim McCullough Jr.
 tt0074506,Hsin-Yi Chang
 tt0074624,Kuang Ni
 tt0074806,Laird Koenig
+tt0074972,Georges Conchon
+tt0074972,Jean-Jacques Annaud
 tt0075529,Wilford Lloyd Baumes
+tt0075765,Thomas Harris
+tt0075765,Ernest Lehman
+tt0075765,Kenneth Ross
+tt0075888,William R. Stromberg
+tt0075888,Richard Cardella
 tt0076095,Neil Simon
 tt0076162,Chiho Katsura
 tt0076162,Chigumi Ôbayashi
@@ -332,6 +553,8 @@ tt0076716,Beverley Cross
 tt0076716,Ray Harryhausen
 tt0076823,Alberto Silvestri
 tt0076823,Sergio Sollima
+tt0077222,Stanislav Rostotskiy
+tt0077222,Gavriil Troyepolsky
 tt0077290,See-Yuen Ng
 tt0077290,Lu Tung
 tt0077399,N/A
@@ -346,7 +569,16 @@ tt0078397,Gordan Mihic
 tt0078771,François Truffaut
 tt0078771,Marie-France Pisier
 tt0078771,Jean Aurel
+tt0078869,Jeb Rosebrook
+tt0078869,Bob Barbash
+tt0078869,Richard H. Landau
+tt0078872,Melissa Mathison
+tt0078872,Jeanne Rosenberg
+tt0078872,William D. Wittliff
 tt0079027,Stanford Whitmore
+tt0079227,Bruce Cohn
+tt0079227,Mark Medoff
+tt0079227,Joseph Fraley
 tt0079483,Wei-Hung Teng
 tt0079483,Liang-Tai Tu
 tt0079483,Yuk Long Wong
@@ -356,8 +588,18 @@ tt0079489,Bram Stoker
 tt0079588,Jerry Juhl
 tt0079588,Jack Burns
 tt0079803,Hsin-Yi Chang
+tt0080440,Biagio Proietti
+tt0080440,Edgar Allan Poe
+tt0080440,Lucio Fulci
+tt0080711,Vernon Zimmerman
+tt0081178,R. Chetwynd-Hayes
+tt0081178,Edward Abraham
+tt0081178,Valerie Abraham
+tt0081675,Niisan Takahashi
 tt0082235,J.D. Feigelson
 tt0082235,Butler Handcock
+tt0082317,Gianfrancesco Guarnieri
+tt0082317,Leon Hirszman
 tt0082329,Scott Spencer
 tt0082329,Judith Rascoe
 tt0082468,William A. Attaway
@@ -366,6 +608,9 @@ tt0082468,Zev Cohen
 tt0082477,Bill Forsyth
 tt0082562,Franco Castellano
 tt0082562,Giuseppe Moccia
+tt0082769,Ron Gantman
+tt0082769,Joaquín Grau
+tt0082769,Juan Piquer Simón
 tt0083542,Jack Sholder
 tt0083542,Robert Shaye
 tt0083542,Michael Harrpster
@@ -377,11 +622,19 @@ tt0083791,Jim Henson
 tt0084922,Han Hsiang Li
 tt0084922,Guanzhong Luo
 tt0084922,Nai'an Shi
+tt0085248,Walter Farley
+tt0085248,Richard Kletter
+tt0085248,Jerome Kass
 tt0085303,Dardano Sacchetti
 tt0085303,Elisa Briganti
 tt0085496,Pedro Almodóvar
+tt0085830,Masaru Igami
+tt0085830,Isao Matsumoto
+tt0085830,Ichirô Ôtsu
 tt0086050,Tom McLoughlin
 tt0086050,Michael Hawes
+tt0086251,J.P. Gallagher
+tt0086251,David Butler
 tt0086439,Alan Shapiro
 tt0086439,Bobby Fine
 tt0086491,John Landis
@@ -393,6 +646,8 @@ tt0087182,Frank Herbert
 tt0087182,David Lynch
 tt0087233,Michael Cristofer
 tt0087317,Werner Herzog
+tt0087616,Claudio Fragasso
+tt0087616,Rossella Drudi
 tt0087644,Ted Allan
 tt0087644,John Cassavetes
 tt0087650,Vladimir Gurkin
@@ -400,6 +655,10 @@ tt0087985,Kevin Reynolds
 tt0087985,John Milius
 tt0088271,Helmut Zenker
 tt0088271,Peter Patzak
+tt0088751,Ted Newsom
+tt0088814,Lloyd Alexander
+tt0088814,David Jonas
+tt0088814,Vance Gerry
 tt0089482,Raymond Pak-Ming Wong
 tt0089606,Reidar Jönsson
 tt0089606,Lasse Hallström
@@ -408,9 +667,15 @@ tt0089893,Robert E. Howard
 tt0089893,Clive Exton
 tt0089893,George MacDonald Fraser
 tt0090490,Douglas Heyes
+tt0090735,John Carpenter
+tt0090735,Desmond Nakano
+tt0090735,William Gray
+tt0090738,Ron Bass
 tt0091027,Michael Thomas Montgomery
 tt0091223,Fred Dekker
 tt0091223,Ethan Wiley
+tt0091544,Bob Dahlin
+tt0091544,Peter L. Bergquist
 tt0092045,Rolf de Heer
 tt0092106,Ron Friedman
 tt0092106,Flint Dille
@@ -426,12 +691,18 @@ tt0092831,Ken Wiederhorn
 tt0093374,Petra Haffter
 tt0093374,Peter Reinholz
 tt0093374,Francis Ryck
+tt0093560,Shane Black
+tt0093560,Fred Dekker
 tt0093605,Eric Red
 tt0093605,Kathryn Bigelow
 tt0094321,Andrew Smith
 tt0094321,Ken Finkleman
 tt0094535,Rob Grant
 tt0094535,Doug Naylor
+tt0094750,A.E. Peters
+tt0094750,Michael Gonzales
+tt0094750,Shimon Arama
+tt0094752,Cindy Cirile
 tt0094924,John Bryson
 tt0094924,Robert Caswell
 tt0094924,Fred Schepisi
@@ -450,7 +721,14 @@ tt0096236,Wing-Fai Wong
 tt0096236,Kwong-Kim Yip
 tt0096267,Roy London
 tt0096463,Kevin Wade
+tt0096933,Craig Bolotin
+tt0096933,Warren Lewis
+tt0097694,Masuji Ibuse
+tt0097694,Shôhei Imamura
+tt0097694,Toshirô Ishidô
 tt0097778,Amy Heckerling
+tt0097905,Roy Langsdon
+tt0097905,John Platt
 tt0098072,Olga Pehar
 tt0098072,Umberto Lenzi
 tt0098206,R. Lance Hill
@@ -458,9 +736,12 @@ tt0098206,Hilary Henkin
 tt0098273,Richard Price
 tt0098477,Sherry Hormann
 tt0098532,Aki Kaurismäki
+tt0098672,Susan Hill
+tt0098672,Nigel Kneale
 tt0098994,Jim Thompson
 tt0098994,Robert Redlin
 tt0098994,James Foley
+tt0099143,Mike Hodges
 tt0099363,Dan Curtis
 tt0099364,Carey W. Hayes
 tt0099364,Chad Hayes
@@ -479,12 +760,16 @@ tt0099975,Ho Yi
 tt0100050,Amy Heckerling
 tt0100050,Neal Israel
 tt0100605,Kwok Chi Tsang
+tt0100928,Peter Viertel
+tt0100928,James Bridges
+tt0100928,Burt Kennedy
 tt0100967,Chi-Ho Fong
 tt0100967,Kwong-Kim Yip
 tt0100967,Yeuk-Kwong Yuen
 tt0101169,David Kirschner
 tt0101276,Mark Peploe
 tt0101276,Frederick Seidel
+tt0101465,Brian Moore
 tt0101660,Adam Rifkin
 tt0101664,Tony Hillerman
 tt0101664,Neal Jimenez
@@ -494,15 +779,19 @@ tt0101921,Carol Sobieski
 tt0102286,Wing-Fai Wong
 tt0102286,Patrick Leung
 tt0102343,Dale Launer
+tt0102467,Spalding Gray
 tt0102492,Laurice Elehwany
 tt0102958,Alfonso Cuarón
 tt0102958,Carlos Cuarón
 tt0103039,Topper Carew
+tt0103332,Kam-Hung Ng
 tt0103352,D.J. MacHale
 tt0103352,Ned Kandel
 tt0103905,Rémy Belvaux
 tt0103905,André Bonzel
 tt0103905,Benoît Poelvoorde
+tt0104028,Darko Bajic
+tt0104028,Aleksandar Barisic
 tt0104036,Neil Jordan
 tt0104054,Tab Hunter
 tt0104054,Janet MacLean
@@ -521,12 +810,14 @@ tt0106052,N/A
 tt0106053,David Letterman
 tt0106664,Stephen King
 tt0106664,George A. Romero
+tt0106880,Rusty Cundieff
 tt0106941,Mark Rosenthal
 tt0106941,Lawrence Konner
 tt0107438,Tom Ropelewski
 tt0107438,Leslie Dixon
 tt0107438,Amy Heckerling
 tt0107473,Richard Price
+tt0108056,Pepe Danquart
 tt0108327,Carol Heikkinen
 tt0108551,Tina Turner
 tt0108551,Kurt Loder
@@ -534,6 +825,8 @@ tt0108551,Kate Lanier
 tt0109078,Rockne S. O'Bannon
 tt0109078,Diane Frolov
 tt0109078,Andrew Schneider
+tt0109279,Anna Sewell
+tt0109279,Caroline Thompson
 tt0109307,Takashige Ichise
 tt0109307,Joel Soisson
 tt0109542,Matthew Bright
@@ -552,6 +845,9 @@ tt0110391,Mildred Cram
 tt0110391,Leo McCarey
 tt0110391,Delmer Daves
 tt0110395,C.M. Talkington
+tt0110570,Roberto Benigni
+tt0110570,Vincenzo Cerami
+tt0110570,Michel Blanc
 tt0110613,Laurice Elehwany
 tt0110613,Janet Kovalcik
 tt0110852,Vincent Kok
@@ -567,11 +863,18 @@ tt0111662,Lap-Kwong Ng
 tt0111727,Terry Borst
 tt0111727,Frank De Palma
 tt0111727,Chris Roberts (story)
+tt0112513,Yôji Enokido
+tt0112513,Naoko Takeuchi
+tt0112513,Lisa Lumby-Richards
+tt0112519,Craig J. Nevius
 tt0112572,Sherwood Schwartz
 tt0112572,Laurice Elehwany
 tt0112572,Rick Copp
 tt0112606,Gary David Goldberg
 tt0112606,Brad Hall
+tt0113105,Sheldon Allman
+tt0113105,Bobby Pickett
+tt0113105,Joel Cohen
 tt0113198,Jymn Magon
 tt0113198,Chris Matheson
 tt0113198,Brian Pimental
@@ -593,6 +896,10 @@ tt0114781,Matt Reeves
 tt0114781,J.F. Lawton
 tt0115151,Brent Friedman
 tt0115151,Bryce Zabel
+tt0115693,Hark Tsui
+tt0115693,Koan Hui
+tt0115693,Teddy Chan
+tt0115697,Fred Wolf
 tt0116030,S.O. Lee
 tt0116030,J. Reifel
 tt0116030,Buzz Dixon
@@ -629,6 +936,13 @@ tt0119574,Gilbert Adair
 tt0119574,Richard Kwietniowski
 tt0119577,John Maybury
 tt0119577,Don Jordan
+tt0119643,Ron Osborn
+tt0119643,Jeff Reno
+tt0119643,Kevin Wade
+tt0119654,Lowell Cunningham
+tt0119654,Ed Solomon
+tt0120610,William Mickelberry
+tt0120610,Dan Vining
 tt0120689,Stephen King
 tt0120689,Frank Darabont
 tt0120863,James Jones
@@ -636,19 +950,39 @@ tt0120863,Terrence Malick
 tt0120885,Larry Beinhart
 tt0120885,Hilary Henkin
 tt0120885,David Mamet
+tt0120912,Lowell Cunningham
+tt0120912,Robert Gordon
+tt0120912,Barry Fanaro
+tt0122136,Kaneto Shindô
 tt0123324,Tina Andrews
 tt0124315,John Irving
 tt0124718,Spike Lee
+tt0125968,Titus Popovici
+tt0126456,Ferenc Leroget
 tt0126698,J. Stephen Maunder
 tt0126698,Andreas Kyprianou
 tt0126916,Michael Shaara
 tt0126916,Dana Stevens
+tt0127385,Duane Capizzi
+tt0127385,Jeff Kline
+tt0127385,Richard Raynis
+tt0127512,Thelma Brooks
+tt0127512,Juan Duval
+tt0127512,S. Edwin Graham
 tt0127760,Ferde Grofé Jr.
+tt0128000,Stanley Ralph Ross
+tt0128000,R.S. Allen
+tt0128000,Harvey Bullock
 tt0129023,Adam Coleman Howard
 tt0129023,Justin Lazard
 tt0133011,Tairone Feitosa
 tt0133011,José Louzeiro
 tt0133011,Sergio Rezende
+tt0134771,Zenzô Matsuyama
+tt0134771,Takeo Tomishima
+tt0134847,Jim Wheat
+tt0134847,Ken Wheat
+tt0134847,David Twohy
 tt0134858,Clelle Mahon
 tt0137330,Danny Jacobson
 tt0137330,Kenny Schwartz
@@ -659,27 +993,42 @@ tt0140745,Norman Corwin
 tt0141006,Ron Hulme
 tt0141006,J. Stephen Maunder (creator)
 tt0141006,Jalal Merhi (creator)
+tt0141716,N/A
 tt0142032,N/A
 tt0143940,William Quindt
 tt0143940,Harry Piel
 tt0144201,Serge Frydman
+tt0145911,Joy Batchelor
+tt0145911,Mary Cathcart Borer
+tt0149071,Kianoush Ayari
 tt0149593,Tom Morrison
+tt0149898,Yuri Zeltser
+tt0149898,Leon Zeltser
 tt0150662,Lukas Moodysson
 tt0153080,John Strege
 tt0153080,Takashi Bufford
+tt0155815,Neal Marshall Stevens
 tt0156812,Willie Morris
 tt0156812,Gail Gilchriest
+tt0159730,Mike Binder
 tt0160910,Justin Chin
 tt0160910,Garry M. Gaber (additional story)
 tt0161191,N/A
+tt0162999,Duane Poole
+tt0162999,Louis Vittes
 tt0165247,Cheon-ho Jang
+tt0165643,James Toback
 tt0165727,N/A
 tt0165798,Jim Jarmusch
 tt0166252,Cathleen Schine
 tt0166252,Maria Maggenti
 tt0167400,Metin Erksan
+tt0168371,N/A
 tt0168629,Lars von Trier
 tt0168629,Sjón
+tt0169620,Lee Frost
+tt0169620,Wes Bishop
+tt0169620,Ronald Goldman
 tt0172184,George Saunders
 tt0172184,Elvis Restaino
 tt0172493,Susanna Kaysen
@@ -690,10 +1039,16 @@ tt0175142,Marlon Wayans
 tt0175142,Buddy Johnson
 tt0185371,Robb White
 tt0185371,Dick Beebe
+tt0185936,Robert Engels
+tt0185936,John Schouweiler
+tt0185936,Roy Knyrim
 tt0186619,N/A
 tt0186726,Marilyn Sadler
 tt0186726,Roger Bollen
 tt0186726,Stu Krieger
+tt0188071,Cesare Ferrario
+tt0188071,Fulvio Ricciardi
+tt0188071,Linda Brunetta
 tt0188453,Tom Butterworth
 tt0188453,Jez Butterworth
 tt0188863,Jeff Franklin
@@ -706,6 +1061,8 @@ tt0190641,Satoshi Tajiri
 tt0190641,Takeshi Shudô
 tt0190641,Jun'ichi Masuda
 tt0190829,Serge Rodnunsky
+tt0197230,David Kirschner (characters)
+tt0197230,Len Uhley (screenplay)
 tt0197951,J. Stephen Maunder
 tt0199725,Gina Prince-Bythewood
 tt0199727,Dominic Anciano
@@ -720,6 +1077,7 @@ tt0203233,Kuang Ni (screenplay)
 tt0203523,Joe Nussbaum
 tt0203523,Daniel Shere
 tt0203523,Timothy Dowling
+tt0204676,Paul Bunnell
 tt0204709,Philippe Blasband
 tt0204993,James Cameron
 tt0204993,Charles H. Eglee
@@ -727,16 +1085,23 @@ tt0206080,Stanley Breeden
 tt0206516,N/A
 tt0208003,Darryl Quarles
 tt0208003,Don Rhymer
+tt0209942,N/A
+tt0210180,Ronnie Christensen
 tt0210234,Satoshi Tajiri
 tt0210234,Takeshi Shudô
 tt0211042,Armando Visconti
 tt0212558,Yuriy Koval
 tt0212558,Leonid Nosyrev
+tt0213361,N/A
+tt0215575,N/A
+tt0218775,N/A
 tt0219374,Jocelyn Moorhouse
 tt0219374,P.J. Hogan
 tt0220880,John Dilworth
 tt0221023,N/A
 tt0221218,Wesley Strick
+tt0223753,Mark Mayerson
+tt0223755,N/A
 tt0224626,Gregory Gieras
 tt0224626,D.B. Smith
 tt0228183,Phil Smoot
@@ -744,33 +1109,58 @@ tt0234137,Valerie Breiman
 tt0235327,N/A
 tt0240793,Thomas Baum
 tt0243255,Catherine Breillat
+tt0243413,Sean Abley
+tt0243413,Tracy Berna
+tt0243413,David C. Cobb
+tt0243413,Lowell Cunningham (comic book)
+tt0243413,Craig Hanna
+tt0243413,Anthony Miceli
 tt0244479,Zdenek Sverák
 tt0248555,Matt Cimber
 tt0248555,George E. Roberts
 tt0248555,John W. Shadow
 tt0251736,Rob Zombie
+tt0255006,Marc Lafia
 tt0257106,Shawn Wayans
 tt0257106,Marlon Wayans
 tt0257106,Buddy Johnson
 tt0259054,William Mahone
 tt0259656,N/A
+tt0262150,Dylan Moran
 tt0262287,N/A
 tt0262830,Robert Gosnell
 tt0263074,Yavuz Turgul
+tt0263288,N/A
+tt0263759,Guido Manuli
+tt0263759,Judy Rothman Rofé
 tt0263975,Ali Özgentürk
 tt0263975,Chingiz Aitmatov
+tt0264429,Hark Tsui
+tt0264429,Julien Carbon
+tt0264429,Laurent Courtiaud
 tt0264796,Mark Andrus
+tt0265086,Mark Bowden
+tt0265086,Ken Nolan
+tt0265087,Darryl Quarles
+tt0265087,Peter Gaulke
+tt0265087,Gerry Swallow
 tt0265208,David Wagner
 tt0265208,Brent Goldberg
 tt0265208,Stuart Blumberg
 tt0266987,Michael Frost Beckner
 tt0266987,David Arata
+tt0267261,Camillo Boito
+tt0267261,Tinto Brass
 tt0269217,Wisit Sasanatieng
 tt0270480,Vicente Aranda
 tt0270480,Antonio Larreta
 tt0270480,Manuel Tamayo y Baus
+tt0270954,Robert V. Barron
+tt0270954,Gary Friedrich
+tt0270954,Michael G. Ploog
 tt0271111,Teresa Lillygren (dialogue)
 tt0272338,Paul Thomas Anderson
+tt0272539,N/A
 tt0273689,Mogens Rukov
 tt0273689,Thomas Vinterberg
 tt0274965,George Carleton Brown
@@ -784,9 +1174,12 @@ tt0277657,N/A
 tt0279113,Mike White
 tt0279331,James Ellroy
 tt0279331,David Ayer
+tt0280241,Daniel Taplitz
+tt0280241,Dean R. Koontz
 tt0280609,Neil Marshall
 tt0281360,Chris Metzen (storyline consultant)
 tt0281360,Bill Roper (storyline consultant)
+tt0281919,George Huang
 tt0282698,Gordy Hoffman
 tt0283877,Alex Sanger (screenplay)
 tt0283877,Karen Craig (screenplay)
@@ -794,6 +1187,7 @@ tt0283877,Bret Easton Ellis (Characters created by)
 tt0284244,Norbert Eberlein
 tt0285680,Hisao Maki
 tt0285680,Charles E. Morris
+tt0285756,David J. Skal
 tt0286788,William Douglas-Home
 tt0286788,Jenny Bicks
 tt0286788,Elizabeth Chandler
@@ -802,16 +1196,24 @@ tt0289765,Thomas Harris
 tt0289765,Ted Tally
 tt0290326,Shashank Dabral
 tt0290326,Anubhav Sinha
+tt0292600,N/A
 tt0292945,Manoochehr Keymaram
 tt0293069,Jim Barton
 tt0293069,Sophie Dix
 tt0293715,Ho-sik Kim
 tt0293715,Jae-young Kwak
 tt0294433,Barbara Jampel
+tt0294940,Tim Burton
+tt0297292,Kevin Burns
+tt0297292,Raphael Simon
+tt0297749,Brian Anthony
+tt0297749,Ed Singer
 tt0300051,Kevin Smith
 tt0301370,Jing-kang Chou
 tt0301370,Yang Yang
 tt0304824,James Bickert
+tt0305647,Sunny Chan
+tt0305647,Soi Cheang
 tt0305669,Jason Filardi
 tt0306047,Craig Mazin
 tt0306047,Pat Proft
@@ -832,16 +1234,29 @@ tt0312528,David Mandel
 tt0313016,Doris Egan
 tt0313016,Hans Rodionoff
 tt0313016,Clive Barker
+tt0313285,John Murlowski
+tt0313285,William Porter
 tt0314331,Richard Curtis
 tt0314405,Rolf Forsberg
 tt0315638,Alejandro Gamboa
 tt0315638,Francisco Sánchez
+tt0315809,N/A
 tt0315983,Andre Dubus III
 tt0315983,Vadim Perelman
 tt0315983,Shawn Lawrence Otto
 tt0317676,Mark A. Altman
 tt0317676,Dan Bates
 tt0317676,Dave Parker
+tt0318821,Salah Abouseif
+tt0318821,El Sayed Bedeir
+tt0318821,Naguib Mahfouz
+tt0318850,Walter Farley
+tt0318850,Steven Farley
+tt0318850,Jeanne Rosenberg
+tt0320244,Fenton Bailey
+tt0320244,Randy Barbato
+tt0320244,James St. James
+tt0322326,David J. Skal
 tt0322802,Jeff Tremaine
 tt0322802,Spike Jonze
 tt0322802,Johnny Knoxville
@@ -853,19 +1268,26 @@ tt0325618,Jim Corbett
 tt0325733,Achim von Borries
 tt0325733,Henk Handloegten
 tt0325733,Annette Hess
+tt0325837,Walter Summers
+tt0325980,Ted Elliott
+tt0325980,Terry Rossio
+tt0325980,Stuart Beattie
 tt0327643,Jenny McCarthy-Wahlberg
 tt0328077,Robert Parigi
 tt0329200,John Hughes
 tt0329200,Debra Frank
 tt0329200,Steve L. Hayes
+tt0331527,N/A
 tt0333780,Amanda Brown
 tt0333780,Eve Ahlert
 tt0333780,Dennis Drake
 tt0335119,Tracy Chevalier
 tt0335119,Olivia Hetreed
+tt0336693,Forugh Farrokhzad
 tt0337592,Michael Swerdlick
 tt0337592,Troy Byer
 tt0338459,Robert Rodriguez
+tt0340855,Patty Jenkins
 tt0344160,N/A
 tt0345591,Cindy Kelley
 tt0345591,Michael Landon Jr.
@@ -873,6 +1295,7 @@ tt0345591,Janette Oke
 tt0345950,Derek Drymon
 tt0345950,Tim Hill
 tt0345950,Stephen Hillenburg
+tt0346343,N/A
 tt0347618,Aoi Hiiragi
 tt0347618,Hayao Miyazaki
 tt0347618,Reiko Yoshida
@@ -882,23 +1305,37 @@ tt0349682,Edin H.-Hadzimahovic
 tt0356634,Jim Davis
 tt0356634,Joel Cohen
 tt0356634,Alec Sokolow
+tt0361841,Melissa Carter
+tt0361841,Elisa Bell
 tt0362120,Craig Mazin
 tt0362120,Jim Abrahams
 tt0362120,Pat Proft
+tt0363827,Marc Hershon
 tt0364517,Yann Samuell
+tt0364842,N/A
+tt0365513,Michael Davis
+tt0366620,N/A
 tt0369226,Elan Mastai
 tt0369226,Michael Roesch
 tt0369226,Peter Scheerer
 tt0369672,Ronald Everett Capps
 tt0369672,Shainee Gabel
+tt0369735,Anya Kochoff
+tt0369903,Douglas Wood
+tt0375611,Sanjay Leela Bhansali
+tt0375611,Bhavani Iyer
+tt0375611,Prakash Kapadia
 tt0375735,Ian McEwan
 tt0375735,Joe Penhall
+tt0381784,Taylor Grant
 tt0382189,Helen Cross
 tt0382189,Pawel Pawlikowski
 tt0382189,Michael Wynne
 tt0382628,Kôji Suzuki
 tt0382628,Hideo Nakata
 tt0382628,Takashige Ichise
+tt0382856,Jack Perez
+tt0382856,Adam Glass
 tt0384252,Regine Lassen (screenplay)
 tt0384252,Josef Schnelle (screenplay)
 tt0384252,Bert Schrickel (screenplay)
@@ -916,7 +1353,12 @@ tt0385880,Rob Schrab
 tt0385880,Pamela Pettler
 tt0387126,Joanne Reay
 tt0387228,N/A
+tt0387412,N/A
+tt0387877,Josh Friedman
+tt0387877,James Ellroy
 tt0388980,Mark Frost
+tt0389557,Gerard Soeteman
+tt0389557,Paul Verhoeven
 tt0389790,Jerry Seinfeld
 tt0389790,Spike Feresten
 tt0389790,Barry Marder
@@ -937,10 +1379,15 @@ tt0397113,Anna Sandor
 tt0397113,Bruce Graham
 tt0397442,Stephanie Savage
 tt0397442,Josh Schwartz
+tt0397538,N/A
 tt0397619,Kim Ki-duk
 tt0398868,N/A
 tt0398883,Paolo Sorrentino
 tt0399060,Keith Alan Morris
+tt0400234,Anurag Kashyap
+tt0400234,Hussain Zaidi
+tt0400234,Piyush Mishra
+tt0400673,J.D. Smith (teleplay)
 tt0401828,N/A
 tt0402249,Wil Zmak
 tt0404220,Stephen King
@@ -966,12 +1413,20 @@ tt0411267,Simon Maginn
 tt0411267,Stephen Massicotte
 tt0412142,David Shore
 tt0413406,John Passfield
+tt0414224,Lewis Black
+tt0414879,Eric Assous
+tt0414879,Tonino Benacquista
+tt0414879,Richard Berry
 tt0416675,Billy Shebar
 tt0416675,Shi-Zheng Chen
 tt0416881,Seiko Tanabe
 tt0416881,Aya Watanabe
 tt0417001,Claire Cook
 tt0417001,Gary David Goldberg
+tt0418141,George Doty IV
+tt0418141,Ed Scharlach
+tt0418141,Mark Turosz
+tt0418141,Joe Sichta (story)
 tt0419198,Roberto Benigni
 tt0419198,Vincenzo Cerami
 tt0419208,Yoshihito Matsuzaki
@@ -981,8 +1436,10 @@ tt0421030,Mark V. Olsen
 tt0421030,Will Scheffer
 tt0421239,Carl Ellsworth
 tt0421239,Dan Foos
+tt0421593,Sergio Garrone
 tt0421729,Don Rhymer
 tt0421729,Darryl Quarles
+tt0422093,Tyler Perry
 tt0422434,Tahir Shah
 tt0424430,Kyouichi Katayama
 tt0424430,Yûji Sakamoto
@@ -1007,14 +1464,21 @@ tt0432402,Captain Mauzner
 tt0432402,Simon Monjack
 tt0432402,Aaron Richard Golub
 tt0433360,Brian Avenet-Bradley
+tt0433883,Kenneth M. Badish
+tt0433883,Boaz Davidson
+tt0433883,David Goodin
 tt0433963,Robert Dean Klein
 tt0433963,Craig Singer
+tt0434706,Naoki Urasawa
 tt0437729,N/A
+tt0439553,Dylan Moran
 tt0441834,N/A
+tt0443450,Martin Wheeler
 tt0443518,Richard Curtis
 tt0445094,Jared Tweedie
 tt0445840,Yang Kao
 tt0445840,Han Hsiang Li
+tt0446567,Lars Tømmerbakke
 tt0449306,Radhika Rao
 tt0449306,Vinay Sapru
 tt0449306,Milap Zaveri
@@ -1024,8 +1488,11 @@ tt0452608,Robert Thom
 tt0452608,Charles B. Griffith
 tt0452643,Alek Keshishian
 tt0452971,Daniel Sánchez Arévalo
+tt0454082,Glen Morgan
+tt0454082,Roy Moore
 tt0454431,Vivek Agnihotri
 tt0454431,Rohit Malhotra
+tt0455915,Brad Gann
 tt0456481,Shirish Kunder
 tt0456773,Axel Friedrich
 tt0456773,Jan Tenhaven
@@ -1033,15 +1500,19 @@ tt0459945,Arthur Conan Doyle (stories)
 tt0459945,Vladimir Valutskiy (screenplay)
 tt0460435,Henry James
 tt0460435,Peter Waddington
+tt0462200,Craig Brewer
 tt0462538,James L. Brooks
 tt0462538,Matt Groening
 tt0462538,Al Jean
+tt0462580,Damián Romay (screenplay)
+tt0462580,Lorenzo Doumani
 tt0462667,Xavier Dorison
 tt0462667,Fabien Nury
 tt0462667,Jérôme Cornuau
 tt0466342,Jason Friedberg
 tt0466342,Aaron Seltzer
 tt0466408,N/A
+tt0466566,Jennifer Kent
 tt0467200,Peter Morgan
 tt0467200,Philippa Gregory
 tt0468558,N/A
@@ -1053,8 +1524,10 @@ tt0469318,Tab Murphy
 tt0477139,Goran Dukic
 tt0477139,Etgar Keret
 tt0477574,N/A
+tt0479965,James Ponsoldt
 tt0481006,Gábor Olivér Buss
 tt0481006,Péter Rudolf
+tt0481937,Tyler Perry
 tt0482527,Geoff Deane
 tt0482527,Steve Hamilton Shaw
 tt0482930,Yuk Long Wong
@@ -1070,11 +1543,14 @@ tt0484740,Gabriel García Márquez
 tt0485376,Ray Gower
 tt0486651,Pablo Proenza
 tt0486651,Matthew Reynolds
+tt0488320,Jun Awazu
 tt0490076,Jacob Forman
 tt0490228,N/A
+tt0491735,Wilson Coneybeare
 tt0492956,Nichole Millard
 tt0492956,Kathryn Price
 tt0492956,Audrey Wells
+tt0497532,Osamu Tezuka
 tt0498483,Reginald R. Sutton
 tt0757157,Tae-gyun Kim
 tt0758740,Sean Malcolm
@@ -1086,6 +1562,7 @@ tt0758752,Marshall Herskovitz
 tt0770772,Chris Rock
 tt0770772,Louis C.K.
 tt0770772,Éric Rohmer
+tt0779982,Jonathan King
 tt0783238,Karen Moncrieff
 tt0784938,N/A
 tt0792986,Blutch
@@ -1100,9 +1577,12 @@ tt0799949,Jason Friedberg
 tt0799949,Aaron Seltzer
 tt0800027,Allison Burnett
 tt0800027,Charles Baxter
+tt0801344,Christopher R. Mihm
 tt0803061,Daniel Taplitz
 tt0803061,Louis de Bernières
 tt0805564,Nancy Oliver
+tt0805661,Paul Haggis
+tt0805661,Bobby Moresco
 tt0806165,Becca Topol
 tt0808399,Hu Hong
 tt0808399,Yao Meng
@@ -1114,29 +1594,45 @@ tt0810819,Lucinda Coxon
 tt0810819,David Ebershoff
 tt0811138,Mike Myers
 tt0811138,Graham Gordy
+tt0814187,Lewis Black
+tt0816436,Andrew Traucki
+tt0816436,David Nerlich
+tt0816539,Jon Knautz
+tt0816539,Trevor Matthews
+tt0816539,Patrick White
 tt0819714,Sharman Macdonald
 tt0819714,Rebekah Gilbertson
 tt0830558,Daniel Farrands
 tt0830558,Philip Nutman
 tt0830558,Jack Ketchum
+tt0833425,Jørgen Vestergaard
 tt0836641,N/A
 tt0844708,Adam Alleca
 tt0844708,Carl Ellsworth
 tt0844708,Wes Craven
 tt0846308,Ann Peacock
 tt0846308,Valerie Tripp
+tt0847232,Dave Snyder
+tt0847232,William D. Gross
+tt0850641,N/A
 tt0852705,N/A
 tt0852713,Karen McCullah
 tt0852713,Kirsten Smith
 tt0854678,Alex Gibney
 tt0856262,Yuji Yang
+tt0865297,Elissa Down
+tt0865297,Jimmy The Exploder
 tt0873886,Kevin Smith
 tt0877057,N/A
+tt0878230,N/A
 tt0879870,Ryan Murphy
 tt0879870,Jennifer Salt
 tt0879870,Elizabeth Gilbert
 tt0883398,Josh Eisenstadt
 tt0883398,Aaron Pope
+tt0884853,Aleksandar Lazic
+tt0884853,Rade Markovic
+tt0884853,Jovan Popovic
 tt0899106,Brandon Camp
 tt0899106,Mike Thompson
 tt0903657,Oren Moverman
@@ -1144,15 +1640,29 @@ tt0903657,Michael A. Lerner
 tt0903657,Brian Wilson
 tt0905315,Kuang Ni
 tt0905315,Hsin Wei
+tt0906778,Greg Latter
+tt0911010,Steven Okazaki
 tt0913951,Peter Scheerer
 tt0913951,Michael Roesch
+tt0914364,Ethan Wiley
+tt0914364,Roel Reiné
 tt0920462,Catherine Hanrahan
 tt0923633,N/A
 tt0944947,David Benioff
 tt0944947,D.B. Weiss
+tt0947798,Mark Heyman
+tt0947798,Andres Heinz
+tt0947798,John J. McLaughlin
 tt0947810,Brian Helgeland
 tt0947810,Rajiv Chandrasekaran
 tt0956177,Alex Haridi
+tt0960066,Michael Berenson
+tt0960066,Gabriel Bologna
+tt0960066,Sean Clark
+tt0961097,Stéphane Kazandjian
+tt0961097,Bibo Bergeron
+tt0962826,N/A
+tt0970948,N/A
 tt0972558,Eduard Volodarskiy
 tt0972558,Marina Dyachenko
 tt0972558,Sergey Dyachenko
@@ -1164,15 +1674,23 @@ tt0977855,Joseph Wilson
 tt0985025,Pekka Lehtosaari
 tt0985025,Mr. Lordi
 tt0985025,Pete Riski
+tt0988043,Jordan Fields
+tt0988043,Scott Fields
+tt0988043,Adam Fields
 tt0990407,Seth Rogen
 tt0990407,Evan Goldberg
 tt0990407,George W. Trendle
+tt0995941,Tensai Okamura
 tt0996605,Christophe Honoré
 tt1000734,Lucy Prebble
+tt10016724,Anna Fishko
 tt10023024,Imtiaz Ali
 tt10023024,Wajid Shaikh
 tt10097312,Jun Geng
 tt10097312,Bing Liu
+tt10097484,Wenwen Fan
+tt10097484,A. Lee Martinez
+tt10097484,Yahe Wang
 tt1013860,Thomas Dean Donnelly
 tt1013860,Joshua Oppenheimer
 tt1013860,Tiziano Sclavi
@@ -1184,23 +1702,35 @@ tt10172266,Matthew López
 tt10172266,Ted Malawer
 tt10228168,Masa Nakamura
 tt10229558,Bryan Bertino
+tt10238788,Mark Atkins
 tt1024942,Ole Bornedal
 tt10274284,Robin Bain
 tt10275370,N/A
 tt10276482,Jim Strouse
 tt10276482,Sofie Cramer
 tt10276482,Andrea Willson
+tt10279472,Carlos Cisco
+tt10279472,Boise Esquerra
 tt1028528,Quentin Tarantino
+tt10289996,N/A
 tt10293406,Jane Campion
 tt10293406,Thomas Savage
+tt10294164,N/A
 tt10320050,Giray Altinok
 tt10320050,Cem Gelinoglu
 tt1032815,Larry Doyle
+tt10341034,Nicolas Bouvet-Levrard
+tt10341034,Yann Gozlan
+tt10341034,Jérémie Guez
 tt10350626,Nikhil Mehrotra
 tt10350626,Sharan Sharma
 tt10350626,Hussain Dalal
 tt10365730,Paul Kowalski
+tt10378788,Ruairi Robinson
+tt10378788,Eoin Rogers
 tt10380768,Sam Boyd
+tt10426916,Kamel Guemra
+tt10426916,Jean-Pascal Zadi
 tt1043651,Simon Boyes
 tt1043651,Gregory Gieras
 tt1043651,Patrick Ewald
@@ -1215,9 +1745,15 @@ tt10472884,Masahiro Yokotani
 tt10473306,BenDavid Grabinski
 tt10473306,Ned Kandel
 tt10473306,D.J. MacHale
+tt10481868,Sophia Takal
+tt10481868,April Wolfe
+tt10481868,Roy Moore
 tt10484164,Ogodinife Okpue
 tt1050160,Noboru Iguchi
+tt10514222,Ruben Santiago-Hudson
+tt10514222,August Wilson
 tt10516352,Meriç Acemi
+tt10516390,John Levenstein
 tt10546058,Nicholas Winter
 tt10556338,N/A
 tt10562574,N/A
@@ -1227,25 +1763,37 @@ tt10648342,Stan Lee
 tt10653784,Joshua Safran
 tt10653784,Stephanie Savage
 tt10653784,Josh Schwartz
+tt10656188,Joko Anwar
 tt10692788,Aleem Khan
 tt10731768,Gregg Hurwitz
 tt10731768,Philip Eisner
+tt10732682,Seth Breedlove
+tt10732682,Mark Matzke
+tt10732682,Jason Utes
 tt10752004,Daniel Mackey
 tt10752004,Rebecca Ewing
+tt10752100,N/A
 tt10763618,Jung Ji-woo
 tt1077368,Seth Grahame-Smith
 tt1077368,John August
 tt1077368,Dan Curtis
 tt10776484,N/A
 tt10803634,Amanda Nell Eu
+tt1084019,Jôji Iida
 tt10847306,Bill Burr
+tt1085074,N/A
 tt10888876,Lisa Langseth
 tt10919132,Darling Krishna
 tt10919420,Hwang Dong-hyuk
+tt10921958,Sergey A.
 tt10935560,Dario Argento
 tt10935560,Franco Ferrini
+tt1095027,Ron Fernandez
+tt1095027,Declan O'Brien
 tt10950320,Michael Farris Smith
 tt10972026,James Campbell
+tt1101038,Berkeley Anderson
+tt1101038,Declan O'Brien
 tt11032374,Koyoharu Gotouge
 tt11058644,N/A
 tt11060882,Bob Goodman
@@ -1284,17 +1832,22 @@ tt11079148,Murphy Anderson (created by: Zatanna)
 tt1108209,N/A
 tt11100856,Elizabeth Hackett
 tt11100856,Hilary Galanoy
+tt11134554,Michael Arthur
 tt1114265,Godfrey Ho
 tt1114265,Sally Nichols
 tt11143196,Suri
 tt1114677,Dan Berendsen
 tt1114677,Michael Poryes
 tt1114677,Richard Correll
+tt1119621,Jim Norton
 tt11198330,Ryan J. Condal
 tt11198330,George R.R. Martin
+tt11199388,Sofie Forsman
+tt11199388,Martin Widmark
 tt11214590,Becky Johnston
 tt11214590,Roberto Bentivegna
 tt11214590,Sara Gay Forden
+tt11219136,Marjorie DeHey
 tt11252248,Reid Carolin
 tt11252248,Brett Rodriguez
 tt11269026,Cristóbal Garrido
@@ -1322,31 +1875,53 @@ tt11384200,N/A
 tt11384690,Nomawonga Khumalo
 tt11388406,Jeff Baena
 tt11388406,Alison Brie
+tt11389868,Kate Tsang
+tt11395060,Brandon Soderberg
+tt11395060,Baynard Woods
 tt11417508,N/A
 tt11423214,Zeph E. Daniel
 tt11423214,Michael Muscal
+tt1148277,Eric Forsberg (story)
+tt1148277,David Michael Latt (story)
+tt1148277,David Michael Latt
+tt11506798,Alfie Gonzalez
+tt11506798,Peter John Ross
 tt1152282,Chookiat Sakveerakul
 tt11546816,N/A
 tt1155056,John Hamburg
 tt1155056,Larry Levin
+tt1156311,Gabriel Barboza
 tt1160419,Jon Spaihts
 tt1160419,Denis Villeneuve
 tt1160419,Eric Roth
 tt1161624,N/A
+tt11649338,Andy Greskoviak
 tt11704040,N/A
 tt1172994,Ti West
 tt11768948,Will McCormack
 tt11768948,Michael Govier
 tt1179034,Adi Hasak
 tt1179034,Luc Besson
+tt1181791,Dario Poloni
+tt1181791,Christopher Smith
 tt11823076,N/A
 tt1182350,Woody Allen
 tt11835714,Marc Price
 tt11859012,Michael Morrissey
 tt11904786,N/A
+tt1190536,Michael Jai White
+tt1190536,Byron Minns
+tt1190536,Scott Sanders
+tt1190867,Masakazu Migita
 tt11912196,Gaurav Shukla
+tt1193490,Yûsuke Kishi
+tt1193490,Young-jong Lee
+tt1193490,Sung-ho Kim
 tt1194271,Mathew Klickstein
 tt1194664,Mutsuki Watanabe
+tt12002786,Minoru Kawasaki
+tt12002786,Masakazu Migita
+tt12002786,Eiji Tsuburaya
 tt12054414,N/A
 tt12057168,Natalya Dubovaya
 tt12057168,Ivan Kapitonov
@@ -1372,8 +1947,12 @@ tt1226236,Ivan Cotroneo
 tt1226236,Walter Fasano
 tt1226240,Yaron Zilberman
 tt1226240,Seth Grossman
+tt1226276,Keirda Bahruth
 tt12263866,N/A
+tt12298506,Emmanuel Osei-Kuffour
+tt12298506,Stephen Herman
 tt12299432,N/A
+tt12312004,N/A
 tt12312854,George Henry Horton
 tt12312854,Blaine Morris
 tt1231460,N/A
@@ -1385,17 +1964,26 @@ tt12338128,Kent Roudebush (screenplay)
 tt1234719,Carl Ellsworth
 tt1234719,Jeremy Passmore
 tt1234719,Kevin Reynolds
+tt1239450,Christine Whitlock
 tt12439466,N/A
 tt1245091,Larry Blamire
 tt1245526,Jon Hoeber
 tt1245526,Erich Hoeber
 tt1245526,Warren Ellis
+tt12463560,Antonio Manetti
+tt12463560,Marco Manetti
+tt12463560,Alessandro Pondi
 tt1250757,Alwi Dahlan
 tt12536776,Bernardo Arellano
 tt12540080,Leticia López Margalli
 tt12588092,Anastasia Falileieva
 tt1260567,Darin Scott
 tt1260567,Kerry Douglas Dye
+tt12607910,Beyoncé
+tt12607910,Yrsa Daley-Ward
+tt12607910,Clover Hope
+tt12624928,Ava DuVernay
+tt12624928,Colin Kaepernick
 tt12688688,N/A
 tt1270761,Guillermo del Toro
 tt1270761,Matthew Robbins
@@ -1408,10 +1996,23 @@ tt12851512,Patrick Macmanus
 tt1286677,N/A
 tt12879624,Seiko Tanabe
 tt12879624,Sayaka Kuwamura
+tt12881516,Miguel Alexandre
+tt12881516,Lisa Hofer
 tt1292042,Min Sook Lee
 tt12929990,Tabi McCartney
 tt12929990,Dana Schmalenberg
+tt12942958,Jeremy M. Inman
+tt1295071,Alex Tse
+tt1295071,Zack Snyder
+tt1295071,"Dave Gibbons (based on the graphic novel ""Watchmen"" co-created by)"
+tt13032762,N/A
+tt13068436,Shinji Higuchi
+tt13068436,Shunji Iwai
 tt13155222,N/A
+tt1316554,N/A
+tt1317476,Phil Savenick
+tt1317476,Andrew Solt
+tt1317476,Susan F. Walker
 tt1318056,Ivo Gazzarrini
 tt1318056,H.P. Lovecraft
 tt1319636,Danny Cannon
@@ -1421,20 +2022,32 @@ tt1320304,Ben Ketai (screenplay)
 tt1320304,Steve Niles (comic)
 tt1320304,Ben Templesmith (comic)
 tt13269536,Barbara Marshall
+tt13288904,Harry Williams
+tt13288904,Jack Williams
 tt1330018,Robbie Pickering
 tt1330018,Bill Purple
+tt1331318,Lars Mering
+tt1331318,Jacob Weinreich
+tt1331318,Martin Weinreich
 tt13315324,Hugh Davidson
 tt13315324,Larry Dorf
 tt13315324,Rachel Ramras
 tt13318942,Ulvrik Kraft
+tt1332028,Darin Wood
 tt1333125,Rocky Russo
 tt1333125,Jeremy Sosenko
 tt1333125,Ricky Blitt
 tt13364468,Mehak Jamal
 tt13364468,Shanker Raman
 tt13364468,Kunal Sharma
+tt13372884,Sherman Payne
+tt13372884,Jay Walker
+tt1339302,Natsuko Takahashi
+tt1339302,Tite Kubo
+tt1339302,Masahiro Ôkubo
 tt13405778,Leigh Whannell
 tt13405778,Scott Teems
+tt13411782,Martin Nuza (story)
 tt13430858,Jemima Khan
 tt1343097,Jonas Frykberg
 tt1343097,Stieg Larsson
@@ -1444,6 +2057,17 @@ tt13444014,Jennifer E. Smith
 tt1345836,Jonathan Nolan
 tt1345836,Christopher Nolan
 tt1345836,David S. Goyer
+tt13492434,N/A
+tt13497984,Jessub Flower
+tt13497984,Thomas Marchese
+tt1353145,David Michel
+tt1355683,Mark Mallouk
+tt1355683,Jez Butterworth
+tt1355683,Dick Lehr
+tt1358603,Joe Morford
+tt13606318,N/A
+tt13660638,Anat Gafni
+tt13660638,Sahar Shavit
 tt1369845,Todd J. Greenwald
 tt1369845,Dan Berendsen
 tt13729062,N/A
@@ -1460,8 +2084,13 @@ tt13846542,Marzanna Polit
 tt1385543,Charles Agron
 tt1385543,Victor Salva
 tt13885280,N/A
+tt13886338,Hunter Hancock
+tt13886338,Dylan Reader
 tt1391579,Gregory Connors
+tt13918550,Jinder Ho
+tt13918550,John Collee
 tt13938338,Kier-La Janisse
+tt1399053,David Notman-Watt
 tt1399103,Ehren Kruger
 tt1399952,Marina Dyachenko
 tt1399952,Sergey Dyachenko
@@ -1469,38 +2098,69 @@ tt1399952,Arkadiy Strugatskiy
 tt14014068,Analeine Cal y Mayor
 tt14014068,Geoff Deane
 tt14014068,David Quantick
+tt1401643,Abdellatif Kechiche
+tt1401643,Ghalya Lacroix
 tt1403214,Ulrich Seidl
 tt1403214,Veronika Franz
 tt1407050,David H. Steinberg
 tt1407050,Adam Herz (characters)
+tt1409024,Etan Cohen
+tt1409024,Lowell Cunningham
 tt14107778,Patrick Rea
+tt14118188,Shea Fontana
 tt1414111,N/A
+tt14157332,Scott Chambers
+tt14157332,Matthew B.C.
+tt14157332,Mario von Czapiewski
 tt14173880,Tim Travers Hawkins
 tt14173880,Mark Monroe
 tt14184932,N/A
+tt1418712,Steve Barker
+tt1418712,Rae Brunton
 tt1422020,Jeremie Delon
 tt1422020,Kim Chapiron
+tt1422674,Mari Asato
+tt1422674,Takashi Shimizu
 tt1422800,Chad Feehan
+tt1425922,Langston Hughes
+tt1425922,Kasi Lemmons
 tt1429449,Michelle Lovretta
 tt14298328,April Prosser
 tt1430077,Michael Rasmussen
 tt1430077,Shawn Rasmussen
+tt1430144,Philip Sansom
+tt1430144,Olly Williams
 tt14344690,Nicholas Hoang
 tt14365434,N/A
 tt1436559,Anouska Chydzik
 tt1436559,Caprice Crane
+tt1441105,Reginald Hudlin
+tt14423802,Jennifer Kluska
 tt14464962,Nicolás Onetti
 tt14464962,Diego Savignano
+tt1447981,Jenny Jaffe
+tt1447981,Matt Eddy
+tt1447981,Billy Eddy
 tt14486678,Pelin Karamehmetoglu
+tt14516188,George Michael Phillips
 tt14535168,Piers Garland
+tt1454523,Emili Teixidor
+tt1454523,Agustí Villaronga
 tt14586350,David E. Kelley
 tt1459012,Alain Corneau
 tt1459012,Natalie Carter
 tt1462041,David Loucka
 tt1463208,Thomas Brezina
 tt1463208,Peter Gersina
+tt1467280,Tatsurô Kashihara
+tt1467280,Yûji Kobayashi
+tt1467280,Junya Okabe
+tt1468727,Timothy Dolan
+tt1468727,Todd Tucker
 tt14703382,N/A
 tt1471156,Andy Briggs
+tt1479269,Gilles Marchand
+tt1479269,Dominik Moll
 tt14852420,Nazim Ud Daula
 tt14852420,Raihan Rafi
 tt1485698,Lukasz Kosmicki
@@ -1516,8 +2176,15 @@ tt14966898,Colin Cairnes
 tt14966898,Cameron Cairnes
 tt15004156,N/A
 tt15017118,Graham Roland
+tt15048108,Hesheng Xiang
+tt15048108,Qiuliang Xiang
 tt1507563,Amy Sorlie
 tt1507563,Ronnie Christensen
+tt15095160,Sergey A.
+tt15095160,Ivan Shakhov
+tt15096796,Kirstie Falkous
+tt15096796,Abraham Katz
+tt15096796,Stephan Mallmann
 tt15109082,Claire Keegan
 tt15109082,Colm Bairéad
 tt15132930,Marc Martínez Jordán
@@ -1529,41 +2196,60 @@ tt1515091,Kieran Mulroney
 tt1515091,Arthur Conan Doyle
 tt15176202,N/A
 tt15185242,N/A
+tt15204842,Tom Jolliffe
 tt15239678,Denis Villeneuve
 tt15239678,Jon Spaihts
 tt15239678,Frank Herbert
+tt15239868,N/A
 tt15289042,N/A
+tt1529720,N/A
 tt1532577,James Beaufort
 tt15331462,Lauren Pritchard
 tt15331462,Joe Roche
 tt15340724,Bang Woo-ri
+tt1534085,Panos Cosmatos
 tt1541874,William Eubank
 tt15424742,N/A
 tt15463032,Mark Steven Johnson
 tt15464988,N/A
+tt15475330,Marissa Jo Cerar
 tt15497220,Ashley Wilson
 tt15521050,Brandon Camp
 tt15521050,Jenna Evans Welch
 tt15553956,Park Hyeon-jin
 tt15560132,Teresa Sutherland
 tt15567174,Mike Flanagan
+tt15582924,N/A
+tt15599258,N/A
 tt1568346,Steven Zaillian
 tt1568346,Stieg Larsson
+tt1569364,Dmitriy Aleynikov
+tt1569364,Alexander Talal
+tt1569364,Aleksandr Voytinskiy
 tt1569923,Judd Winick
 tt1569923,Bob Kane (Batman created by)
 tt1570728,Dan Fogelman
 tt15787870,N/A
+tt15816392,Udaykrishnan
 tt1582507,David Loucka
 tt1582507,Jonathan Mostow
 tt1584943,Emmett Callinan
 tt1587828,José Carvalho
 tt1587828,Homero Olivetto
 tt1587828,Antonia Pellegrino
+tt15895490,Tad Daggerhart
+tt15907298,Jim Gaffigan
 tt1590763,Grey S. Wears
+tt1592527,Göran Hugo Olsson
+tt1596365,Susan Hill
+tt1596365,Jane Goldman
 tt1596557,Kate DiCamillo
 tt1596557,Ray Giarratana
 tt1599348,David Guggenheim
 tt1603915,N/A
+tt1608383,Byron Minns
+tt1608383,Scott Sanders
+tt1608383,Michael Jai White
 tt16085592,Sam Wolfson
 tt1608777,Dibakar Banerjee
 tt1608777,Kanu Behl
@@ -1571,13 +2257,30 @@ tt1610447,N/A
 tt1616984,Drew Glick
 tt1617145,César Ducasse
 tt1617145,Mathieu Peteul
+tt1618435,Steven Altiere
+tt1618435,Daniel Altiere
 tt1618447,Mia Hansen-Løve
+tt16226674,Shengfan Zhang
+tt16226674,Pianjia Leng
 tt16227014,Sara Dosa
 tt16227014,Erin Casper
 tt16227014,Jocelyne Chaput
 tt1625724,Stuart Carolan
 tt16259786,Jimmy Carr
 tt16307970,N/A
+tt1632479,Craig Houston (story by)
+tt1632479,Dave Anthony (story by)
+tt1632479,Corky Lehmkuhl (story by)
+tt1632479,David S. Goyer (story consultant)
+tt1632479,Craig Houston
+tt1632479,Dave Anthony
+tt1632479,Chris Cowell (additional writing)
+tt1632479,Jason Harris (additional writing)
+tt1632479,Brian Tuey (additional writing)
+tt1632479,"Father (""Call of Duty: Black Ops Zombies"" creator)"
+tt1632479,"Father (""Zombies"" story by)"
+tt1636833,Ahmet Boyacioglu
+tt16369304,Marlon James
 tt1638002,Juliette Towhidi
 tt1638002,Cecelia Ahern
 tt1638328,Frédéric Beigbeder
@@ -1599,14 +2302,26 @@ tt1649780,Joseph Muszynski
 tt1668195,N/A
 tt1677053,N/A
 tt1684910,Matt Tarses
+tt1685407,N/A
 tt1690455,Todd Solondz
+tt16914952,G.B. Krishna
 tt1698648,Michelle Morgan
+tt1699164,Trygve Allister Diesen
+tt1699164,Christopher Harberg
+tt1701223,Michael Jelenic
+tt1701223,Jerry Siegel (character created by: Superman)
+tt1701223,Joe Shuster (character created by: Superman)
+tt1701223,C.C. Beck (character created by: Captain Marvel)
+tt1701223,Bill Parker (character created by: Captain Marvel)
+tt17013106,Yun-Gyun Lee
 tt1705120,Nelly Dimitrova
 tt1705120,Matey Konstantinov
 tt1705120,Ilian Djevelekov
 tt1712187,Andrea Agnello
 tt1712187,Ugo Chiti
 tt1712187,Giovanni Veronesi
+tt1716753,Jason David Brown
+tt1716753,Jesse Thomas Cook
 tt1719068,Frank John Hughes
 tt1726252,Catharina Junk
 tt1726252,David Marconi
@@ -1615,18 +2330,24 @@ tt1730549,N/A
 tt1731141,Gavin Hood
 tt1731141,Orson Scott Card
 tt1731947,N/A
+tt1743990,James Rolfe
 tt1746246,Aleksandr Dorbinyan
 tt1746246,Aleksey Sidorov
 tt1748179,Rodrigo Cortés
 tt1748260,Judy Blume
 tt1748260,Lawrence Blume
+tt1754725,Greg Nicotero
 tt17639060,Er He
 tt17639060,Kun Huang
 tt17639060,Di Lan
 tt17736234,N/A
 tt1779471,Jörn Röver
 tt1786368,N/A
+tt1789846,Anne D. Bernstein
+tt1789846,Audu Paden
+tt1789846,Lauren Rose
 tt1790885,Mark Boal
+tt1793224,Takashi Yamazaki
 tt1801116,N/A
 tt1801117,N/A
 tt1801118,N/A
@@ -1635,11 +2356,16 @@ tt1801121,N/A
 tt1807950,Nuran Evren Sit
 tt1810710,Joshua Baerwald
 tt1810710,William T. Smith
+tt1817209,Ziska Riemann
+tt1817209,Luci Van Org
 tt1817676,Hiram Martinez
 tt1821694,Jon Hoeber
 tt1821694,Erich Hoeber
 tt1821694,Warren Ellis
 tt18247152,N/A
+tt1825683,Ryan Coogler
+tt1825683,Joe Robert Cole
+tt1825683,Stan Lee
 tt1826940,Elizabeth Meriwether
 tt18332450,Nathalie Haspeslagh
 tt18332450,Karel Tuytschaever
@@ -1654,6 +2380,7 @@ tt18411490,Anckur Chaudhry
 tt18411490,Aditya Chopra
 tt1843287,Abbas Kiarostami
 tt1843287,Mohammad Rahmani
+tt1843961,N/A
 tt1853620,Jonathan Holiff
 tt1854236,Anders Thomas Jensen
 tt1854236,Susanne Bier
@@ -1668,14 +2395,21 @@ tt1869347,Julian Fellowes
 tt1869347,Tim Rose Price
 tt1869347,Gilles Paquet-Brenner
 tt1872877,N/A
+tt1875600,N/A
+tt1881087,Dustin Mills
+tt1884907,N/A
 tt1901024,David Grann
 tt1901024,Jeremy Brock
 tt1906323,N/A
+tt1906487,Rosto
+tt1906487,Friso Aartse
 tt1918651,Drew Glick
 tt1920913,Kiran Prabhakar
 tt1920913,Shyamaprasad
 tt19231492,Blake Crouch
 tt1928340,John Huddles
+tt1930294,Mark Duplass
+tt1930294,Katie Aselton
 tt1933311,N/A
 tt1935156,N/A
 tt1935302,Jay Basu
@@ -1685,11 +2419,16 @@ tt1941466,Clamp
 tt1941466,Mokona Apapa
 tt1941466,Satsuki Igarashi
 tt1942884,N/A
+tt1950304,John Maclean
 tt1951216,Matt Greenhalgh
 tt1951216,Paul Willetts
 tt1951216,Jean de Letraz
+tt1961324,Satoshi Tajiri
+tt1961324,Ken Sugimori
+tt1961324,Jun'ichi Masuda
 tt19637052,Rose Glass
 tt19637052,Weronika Tofilska
+tt19638448,N/A
 tt1964624,Juan Mayorga
 tt1964624,François Ozon
 tt1974198,Drew Glick (story)
@@ -1699,17 +2438,25 @@ tt1976989,Garrett K. Schiff
 tt1981115,Christopher L. Yost
 tt1981115,Christopher Markus
 tt1981115,Stephen McFeely
+tt19815094,Özcan Alper
+tt19815094,Murat Uyurkulak
 tt1985949,Jon Vitti
 tt1985949,Mikael Hed
 tt1985949,Mikko Pöllä
+tt19896150,Bomani J. Story
+tt1992386,N/A
 tt1998163,Drew Glick (screenplay)
+tt20048582,Matthew Kennedy
 tt2011366,Gary Marcuse
 tt20115096,Eirene Donohue
+tt20117176,Kevin Losani
+tt20117176,Richard Terrasi
 tt2014554,N/A
 tt2015348,N/A
 tt2016894,Aditya Chopra
 tt2016894,Kabir Khan
 tt2016894,Neelesh Misra
+tt2017931,N/A
 tt20198716,Marta Sánchez
 tt2023453,Maya Forbes
 tt2023453,Wallace Wolodarsky
@@ -1718,21 +2465,33 @@ tt2024358,Drew Glick (creator)
 tt2024396,Gonzalo Maza
 tt20452218,Mathieu Turi
 tt2061527,N/A
+tt2075292,Takanori Tsujimoto
+tt2075292,Eiichi Yonekawa
 tt2079466,Drew Glick
 tt2082482,Frank V. Ross
 tt2083379,Damian Lee
 tt2084970,Graham Moore
 tt2084970,Andrew Hodges
+tt2085059,Charlie Brooker
 tt20859464,Franklin Ritch
 tt2088003,Jalmari Helander
 tt2088003,Petri Jokiranta
+tt2090465,Justin Stanley
+tt2090465,Marc Frydman
+tt2090465,Hervé Korian
+tt2090537,Matt Cameron
+tt2090537,Peter Temple
 tt2091256,Nicholas Stoller
 tt2091256,Dav Pilkey
 tt2091256,David Soren
 tt2098632,Bob Kane (based on characters created by)
 tt2100573,David L. Hunt
 tt2100573,Kevin Brown
+tt2104011,Tensai Okamura
 tt21059520,Matt Birkbeck
+tt2114358,Gerben Hellinga
+tt2114358,Melle Runderkamp
+tt2114358,Luuk Frank van Heerde
 tt2119543,John Bellairs
 tt2119543,Eric Kripke
 tt2121839,Ikki Kajiwara
@@ -1741,15 +2500,23 @@ tt2121839,Hidehiro Itô
 tt2124787,Adam Prince
 tt2124787,Johnny Silver
 tt2124787,Stephen Scarlata
+tt21249100,Doufu Mayoi
 tt21249134,Yandy Laurens
 tt21249134,Suryana Paramita
 tt21257212,Jean-Marc Peyrefitte
 tt21257212,Marc Syrigas
+tt21261712,Matt Greenhalgh
+tt21263178,Lucas Taylor
+tt21263178,Beatrix Christian
+tt21263178,Huna Amweero
 tt2130242,Abhijeet Sandhu
 tt2130242,Dhieyo Sandhu
 tt2132485,Gwyneth Hughes
 tt2132485,Donald Spoto
+tt21365986,Zakiya Dalila Harris
+tt21365986,Rashida Jones
 tt2141751,Stuart Murdoch
+tt21438352,Elvis Mitchell
 tt2153778,Drew Glick (creator)
 tt2158686,Khom Kongkiat Khomsiri
 tt2158686,Kongkait Khomsiri
@@ -1761,6 +2528,9 @@ tt2166834,Frank Miller (comic book)
 tt2166834,Klaus Janson (comic book)
 tt2166834,Bob Goodman
 tt21688772,Nisha Pahuja
+tt2168938,Ted Zizik
+tt2168938,Mike Montesano
+tt2168938,Audu Paden
 tt2179087,Mark Edwin Robinson
 tt2183014,Katie Lovejoy
 tt2183014,Jennifer E. Smith
@@ -1774,6 +2544,7 @@ tt22086334,Ishrat R. Khan
 tt22086334,Raaj Shaandilyaa
 tt2210547,Jan Soldat
 tt2210547,Roman Gielke
+tt2210828,Masafumi Nishida
 tt2220414,N/A
 tt2222042,Brian Duffield
 tt2222042,Matthew Robinson
@@ -1781,8 +2552,14 @@ tt2222164,Nicola Guaglianone
 tt2226321,Elias
 tt2226321,Nick Basile
 tt22297712,N/A
+tt2234222,Kim Coghill
+tt2234222,Andrew De Angelis
+tt2234222,Jeff Detsky
 tt2234261,Joel Hopkins
 tt2234261,Tess Morris
+tt2241351,Jamie Linden
+tt2241351,Alan DiFiore
+tt2241351,Jim Kouf
 tt2243537,Marlon Wayans
 tt2243537,Rick Alvarez
 tt22488728,Pradeep Ranganathan
@@ -1791,8 +2568,11 @@ tt2251519,Tereza Horváthová
 tt2251519,Petr Oukropec
 tt2257218,Hunter Davis
 tt2257218,Mike Melo
+tt2261331,Dennis Kelly
 tt2267998,Gillian Flynn
+tt2272364,Dan Blank
 tt22727518,Ethem Özisik
+tt22741760,Caroline Lindy
 tt2275743,Fernando Eimbcke
 tt2275743,Justin Franklin
 tt2275743,Dennis Gansel
@@ -1802,6 +2582,15 @@ tt2279339,Steven Rogers
 tt2279373,Jonathan Aibel
 tt2279373,Glenn Berger
 tt2279373,Stephen Hillenburg
+tt22805590,Philippe Martinez
+tt22805590,Leigh Scott
+tt22805590,Sean-Michael Argo
+tt2283336,Matt Holloway
+tt2283336,Art Marcum
+tt2283336,Lowell Cunningham
+tt22868844,Johnny Onda
+tt22868844,Ai Orii
+tt22868844,Yuuki Tabata
 tt2287214,Nicole Jones-Dion
 tt2287214,Pearry Reginald Teo
 tt2287214,Steven Paul
@@ -1809,12 +2598,17 @@ tt2292621,N/A
 tt2298384,Vincent Angell
 tt2298384,Xavier Nemo
 tt2298384,Julien Simonet
+tt23026954,Matt Eddy
+tt23026954,Billy Eddy
+tt23026954,Todd Holland
+tt2308606,Stacey Palmer
 tt2309312,N/A
 tt2311802,Elena Seleznyova
 tt2313197,Bob Kane (character created by: Batman)
 tt2313197,Frank Miller (comic book)
 tt2313197,Klaus Janson (comic book)
 tt2313197,Bob Goodman
+tt23133412,Richard Douglas Jensen
 tt2316369,Drew Glick
 tt2318092,Shana Feste
 tt2318092,Joshua Safran
@@ -1825,28 +2619,58 @@ tt2318405,Karen Shakhnazarov
 tt2318625,Yael Shafrir
 tt2318625,Michael Mayer
 tt2321542,Torako
+tt2326087,Annie DeYoung
+tt2326087,Ron McGee
 tt2326554,Ana Lily Amirpour
 tt2328549,Marina de Van
 tt2334879,James Vanderbilt
+tt2339741,Jon Croker
+tt2339741,Susan Hill
+tt2349440,Dave Pressler
+tt2349440,Joshua Sternin
+tt2349440,Jennifer Ventimilia
 tt2354505,Subbiah Nallamuthu
+tt2355871,N/A
+tt2361469,Harry Engholm
+tt2372162,Jenji Kohan
 tt2372251,Michael Goldbach
 tt2372251,Chris Sparling
 tt2372251,Lois Duncan
+tt23732458,N/A
+tt23736044,Yûji Sakamoto
+tt2375692,Robert Levine
+tt2375692,Jonathan E. Steinberg
+tt2379082,Lee Galea
 tt2386826,N/A
+tt2387409,Dave Anthony (story)
+tt2387409,David S. Goyer (story)
+tt2387409,Micah Wright (additional dialogue: zombies)
+tt2387409,Dave Anthony
+tt2387409,Craig Houston
+tt2387409,James C. Burns (additional dialogue)
+tt2387409,Kamar de los Reyes (additional dialogue)
 tt2387433,Scott Stewart
 tt2392680,Michael Paulucci
 tt2392680,Edward Tyndall
 tt2395247,Bart Fisher
+tt2395337,Mike Montesano
+tt2395337,Ted Zizik
 tt2397461,Jay Scherick
 tt2397461,David Ronn
 tt2397461,Blaise Hemingway
 tt24018360,Mikel Cee Karlsson
 tt2402101,Gilles Paquet-Brenner
 tt2402101,Gillian Flynn
+tt24083908,Editi Effiong
+tt24083908,Bunmi Ajakaiye
 tt2411008,Michael Medeiros
 tt2443022,Tara Anaïse
 tt2443022,Tamara Blaich
+tt2446108,Mike Montesano
+tt2446108,Ted Zizik
 tt2446612,Brian McDonnell
+tt2451688,Mike Lenzini
+tt2451688,Darren Flores
 tt2452042,Craig Schulz
 tt2452042,Bryan Schulz
 tt2452042,Cornelius Uliano
@@ -1878,8 +2702,12 @@ tt2578426,N/A
 tt2580046,N/A
 tt2582496,Jesse Andrews
 tt25899504,N/A
+tt2615666,Mike Montesano
+tt2615666,Audu Paden
+tt2615666,Lauren Rose
 tt26229508,N/A
 tt26258200,Mae Mi
+tt2630336,Yana Toboso
 tt2635474,Négar Djavadi
 tt2635474,Charlotte Paillieux
 tt2639344,Ira Sachs
@@ -1887,6 +2715,9 @@ tt2639344,Mauricio Zacharias
 tt26413708,Andrei Tanase
 tt26426076,N/A
 tt26453369,Marc Maron
+tt2650548,Ted Zizik
+tt2650548,Mike Montesano
+tt2650548,Audu Paden
 tt2650978,Martin Ambrosch
 tt2650978,Andreas Prochaska
 tt2650978,Thomas Willmann
@@ -1898,18 +2729,35 @@ tt26596953,Mariusz Kuczewski
 tt26596953,Tadeusz Dolega-Mostowicz
 tt2664880,Kjersti Helen Rasmussen
 tt2664880,Pål Øie
+tt26753472,N/A
+tt26940854,N/A
 tt2704998,Mark Perez
 tt27051027,Chethan Keshav
 tt27054481,Jim Gaffigan
 tt2709022,N/A
 tt2734628,Juliet Lamont
 tt2737206,N/A
+tt2739708,Darby McDevitt (story by)
+tt2739708,Mustapha Mahrach (story by)
+tt2739708,Jean Guesdon (story by)
+tt2739708,Darby McDevitt (lead scriptwriter)
+tt2739708,Jill Murray (scriptwriter)
+tt2739708,Liz Albl (script intern)
+tt2739708,Mark Hill (additional dialogue)
+tt2739708,Nicholas Grimwood (additional dialogue)
+tt2739708,Jill Murray (Aveline DLC lead writer)
 tt27502265,N/A
+tt27521477,Gôshô Aoyama
+tt27521477,Jun'ichi Iioka
+tt27521477,Takeharu Sakurai
+tt27547224,N/A
 tt2756032,Justin Lader
 tt27655393,K Dasaradh
 tt27655393,Kishore Gopu
 tt27655393,Shiva Mokka
+tt27811009,Ezra Tsegaye
 tt27930156,Nikhil Mahajan
+tt27995113,Joe Barton
 tt28066777,Charlie Kaufman
 tt28066777,Emma Yarlett
 tt28066777,Lloyd Taylor
@@ -1917,12 +2765,22 @@ tt28073548,Katharine McPhee
 tt28073548,Adrian Powers
 tt28073548,Caera Bradshaw
 tt28076458,N/A
+tt28090490,Hiroyoshi Koiwai
+tt28090490,Mayusuke Kurai
+tt28131427,Rui Ge
+tt28131427,Guan Hu
 tt28131729,Xiaoda Huang
 tt28182736,Greg Glienna
 tt28182736,Peter Stass
 tt28182736,Kirsten Guenther
 tt28197236,N/A
 tt28228754,N/A
+tt28248897,Tyler Perry
+tt28494829,Dawn Anderson
+tt28494829,Joo-hwan Kim
+tt2850272,Colen C. Wiley
+tt2850272,Janece Shaffer
+tt2850272,Walter Dean Myers
 tt2866824,Wade Gasque
 tt2866824,Mark Strano
 tt2872724,Javier Gullón
@@ -1933,42 +2791,75 @@ tt2872750,Richard Starzak
 tt2872750,Nick Park
 tt2873282,Justin Haythe
 tt2873282,Jason Matthews
+tt28754394,N/A
+tt2883434,Mike Binder
 tt2910508,Mike Nguyen Le
 tt2911674,Simon Lewis
 tt2914740,Michael Medaglia
+tt2961366,Peter Patzak
+tt2968404,Amy Holden Jones
+tt2972362,Park Joo-suk
+tt2972362,Jang Joon-hwan
+tt29941084,David Charbonier
+tt29941084,Justin Douglas Powell
+tt29941084,Alim Sudio
 tt3014284,Bob Logan
 tt3014284,Paul Fisher
 tt3014284,William Wheeler
 tt30446769,N/A
+tt30469723,Jose Prendes
 tt30517551,Anja Salomonowitz
 tt3058736,Mela Rayne
 tt3068194,Whit Stillman
 tt3068194,Jane Austen
 tt3073256,Ananta Jalil
+tt30766104,N/A
 tt30845371,Ke Shang
 tt3089326,Carlos Vermut
+tt3095734,Derek Connolly
+tt3095734,Matthew Robinson
+tt3095734,Jonathan Aibel
+tt30971467,Nisio Isin
 tt3115906,Robin Bain
 tt31193442,N/A
 tt31250580,N/A
+tt31260386,Tyler Perry
+tt3139756,Nick Szostakiwskyj
 tt31497750,N/A
+tt31514720,Kogitsune Kanekiru
 tt3155734,Tristan Price
+tt3159812,Audu Paden
+tt3159812,Ira Singerman
+tt3159812,Andrew Duncan
 tt3172532,Phoebe Gloeckner
 tt3172532,Marielle Heller
 tt3173678,N/A
 tt3204012,Masafumi Nishida
 tt3204144,Thomas Cailley
 tt3204144,Claude Le Pape
+tt3208026,P.J. Dillon
+tt3208026,Pierce Ryan
+tt3208026,Eugene O'Brien
+tt3257166,Shiden Kanzaki
 tt3260524,Chris Bolan
 tt3260524,Alexa L. Fogel
 tt3260524,Brendan Mason
 tt3263436,Patricio Ginelsa
 tt3263436,John Hervey
+tt3266724,Brent Huff
+tt3266724,George Saunders
 tt3278540,Ayn Carrillo Gailey
 tt3278540,Andrea Marcellus
+tt32844085,N/A
+tt33007219,N/A
+tt33050454,N/A
 tt3313102,N/A
 tt3317234,Anders Holm
 tt3317234,Kyle Newacheck
 tt3317234,Adam Devine
+tt33298502,Balasubramani KG
+tt33298502,A.J. Suren
+tt33481557,N/A
 tt3359350,Anthony Bagarozzi
 tt3359350,Chuck Mondry
 tt3359350,R. Lance Hill
@@ -1983,57 +2874,101 @@ tt3397556,Bo Ransdell
 tt3399042,Cyprien Vial
 tt3399042,Marie Amachoukeli-Barsacq
 tt3399042,Céline Sciamma
+tt3402232,Leeshon Alexander
+tt3416532,Patrick Ness
+tt3416532,Siobhan Dowd
 tt3469052,N/A
+tt3469910,Yi'nan Diao
 tt3479858,Rajesh Ganguly
 tt3479858,Chuck Palahniuk
 tt3479858,Neeraj Pandey
+tt3480822,Eric Pearson
+tt3480822,Jac Schaeffer
+tt3480822,Ned Benson
+tt3482378,Stan Lee (based on the marvel comics by)
+tt3482378,Jack Kirby (based on the marvel comics by)
+tt3482378,Mitsutaka Hirota (screenplay)
+tt3482378,Marjorie Liu (story)
+tt3487356,Kenya Barris
 tt3513498,Phil Lord
 tt3513498,Christopher Miller
 tt3513498,Matthew Fogel
 tt3514886,Jeff Lowell
 tt3565486,N/A
+tt3565904,Audu Paden
+tt3565904,Dan Serafin
 tt3585004,Junli Guo
 tt3585004,Lei Jin
 tt3585004,Huanhuan Zhang
+tt3589450,In-ho Hwang
+tt3589872,Mike Clattenburg
+tt3589872,Aaron McGruder
 tt3591696,Douglas Schulze
 tt3591696,Jonathan D'Ambrosio
 tt3606888,James Bowen
 tt3606888,Garry Jenkins
 tt3606888,Tim John
+tt3611432,Mike Montesano
+tt3611432,Lauren Rose
+tt3611432,Ted Zizik
 tt3631112,Erin Cressida Wilson
 tt3631112,Paula Hawkins
+tt3638396,Stephen Dunn
+tt3638396,Don McKellar
+tt3639888,N/A
 tt3666024,Michael Dudok de Wit
 tt3666024,Pascale Ferran
 tt3697842,N/A
 tt3748172,Mike Flanagan
 tt3748172,Jeff Howard
 tt3748172,Stephen King
+tt3757216,Pooneh Zafarnia
 tt3759370,Arthur Harari
 tt3759370,Vincent Poymiro
 tt3759370,Agnès Feuvre
+tt3762284,Félix Sabroso
+tt3762284,Vanessa Tejero
 tt3771570,Jacob Chelkowski
 tt3774694,Gaspar Noé
 tt3780208,Antony Jones
 tt3780208,Edward Evers-Swindell
+tt3781476,Alan Yuen
+tt3821674,James Rogers
+tt3821674,Bruno Kennedy
+tt3824344,Keith Wagner
 tt3853830,Sameer Gardezi
 tt3853830,Lena Khan
 tt3853830,Meera Simhan
+tt3879200,Dominique Purdy
+tt3879200,Paul Sapiano
 tt3881026,Jesse Haaja
 tt3881026,Pekka Lehtosaari
 tt3881026,Miika J. Norvanto
 tt3889156,Lee Apsey
 tt3889156,Coz Greenop
+tt3894190,Gioacchino Criaco
+tt3894190,Francesco Munzi
+tt3894190,Maurizio Braucci
 tt3896738,Ben Young
 tt3908142,Anna Biller
 tt3911554,N/A
 tt3950078,Bo Qu
 tt3950078,Jianxin Huang
 tt3950078,Tsui Hark
+tt3954936,Cornelius Uliano
+tt3954936,Bryan Schulz
+tt3959576,Matt Charman
+tt3976144,Bryan Bertino
 tt3981658,Du Lu Wang
 tt3986586,Jeff Franklin
+tt3986932,Jordan Elizabeth
 tt3998324,N/A
 tt4003440,Lars von Trier
 tt4003440,Jenle Hallund
+tt4008758,Nele Meirhaeghe
+tt4008758,Adil El Arbi
+tt4008758,Bilall Fallah
+tt4011064,N/A
 tt4030442,Demian Fox
 tt4030442,Conor McMahon
 tt4031224,N/A
@@ -2049,6 +2984,7 @@ tt4116284,Chris McKenna
 tt4116284,Erik Sommers
 tt4129870,Elizabeth Wood
 tt4137902,Louise Osmond
+tt4137924,Keith Wagner
 tt4159076,Joseph Mallozzi
 tt4159076,Paul Mullie
 tt4162866,Christopher André Marks
@@ -2060,28 +2996,48 @@ tt4176826,Timur Vermes
 tt4209492,Caroline Alexander
 tt4209788,Aaron Sorkin
 tt4209788,Molly Bloom
+tt4215766,Mark Banker
 tt4224754,Michael Pugliese
 tt4224754,Prem Singh
+tt4234734,Richard Kletter
+tt4234734,Michele Samit
 tt4267026,Stephen Cognetti
 tt4273562,Kazuki Takahashi
 tt4273562,Satoshi Kuwabara
 tt4273562,Masahiro Hikokubo
+tt4276112,Luke Meyer
+tt4276112,Brad Turner
 tt4280606,N/A
+tt4301160,Dennis Lehane
+tt4316236,Stanley Nelson
+tt4330758,N/A
 tt4353250,Jimmie Fails
 tt4353250,Joe Talbot
 tt4353250,Rob Richert
+tt4439784,John Chambers
+tt4439784,Ted Sieger
 tt4447518,Simon Dixon
 tt4447518,Mick Donnellan
 tt4447518,Gareth Coulam Evans
+tt4452630,Michael Seitzman
+tt4458594,Jeff Borkin
+tt4458594,Ellen Martin
+tt4479380,Laurence Malkin
+tt4479380,Andy McNab
 tt4481514,Brendan O'Brien
 tt4481514,Andrew Jay Cohen
 tt4500922,T.S. Nowlin
 tt4500922,James Dashner
 tt4509840,Barry Keating
 tt4509840,Milan Konjevic
+tt4527400,Carlos Perez
+tt4537888,Corbin Billings
+tt4537888,Shariya Lynn
+tt4537888,Victor Mathieu
 tt4547056,Mike Carey
 tt4568328,Radek Bajgar
 tt4568328,Mirka Zlatníková
+tt4569240,Laura Santullo
 tt4572820,N/A
 tt4578474,I. Marlene King
 tt4578474,Rebecca Serle
@@ -2092,17 +3048,26 @@ tt4630550,Luc Dardenne
 tt4666618,Sajid Akbar
 tt4666618,Alison Amron
 tt4666618,Parvez Sharma
+tt4667094,Marlon Wayans
+tt4667094,Rick Alvarez
 tt4686844,Fabien Nury
 tt4686844,Thierry Robin
 tt4686844,Armando Iannucci
+tt4694366,Marc Prey
+tt4694366,Paulina Lagudi Ulrich
 tt4699388,Marcos Carnevale
 tt4699388,Laurent Tirard
 tt4699388,Grégoire Vigneron
 tt4702300,Peter Duncanson
+tt4729754,Heath Corson
 tt4741310,N/A
 tt4742700,N/A
+tt4757986,Seth Breedlove
 tt4761916,Stephen Susco
 tt4770018,N/A
+tt4779496,M.J. Offen (story supervisor)
+tt4779496,Keith Wagner
+tt4779496,M.J. Offen (developer)
 tt4787052,N/A
 tt4791322,Hernán Belón
 tt4791322,Marcelo Pitrola
@@ -2111,10 +3076,19 @@ tt4795016,Ian Milton-Polley (script writing)
 tt4795016,Ryan Morris (script writing)
 tt4801682,Vi Anand
 tt4801682,Abburi Ravi
+tt4803738,N/A
 tt4805316,Liam Gavin
 tt4823776,Tim Hill
 tt4823776,Jonathan Aibel
 tt4823776,Glenn Berger
+tt4831392,N/A
+tt4844106,Jason Blundell (story)
+tt4844106,Craig Houston (story)
+tt4844106,Craig Houston (lead writer)
+tt4844106,Dan Laufer
+tt4844106,Joseph Puralewski
+tt4844130,Akihiro Dobashi
+tt4844150,Joe Ballarini
 tt4850642,N/A
 tt4877122,Tony Leondis
 tt4877122,Eric Siegel
@@ -2126,6 +3100,7 @@ tt4922692,Fernando Pérez
 tt4943998,David Milch
 tt4943998,Bryan Law
 tt4970294,N/A
+tt5016760,John Banas
 tt5017192,Sippy Gill
 tt5017192,Surmeet Maavi
 tt5017192,Vishal Sethi
@@ -2142,9 +3117,12 @@ tt5096470,Christelle Raynal
 tt5098128,Sukumar
 tt5098128,Buchi Babu Sana
 tt5098128,Srinivas Rongali
+tt5109792,Adam Green
 tt5112578,Ben Collins
 tt5112578,Luke Piotrowski
 tt5133998,N/A
+tt5157290,Anne Sewitsky
+tt5157290,Hans Christian Storrøsten
 tt5160614,Dan Bush
 tt5160614,Conal Byrne
 tt5164432,Becky Albertalli
@@ -2153,10 +3131,12 @@ tt5164432,Isaac Aptaker
 tt5177088,Jay Basu
 tt5177088,Fede Alvarez
 tt5177088,Steven Knight
+tt5224834,Ayuko Hatta
 tt5232622,N/A
 tt5247042,Jean-Christophe Hervé
 tt5247042,Cedric Perrin
 tt5247042,Gilles Thompson
+tt5252606,Darin Wood
 tt5258128,Joshua Leonard
 tt5258128,Rebecca Lowman
 tt5266218,Sampath Nandi
@@ -2169,23 +3149,41 @@ tt5323662,Yoshitoki Ôima
 tt5323662,Reiko Yoshida
 tt5339462,N/A
 tt5397520,Mati Kochavi
+tt5431600,Rolfe Kanefsky
 tt5460530,John Mankiewicz
 tt5460530,Joyce Carol Oates
 tt5465496,Swapan Saha
+tt5475710,Nina G. Bargiel
+tt5475710,Shane Amsterdam
+tt5475710,M.J. Offen (developer)
+tt5476944,Yana Toboso
+tt5476944,Hiroyuki Yoshino
 tt5478730,Sarah Gubbins
 tt5478730,Joey Soloway
+tt5569480,N/A
 tt5575678,N/A
 tt5581752,Federico Alotto
 tt5581752,Andrea Zirio
+tt5598578,Sanjeev Puri
+tt5598578,Vishwas Paandya
 tt5600406,N/A
+tt5603186,N/A
 tt5607976,Jack Thorne
 tt5611978,Aina Clotet
+tt5614612,Leonel D'Agostino
+tt5614612,Martín Hodara
+tt5622412,Chad Law
+tt5622412,Tyler W. Konney
+tt5622412,Richard Switzer
 tt5634998,Sophia Kruz
 tt5634998,Andrew Solomon
+tt5687424,Sadrac González-Perellón
 tt5695180,Jasna Nanut
 tt5700176,Clio Barnard
 tt5700176,Lila Rawlings
 tt5700176,Rose Tremain
+tt5714216,Yana Toboso
+tt5725368,Seth Breedlove
 tt5729304,N/A
 tt5753856,Baran bo Odar
 tt5753856,Jantje Friese
@@ -2193,6 +3191,7 @@ tt5768632,N/A
 tt5779228,Paul A. Kaplan
 tt5779228,Mark Torgove
 tt5779228,David Reynolds
+tt5784958,N/A
 tt5785170,Medha Jadhav
 tt5785170,Siddharth-Garima
 tt5785170,Siddharth Singh
@@ -2205,6 +3204,10 @@ tt5866284,Chris Lang
 tt5876392,N/A
 tt5898016,Betty Yurdin
 tt5898016,Alla Grachyova
+tt5898034,Shane Amsterdam
+tt5898034,Stephen Donnelly
+tt5898034,Dana Starfield
+tt5926310,N/A
 tt5927634,N/A
 tt5936866,Brendan Higgins
 tt5956100,Neelesh Misra
@@ -2215,8 +3218,13 @@ tt5995602,Udhay Pottipadu
 tt5995602,Tarun Sudhir
 tt6007398,Ute Wieland
 tt6007398,Stefanie Mühlhan
+tt6009104,Lou de Fanget Signolet
+tt6009104,Erick Zonca
+tt6009104,Dror Mishani
 tt6010216,Leslie Zemeckis
 tt6012380,Owen McCafferty
+tt6018036,Gabe Saenz
+tt6045840,Salim Akil
 tt6048596,Derek Simonds
 tt6053512,Dana Fox
 tt6053512,Dara Resnik
@@ -2226,48 +3234,100 @@ tt6082614,Ines Schiller
 tt6089664,Karl Ammann
 tt6089664,Nick Cockayne
 tt6089664,Laurin Merz
+tt6095002,David Campbell
+tt6095002,Jeremy Ervine
 tt6095472,Peter Ackerman
 tt6095472,Eyal Podell
 tt6095472,Jonathon E. Stewart
 tt6107548,Mindy Kaling
+tt6108262,Dragan Bjelogrlic
 tt6121444,François Bégaudeau
 tt6121444,Abdellatif Kechiche
 tt6121444,Ghalya Lacroix
 tt6132720,N/A
 tt6138404,N/A
+tt6141334,Brian Hanson
+tt6141334,Richard Handley
+tt6141334,Andy Warrener
 tt6143422,Nitin Dixit
+tt6170484,Wai-Lun Ng
+tt6170484,Sunny Chan
+tt6170484,Liang Su
 tt6204018,Hannes Holm
 tt6205862,N/A
+tt6222828,Tyson Kroening
+tt6222828,Nathan Letteer
+tt6222828,Michele Pacitto
 tt6263222,N/A
+tt6269658,Billy Frolick
+tt6269658,Ariel Blanco Uz
+tt6269658,Leopoldo Aguilar
 tt6286736,N/A
 tt6300838,N/A
 tt6335734,Tomihiko Morimi
 tt6335734,Makoto Ueda
 tt6350332,N/A
+tt6373518,Tim Burns
+tt6373518,Brian Volk-Weiss
+tt6373518,Evan Waite
 tt6402468,Peter Thorwarth
 tt6402468,Stefan Holtz
+tt6435350,N/A
+tt6443346,Adam Sztykiel
+tt6443346,Rory Haines
+tt6443346,Sohrab Noshirvani
 tt6450804,David S. Goyer
 tt6450804,Justin Rhodes
 tt6450804,Billy Ray
+tt6475714,Paul W.S. Anderson
+tt6475714,Kaname Fujioka
+tt6494542,Jaysen P. Buterin
+tt6494542,Daniel B. Iske
+tt6494542,Patrick Rea
+tt6519410,Mathieu Missoffe
 tt6520654,Basheer Aldeek
+tt6534422,Adam Bertocci
+tt6534422,F.C. Rabbath
+tt6536944,Keith Wagner
+tt6556576,Chris von Hoffmann
 tt6562866,Trevor Noah
 tt6565702,Simon Kinberg
 tt6571548,Ramin Bahrani
 tt6571548,Aravind Adiga
+tt6572702,David Safier
+tt6572702,Catharina Junk
+tt6572702,Benedikt Niemann
 tt6633182,Kimberly Reed
 tt6633182,Jay Arthur Sterrenberg
+tt6684884,Madeleine St. John
+tt6684884,Sue Milliken
+tt6684884,Bruce Beresford
+tt6684976,Shaun Wilson
+tt6708668,Adam Berg
+tt6708668,Pelle Rådström
+tt6708668,Jerker Virdborg
 tt6718170,Matthew Fogel
 tt6735740,Daniel Keith
+tt6738100,N/A
+tt6748030,Ryland Brickson Cole Tews
+tt6748030,Mike Cheslik
 tt6763664,Mike Flanagan
 tt6832388,Justin P. Lange
+tt6840904,Matt Shaw
+tt6840904,Shaun Hutson
+tt6840904,Michael Bray
 tt6874762,Eli Kent
 tt6874762,James Ashcroft
 tt6874762,Owen Marshall
 tt6876788,Peter Daskaloff
 tt6892400,Donato Carrisi
+tt6893370,Robico
+tt6893370,Arisa Kaneko
 tt6893836,N/A
 tt6905542,Jeffrey Addiss
 tt6905542,Will Matthews
+tt6928178,N/A
+tt6964562,Tom Paton
 tt6966692,Nick Vallelonga
 tt6966692,Brian Hayes Currie
 tt6966692,Peter Farrelly
@@ -2275,10 +3335,26 @@ tt6967980,Nicolas Barreau
 tt6967980,Shreyas Jain
 tt6967980,Nitesh Tiwari
 tt7129636,Matthew A. Cherry
+tt7144666,Joe Hill
+tt7144666,Scott Derrickson
+tt7144666,C. Robert Cargill
+tt7193716,N/A
 tt7201846,Alexis Michalik
 tt7211438,N/A
 tt7264080,Louis C.K.
 tt7264080,Vernon Chatman
+tt7298976,N/A
+tt7326146,Griffin McElroy
+tt7326146,Justin McElroy
+tt7365392,Simen Westgaard
+tt7370552,Tony Mikulec
+tt7390646,Peter A. Dowling
+tt7406334,Jordan Cahan
+tt7406334,David Caspe
+tt7428594,Shin'ichirô Watanabe
+tt7440094,N/A
+tt7441658,N/A
+tt7447248,N/A
 tt7466442,Loren Bouchard
 tt7466442,Nora Smith
 tt7466442,Tony Gennaro
@@ -2288,14 +3364,20 @@ tt7564016,Vilok Shetty
 tt7598448,N/A
 tt7608028,Matt Angel
 tt7608028,Suzanne Coote
+tt7621364,N/A
 tt7644680,N/A
 tt7657566,Michael Green
 tt7657566,Agatha Christie
+tt7660730,Hugo Blick
 tt7772602,Corinne Kingsbury
 tt7772602,Anna Fisher
 tt7808566,Dean Bakopoulos
 tt7808566,Christina Lee
 tt7808566,Alissa Nutting
+tt7809420,Mauro Aragoni
+tt7825558,Adam Greenlee
+tt7825558,Alex Greenlee
+tt7825558,Todd Greenlee
 tt7853242,Asif Ali Beg
 tt7853242,Anand Tiwari
 tt7853242,Sumeet Vyas
@@ -2303,12 +3385,16 @@ tt7918842,Carl Svensson
 tt7972012,Jean-François Halin
 tt7972012,Nicolas Bedos
 tt7972012,Jean Bruce
+tt7978672,John Ridley
+tt7978672,Sarah Smith
 tt7991608,Rawson Marshall Thurber
+tt8001136,N/A
 tt8006374,Natalya Dubovaya
 tt8006374,Ivan Kapitonov
 tt8006374,Svyatoslav Podgaevskiy
 tt8010354,Judith Kerr
 tt8010354,Joanna Harrison
+tt8012820,Seth Breedlove
 tt8097030,Domee Shi
 tt8097030,Julia Cho
 tt8097030,Sarah Streicher
@@ -2328,8 +3414,14 @@ tt8265928,Hugo Gélin
 tt8265928,Igor Gotesman
 tt8265928,Benjamin Parent
 tt8269120,Carl Strathie
+tt8295516,Dave Anthony (story)
+tt8295516,Dave Anthony (screenplay)
+tt8295516,James C. Burns (scenario and dialogue)
+tt8295516,Dan Laufer
+tt8295516,Jason Blundell (story: Zombies)
 tt8310486,Jade Halley Bartlett
 tt8310674,Gina Wendkos
+tt8311792,Alejandro Fadel
 tt8356394,Tom Putnam
 tt8356394,Robert M. Pyle
 tt8386654,Joshua Mazerolle
@@ -2338,19 +3430,33 @@ tt8386654,Sharon Taylor
 tt8427140,N/A
 tt8433210,Oscar Cardenas
 tt8433210,Maria Gabriela Cardenas
+tt8439934,Tom Paton
+tt8463172,N/A
+tt8484160,Ashley Avis
+tt8484160,Anna Sewell
 tt8508734,Remi Weekes
 tt8508734,Felicity Evans
 tt8508734,Toby Venables
 tt8521778,Terence Winter
 tt8521778,Frank E. Flowers
 tt8521778,Zach Baylin
+tt8524650,Bob Barlen
+tt8524650,Cal Brunker
+tt8524650,Jose C. Garcia de Letona
 tt8543390,N/A
+tt8667828,Byron Minns
+tt8667828,Michael Jai White
+tt8702244,Thomas Hamilton
+tt8702244,Ron MacCloskey
 tt8725166,N/A
+tt8758086,Owen Egerton
 tt8824648,N/A
 tt8847740,N/A
 tt8907992,Gaurav Shukla
 tt8907992,Ribhu Dasgupta
 tt8907992,Abhijeet Khuman
+tt8923854,John Hyams
+tt8923854,Karl Schaefer
 tt8993398,Hajime Kamoshida
 tt9026184,Greg Newman
 tt9026184,Trent Haaga
@@ -2361,45 +3467,79 @@ tt9063902,María Mínguez
 tt9071322,Nathaniel Rich
 tt9071322,Mario Correa
 tt9071322,Matthew Michael Carnahan
+tt9077038,Sankar Dass
+tt9077038,Nelson Venkatesan
+tt9114286,Ryan Coogler
+tt9114286,Joe Robert Cole
+tt9114286,Stan Lee
 tt9135260,Padraig Reynolds
 tt9145880,N/A
+tt9154158,Frank Lesser
 tt9159144,Evan Husney
 tt9159144,Jason Eisener
+tt9174358,Joshua Fine
 tt9179284,Mina Itaba
 tt9204328,Michael Gilio
 tt9204328,Norman Partridge
 tt9243804,David Lowery
 tt9243804,The Gawain Poet
+tt9247554,Hugo Grimaldi
+tt9247554,Shigeaki Hidaka
+tt9247554,Shigeru Kayama
 tt9248940,Nirmaan Dsingh
 tt9248940,Niket Pandey
 tt9248940,Raaj Shaandilyaa
 tt9252508,Sam Wolfson
+tt9272572,Diederik Van Rooijen
 tt9286542,William S. Burroughs
 tt9286542,Paul Cullum
 tt9286542,Tom Huckabee
+tt9288848,Greg Johnson
+tt9288848,Craig Kyle
 tt9315722,N/A
 tt9319380,Julie Nadezna
 tt9325320,Josephine Bornebusch
 tt9354842,Sofia Alvarez
 tt9354842,J. Mills Goodloe
 tt9354842,Jenny Han
+tt9359796,N/A
+tt9378850,Kin-Hung Chan
+tt9378850,Chao Rong
 tt9398640,Scott Aukerman
 tt9398640,Zach Galifianakis
 tt9448932,Jake Brunger
 tt9448932,Eliza Schroeder
 tt9448932,Mahalia Rimmer
+tt9495224,Charlie Brooker
 tt9522300,N/A
 tt9561862,Tim Miller
+tt9563330,Jianming Huang
+tt9563330,Liang Li
+tt9563330,Xiaoyu Wu
+tt9567548,Robin R. Means Coleman
+tt9567548,Ashlee Blackwell
+tt9567548,Danielle Burrows
+tt9572006,Aleksandr Arkhipov
+tt9572006,Dmitriy Novoselov
+tt9572006,Maksim Volkov
+tt9601220,Lawrence Michael Levine
 tt9614090,N/A
+tt9620986,Tom Sullivan
 tt9632590,Teddy Lussi-Modeste
 tt9632590,Rebecca Zlotowski
+tt9660688,Esteban Crespo
+tt9660688,David Moreno
 tt9685282,Kôtarô Isaka
 tt9685282,Yu Li
 tt9688874,Vamsee
 tt9688874,Srikanth Vissa
+tt9698520,Robin Thede
 tt9721776,N/A
 tt9731534,Ben Collins
 tt9731534,Luke Piotrowski
+tt9784798,Will Berson
+tt9784798,Shaka King
+tt9784798,Kenneth Lucas
 tt9801400,James Cotton
 tt9827834,Eugene Ashe
 tt9838428,N/A

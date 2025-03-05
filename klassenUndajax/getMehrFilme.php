@@ -101,7 +101,7 @@ echo "Insgesamt $geladen Filme heruntergeladen und gespeichert.<br>";
 
 
 try {
-    filmeHerunterladenUndSpeichern('Love');
+    filmeHerunterladenUndSpeichern('Monster');
 } catch (\Exception $e) {
     echo "Ein Fehler ist aufgetreten: " . htmlspecialchars($e->getMessage()); //  Fehler ausgeben (für den Benutzer)
 }
