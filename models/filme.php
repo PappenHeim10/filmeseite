@@ -244,7 +244,7 @@ class Filme extends \Datenbank {
     try {
         $sql = "SELECT 
                     filme.id,
-                    filme.titel, 
+                    filme.titel,
                     filme.erscheinungs_jahr,
                     filme.imdbid,
                     filme.poster,

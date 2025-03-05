@@ -74,7 +74,7 @@ IGNORE 1 LINES
 
 LOAD DATA LOCAL INFILE 'csv/join_tables/filme_genres.csv' IGNORE INTO TABLE `filme_genres`
 CHARACTER SET 'utf8mb4'
-FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (@imdbid, @genre)  -- Read into variables
@@ -83,7 +83,7 @@ SET film_id = (SELECT id FROM filme WHERE imdbid = @imdbid),
 
 LOAD DATA LOCAL INFILE 'csv/join_tables/filme_schauspieler.csv' IGNORE INTO TABLE `filme_schauspieler`
 CHARACTER SET 'utf8mb4'
-FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (@imdbid, @schauspieler)
@@ -94,7 +94,7 @@ SET film_id = (SELECT id FROM filme WHERE imdbid = @imdbid),
 -- ... (using the corresponding CSV files and tables) ...
 LOAD DATA LOCAL INFILE 'csv/join_tables/filme_sprachen.csv' IGNORE INTO TABLE `filme_sprachen`
 CHARACTER SET 'utf8mb4'
-FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (@imdbid, @sprache)  -- Read into variables
@@ -103,7 +103,7 @@ SET film_id = (SELECT id FROM filme WHERE imdbid = @imdbid),
 
 LOAD DATA LOCAL INFILE 'csv/join_tables/filme_land.csv' IGNORE INTO TABLE `filme_land`
 CHARACTER SET 'utf8mb4'
-FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (@imdbid, @land)  -- Read into variables
@@ -112,7 +112,7 @@ SET film_id = (SELECT id FROM filme WHERE imdbid = @imdbid),
 
 LOAD DATA LOCAL INFILE 'csv/join_tables/film_director.csv' IGNORE INTO TABLE `film_director`
 CHARACTER SET 'utf8mb4'
-FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (@imdbid, @director)  -- Read into variables
@@ -121,7 +121,7 @@ SET film_id = (SELECT id FROM filme WHERE imdbid = @imdbid),
 
 LOAD DATA LOCAL INFILE 'csv/join_tables/filme_autoren.csv' IGNORE INTO TABLE `filme_autoren`
 CHARACTER SET 'utf8mb4'
-FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (@imdbid, @autor)  -- Read into variables
