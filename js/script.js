@@ -87,3 +87,4 @@ document.addEventListener('click', function(event) {
       livesearch.style.display = 'none';
   }
 });
+

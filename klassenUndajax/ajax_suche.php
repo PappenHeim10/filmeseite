@@ -43,4 +43,5 @@ if ($q !== "") {
     if(isset($filmData))
         filmeAnzeigen($filmData);
 }
+
 ?>
