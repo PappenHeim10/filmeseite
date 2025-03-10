@@ -84,8 +84,6 @@ CREATE TABLE filme_land(
     FOREIGN KEY (land_id) REFERENCES land(id) ON DELETE CASCADE
 );
 
-
-
 CREATE TABLE autoren(
     id INT AUTO_INCREMENT PRIMARY KEY,
     autor VARCHAR(255) NOT NULL UNIQUE
@@ -98,7 +96,6 @@ CREATE TABLE filme_autoren(
     FOREIGN KEY (film_id) REFERENCES filme(id),
     FOREIGN KEY (autor_id) REFERENCES autoren(id)
 );
-
 
 CREATE TABLE bewertungen(
    id INT AUTO_INCREMENT PRIMARY KEY,
@@ -128,6 +125,18 @@ CREATE TABLE admin(
     id INT AUTO_INCREMENT PRIMARY KEY,
     benutzername VARCHAR(255) NOT NULL UNIQUE,
     passwort VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE posts(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    imdbid VARCHAR(255) NOT NULL,
+    titel VARCHAR(255) NOT NULL,
+    inhalt TEXT NOT NULL,
+    uhrzeite TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    datum DATE NOT NULL DEFAULT CURRENT_DATE,
+    user_id INT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (imdbid) REFERENCES filme(imdbid)
 );
 
 INSERT INTO admin (benutzername, passwort) VALUES ('admin', 'admin');

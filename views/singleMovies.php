@@ -165,3 +165,12 @@ $film = $filmController->getZufallsFilm();
     <textarea name="inhalt"></textarea>
     <input type="submit" value="Posten">
 </form>
+
+<?php
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    $titel = $_POST['titel'];
+    $inhalt = $_POST['inhalt'];
+}
+
+
+?>
