@@ -5,7 +5,7 @@ class Post extends \Datenbank{
     private $titel;
     private $imdbid;
     private $datum;
-
+    
     public function __construct(array $daten){
         parent::__construct();
         $this->setDaten($daten);
@@ -23,6 +23,7 @@ class Post extends \Datenbank{
             }
         }
     }
+
 	public function insert():bool{
         try{
             $sql = "INSERT INTO posts(imdbid, titel, inhalt, datum, user_id) VALUES (:imdbid, :titel, :inhalt, :datum, :user_id)";
@@ -56,6 +57,7 @@ class Post extends \Datenbank{
             return false;
         }
     }
+
 	function delete(int $i):bool{
         try{
             $sql = "DELETE FROM posts WHERE id = :id";
@@ -67,6 +69,7 @@ class Post extends \Datenbank{
             return false;
         }
     }
+
 	function select(int $i):array|false{
         try{
             $sql = "SELECT * FROM posts WHERE id = :id";
@@ -79,6 +82,7 @@ class Post extends \Datenbank{
             return false;
         }
     }
+
 	function selectAll():array|false{
         try{
             $sql = "SELECT * FROM posts";

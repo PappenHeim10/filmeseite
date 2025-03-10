@@ -116,6 +116,7 @@ class UserController
             $user = $this->userModel->giveUserInfo($daten['benutzername']);
 
             if(password_verify($daten['passwort'], $user['passwort'])){
+                $_SESSION['user_id'] = $user;//OPTIM:Die user_id in die Session_variabel tun. 
                 header('Location: eingelogged.php');
                 exit;
             }
