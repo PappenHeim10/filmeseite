@@ -1,7 +1,7 @@
 # ignoriere alle env Dateien
 
 *.log
-key.env
+.env
 
 admin/data/library_in_JSON
 admin/data/library_in_XML
